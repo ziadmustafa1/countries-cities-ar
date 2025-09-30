@@ -1,6 +1,6 @@
 {
   "name": "countries-cities-ar",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "🌍 Complete library of 250 world countries with 4,642 states/provinces in 3 languages (Arabic, English, French). 100% accurate Arabic translations for all Arab countries. Perfect for React, Next.js, and Vue applications.",
   "type": "module",
   "homepage": "https://countries-cities-ar.vercel.app",

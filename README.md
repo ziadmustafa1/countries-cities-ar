@@ -7,10 +7,10 @@ A comprehensive TypeScript library providing all world countries and their citie
 
 ## Features
 
-- 🌐 **Complete Data**: 215 world countries with their ISO codes
-- 🏛️ **Comprehensive**: 4,246 cities, governorates, states, and provinces
+- 🌐 **Complete Data**: 250 world countries with their ISO codes
+- 🏛️ **Comprehensive**: 4,642 cities, governorates, states, and provinces
 - 🔤 **Trilingual**: English, Arabic, and French names for all data
-- 📦 **Optimized**: 542KB bundle - Data split by continent for optimal loading
+- 📦 **Optimized**: 586KB bundle - Data split by continent for optimal loading
 - 🎯 **TypeScript**: Full TypeScript support with type definitions
 - 🔍 **Search Functions**: Built-in search helpers with multi-language support
 - 📘 **Well Documented**: JSDoc comments on all exported functions
@@ -306,13 +306,24 @@ The library includes carefully curated data for all world regions:
 - **Americas**: 48 countries with major cities
 - **Oceania**: 19 countries with major cities
 
-**Total: 215 countries with 4,246 cities/governorates/states/provinces** in **3 languages** (English, Arabic, French)
+**Total: 250 countries with 4,642 cities/governorates/states/provinces** in **3 languages** (English, Arabic, French)
 
 ### Coverage Details
 - 🇪🇬 Egypt: 27 governorates with accurate Arabic names
 - 🇸🇦 Saudi Arabia: 13 regions (مناطق) with correct Arabic
 - 🇦🇪 UAE: 7 emirates with verified names
-- 🌍 205 countries with complete administrative divisions
+- 🇮🇶 Iraq: 18 governorates with Arabic translations
+- 🇸🇾 Syria: 14 governorates with Arabic names
+- 🇯🇴 Jordan: 12 governorates
+- 🇱🇧 Lebanon: 8 governorates
+- 🇰🇼 Kuwait: 6 governorates
+- 🇴🇲 Oman: 11 governorates
+- 🇶🇦 Qatar: 8 municipalities
+- 🇾🇪 Yemen: 21 governorates
+- 🇩🇿 Algeria: 46 wilayas
+- 🇹🇳 Tunisia: 24 governorates
+- 🇲🇦 Morocco: 87 regions
+- 🌍 All Arab countries with complete Arabic translations
 - 🗺️ Includes states, provinces, governorates, and regions globally
 
 ## Development
@@ -394,15 +405,28 @@ If you find this library helpful, please consider:
 
 ## Changelog
 
-### 2.0.0 (Major Update - Complete Coverage)
-- 🏛️ **Complete data**: 215 countries with 4,246 administrative divisions
-- 🇪🇬 All 27 Egyptian governorates with correct Arabic names
-- 🇸🇦 All 13 Saudi regions with verified Arabic translations
-- 🌍 205 countries with states/provinces/governorates data
+### 3.0.0 (Major Update - Complete World Coverage)
+- 🌍 **Complete world data**: 250 countries with 4,642 administrative divisions
+- 📊 **All countries from countries-states-cities-database**
+- 🇪🇬 All Arab countries with 100% accurate Arabic translations:
+  - Egypt: 27 governorates
+  - Saudi Arabia: 13 regions
+  - UAE: 7 emirates
+  - Iraq: 18 governorates
+  - Syria: 14 governorates
+  - Jordan: 12 governorates
+  - Lebanon: 8 governorates
+  - Kuwait: 6 governorates
+  - Oman: 11 governorates
+  - Qatar: 8 municipalities
+  - Yemen: 21 governorates
+  - Algeria: 46 wilayas
+  - And more...
 - 🔤 Trilingual support: English, Arabic, and French
 - 📦 TypeScript support with full type definitions
 - 🔍 Advanced search functionality
 - 📘 Complete documentation with examples
+- 🎨 Beautiful demo site with Next.js
 
 ### 1.0.0 (Initial Release)
 - ✨ Complete world countries and cities data

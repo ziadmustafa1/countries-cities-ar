@@ -7,237 +7,237 @@ export const africaData: Country[] = [
     "nameAr": "الجزائر",
     "nameFr": "Algeria",
     "cities": [
-            {
-                  "name": "Ain Temouchent",
-                  "nameAr": "عين تموشنت",
-                  "nameFr": "Ain Temouchent"
-            },
-            {
-                  "name": "Oran",
-                  "nameAr": "وهران",
-                  "nameFr": "Oran"
-            },
-            {
-                  "name": "Medea",
-                  "nameAr": "المدية",
-                  "nameFr": "Médée"
-            },
-            {
-                  "name": "Chlef",
-                  "nameAr": "الشلف",
-                  "nameFr": "Chlef"
-            },
-            {
-                  "name": "Bechar",
-                  "nameAr": "بشار",
-                  "nameFr": "Béchar"
-            },
-            {
-                  "name": "Tamanghasset",
-                  "nameAr": "تمنراست",
-                  "nameFr": "Tamanghasset"
-            },
-            {
-                  "name": "Bejaia",
-                  "nameAr": "بجاية",
-                  "nameFr": "Bejaia"
-            },
-            {
-                  "name": "Tizi Ouzou",
-                  "nameAr": "تيزي وزو",
-                  "nameFr": "Tizi Ouzou"
-            },
-            {
-                  "name": "Boumerdes",
-                  "nameAr": "بومرداس",
-                  "nameFr": "Boumerdes"
-            },
-            {
-                  "name": "Ain Defla",
-                  "nameAr": "عين الدفلة",
-                  "nameFr": "Ain Defla"
-            },
-            {
-                  "name": "Annaba",
-                  "nameAr": "عنابة",
-                  "nameFr": "Annaba"
-            },
-            {
-                  "name": "Setif",
-                  "nameAr": "سطيف",
-                  "nameFr": "Sétif"
-            },
-            {
-                  "name": "Relizane",
-                  "nameAr": "غليزان",
-                  "nameFr": "Relizane"
-            },
-            {
-                  "name": "Mascara",
-                  "nameAr": "ماسكارا",
-                  "nameFr": "Mascara"
-            },
-            {
-                  "name": "Mostaganem",
-                  "nameAr": "مستغانم",
-                  "nameFr": "Mostaganem"
-            },
-            {
-                  "name": "Tiaret",
-                  "nameAr": "تيارت",
-                  "nameFr": "Tiaret"
-            },
-            {
-                  "name": "Bordj Bou Arreridj",
-                  "nameAr": "برج بوعريريج",
-                  "nameFr": "Bordj Bou Arreridj"
-            },
-            {
-                  "name": "Tipaza",
-                  "nameAr": "تيبازة",
-                  "nameFr": "Tipaza"
-            },
-            {
-                  "name": "Bouira",
-                  "nameAr": "البويرة",
-                  "nameFr": "Bouira"
-            },
-            {
-                  "name": "Tissemsilt",
-                  "nameAr": "تيسمسيلت",
-                  "nameFr": "Tissemsilt"
-            },
-            {
-                  "name": "Jijel",
-                  "nameAr": "جيجل",
-                  "nameFr": "Jijel"
-            },
-            {
-                  "name": "Saida",
-                  "nameAr": "صيدا",
-                  "nameFr": "Saida"
-            },
-            {
-                  "name": "Illizi",
-                  "nameAr": "إليزي",
-                  "nameFr": "Illizi"
-            },
-            {
-                  "name": "Tlemcen",
-                  "nameAr": "تلمسان",
-                  "nameFr": "Tlemcen"
-            },
-            {
-                  "name": "Adrar",
-                  "nameAr": "أدرار",
-                  "nameFr": "Adrar"
-            },
-            {
-                  "name": "Laghouat",
-                  "nameAr": "الأغواط",
-                  "nameFr": "Laghouat"
-            },
-            {
-                  "name": "Constantine",
-                  "nameAr": "قسنطينة",
-                  "nameFr": "Constantine"
-            },
-            {
-                  "name": "Khenchela",
-                  "nameAr": "خنشلة",
-                  "nameFr": "Khenchela"
-            },
-            {
-                  "name": "Batna",
-                  "nameAr": "باتنة",
-                  "nameFr": "Batna"
-            },
-            {
-                  "name": "Alger",
-                  "nameAr": "الجزائر",
-                  "nameFr": "Alger"
-            },
-            {
-                  "name": "Skikda",
-                  "nameAr": "سكيكدة",
-                  "nameFr": "Skikda"
-            },
-            {
-                  "name": "Oum el Bouaghi",
-                  "nameAr": "ام البواقي",
-                  "nameFr": "Oum el Bouaghi"
-            },
-            {
-                  "name": "Naama",
-                  "nameAr": "نعمة",
-                  "nameFr": "Naama"
-            },
-            {
-                  "name": "Sidi Bel Abbes",
-                  "nameAr": "سيدي بلعباس",
-                  "nameFr": "Sidi Bel Abbes"
-            },
-            {
-                  "name": "Mila",
-                  "nameAr": "ميلة",
-                  "nameFr": "Mila"
-            },
-            {
-                  "name": "Ouargla",
-                  "nameAr": "ورقلة",
-                  "nameFr": "Ouargla"
-            },
-            {
-                  "name": "Djelfa",
-                  "nameAr": "الجلفة",
-                  "nameFr": "Djelfa"
-            },
-            {
-                  "name": "El Bayadh",
-                  "nameAr": "البيض",
-                  "nameFr": "El Bayadh"
-            },
-            {
-                  "name": "Souk Ahras",
-                  "nameAr": "سوق أهراس",
-                  "nameFr": "Souk Ahras"
-            },
-            {
-                  "name": "El Oued",
-                  "nameAr": "الواد",
-                  "nameFr": "El Oued"
-            },
-            {
-                  "name": "Blida",
-                  "nameAr": "البليدة",
-                  "nameFr": "Blida"
-            },
-            {
-                  "name": "Biskra",
-                  "nameAr": "بسكرة",
-                  "nameFr": "Biskra"
-            },
-            {
-                  "name": "Tebessa",
-                  "nameAr": "تبسة",
-                  "nameFr": "Tebessa"
-            },
-            {
-                  "name": "Guelma",
-                  "nameAr": "قالمة",
-                  "nameFr": "Guelma"
-            },
-            {
-                  "name": "Tindouf",
-                  "nameAr": "تندوف",
-                  "nameFr": "Tindouf"
-            },
-            {
-                  "name": "Ghardaia",
-                  "nameAr": "غرداية",
-                  "nameFr": "Ghardaia"
-            }
-      ]
+      {
+        "name": "Ain Temouchent",
+        "nameAr": "عين تموشنت",
+        "nameFr": "Ain Temouchent"
+      },
+      {
+        "name": "Oran",
+        "nameAr": "وهران",
+        "nameFr": "Oran"
+      },
+      {
+        "name": "Medea",
+        "nameAr": "المدية",
+        "nameFr": "Médée"
+      },
+      {
+        "name": "Chlef",
+        "nameAr": "الشلف",
+        "nameFr": "Chlef"
+      },
+      {
+        "name": "Bechar",
+        "nameAr": "بشار",
+        "nameFr": "Béchar"
+      },
+      {
+        "name": "Tamanghasset",
+        "nameAr": "تمنراست",
+        "nameFr": "Tamanghasset"
+      },
+      {
+        "name": "Bejaia",
+        "nameAr": "بجاية",
+        "nameFr": "Bejaia"
+      },
+      {
+        "name": "Tizi Ouzou",
+        "nameAr": "تيزي وزو",
+        "nameFr": "Tizi Ouzou"
+      },
+      {
+        "name": "Boumerdes",
+        "nameAr": "بومرداس",
+        "nameFr": "Boumerdes"
+      },
+      {
+        "name": "Ain Defla",
+        "nameAr": "عين الدفلة",
+        "nameFr": "Ain Defla"
+      },
+      {
+        "name": "Annaba",
+        "nameAr": "عنابة",
+        "nameFr": "Annaba"
+      },
+      {
+        "name": "Setif",
+        "nameAr": "سطيف",
+        "nameFr": "Sétif"
+      },
+      {
+        "name": "Relizane",
+        "nameAr": "غليزان",
+        "nameFr": "Relizane"
+      },
+      {
+        "name": "Mascara",
+        "nameAr": "ماسكارا",
+        "nameFr": "Mascara"
+      },
+      {
+        "name": "Mostaganem",
+        "nameAr": "مستغانم",
+        "nameFr": "Mostaganem"
+      },
+      {
+        "name": "Tiaret",
+        "nameAr": "تيارت",
+        "nameFr": "Tiaret"
+      },
+      {
+        "name": "Bordj Bou Arreridj",
+        "nameAr": "برج بوعريريج",
+        "nameFr": "Bordj Bou Arreridj"
+      },
+      {
+        "name": "Tipaza",
+        "nameAr": "تيبازة",
+        "nameFr": "Tipaza"
+      },
+      {
+        "name": "Bouira",
+        "nameAr": "البويرة",
+        "nameFr": "Bouira"
+      },
+      {
+        "name": "Tissemsilt",
+        "nameAr": "تيسمسيلت",
+        "nameFr": "Tissemsilt"
+      },
+      {
+        "name": "Jijel",
+        "nameAr": "جيجل",
+        "nameFr": "Jijel"
+      },
+      {
+        "name": "Saida",
+        "nameAr": "صيدا",
+        "nameFr": "Saida"
+      },
+      {
+        "name": "Illizi",
+        "nameAr": "إليزي",
+        "nameFr": "Illizi"
+      },
+      {
+        "name": "Tlemcen",
+        "nameAr": "تلمسان",
+        "nameFr": "Tlemcen"
+      },
+      {
+        "name": "Adrar",
+        "nameAr": "أدرار",
+        "nameFr": "Adrar"
+      },
+      {
+        "name": "Laghouat",
+        "nameAr": "الأغواط",
+        "nameFr": "Laghouat"
+      },
+      {
+        "name": "Constantine",
+        "nameAr": "قسنطينة",
+        "nameFr": "Constantine"
+      },
+      {
+        "name": "Khenchela",
+        "nameAr": "خنشلة",
+        "nameFr": "Khenchela"
+      },
+      {
+        "name": "Batna",
+        "nameAr": "باتنة",
+        "nameFr": "Batna"
+      },
+      {
+        "name": "Alger",
+        "nameAr": "الجزائر",
+        "nameFr": "Alger"
+      },
+      {
+        "name": "Skikda",
+        "nameAr": "سكيكدة",
+        "nameFr": "Skikda"
+      },
+      {
+        "name": "Oum el Bouaghi",
+        "nameAr": "ام البواقي",
+        "nameFr": "Oum el Bouaghi"
+      },
+      {
+        "name": "Naama",
+        "nameAr": "نعمة",
+        "nameFr": "Naama"
+      },
+      {
+        "name": "Sidi Bel Abbes",
+        "nameAr": "سيدي بلعباس",
+        "nameFr": "Sidi Bel Abbes"
+      },
+      {
+        "name": "Mila",
+        "nameAr": "ميلة",
+        "nameFr": "Mila"
+      },
+      {
+        "name": "Ouargla",
+        "nameAr": "ورقلة",
+        "nameFr": "Ouargla"
+      },
+      {
+        "name": "Djelfa",
+        "nameAr": "الجلفة",
+        "nameFr": "Djelfa"
+      },
+      {
+        "name": "El Bayadh",
+        "nameAr": "البيض",
+        "nameFr": "El Bayadh"
+      },
+      {
+        "name": "Souk Ahras",
+        "nameAr": "سوق أهراس",
+        "nameFr": "Souk Ahras"
+      },
+      {
+        "name": "El Oued",
+        "nameAr": "الواد",
+        "nameFr": "El Oued"
+      },
+      {
+        "name": "Blida",
+        "nameAr": "البليدة",
+        "nameFr": "Blida"
+      },
+      {
+        "name": "Biskra",
+        "nameAr": "بسكرة",
+        "nameFr": "Biskra"
+      },
+      {
+        "name": "Tebessa",
+        "nameAr": "تبسة",
+        "nameFr": "Tebessa"
+      },
+      {
+        "name": "Guelma",
+        "nameAr": "قالمة",
+        "nameFr": "Guelma"
+      },
+      {
+        "name": "Tindouf",
+        "nameAr": "تندوف",
+        "nameFr": "Tindouf"
+      },
+      {
+        "name": "Ghardaia",
+        "nameAr": "غرداية",
+        "nameFr": "Ghardaia"
+      }
+    ]
   },
   {
     "code": "AO",
@@ -1379,142 +1379,142 @@ export const africaData: Country[] = [
     "nameAr": "مصر",
     "nameFr": "Egypt",
     "cities": [
-            {
-                  "name": "Cairo",
-                  "nameAr": "القاهرة",
-                  "nameFr": "Le Caire"
-            },
-            {
-                  "name": "Alexandria",
-                  "nameAr": "الإسكندرية",
-                  "nameFr": "Alexandrie"
-            },
-            {
-                  "name": "Giza",
-                  "nameAr": "الجيزة",
-                  "nameFr": "Gizeh"
-            },
-            {
-                  "name": "Port Said",
-                  "nameAr": "بورسعيد",
-                  "nameFr": "Port-Saïd"
-            },
-            {
-                  "name": "Suez",
-                  "nameAr": "السويس",
-                  "nameFr": "Suez"
-            },
-            {
-                  "name": "Ismailia",
-                  "nameAr": "الإسماعيلية",
-                  "nameFr": "Ismaïlia"
-            },
-            {
-                  "name": "Aswan",
-                  "nameAr": "أسوان",
-                  "nameFr": "Assouan"
-            },
-            {
-                  "name": "Asyut",
-                  "nameAr": "أسيوط",
-                  "nameFr": "Assiout"
-            },
-            {
-                  "name": "Beheira",
-                  "nameAr": "البحيرة",
-                  "nameFr": "Beheira"
-            },
-            {
-                  "name": "Beni Suef",
-                  "nameAr": "بني سويف",
-                  "nameFr": "Beni Suef"
-            },
-            {
-                  "name": "Dakahlia",
-                  "nameAr": "الدقهلية",
-                  "nameFr": "Dakahlia"
-            },
-            {
-                  "name": "Damietta",
-                  "nameAr": "دمياط",
-                  "nameFr": "Damiette"
-            },
-            {
-                  "name": "Faiyum",
-                  "nameAr": "الفيوم",
-                  "nameFr": "Faiyoum"
-            },
-            {
-                  "name": "Gharbia",
-                  "nameAr": "الغربية",
-                  "nameFr": "Gharbia"
-            },
-            {
-                  "name": "Kafr El Sheikh",
-                  "nameAr": "كفر الشيخ",
-                  "nameFr": "Kafr El Sheikh"
-            },
-            {
-                  "name": "Luxor",
-                  "nameAr": "الأقصر",
-                  "nameFr": "Louxor"
-            },
-            {
-                  "name": "Matrouh",
-                  "nameAr": "مطروح",
-                  "nameFr": "Matrouh"
-            },
-            {
-                  "name": "Minya",
-                  "nameAr": "المنيا",
-                  "nameFr": "Minya"
-            },
-            {
-                  "name": "Monufia",
-                  "nameAr": "المنوفية",
-                  "nameFr": "Monufia"
-            },
-            {
-                  "name": "New Valley",
-                  "nameAr": "الوادي الجديد",
-                  "nameFr": "Nouvelle Vallée"
-            },
-            {
-                  "name": "North Sinai",
-                  "nameAr": "شمال سيناء",
-                  "nameFr": "Sinaï du Nord"
-            },
-            {
-                  "name": "Qalyubia",
-                  "nameAr": "القليوبية",
-                  "nameFr": "Qalyubia"
-            },
-            {
-                  "name": "Qena",
-                  "nameAr": "قنا",
-                  "nameFr": "Qena"
-            },
-            {
-                  "name": "Red Sea",
-                  "nameAr": "البحر الأحمر",
-                  "nameFr": "Mer Rouge"
-            },
-            {
-                  "name": "Sharqia",
-                  "nameAr": "الشرقية",
-                  "nameFr": "Sharqia"
-            },
-            {
-                  "name": "Sohag",
-                  "nameAr": "سوهاج",
-                  "nameFr": "Sohag"
-            },
-            {
-                  "name": "South Sinai",
-                  "nameAr": "جنوب سيناء",
-                  "nameFr": "Sinaï du Sud"
-            }
-      ]
+      {
+        "name": "Cairo",
+        "nameAr": "القاهرة",
+        "nameFr": "Le Caire"
+      },
+      {
+        "name": "Alexandria",
+        "nameAr": "الإسكندرية",
+        "nameFr": "Alexandrie"
+      },
+      {
+        "name": "Giza",
+        "nameAr": "الجيزة",
+        "nameFr": "Gizeh"
+      },
+      {
+        "name": "Port Said",
+        "nameAr": "بورسعيد",
+        "nameFr": "Port-Saïd"
+      },
+      {
+        "name": "Suez",
+        "nameAr": "السويس",
+        "nameFr": "Suez"
+      },
+      {
+        "name": "Ismailia",
+        "nameAr": "الإسماعيلية",
+        "nameFr": "Ismaïlia"
+      },
+      {
+        "name": "Aswan",
+        "nameAr": "أسوان",
+        "nameFr": "Assouan"
+      },
+      {
+        "name": "Asyut",
+        "nameAr": "أسيوط",
+        "nameFr": "Assiout"
+      },
+      {
+        "name": "Beheira",
+        "nameAr": "البحيرة",
+        "nameFr": "Beheira"
+      },
+      {
+        "name": "Beni Suef",
+        "nameAr": "بني سويف",
+        "nameFr": "Beni Suef"
+      },
+      {
+        "name": "Dakahlia",
+        "nameAr": "الدقهلية",
+        "nameFr": "Dakahlia"
+      },
+      {
+        "name": "Damietta",
+        "nameAr": "دمياط",
+        "nameFr": "Damiette"
+      },
+      {
+        "name": "Faiyum",
+        "nameAr": "الفيوم",
+        "nameFr": "Faiyoum"
+      },
+      {
+        "name": "Gharbia",
+        "nameAr": "الغربية",
+        "nameFr": "Gharbia"
+      },
+      {
+        "name": "Kafr El Sheikh",
+        "nameAr": "كفر الشيخ",
+        "nameFr": "Kafr El Sheikh"
+      },
+      {
+        "name": "Luxor",
+        "nameAr": "الأقصر",
+        "nameFr": "Louxor"
+      },
+      {
+        "name": "Matrouh",
+        "nameAr": "مطروح",
+        "nameFr": "Matrouh"
+      },
+      {
+        "name": "Minya",
+        "nameAr": "المنيا",
+        "nameFr": "Minya"
+      },
+      {
+        "name": "Monufia",
+        "nameAr": "المنوفية",
+        "nameFr": "Monufia"
+      },
+      {
+        "name": "New Valley",
+        "nameAr": "الوادي الجديد",
+        "nameFr": "Nouvelle Vallée"
+      },
+      {
+        "name": "North Sinai",
+        "nameAr": "شمال سيناء",
+        "nameFr": "Sinaï du Nord"
+      },
+      {
+        "name": "Qalyubia",
+        "nameAr": "القليوبية",
+        "nameFr": "Qalyubia"
+      },
+      {
+        "name": "Qena",
+        "nameAr": "قنا",
+        "nameFr": "Qena"
+      },
+      {
+        "name": "Red Sea",
+        "nameAr": "البحر الأحمر",
+        "nameFr": "Mer Rouge"
+      },
+      {
+        "name": "Sharqia",
+        "nameAr": "الشرقية",
+        "nameFr": "Sharqia"
+      },
+      {
+        "name": "Sohag",
+        "nameAr": "سوهاج",
+        "nameFr": "Sohag"
+      },
+      {
+        "name": "South Sinai",
+        "nameAr": "جنوب سيناء",
+        "nameFr": "Sinaï du Sud"
+      }
+    ]
   },
   {
     "code": "GQ",

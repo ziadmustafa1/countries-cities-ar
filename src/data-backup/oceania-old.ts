@@ -1,44 +1,11 @@
-import { Country } from '../types';
+import type { Country } from '../types';
 
-export const oceaniaData: Country[] = [
-  {
-    "code": "AS",
-    "name": "American Samoa",
-    "nameAr": "ساموا الأمريكية",
-    "nameFr": "American Samoa",
-    "cities": [
-      {
-        "name": "Eastern",
-        "nameAr": "",
-        "nameFr": "Eastern"
-      },
-      {
-        "name": "Manuʻa",
-        "nameAr": "",
-        "nameFr": "Manuʻa"
-      },
-      {
-        "name": "Rose",
-        "nameAr": "",
-        "nameFr": "Rose"
-      },
-      {
-        "name": "Swains",
-        "nameAr": "",
-        "nameFr": "Swains"
-      },
-      {
-        "name": "Western",
-        "nameAr": "",
-        "nameFr": "Western"
-      }
-    ]
-  },
+export const oceaniaCountries: Country[] = [
   {
     "code": "AU",
     "name": "Australia",
     "nameAr": "أستراليا",
-    "nameFr": "Australia",
+    "nameFr": "Australie",
     "cities": [
       {
         "name": "New South Wales",
@@ -83,24 +50,10 @@ export const oceaniaData: Country[] = [
     ]
   },
   {
-    "code": "CX",
-    "name": "Christmas Island",
-    "nameAr": "Christmas Island",
-    "nameFr": "Christmas Island",
-    "cities": []
-  },
-  {
-    "code": "CC",
-    "name": "Cocos (Keeling) Islands",
-    "nameAr": "Cocos (Keeling) Islands",
-    "nameFr": "Cocos (Keeling) Islands",
-    "cities": []
-  },
-  {
     "code": "CK",
     "name": "Cook Islands",
     "nameAr": "جزر كوك",
-    "nameFr": "Cook Islands",
+    "nameFr": "les Îles Cook",
     "cities": [
             {
                   "name": "Australian Capital Territory",
@@ -146,9 +99,9 @@ export const oceaniaData: Country[] = [
   },
   {
     "code": "FJ",
-    "name": "Fiji Islands",
+    "name": "Fiji",
     "nameAr": "فيجي",
-    "nameFr": "Fiji Islands",
+    "nameFr": "Fidji",
     "cities": [
       {
         "name": "Northern",
@@ -173,145 +126,37 @@ export const oceaniaData: Country[] = [
     ]
   },
   {
-    "code": "PF",
-    "name": "French Polynesia",
-    "nameAr": "بولينيزيا الفرنسية",
-    "nameFr": "French Polynesia",
-    "cities": [
-            {
-                  "name": "Austral Islands",
-                  "nameAr": "Îles austral",
-                  "nameFr": "Austral Islands"
-            },
-            {
-                  "name": "Leeward Islands",
-                  "nameAr": "Îles sous le vent",
-                  "nameFr": "Leeward Islands"
-            },
-            {
-                  "name": "Marquesas Islands",
-                  "nameAr": "Îles de Marquesas",
-                  "nameFr": "Marquesas Islands"
-            },
-            {
-                  "name": "Tuamotu-Gambier",
-                  "nameAr": "Tuamotu-gambier",
-                  "nameFr": "Tuamotu-Gambier"
-            },
-            {
-                  "name": "Windward Islands",
-                  "nameAr": "Îles du vent",
-                  "nameFr": "Windward Islands"
-            }
-      ]
-  },
-  {
-    "code": "GU",
-    "name": "Guam",
-    "nameAr": "غوام",
-    "nameFr": "Guam",
+    "code": "FM",
+    "name": "Federated States of Micronesia",
+    "nameAr": "ولايات ميكرونيزيا الموحدة",
+    "nameFr": "États fédérés de Micronésie",
     "cities": [
       {
-        "name": "Agana Heights",
-        "nameAr": "",
-        "nameFr": "Agana Heights"
+        "name": "Yap",
+        "nameAr": "ثرثرة",
+        "nameFr": "Japper"
       },
       {
-        "name": "Asan-Maina",
-        "nameAr": "",
-        "nameFr": "Asan-Maina"
+        "name": "Pohnpei",
+        "nameAr": "بوهنباي",
+        "nameFr": "Pohnpei"
       },
       {
-        "name": "Barrigada",
-        "nameAr": "",
-        "nameFr": "Barrigada"
+        "name": "Chuuk",
+        "nameAr": "شوك",
+        "nameFr": "Chuuk"
       },
       {
-        "name": "Chalan Pago-Ordot",
-        "nameAr": "",
-        "nameFr": "Chalan Pago-Ordot"
-      },
-      {
-        "name": "Dededo",
-        "nameAr": "",
-        "nameFr": "Dededo"
-      },
-      {
-        "name": "Hågat",
-        "nameAr": "",
-        "nameFr": "Hågat"
-      },
-      {
-        "name": "Hagåtña",
-        "nameAr": "",
-        "nameFr": "Hagåtña"
-      },
-      {
-        "name": "Inarajan (Inalåhan)",
-        "nameAr": "",
-        "nameFr": "Inarajan (Inalåhan)"
-      },
-      {
-        "name": "Mangilao",
-        "nameAr": "",
-        "nameFr": "Mangilao"
-      },
-      {
-        "name": "Merizo (Malesso)",
-        "nameAr": "",
-        "nameFr": "Merizo (Malesso)"
-      },
-      {
-        "name": "Mongmong-Toto-Maite",
-        "nameAr": "",
-        "nameFr": "Mongmong-Toto-Maite"
-      },
-      {
-        "name": "Piti",
-        "nameAr": "",
-        "nameFr": "Piti"
-      },
-      {
-        "name": "Santa Rita (Sånta Rita-Sumai)",
-        "nameAr": "",
-        "nameFr": "Santa Rita (Sånta Rita-Sumai)"
-      },
-      {
-        "name": "Sinajana",
-        "nameAr": "",
-        "nameFr": "Sinajana"
-      },
-      {
-        "name": "Talofofo (Talo'fo'fo)",
-        "nameAr": "",
-        "nameFr": "Talofofo (Talo'fo'fo)"
-      },
-      {
-        "name": "Tamuning",
-        "nameAr": "",
-        "nameFr": "Tamuning"
-      },
-      {
-        "name": "Umatac (Humåtak)",
-        "nameAr": "",
-        "nameFr": "Umatac (Humåtak)"
-      },
-      {
-        "name": "Yigo",
-        "nameAr": "",
-        "nameFr": "Yigo"
-      },
-      {
-        "name": "Yona",
-        "nameAr": "",
-        "nameFr": "Yona"
+        "name": "Kosrae",
+        "nameAr": "كوسراي",
+        "nameFr": "Kosrae"
       }
     ]
   },
   {
     "code": "KI",
     "name": "Kiribati",
-    "nameAr": "كيريباتي",
+    "nameAr": "كيريباس",
     "nameFr": "Kiribati",
     "cities": [
             {
@@ -415,7 +260,7 @@ export const oceaniaData: Country[] = [
     "code": "MH",
     "name": "Marshall Islands",
     "nameAr": "جزر مارشال",
-    "nameFr": "Marshall Islands",
+    "nameFr": "Iles Marshall",
     "cities": [
             {
                   "name": "Ralik",
@@ -430,32 +275,34 @@ export const oceaniaData: Country[] = [
       ]
   },
   {
-    "code": "FM",
-    "name": "Micronesia",
-    "nameAr": "ميكرونيزيا",
-    "nameFr": "Micronesia",
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "nameAr": "جزر مريانا الشمالية",
+    "nameFr": "Îles Mariannes du Nord",
+    "cities": []
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "nameAr": "كاليدونيا الجديدة",
+    "nameFr": "Nouvelle Calédonie",
     "cities": [
-      {
-        "name": "Yap",
-        "nameAr": "ثرثرة",
-        "nameFr": "Japper"
-      },
-      {
-        "name": "Pohnpei",
-        "nameAr": "بوهنباي",
-        "nameFr": "Pohnpei"
-      },
-      {
-        "name": "Chuuk",
-        "nameAr": "شوك",
-        "nameFr": "Chuuk"
-      },
-      {
-        "name": "Kosrae",
-        "nameAr": "كوسراي",
-        "nameFr": "Kosrae"
-      }
-    ]
+            {
+                  "name": "Loyalty Islands Province",
+                  "nameAr": "Loyalty Islands Province",
+                  "nameFr": "Loyalty Islands Province"
+            },
+            {
+                  "name": "North Province",
+                  "nameAr": "Province du Nord",
+                  "nameFr": "North Province"
+            },
+            {
+                  "name": "South Province",
+                  "nameAr": "Province du sud",
+                  "nameFr": "South Province"
+            }
+      ]
   },
   {
     "code": "NR",
@@ -536,33 +383,88 @@ export const oceaniaData: Country[] = [
       ]
   },
   {
-    "code": "NC",
-    "name": "New Caledonia",
-    "nameAr": "كاليدونيا الجديدة",
-    "nameFr": "New Caledonia",
+    "code": "NU",
+    "name": "Niue",
+    "nameAr": "نيوي",
+    "nameFr": "Niue",
     "cities": [
             {
-                  "name": "Loyalty Islands Province",
-                  "nameAr": "Loyalty Islands Province",
-                  "nameFr": "Loyalty Islands Province"
+                  "name": "Alofi North",
+                  "nameAr": "Mightyly",
+                  "nameFr": "Alofi North"
             },
             {
-                  "name": "North Province",
-                  "nameAr": "Province du Nord",
-                  "nameFr": "North Province"
+                  "name": "Alofi South",
+                  "nameAr": "Alofa south",
+                  "nameFr": "Alofi South"
             },
             {
-                  "name": "South Province",
-                  "nameAr": "Province du sud",
-                  "nameFr": "South Province"
+                  "name": "Avatele",
+                  "nameAr": "Avatele",
+                  "nameFr": "Avatele"
+            },
+            {
+                  "name": "Hakupu",
+                  "nameAr": "Afflass",
+                  "nameFr": "Hakupu"
+            },
+            {
+                  "name": "Hikutavake",
+                  "nameAr": "Hikuvake",
+                  "nameFr": "Hikutavake"
+            },
+            {
+                  "name": "Lakepa",
+                  "nameAr": "Lake coffee",
+                  "nameFr": "Lakepa"
+            },
+            {
+                  "name": "Liku",
+                  "nameAr": "Liku",
+                  "nameFr": "Liku"
+            },
+            {
+                  "name": "Makefu",
+                  "nameAr": "Makeffi",
+                  "nameFr": "Makefu"
+            },
+            {
+                  "name": "Mutalau",
+                  "nameAr": "Mutalau",
+                  "nameFr": "Mutalau"
+            },
+            {
+                  "name": "Namukulu",
+                  "nameAr": "The hospital",
+                  "nameFr": "Namukulu"
+            },
+            {
+                  "name": "Tamakautoga",
+                  "nameAr": "Tamakautoga",
+                  "nameFr": "Tamakautoga"
+            },
+            {
+                  "name": "Toi",
+                  "nameAr": "Toi",
+                  "nameFr": "Toi"
+            },
+            {
+                  "name": "Tuapa",
+                  "nameAr": "Backplaces",
+                  "nameFr": "Tuapa"
+            },
+            {
+                  "name": "Vaiea",
+                  "nameAr": "Woe",
+                  "nameFr": "Vaiea"
             }
       ]
   },
   {
     "code": "NZ",
-    "name": "New Zealand",
-    "nameAr": "نيوزيلندا",
-    "nameFr": "New Zealand",
+    "name": "New Zealand (Aotearoa)",
+    "nameAr": "نيوزيلندا (اوتياروا)",
+    "nameFr": "Nouvelle-Zélande (Aotearoa)",
     "cities": [
             {
                   "name": "Auckland",
@@ -652,182 +554,35 @@ export const oceaniaData: Country[] = [
       ]
   },
   {
-    "code": "NU",
-    "name": "Niue",
-    "nameAr": "نيوي",
-    "nameFr": "Niue",
+    "code": "PF",
+    "name": "French Polynesia",
+    "nameAr": "بولينيزيا الفرنسية",
+    "nameFr": "Polynésie française",
     "cities": [
             {
-                  "name": "Alofi North",
-                  "nameAr": "Mightyly",
-                  "nameFr": "Alofi North"
+                  "name": "Austral Islands",
+                  "nameAr": "Îles austral",
+                  "nameFr": "Austral Islands"
             },
             {
-                  "name": "Alofi South",
-                  "nameAr": "Alofa south",
-                  "nameFr": "Alofi South"
+                  "name": "Leeward Islands",
+                  "nameAr": "Îles sous le vent",
+                  "nameFr": "Leeward Islands"
             },
             {
-                  "name": "Avatele",
-                  "nameAr": "Avatele",
-                  "nameFr": "Avatele"
+                  "name": "Marquesas Islands",
+                  "nameAr": "Îles de Marquesas",
+                  "nameFr": "Marquesas Islands"
             },
             {
-                  "name": "Hakupu",
-                  "nameAr": "Afflass",
-                  "nameFr": "Hakupu"
+                  "name": "Tuamotu-Gambier",
+                  "nameAr": "Tuamotu-gambier",
+                  "nameFr": "Tuamotu-Gambier"
             },
             {
-                  "name": "Hikutavake",
-                  "nameAr": "Hikuvake",
-                  "nameFr": "Hikutavake"
-            },
-            {
-                  "name": "Lakepa",
-                  "nameAr": "Lake coffee",
-                  "nameFr": "Lakepa"
-            },
-            {
-                  "name": "Liku",
-                  "nameAr": "Liku",
-                  "nameFr": "Liku"
-            },
-            {
-                  "name": "Makefu",
-                  "nameAr": "Makeffi",
-                  "nameFr": "Makefu"
-            },
-            {
-                  "name": "Mutalau",
-                  "nameAr": "Mutalau",
-                  "nameFr": "Mutalau"
-            },
-            {
-                  "name": "Namukulu",
-                  "nameAr": "The hospital",
-                  "nameFr": "Namukulu"
-            },
-            {
-                  "name": "Tamakautoga",
-                  "nameAr": "Tamakautoga",
-                  "nameFr": "Tamakautoga"
-            },
-            {
-                  "name": "Toi",
-                  "nameAr": "Toi",
-                  "nameFr": "Toi"
-            },
-            {
-                  "name": "Tuapa",
-                  "nameAr": "Backplaces",
-                  "nameFr": "Tuapa"
-            },
-            {
-                  "name": "Vaiea",
-                  "nameAr": "Woe",
-                  "nameFr": "Vaiea"
-            }
-      ]
-  },
-  {
-    "code": "NF",
-    "name": "Norfolk Island",
-    "nameAr": "جزيرة نورفولك",
-    "nameFr": "Norfolk Island",
-    "cities": []
-  },
-  {
-    "code": "MP",
-    "name": "Northern Mariana Islands",
-    "nameAr": "جزر ماريانا الشمالية",
-    "nameFr": "Northern Mariana Islands",
-    "cities": []
-  },
-  {
-    "code": "PW",
-    "name": "Palau",
-    "nameAr": "بالاو",
-    "nameFr": "Palau",
-    "cities": [
-            {
-                  "name": "Aimeliik",
-                  "nameAr": "Ameliikik",
-                  "nameFr": "Aimeliik"
-            },
-            {
-                  "name": "Airai",
-                  "nameAr": "Airai",
-                  "nameFr": "Airai"
-            },
-            {
-                  "name": "Angaur",
-                  "nameAr": "Angaur",
-                  "nameFr": "Angaur"
-            },
-            {
-                  "name": "Hatohobei",
-                  "nameAr": "Hatohobei",
-                  "nameFr": "Hatohobei"
-            },
-            {
-                  "name": "Kayangel",
-                  "nameAr": "Kayael",
-                  "nameFr": "Kayangel"
-            },
-            {
-                  "name": "Koror",
-                  "nameAr": "Increase",
-                  "nameFr": "Koror"
-            },
-            {
-                  "name": "Melekeok",
-                  "nameAr": "Melekeok",
-                  "nameFr": "Melekeok"
-            },
-            {
-                  "name": "Ngaraard",
-                  "nameAr": "To eat",
-                  "nameFr": "Ngaraard"
-            },
-            {
-                  "name": "Ngarchelong",
-                  "nameAr": "Ngarchelong",
-                  "nameFr": "Ngarchelong"
-            },
-            {
-                  "name": "Ngardmau",
-                  "nameAr": "Kerdown",
-                  "nameFr": "Ngardmau"
-            },
-            {
-                  "name": "Ngatpang",
-                  "nameAr": "Ngatpang",
-                  "nameFr": "Ngatpang"
-            },
-            {
-                  "name": "Ngchesar",
-                  "nameAr": "Nkchesar",
-                  "nameFr": "Ngchesar"
-            },
-            {
-                  "name": "Ngeremlengui",
-                  "nameAr": "Ngeremlengui",
-                  "nameFr": "Ngeremlengui"
-            },
-            {
-                  "name": "Ngiwal",
-                  "nameAr": "Ngiwal",
-                  "nameFr": "Ngiwal"
-            },
-            {
-                  "name": "Peleliu",
-                  "nameAr": "Turn over",
-                  "nameFr": "Peleliu"
-            },
-            {
-                  "name": "Sonsorol",
-                  "nameAr": "Sonsorol",
-                  "nameFr": "Sonsorol"
+                  "name": "Windward Islands",
+                  "nameAr": "Îles du vent",
+                  "nameFr": "Windward Islands"
             }
       ]
   },
@@ -835,7 +590,7 @@ export const oceaniaData: Country[] = [
     "code": "PG",
     "name": "Papua New Guinea",
     "nameAr": "بابوا غينيا الجديدة",
-    "nameFr": "Papua New Guinea",
+    "nameFr": "Papouasie Nouvelle Guinée",
     "cities": [
             {
                   "name": "Bougainville",
@@ -951,71 +706,96 @@ export const oceaniaData: Country[] = [
   },
   {
     "code": "PN",
-    "name": "Pitcairn Island",
-    "nameAr": "جزر بيتكيرن",
-    "nameFr": "Pitcairn Island",
+    "name": "Pitcairn",
+    "nameAr": "بيتكيرن",
+    "nameFr": "Pitcairn",
     "cities": []
   },
   {
-    "code": "WS",
-    "name": "Samoa",
-    "nameAr": "ساموا",
-    "nameFr": "Samoa",
+    "code": "PW",
+    "name": "Palau",
+    "nameAr": "بالاو",
+    "nameFr": "Palau",
     "cities": [
             {
-                  "name": "A'ana",
-                  "nameAr": "Apu",
-                  "nameFr": "A'ana"
+                  "name": "Aimeliik",
+                  "nameAr": "Ameliikik",
+                  "nameFr": "Aimeliik"
             },
             {
-                  "name": "Aiga-i-le-Tai",
-                  "nameAr": "Aiga-i-le-Tai",
-                  "nameFr": "Aiga-i-le-Tai"
+                  "name": "Airai",
+                  "nameAr": "Airai",
+                  "nameFr": "Airai"
             },
             {
-                  "name": "Atua",
-                  "nameAr": "Atua",
-                  "nameFr": "Atua"
+                  "name": "Angaur",
+                  "nameAr": "Angaur",
+                  "nameFr": "Angaur"
             },
             {
-                  "name": "Fa'asaleleaga",
-                  "nameAr": "Fa'asaleleaga",
-                  "nameFr": "Fa'asaleleaga"
+                  "name": "Hatohobei",
+                  "nameAr": "Hatohobei",
+                  "nameFr": "Hatohobei"
             },
             {
-                  "name": "Gaga'emauga",
-                  "nameAr": "Gaga'emauga",
-                  "nameFr": "Gaga'emauga"
+                  "name": "Kayangel",
+                  "nameAr": "Kayael",
+                  "nameFr": "Kayangel"
             },
             {
-                  "name": "Gaga'ifomauga",
-                  "nameAr": "Gaga'ifomauga",
-                  "nameFr": "Gaga'ifomauga"
+                  "name": "Koror",
+                  "nameAr": "Increase",
+                  "nameFr": "Koror"
             },
             {
-                  "name": "Palauli",
-                  "nameAr": "Palauli",
-                  "nameFr": "Palauli"
+                  "name": "Melekeok",
+                  "nameAr": "Melekeok",
+                  "nameFr": "Melekeok"
             },
             {
-                  "name": "Satupa'itea",
-                  "nameAr": "Satupa'itea",
-                  "nameFr": "Satupa'itea"
+                  "name": "Ngaraard",
+                  "nameAr": "To eat",
+                  "nameFr": "Ngaraard"
             },
             {
-                  "name": "Tuamasaga",
-                  "nameAr": "Tuamasaga",
-                  "nameFr": "Tuamasaga"
+                  "name": "Ngarchelong",
+                  "nameAr": "Ngarchelong",
+                  "nameFr": "Ngarchelong"
             },
             {
-                  "name": "Va'a-o-Fonoti",
-                  "nameAr": "Vaʻi-O-phonoti",
-                  "nameFr": "Va'a-o-Fonoti"
+                  "name": "Ngardmau",
+                  "nameAr": "Kerdown",
+                  "nameFr": "Ngardmau"
             },
             {
-                  "name": "Vaisigano",
-                  "nameAr": "Vaisigano",
-                  "nameFr": "Vaisigano"
+                  "name": "Ngatpang",
+                  "nameAr": "Ngatpang",
+                  "nameFr": "Ngatpang"
+            },
+            {
+                  "name": "Ngchesar",
+                  "nameAr": "Nkchesar",
+                  "nameFr": "Ngchesar"
+            },
+            {
+                  "name": "Ngeremlengui",
+                  "nameAr": "Ngeremlengui",
+                  "nameFr": "Ngeremlengui"
+            },
+            {
+                  "name": "Ngiwal",
+                  "nameAr": "Ngiwal",
+                  "nameFr": "Ngiwal"
+            },
+            {
+                  "name": "Peleliu",
+                  "nameAr": "Turn over",
+                  "nameFr": "Peleliu"
+            },
+            {
+                  "name": "Sonsorol",
+                  "nameAr": "Sonsorol",
+                  "nameFr": "Sonsorol"
             }
       ]
   },
@@ -1023,7 +803,7 @@ export const oceaniaData: Country[] = [
     "code": "SB",
     "name": "Solomon Islands",
     "nameAr": "جزر سليمان",
-    "nameFr": "Solomon Islands",
+    "nameFr": "Les îles Salomon",
     "cities": [
             {
                   "name": "Central",
@@ -1205,9 +985,72 @@ export const oceaniaData: Country[] = [
   },
   {
     "code": "WF",
-    "name": "Wallis and Futuna Islands",
+    "name": "Wallis and Futuna",
     "nameAr": "واليس وفوتونا",
-    "nameFr": "Wallis and Futuna Islands",
+    "nameFr": "Wallis et Futuna",
     "cities": []
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "nameAr": "ساموا",
+    "nameFr": "Samoa",
+    "cities": [
+            {
+                  "name": "A'ana",
+                  "nameAr": "Apu",
+                  "nameFr": "A'ana"
+            },
+            {
+                  "name": "Aiga-i-le-Tai",
+                  "nameAr": "Aiga-i-le-Tai",
+                  "nameFr": "Aiga-i-le-Tai"
+            },
+            {
+                  "name": "Atua",
+                  "nameAr": "Atua",
+                  "nameFr": "Atua"
+            },
+            {
+                  "name": "Fa'asaleleaga",
+                  "nameAr": "Fa'asaleleaga",
+                  "nameFr": "Fa'asaleleaga"
+            },
+            {
+                  "name": "Gaga'emauga",
+                  "nameAr": "Gaga'emauga",
+                  "nameFr": "Gaga'emauga"
+            },
+            {
+                  "name": "Gaga'ifomauga",
+                  "nameAr": "Gaga'ifomauga",
+                  "nameFr": "Gaga'ifomauga"
+            },
+            {
+                  "name": "Palauli",
+                  "nameAr": "Palauli",
+                  "nameFr": "Palauli"
+            },
+            {
+                  "name": "Satupa'itea",
+                  "nameAr": "Satupa'itea",
+                  "nameFr": "Satupa'itea"
+            },
+            {
+                  "name": "Tuamasaga",
+                  "nameAr": "Tuamasaga",
+                  "nameFr": "Tuamasaga"
+            },
+            {
+                  "name": "Va'a-o-Fonoti",
+                  "nameAr": "Vaʻi-O-phonoti",
+                  "nameFr": "Va'a-o-Fonoti"
+            },
+            {
+                  "name": "Vaisigano",
+                  "nameAr": "Vaisigano",
+                  "nameFr": "Vaisigano"
+            }
+      ]
   }
 ];

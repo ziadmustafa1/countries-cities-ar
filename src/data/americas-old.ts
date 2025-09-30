@@ -1,6 +1,49 @@
-import { Country } from '../types';
+import type { Country } from '../types';
 
-export const americasData: Country[] = [
+export const americasCountries: Country[] = [
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "nameAr": "أنتيغوا وبربودا",
+    "nameFr": "Antigua-et-Barbuda",
+    "cities": [
+      {
+        "name": "Saint John",
+        "nameAr": "القديس يوحنا",
+        "nameFr": "Saint Jean"
+      },
+      {
+        "name": "Saint Paul",
+        "nameAr": "القديس بول",
+        "nameFr": "Saint Paul"
+      },
+      {
+        "name": "Saint George",
+        "nameAr": "القديس جورج",
+        "nameFr": "Saint George"
+      },
+      {
+        "name": "Saint Peter",
+        "nameAr": "القديس بطرس",
+        "nameFr": "Saint Pierre"
+      },
+      {
+        "name": "Saint Mary",
+        "nameAr": "القديس ماري",
+        "nameFr": "Sainte Marie"
+      },
+      {
+        "name": "Barbuda",
+        "nameAr": "باربودا",
+        "nameFr": "Barbuda"
+      },
+      {
+        "name": "Saint Philip",
+        "nameAr": "سانت فيليب",
+        "nameFr": "Saint philippe"
+      }
+    ]
+  },
   {
     "code": "AI",
     "name": "Anguilla",
@@ -50,53 +93,10 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "AG",
-    "name": "Antigua and Barbuda",
-    "nameAr": "أنتيغوا وباربودا",
-    "nameFr": "Antigua and Barbuda",
-    "cities": [
-      {
-        "name": "Saint John",
-        "nameAr": "القديس يوحنا",
-        "nameFr": "Saint Jean"
-      },
-      {
-        "name": "Saint Paul",
-        "nameAr": "القديس بول",
-        "nameFr": "Saint Paul"
-      },
-      {
-        "name": "Saint George",
-        "nameAr": "القديس جورج",
-        "nameFr": "Saint George"
-      },
-      {
-        "name": "Saint Peter",
-        "nameAr": "القديس بطرس",
-        "nameFr": "Saint Pierre"
-      },
-      {
-        "name": "Saint Mary",
-        "nameAr": "القديس ماري",
-        "nameFr": "Sainte Marie"
-      },
-      {
-        "name": "Barbuda",
-        "nameAr": "باربودا",
-        "nameFr": "Barbuda"
-      },
-      {
-        "name": "Saint Philip",
-        "nameAr": "سانت فيليب",
-        "nameFr": "Saint philippe"
-      }
-    ]
-  },
-  {
     "code": "AR",
     "name": "Argentina",
     "nameAr": "الأرجنتين",
-    "nameFr": "Argentina",
+    "nameFr": "Argentine",
     "cities": [
       {
         "name": "Buenos Aires",
@@ -352,7 +352,7 @@ export const americasData: Country[] = [
     "code": "BB",
     "name": "Barbados",
     "nameAr": "بربادوس",
-    "nameFr": "Barbados",
+    "nameFr": "La Barbade",
     "cities": [
       {
         "name": "Saint Joseph",
@@ -412,48 +412,10 @@ export const americasData: Country[] = [
     ]
   },
   {
-    "code": "BZ",
-    "name": "Belize",
-    "nameAr": "بليز",
-    "nameFr": "Belize",
-    "cities": [
-      {
-        "name": "Toledo",
-        "nameAr": "توليدو",
-        "nameFr": "Toledo"
-      },
-      {
-        "name": "Cayo",
-        "nameAr": "كايو",
-        "nameFr": "Cayo"
-      },
-      {
-        "name": "Stann Creek",
-        "nameAr": "ستان كريك",
-        "nameFr": "Stann Creek"
-      },
-      {
-        "name": "Corozal",
-        "nameAr": "كوروزال",
-        "nameFr": "Corozal"
-      },
-      {
-        "name": "Orange Walk",
-        "nameAr": "أورانج ووك",
-        "nameFr": "Orange Walk"
-      },
-      {
-        "name": "Belize",
-        "nameAr": "بليز",
-        "nameFr": "Belize"
-      }
-    ]
-  },
-  {
     "code": "BM",
     "name": "Bermuda",
     "nameAr": "برمودا",
-    "nameFr": "Bermuda",
+    "nameFr": "Bermudes",
     "cities": [
       {
         "name": "Devonshire",
@@ -501,7 +463,7 @@ export const americasData: Country[] = [
     "code": "BO",
     "name": "Bolivia",
     "nameAr": "بوليفيا",
-    "nameFr": "Bolivia",
+    "nameFr": "Bolivie",
     "cities": [
       {
         "name": "Santa Cruz",
@@ -551,33 +513,10 @@ export const americasData: Country[] = [
     ]
   },
   {
-    "code": "BQ",
-    "name": "Bonaire, Sint Eustatius and Saba",
-    "nameAr": "بونير وسانت أوستاتيوس وسابا",
-    "nameFr": "Bonaire, Sint Eustatius and Saba",
-    "cities": [
-      {
-        "name": "Bonaire",
-        "nameAr": "",
-        "nameFr": "Bonaire"
-      },
-      {
-        "name": "Saba",
-        "nameAr": "",
-        "nameFr": "Saba"
-      },
-      {
-        "name": "Sint Eustatius",
-        "nameAr": "",
-        "nameFr": "Sint Eustatius"
-      }
-    ]
-  },
-  {
     "code": "BR",
     "name": "Brazil",
     "nameAr": "البرازيل",
-    "nameFr": "Brazil",
+    "nameFr": "Brésil",
     "cities": [
       {
         "name": "Santa Catarina",
@@ -717,6 +656,152 @@ export const americasData: Country[] = [
     ]
   },
   {
+    "code": "BS",
+    "name": "Bahamas",
+    "nameAr": "الباهاما",
+    "nameFr": "Bahamas",
+    "cities": [
+      {
+        "name": "Acklins and Crooked Islands",
+        "nameAr": "Acklins and Crooked Islands",
+        "nameFr": "Acklins et les îles Crooked"
+      },
+      {
+        "name": "Mayaguana",
+        "nameAr": "ماياجيوانا",
+        "nameFr": "Mayaguana"
+      },
+      {
+        "name": "Long Island",
+        "nameAr": "جزيرة طويلة",
+        "nameFr": "Long Island"
+      },
+      {
+        "name": "New Providence",
+        "nameAr": "بروفيدانس الجديدة",
+        "nameFr": "New Providence"
+      },
+      {
+        "name": "Exuma",
+        "nameAr": "اكسوما",
+        "nameFr": "Exuma"
+      },
+      {
+        "name": "Bimini",
+        "nameAr": "بيميني",
+        "nameFr": "Bimini"
+      },
+      {
+        "name": "San Salvador and Rum Cay",
+        "nameAr": "سان سلفادور وروم كاي",
+        "nameFr": "San Salvador et Rum Cay"
+      },
+      {
+        "name": "Fresh Creek",
+        "nameAr": "فريش كريك",
+        "nameFr": "Fresh Creek"
+      },
+      {
+        "name": "Cat Island",
+        "nameAr": "جزيرة القط",
+        "nameFr": "Île de chat"
+      },
+      {
+        "name": "Nichollstown and Berry Islands",
+        "nameAr": "Nichollstown و جزر بيري",
+        "nameFr": "Nichollstown et les îles Berry"
+      },
+      {
+        "name": "Kemps Bay",
+        "nameAr": "كيمبس باي",
+        "nameFr": "Kemps Bay"
+      },
+      {
+        "name": "Freeport",
+        "nameAr": "ميناء حر",
+        "nameFr": "Freeport"
+      },
+      {
+        "name": "Rock Sound",
+        "nameAr": "صوت صخري",
+        "nameFr": "Son rock"
+      },
+      {
+        "name": "Harbour Island",
+        "nameAr": "جزيرة الميناء",
+        "nameFr": "Harbour Island"
+      },
+      {
+        "name": "High Rock",
+        "nameAr": "هاي روك",
+        "nameFr": "Haute roche"
+      },
+      {
+        "name": "Green Turtle Cay",
+        "nameAr": "جرين تيرتل كاي",
+        "nameFr": "Green Turtle Cay"
+      },
+      {
+        "name": "Marsh Harbour",
+        "nameAr": "مارش هاربر",
+        "nameFr": "Marsh Harbour"
+      },
+      {
+        "name": "Ragged Island",
+        "nameAr": "جزيرة راكد",
+        "nameFr": "Ile déchiquetée"
+      },
+      {
+        "name": "Sandy Point",
+        "nameAr": "ساندي بوينت",
+        "nameFr": "Sandy Point"
+      },
+      {
+        "name": "Inagua",
+        "nameAr": "من Inagua",
+        "nameFr": "Inagua"
+      }
+    ]
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "nameAr": "بليز",
+    "nameFr": "Belize",
+    "cities": [
+      {
+        "name": "Toledo",
+        "nameAr": "توليدو",
+        "nameFr": "Toledo"
+      },
+      {
+        "name": "Cayo",
+        "nameAr": "كايو",
+        "nameFr": "Cayo"
+      },
+      {
+        "name": "Stann Creek",
+        "nameAr": "ستان كريك",
+        "nameFr": "Stann Creek"
+      },
+      {
+        "name": "Corozal",
+        "nameAr": "كوروزال",
+        "nameFr": "Corozal"
+      },
+      {
+        "name": "Orange Walk",
+        "nameAr": "أورانج ووك",
+        "nameFr": "Orange Walk"
+      },
+      {
+        "name": "Belize",
+        "nameAr": "بليز",
+        "nameFr": "Belize"
+      }
+    ]
+  },
+  {
     "code": "CA",
     "name": "Canada",
     "nameAr": "كندا",
@@ -780,33 +865,10 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "KY",
-    "name": "Cayman Islands",
-    "nameAr": "جزر كايمان",
-    "nameFr": "Cayman Islands",
-    "cities": [
-            {
-                  "name": "Cayman Brac",
-                  "nameAr": "Cayman Brac",
-                  "nameFr": "Cayman Brac"
-            },
-            {
-                  "name": "Grand Cayman",
-                  "nameAr": "Grand Cayman",
-                  "nameFr": "Grand Cayman"
-            },
-            {
-                  "name": "Little Cayman",
-                  "nameAr": "Little Cayman",
-                  "nameFr": "Little Cayman"
-            }
-      ]
-  },
-  {
     "code": "CL",
     "name": "Chile",
     "nameAr": "تشيلي",
-    "nameFr": "Chile",
+    "nameFr": "Chili",
     "cities": [
       {
         "name": "Bio-Bio",
@@ -869,7 +931,7 @@ export const americasData: Country[] = [
     "code": "CO",
     "name": "Colombia",
     "nameAr": "كولومبيا",
-    "nameFr": "Colombia",
+    "nameFr": "Colombie",
     "cities": [
       {
         "name": "Cundinamarca",
@@ -1021,7 +1083,7 @@ export const americasData: Country[] = [
   {
     "code": "CR",
     "name": "Costa Rica",
-    "nameAr": "كوستاريكا",
+    "nameAr": "كوستا ريكا",
     "nameFr": "Costa Rica",
     "cities": [
       {
@@ -1145,17 +1207,10 @@ export const americasData: Country[] = [
     ]
   },
   {
-    "code": "CW",
-    "name": "Curaçao",
-    "nameAr": "كوراساو",
-    "nameFr": "Curaçao",
-    "cities": []
-  },
-  {
     "code": "DM",
     "name": "Dominica",
     "nameAr": "دومينيكا",
-    "nameFr": "Dominica",
+    "nameFr": "Dominique",
     "cities": [
       {
         "name": "Saint Andrew",
@@ -1212,8 +1267,8 @@ export const americasData: Country[] = [
   {
     "code": "DO",
     "name": "Dominican Republic",
-    "nameAr": "جمهورية الدومينيكان",
-    "nameFr": "Dominican Republic",
+    "nameAr": "جمهورية الدومنيكان",
+    "nameFr": "République Dominicaine",
     "cities": [
       {
         "name": "Sanchez Ramirez",
@@ -1368,216 +1423,10 @@ export const americasData: Country[] = [
     ]
   },
   {
-    "code": "EC",
-    "name": "Ecuador",
-    "nameAr": "الإكوادور",
-    "nameFr": "Ecuador",
-    "cities": [
-      {
-        "name": "Azuay",
-        "nameAr": "",
-        "nameFr": "Azuay"
-      },
-      {
-        "name": "Bolívar",
-        "nameAr": "",
-        "nameFr": "Bolívar"
-      },
-      {
-        "name": "Cañar",
-        "nameAr": "",
-        "nameFr": "Cañar"
-      },
-      {
-        "name": "Carchi",
-        "nameAr": "",
-        "nameFr": "Carchi"
-      },
-      {
-        "name": "Chimborazo",
-        "nameAr": "",
-        "nameFr": "Chimborazo"
-      },
-      {
-        "name": "Cotopaxi",
-        "nameAr": "",
-        "nameFr": "Cotopaxi"
-      },
-      {
-        "name": "El Oro",
-        "nameAr": "",
-        "nameFr": "El Oro"
-      },
-      {
-        "name": "Esmeraldas",
-        "nameAr": "",
-        "nameFr": "Esmeraldas"
-      },
-      {
-        "name": "Galápagos",
-        "nameAr": "",
-        "nameFr": "Galápagos"
-      },
-      {
-        "name": "Guayas",
-        "nameAr": "",
-        "nameFr": "Guayas"
-      },
-      {
-        "name": "Imbabura",
-        "nameAr": "",
-        "nameFr": "Imbabura"
-      },
-      {
-        "name": "Loja",
-        "nameAr": "",
-        "nameFr": "Loja"
-      },
-      {
-        "name": "Los Ríos",
-        "nameAr": "",
-        "nameFr": "Los Ríos"
-      },
-      {
-        "name": "Manabí",
-        "nameAr": "",
-        "nameFr": "Manabí"
-      },
-      {
-        "name": "Morona-Santiago",
-        "nameAr": "",
-        "nameFr": "Morona-Santiago"
-      },
-      {
-        "name": "Napo",
-        "nameAr": "",
-        "nameFr": "Napo"
-      },
-      {
-        "name": "Orellana",
-        "nameAr": "",
-        "nameFr": "Orellana"
-      },
-      {
-        "name": "Pastaza",
-        "nameAr": "",
-        "nameFr": "Pastaza"
-      },
-      {
-        "name": "Pichincha",
-        "nameAr": "",
-        "nameFr": "Pichincha"
-      },
-      {
-        "name": "Santa Elena",
-        "nameAr": "",
-        "nameFr": "Santa Elena"
-      },
-      {
-        "name": "Santo Domingo de los Tsáchilas",
-        "nameAr": "",
-        "nameFr": "Santo Domingo de los Tsáchilas"
-      },
-      {
-        "name": "Sucumbíos",
-        "nameAr": "",
-        "nameFr": "Sucumbíos"
-      },
-      {
-        "name": "Tungurahua",
-        "nameAr": "",
-        "nameFr": "Tungurahua"
-      },
-      {
-        "name": "Zamora Chinchipe",
-        "nameAr": "",
-        "nameFr": "Zamora Chinchipe"
-      }
-    ]
-  },
-  {
-    "code": "SV",
-    "name": "El Salvador",
-    "nameAr": "السلفادور",
-    "nameFr": "El Salvador",
-    "cities": [
-            {
-                  "name": "Ahuachapán",
-                  "nameAr": "Ahuachapán",
-                  "nameFr": "Ahuachapán"
-            },
-            {
-                  "name": "Cabañas",
-                  "nameAr": "Cabañas",
-                  "nameFr": "Cabañas"
-            },
-            {
-                  "name": "Chalatenango",
-                  "nameAr": "Chalatenango",
-                  "nameFr": "Chalatenango"
-            },
-            {
-                  "name": "Cuscatlán",
-                  "nameAr": "Cuscatlán",
-                  "nameFr": "Cuscatlán"
-            },
-            {
-                  "name": "La Libertad",
-                  "nameAr": "La Libertad",
-                  "nameFr": "La Libertad"
-            },
-            {
-                  "name": "La Paz",
-                  "nameAr": "La Paz",
-                  "nameFr": "La Paz"
-            },
-            {
-                  "name": "La Unión ",
-                  "nameAr": "La Unión ",
-                  "nameFr": "La Unión "
-            },
-            {
-                  "name": "Morazán",
-                  "nameAr": "Morazán",
-                  "nameFr": "Morazán"
-            },
-            {
-                  "name": "San Miguel",
-                  "nameAr": "San Miguel",
-                  "nameFr": "San Miguel"
-            },
-            {
-                  "name": "San Salvador",
-                  "nameAr": "San Salvador",
-                  "nameFr": "San Salvador"
-            },
-            {
-                  "name": "San Vicente",
-                  "nameAr": "San Vicente",
-                  "nameFr": "San Vicente"
-            },
-            {
-                  "name": "Santa Ana",
-                  "nameAr": "Santa Ana",
-                  "nameFr": "Santa Ana"
-            },
-            {
-                  "name": "Sonsonate",
-                  "nameAr": "Sonsonate",
-                  "nameFr": "Sonsonate"
-            },
-            {
-                  "name": "Usulután",
-                  "nameAr": "Usulután",
-                  "nameFr": "Usulután"
-            }
-      ]
-  },
-  {
     "code": "FK",
-    "name": "Falkland Islands",
-    "nameAr": "جزر فوكلاند",
-    "nameFr": "Falkland Islands",
+    "name": "Falkland Islands (Malvinas)",
+    "nameAr": "جزر فوكلاند (مالفيناس)",
+    "nameFr": "Iles Malouines (Malouines)",
     "cities": [
             {
                   "name": "Aisén del General Carlos Ibañez del Campo",
@@ -1662,50 +1511,10 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "GF",
-    "name": "French Guiana",
-    "nameAr": "غيانا الفرنسية",
-    "nameFr": "French Guiana",
-    "cities": []
-  },
-  {
-    "code": "GL",
-    "name": "Greenland",
-    "nameAr": "غرينلاند",
-    "nameFr": "Greenland",
-    "cities": [
-            {
-                  "name": "Avannaata",
-                  "nameAr": "Avannaata",
-                  "nameFr": "Avannaata"
-            },
-            {
-                  "name": "Kujalleq",
-                  "nameAr": "Kujalleq",
-                  "nameFr": "Kujalleq"
-            },
-            {
-                  "name": "Qeqertalik",
-                  "nameAr": "Qeqertalik",
-                  "nameFr": "Qeqertalik"
-            },
-            {
-                  "name": "Qeqqata",
-                  "nameAr": "Qeqqata",
-                  "nameFr": "Qeqqata"
-            },
-            {
-                  "name": "Sermersooq",
-                  "nameAr": "Sermersooq",
-                  "nameFr": "Sermersooq"
-            }
-      ]
-  },
-  {
     "code": "GD",
     "name": "Grenada",
     "nameAr": "غرينادا",
-    "nameFr": "Grenada",
+    "nameFr": "Grenade",
     "cities": [
             {
                   "name": "Carriacou",
@@ -1745,10 +1554,50 @@ export const americasData: Country[] = [
       ]
   },
   {
+    "code": "GF",
+    "name": "French Guiana",
+    "nameAr": "غيانا الفرنسية",
+    "nameFr": "Guinée Française",
+    "cities": []
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "nameAr": "الأرض الخضراء",
+    "nameFr": "Groenland",
+    "cities": [
+            {
+                  "name": "Avannaata",
+                  "nameAr": "Avannaata",
+                  "nameFr": "Avannaata"
+            },
+            {
+                  "name": "Kujalleq",
+                  "nameAr": "Kujalleq",
+                  "nameFr": "Kujalleq"
+            },
+            {
+                  "name": "Qeqertalik",
+                  "nameAr": "Qeqertalik",
+                  "nameFr": "Qeqertalik"
+            },
+            {
+                  "name": "Qeqqata",
+                  "nameAr": "Qeqqata",
+                  "nameFr": "Qeqqata"
+            },
+            {
+                  "name": "Sermersooq",
+                  "nameAr": "Sermersooq",
+                  "nameFr": "Sermersooq"
+            }
+      ]
+  },
+  {
     "code": "GP",
     "name": "Guadeloupe",
-    "nameAr": "غوادلوب",
-    "nameFr": "Guadeloupe",
+    "nameAr": "جوادلوب",
+    "nameFr": "La guadeloupe",
     "cities": [
             {
                   "name": "Basse-Terre",
@@ -1884,7 +1733,7 @@ export const americasData: Country[] = [
     "code": "GY",
     "name": "Guyana",
     "nameAr": "غيانا",
-    "nameFr": "Guyana",
+    "nameFr": "Guyane",
     "cities": [
             {
                   "name": "Barima-Waini",
@@ -1935,64 +1784,6 @@ export const americasData: Country[] = [
                   "name": "Upper Takutu-Upper Essequibo",
                   "nameAr": "Upper Takutu-Upper Essequibo",
                   "nameFr": "Upper Takutu-Upper Essequibo"
-            }
-      ]
-  },
-  {
-    "code": "HT",
-    "name": "Haiti",
-    "nameAr": "هايتي",
-    "nameFr": "Haiti",
-    "cities": [
-            {
-                  "name": "Artibonite",
-                  "nameAr": "Artibonite",
-                  "nameFr": "Artibonite"
-            },
-            {
-                  "name": "Centre",
-                  "nameAr": "Centre",
-                  "nameFr": "Centre"
-            },
-            {
-                  "name": "Grand'Anse",
-                  "nameAr": "Grand'Anse",
-                  "nameFr": "Grand'Anse"
-            },
-            {
-                  "name": "Nippes",
-                  "nameAr": "Nippes",
-                  "nameFr": "Nippes"
-            },
-            {
-                  "name": "Nord",
-                  "nameAr": "Nord",
-                  "nameFr": "Nord"
-            },
-            {
-                  "name": "Nord-Est",
-                  "nameAr": "Nord-Est",
-                  "nameFr": "Nord-Est"
-            },
-            {
-                  "name": "Nord-Ouest",
-                  "nameAr": "Nord-Ouest",
-                  "nameFr": "Nord-Ouest"
-            },
-            {
-                  "name": "Ouest",
-                  "nameAr": "Ouest",
-                  "nameFr": "Ouest"
-            },
-            {
-                  "name": "Sud",
-                  "nameAr": "Soudoir",
-                  "nameFr": "Sud"
-            },
-            {
-                  "name": "Sud-Est",
-                  "nameAr": "Sud-Est",
-                  "nameFr": "Sud-Est"
             }
       ]
   },
@@ -2095,10 +1886,68 @@ export const americasData: Country[] = [
       ]
   },
   {
+    "code": "HT",
+    "name": "Haiti",
+    "nameAr": "هايتي",
+    "nameFr": "Haïti",
+    "cities": [
+            {
+                  "name": "Artibonite",
+                  "nameAr": "Artibonite",
+                  "nameFr": "Artibonite"
+            },
+            {
+                  "name": "Centre",
+                  "nameAr": "Centre",
+                  "nameFr": "Centre"
+            },
+            {
+                  "name": "Grand'Anse",
+                  "nameAr": "Grand'Anse",
+                  "nameFr": "Grand'Anse"
+            },
+            {
+                  "name": "Nippes",
+                  "nameAr": "Nippes",
+                  "nameFr": "Nippes"
+            },
+            {
+                  "name": "Nord",
+                  "nameAr": "Nord",
+                  "nameFr": "Nord"
+            },
+            {
+                  "name": "Nord-Est",
+                  "nameAr": "Nord-Est",
+                  "nameFr": "Nord-Est"
+            },
+            {
+                  "name": "Nord-Ouest",
+                  "nameAr": "Nord-Ouest",
+                  "nameFr": "Nord-Ouest"
+            },
+            {
+                  "name": "Ouest",
+                  "nameAr": "Ouest",
+                  "nameFr": "Ouest"
+            },
+            {
+                  "name": "Sud",
+                  "nameAr": "Soudoir",
+                  "nameFr": "Sud"
+            },
+            {
+                  "name": "Sud-Est",
+                  "nameAr": "Sud-Est",
+                  "nameFr": "Sud-Est"
+            }
+      ]
+  },
+  {
     "code": "JM",
     "name": "Jamaica",
     "nameAr": "جامايكا",
-    "nameFr": "Jamaica",
+    "nameFr": "Jamaïque",
     "cities": [
             {
                   "name": "Clarendon",
@@ -2173,6 +2022,185 @@ export const americasData: Country[] = [
       ]
   },
   {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "nameAr": "سانت كيتس ونيفيس",
+    "nameFr": "Saint-Christophe-et-Niévès",
+    "cities": [
+            {
+                  "name": "Christ Church Nichola Town",
+                  "nameAr": "Christ Church Nichola Town",
+                  "nameFr": "Christ Church Nichola Town"
+            },
+            {
+                  "name": "Nevis",
+                  "nameAr": "Nevis",
+                  "nameFr": "Nevis"
+            },
+            {
+                  "name": "Saint Anne Sandy Point",
+                  "nameAr": "Saint Anne Sandy Point",
+                  "nameFr": "Saint Anne Sandy Point"
+            },
+            {
+                  "name": "Saint George Basseterre",
+                  "nameAr": "Saint George Basseterre",
+                  "nameFr": "Saint George Basseterre"
+            },
+            {
+                  "name": "Saint George Gingerland",
+                  "nameAr": "Saint George Gingerland",
+                  "nameFr": "Saint George Gingerland"
+            },
+            {
+                  "name": "Saint James Windward",
+                  "nameAr": "Saint James Windward",
+                  "nameFr": "Saint James Windward"
+            },
+            {
+                  "name": "Saint John Capisterre",
+                  "nameAr": "Saint John Capisterre",
+                  "nameFr": "Saint John Capisterre"
+            },
+            {
+                  "name": "Saint John Figtree",
+                  "nameAr": "Saint John Figtree",
+                  "nameFr": "Saint John Figtree"
+            },
+            {
+                  "name": "Saint Kitts",
+                  "nameAr": "Saint Kitts",
+                  "nameFr": "Saint Kitts"
+            },
+            {
+                  "name": "Saint Mary Cayon",
+                  "nameAr": "Saint Mary Cayon",
+                  "nameFr": "Saint Mary Cayon"
+            },
+            {
+                  "name": "Saint Paul Capisterre",
+                  "nameAr": "Saint Paul Capisterre",
+                  "nameFr": "Saint Paul Capisterre"
+            },
+            {
+                  "name": "Saint Paul Charlestown",
+                  "nameAr": "Saint Paul Charlestown",
+                  "nameFr": "Saint Paul Charlestown"
+            },
+            {
+                  "name": "Saint Peter Basseterre",
+                  "nameAr": "Saint Peter Basseterre",
+                  "nameFr": "Saint Peter Basseterre"
+            },
+            {
+                  "name": "Saint Thomas Lowland",
+                  "nameAr": "Saint Thomas Lowland",
+                  "nameFr": "Saint Thomas Lowland"
+            },
+            {
+                  "name": "Saint Thomas Middle Island",
+                  "nameAr": "Saint Thomas Middle Island",
+                  "nameFr": "Saint Thomas Middle Island"
+            },
+            {
+                  "name": "Trinity Palmetto Point",
+                  "nameAr": "Trinity Palmetto Point",
+                  "nameFr": "Trinity Palmetto Point"
+            }
+      ]
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "nameAr": "جزر كايمان",
+    "nameFr": "Îles Caïmans",
+    "cities": [
+            {
+                  "name": "Cayman Brac",
+                  "nameAr": "Cayman Brac",
+                  "nameFr": "Cayman Brac"
+            },
+            {
+                  "name": "Grand Cayman",
+                  "nameAr": "Grand Cayman",
+                  "nameFr": "Grand Cayman"
+            },
+            {
+                  "name": "Little Cayman",
+                  "nameAr": "Little Cayman",
+                  "nameFr": "Little Cayman"
+            }
+      ]
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "nameAr": "القديسة لوسيا",
+    "nameFr": "Sainte-Lucie",
+    "cities": [
+            {
+                  "name": "Anse la Raye",
+                  "nameAr": "Anse la Raye",
+                  "nameFr": "Anse la Raye"
+            },
+            {
+                  "name": "Canaries",
+                  "nameAr": "Canaries",
+                  "nameFr": "Canaries"
+            },
+            {
+                  "name": "Castries",
+                  "nameAr": "Castries",
+                  "nameFr": "Castries"
+            },
+            {
+                  "name": "Choiseul",
+                  "nameAr": "Choiseul",
+                  "nameFr": "Choiseul"
+            },
+            {
+                  "name": "Dauphin",
+                  "nameAr": "Dauphin",
+                  "nameFr": "Dauphin"
+            },
+            {
+                  "name": "Dennery",
+                  "nameAr": "Dennery",
+                  "nameFr": "Dennery"
+            },
+            {
+                  "name": "Gros Islet",
+                  "nameAr": "Gros islet",
+                  "nameFr": "Gros Islet"
+            },
+            {
+                  "name": "Laborie",
+                  "nameAr": "Labor",
+                  "nameFr": "Laborie"
+            },
+            {
+                  "name": "Micoud",
+                  "nameAr": "Micoud",
+                  "nameFr": "Micoud"
+            },
+            {
+                  "name": "Praslin",
+                  "nameAr": "Praslin",
+                  "nameFr": "Praslin"
+            },
+            {
+                  "name": "Soufrière",
+                  "nameAr": "Sulfur",
+                  "nameFr": "Soufrière"
+            },
+            {
+                  "name": "Vieux Fort",
+                  "nameAr": "Vieux Fort",
+                  "nameFr": "Vieux Fort"
+            }
+      ]
+  },
+  {
     "code": "MQ",
     "name": "Martinique",
     "nameAr": "مارتينيك",
@@ -2201,10 +2229,33 @@ export const americasData: Country[] = [
       ]
   },
   {
+    "code": "MS",
+    "name": "Montserrat",
+    "nameAr": "مونتسيرات",
+    "nameFr": "Montserrat",
+    "cities": [
+            {
+                  "name": "Saint Anthony",
+                  "nameAr": "Saint Anthony",
+                  "nameFr": "Saint Anthony"
+            },
+            {
+                  "name": "Saint Georges",
+                  "nameAr": "Saint Georges",
+                  "nameFr": "Saint Georges"
+            },
+            {
+                  "name": "Saint Peter",
+                  "nameAr": "Saint Peter",
+                  "nameFr": "Saint Peter"
+            }
+      ]
+  },
+  {
     "code": "MX",
     "name": "Mexico",
     "nameAr": "المكسيك",
-    "nameFr": "Mexico",
+    "nameFr": "Mexique",
     "cities": [
             {
                   "name": "Aguascalientes",
@@ -2369,29 +2420,6 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "MS",
-    "name": "Montserrat",
-    "nameAr": "مونتسيرات",
-    "nameFr": "Montserrat",
-    "cities": [
-            {
-                  "name": "Saint Anthony",
-                  "nameAr": "Saint Anthony",
-                  "nameFr": "Saint Anthony"
-            },
-            {
-                  "name": "Saint Georges",
-                  "nameAr": "Saint Georges",
-                  "nameFr": "Saint Georges"
-            },
-            {
-                  "name": "Saint Peter",
-                  "nameAr": "Saint Peter",
-                  "nameFr": "Saint Peter"
-            }
-      ]
-  },
-  {
     "code": "NI",
     "name": "Nicaragua",
     "nameAr": "نيكاراغوا",
@@ -2487,7 +2515,7 @@ export const americasData: Country[] = [
   {
     "code": "PA",
     "name": "Panama",
-    "nameAr": "بنما",
+    "nameAr": "بناما",
     "nameFr": "Panama",
     "cities": [
             {
@@ -2558,108 +2586,10 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "PY",
-    "name": "Paraguay",
-    "nameAr": "باراغواي",
-    "nameFr": "Paraguay",
-    "cities": [
-            {
-                  "name": "Alto Paraguay",
-                  "nameAr": "Alto Paraguay",
-                  "nameFr": "Alto Paraguay"
-            },
-            {
-                  "name": "Alto Paraná",
-                  "nameAr": "Alto paraná",
-                  "nameFr": "Alto Paraná"
-            },
-            {
-                  "name": "Amambay",
-                  "nameAr": "Amambay",
-                  "nameFr": "Amambay"
-            },
-            {
-                  "name": "Asuncion",
-                  "nameAr": "Asunción",
-                  "nameFr": "Asuncion"
-            },
-            {
-                  "name": "Boquerón",
-                  "nameAr": "Boquerón",
-                  "nameFr": "Boquerón"
-            },
-            {
-                  "name": "Caaguazú",
-                  "nameAr": "Caaguazú",
-                  "nameFr": "Caaguazú"
-            },
-            {
-                  "name": "Caazapá",
-                  "nameAr": "Caazapá",
-                  "nameFr": "Caazapá"
-            },
-            {
-                  "name": "Canindeyú",
-                  "nameAr": "Canindeyú",
-                  "nameFr": "Canindeyú"
-            },
-            {
-                  "name": "Central",
-                  "nameAr": "Central",
-                  "nameFr": "Central"
-            },
-            {
-                  "name": "Concepción",
-                  "nameAr": "Concepción",
-                  "nameFr": "Concepción"
-            },
-            {
-                  "name": "Cordillera",
-                  "nameAr": "Cordillera",
-                  "nameFr": "Cordillera"
-            },
-            {
-                  "name": "Guairá",
-                  "nameAr": "Guairá",
-                  "nameFr": "Guairá"
-            },
-            {
-                  "name": "Itapúa",
-                  "nameAr": "Itapúa",
-                  "nameFr": "Itapúa"
-            },
-            {
-                  "name": "Misiones",
-                  "nameAr": "Misiones",
-                  "nameFr": "Misiones"
-            },
-            {
-                  "name": "Ñeembucú",
-                  "nameAr": "Ñeembucú",
-                  "nameFr": "Ñeembucú"
-            },
-            {
-                  "name": "Paraguarí",
-                  "nameAr": "Paraguarí",
-                  "nameFr": "Paraguarí"
-            },
-            {
-                  "name": "Presidente Hayes",
-                  "nameAr": "Presidente Hayes",
-                  "nameFr": "Presidente Hayes"
-            },
-            {
-                  "name": "San Pedro",
-                  "nameAr": "San Pedro",
-                  "nameFr": "San Pedro"
-            }
-      ]
-  },
-  {
     "code": "PE",
     "name": "Peru",
     "nameAr": "بيرو",
-    "nameFr": "Peru",
+    "nameFr": "Pérou",
     "cities": [
             {
                   "name": "Amazonas",
@@ -2789,681 +2719,109 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "PR",
-    "name": "Puerto Rico",
-    "nameAr": "بورتوريكو",
-    "nameFr": "Puerto Rico",
-    "cities": [
-      {
-        "name": "Adjuntas",
-        "nameAr": "",
-        "nameFr": "Adjuntas"
-      },
-      {
-        "name": "Aguada",
-        "nameAr": "",
-        "nameFr": "Aguada"
-      },
-      {
-        "name": "Aguadilla",
-        "nameAr": "",
-        "nameFr": "Aguadilla"
-      },
-      {
-        "name": "Aguas Buenas",
-        "nameAr": "",
-        "nameFr": "Aguas Buenas"
-      },
-      {
-        "name": "Aibonito",
-        "nameAr": "",
-        "nameFr": "Aibonito"
-      },
-      {
-        "name": "Añasco",
-        "nameAr": "",
-        "nameFr": "Añasco"
-      },
-      {
-        "name": "Arecibo",
-        "nameAr": "",
-        "nameFr": "Arecibo"
-      },
-      {
-        "name": "Arecibo",
-        "nameAr": "",
-        "nameFr": "Arecibo"
-      },
-      {
-        "name": "Arroyo",
-        "nameAr": "",
-        "nameFr": "Arroyo"
-      },
-      {
-        "name": "Barceloneta",
-        "nameAr": "",
-        "nameFr": "Barceloneta"
-      },
-      {
-        "name": "Barranquitas",
-        "nameAr": "",
-        "nameFr": "Barranquitas"
-      },
-      {
-        "name": "Bayamon",
-        "nameAr": "",
-        "nameFr": "Bayamon"
-      },
-      {
-        "name": "Bayamón",
-        "nameAr": "",
-        "nameFr": "Bayamón"
-      },
-      {
-        "name": "Cabo Rojo",
-        "nameAr": "",
-        "nameFr": "Cabo Rojo"
-      },
-      {
-        "name": "Caguas",
-        "nameAr": "",
-        "nameFr": "Caguas"
-      },
-      {
-        "name": "Caguas",
-        "nameAr": "",
-        "nameFr": "Caguas"
-      },
-      {
-        "name": "Camuy",
-        "nameAr": "",
-        "nameFr": "Camuy"
-      },
-      {
-        "name": "Canóvanas",
-        "nameAr": "",
-        "nameFr": "Canóvanas"
-      },
-      {
-        "name": "Carolina",
-        "nameAr": "",
-        "nameFr": "Carolina"
-      },
-      {
-        "name": "Carolina",
-        "nameAr": "",
-        "nameFr": "Carolina"
-      },
-      {
-        "name": "Cataño",
-        "nameAr": "",
-        "nameFr": "Cataño"
-      },
-      {
-        "name": "Cayey",
-        "nameAr": "",
-        "nameFr": "Cayey"
-      },
-      {
-        "name": "Ceiba",
-        "nameAr": "",
-        "nameFr": "Ceiba"
-      },
-      {
-        "name": "Ciales",
-        "nameAr": "",
-        "nameFr": "Ciales"
-      },
-      {
-        "name": "Cidra",
-        "nameAr": "",
-        "nameFr": "Cidra"
-      },
-      {
-        "name": "Coamo",
-        "nameAr": "",
-        "nameFr": "Coamo"
-      },
-      {
-        "name": "Comerío",
-        "nameAr": "",
-        "nameFr": "Comerío"
-      },
-      {
-        "name": "Corozal",
-        "nameAr": "",
-        "nameFr": "Corozal"
-      },
-      {
-        "name": "Culebra",
-        "nameAr": "",
-        "nameFr": "Culebra"
-      },
-      {
-        "name": "Dorado",
-        "nameAr": "",
-        "nameFr": "Dorado"
-      },
-      {
-        "name": "Fajardo",
-        "nameAr": "",
-        "nameFr": "Fajardo"
-      },
-      {
-        "name": "Florida",
-        "nameAr": "",
-        "nameFr": "Florida"
-      },
-      {
-        "name": "Guánica",
-        "nameAr": "",
-        "nameFr": "Guánica"
-      },
-      {
-        "name": "Guayama",
-        "nameAr": "",
-        "nameFr": "Guayama"
-      },
-      {
-        "name": "Guayanilla",
-        "nameAr": "",
-        "nameFr": "Guayanilla"
-      },
-      {
-        "name": "Guaynabo",
-        "nameAr": "",
-        "nameFr": "Guaynabo"
-      },
-      {
-        "name": "Guaynabo",
-        "nameAr": "",
-        "nameFr": "Guaynabo"
-      },
-      {
-        "name": "Gurabo",
-        "nameAr": "",
-        "nameFr": "Gurabo"
-      },
-      {
-        "name": "Hatillo",
-        "nameAr": "",
-        "nameFr": "Hatillo"
-      },
-      {
-        "name": "Hormigueros",
-        "nameAr": "",
-        "nameFr": "Hormigueros"
-      },
-      {
-        "name": "Humacao",
-        "nameAr": "",
-        "nameFr": "Humacao"
-      },
-      {
-        "name": "Isabela",
-        "nameAr": "",
-        "nameFr": "Isabela"
-      },
-      {
-        "name": "Jayuya",
-        "nameAr": "",
-        "nameFr": "Jayuya"
-      },
-      {
-        "name": "Juana Díaz",
-        "nameAr": "",
-        "nameFr": "Juana Díaz"
-      },
-      {
-        "name": "Juncos",
-        "nameAr": "",
-        "nameFr": "Juncos"
-      },
-      {
-        "name": "Lajas",
-        "nameAr": "",
-        "nameFr": "Lajas"
-      },
-      {
-        "name": "Lares",
-        "nameAr": "",
-        "nameFr": "Lares"
-      },
-      {
-        "name": "Las Marías",
-        "nameAr": "",
-        "nameFr": "Las Marías"
-      },
-      {
-        "name": "Las Piedras",
-        "nameAr": "",
-        "nameFr": "Las Piedras"
-      },
-      {
-        "name": "Loíza",
-        "nameAr": "",
-        "nameFr": "Loíza"
-      },
-      {
-        "name": "Luquillo",
-        "nameAr": "",
-        "nameFr": "Luquillo"
-      },
-      {
-        "name": "Manatí",
-        "nameAr": "",
-        "nameFr": "Manatí"
-      },
-      {
-        "name": "Maricao",
-        "nameAr": "",
-        "nameFr": "Maricao"
-      },
-      {
-        "name": "Maunabo",
-        "nameAr": "",
-        "nameFr": "Maunabo"
-      },
-      {
-        "name": "Mayagüez",
-        "nameAr": "",
-        "nameFr": "Mayagüez"
-      },
-      {
-        "name": "Mayagüez",
-        "nameAr": "",
-        "nameFr": "Mayagüez"
-      },
-      {
-        "name": "Moca",
-        "nameAr": "",
-        "nameFr": "Moca"
-      },
-      {
-        "name": "Morovis",
-        "nameAr": "",
-        "nameFr": "Morovis"
-      },
-      {
-        "name": "Naguabo",
-        "nameAr": "",
-        "nameFr": "Naguabo"
-      },
-      {
-        "name": "Naranjito",
-        "nameAr": "",
-        "nameFr": "Naranjito"
-      },
-      {
-        "name": "Orocovis",
-        "nameAr": "",
-        "nameFr": "Orocovis"
-      },
-      {
-        "name": "Patillas",
-        "nameAr": "",
-        "nameFr": "Patillas"
-      },
-      {
-        "name": "Peñuelas",
-        "nameAr": "",
-        "nameFr": "Peñuelas"
-      },
-      {
-        "name": "Ponce",
-        "nameAr": "",
-        "nameFr": "Ponce"
-      },
-      {
-        "name": "Ponce",
-        "nameAr": "",
-        "nameFr": "Ponce"
-      },
-      {
-        "name": "Quebradillas",
-        "nameAr": "",
-        "nameFr": "Quebradillas"
-      },
-      {
-        "name": "Rincón",
-        "nameAr": "",
-        "nameFr": "Rincón"
-      },
-      {
-        "name": "Río Grande",
-        "nameAr": "",
-        "nameFr": "Río Grande"
-      },
-      {
-        "name": "Sabana Grande",
-        "nameAr": "",
-        "nameFr": "Sabana Grande"
-      },
-      {
-        "name": "Salinas",
-        "nameAr": "",
-        "nameFr": "Salinas"
-      },
-      {
-        "name": "San Germán",
-        "nameAr": "",
-        "nameFr": "San Germán"
-      },
-      {
-        "name": "San Juan",
-        "nameAr": "",
-        "nameFr": "San Juan"
-      },
-      {
-        "name": "San Juan",
-        "nameAr": "",
-        "nameFr": "San Juan"
-      },
-      {
-        "name": "San Lorenzo",
-        "nameAr": "",
-        "nameFr": "San Lorenzo"
-      },
-      {
-        "name": "San Sebastián",
-        "nameAr": "",
-        "nameFr": "San Sebastián"
-      },
-      {
-        "name": "Santa Isabel",
-        "nameAr": "",
-        "nameFr": "Santa Isabel"
-      },
-      {
-        "name": "Toa Alta",
-        "nameAr": "",
-        "nameFr": "Toa Alta"
-      },
-      {
-        "name": "Toa Baja",
-        "nameAr": "",
-        "nameFr": "Toa Baja"
-      },
-      {
-        "name": "Toa Baja",
-        "nameAr": "",
-        "nameFr": "Toa Baja"
-      },
-      {
-        "name": "Trujillo Alto",
-        "nameAr": "",
-        "nameFr": "Trujillo Alto"
-      },
-      {
-        "name": "Trujillo Alto",
-        "nameAr": "",
-        "nameFr": "Trujillo Alto"
-      },
-      {
-        "name": "Utuado",
-        "nameAr": "",
-        "nameFr": "Utuado"
-      },
-      {
-        "name": "Vega Alta",
-        "nameAr": "",
-        "nameFr": "Vega Alta"
-      },
-      {
-        "name": "Vega Baja",
-        "nameAr": "",
-        "nameFr": "Vega Baja"
-      },
-      {
-        "name": "Vieques",
-        "nameAr": "",
-        "nameFr": "Vieques"
-      },
-      {
-        "name": "Villalba",
-        "nameAr": "",
-        "nameFr": "Villalba"
-      },
-      {
-        "name": "Yabucoa",
-        "nameAr": "",
-        "nameFr": "Yabucoa"
-      },
-      {
-        "name": "Yauco",
-        "nameAr": "",
-        "nameFr": "Yauco"
-      }
-    ]
-  },
-  {
-    "code": "KN",
-    "name": "Saint Kitts and Nevis",
-    "nameAr": "سانت كيتس ونيفيس",
-    "nameFr": "Saint Kitts and Nevis",
-    "cities": [
-            {
-                  "name": "Christ Church Nichola Town",
-                  "nameAr": "Christ Church Nichola Town",
-                  "nameFr": "Christ Church Nichola Town"
-            },
-            {
-                  "name": "Nevis",
-                  "nameAr": "Nevis",
-                  "nameFr": "Nevis"
-            },
-            {
-                  "name": "Saint Anne Sandy Point",
-                  "nameAr": "Saint Anne Sandy Point",
-                  "nameFr": "Saint Anne Sandy Point"
-            },
-            {
-                  "name": "Saint George Basseterre",
-                  "nameAr": "Saint George Basseterre",
-                  "nameFr": "Saint George Basseterre"
-            },
-            {
-                  "name": "Saint George Gingerland",
-                  "nameAr": "Saint George Gingerland",
-                  "nameFr": "Saint George Gingerland"
-            },
-            {
-                  "name": "Saint James Windward",
-                  "nameAr": "Saint James Windward",
-                  "nameFr": "Saint James Windward"
-            },
-            {
-                  "name": "Saint John Capisterre",
-                  "nameAr": "Saint John Capisterre",
-                  "nameFr": "Saint John Capisterre"
-            },
-            {
-                  "name": "Saint John Figtree",
-                  "nameAr": "Saint John Figtree",
-                  "nameFr": "Saint John Figtree"
-            },
-            {
-                  "name": "Saint Kitts",
-                  "nameAr": "Saint Kitts",
-                  "nameFr": "Saint Kitts"
-            },
-            {
-                  "name": "Saint Mary Cayon",
-                  "nameAr": "Saint Mary Cayon",
-                  "nameFr": "Saint Mary Cayon"
-            },
-            {
-                  "name": "Saint Paul Capisterre",
-                  "nameAr": "Saint Paul Capisterre",
-                  "nameFr": "Saint Paul Capisterre"
-            },
-            {
-                  "name": "Saint Paul Charlestown",
-                  "nameAr": "Saint Paul Charlestown",
-                  "nameFr": "Saint Paul Charlestown"
-            },
-            {
-                  "name": "Saint Peter Basseterre",
-                  "nameAr": "Saint Peter Basseterre",
-                  "nameFr": "Saint Peter Basseterre"
-            },
-            {
-                  "name": "Saint Thomas Lowland",
-                  "nameAr": "Saint Thomas Lowland",
-                  "nameFr": "Saint Thomas Lowland"
-            },
-            {
-                  "name": "Saint Thomas Middle Island",
-                  "nameAr": "Saint Thomas Middle Island",
-                  "nameFr": "Saint Thomas Middle Island"
-            },
-            {
-                  "name": "Trinity Palmetto Point",
-                  "nameAr": "Trinity Palmetto Point",
-                  "nameFr": "Trinity Palmetto Point"
-            }
-      ]
-  },
-  {
-    "code": "LC",
-    "name": "Saint Lucia",
-    "nameAr": "سانت لوسيا",
-    "nameFr": "Saint Lucia",
-    "cities": [
-            {
-                  "name": "Anse la Raye",
-                  "nameAr": "Anse la Raye",
-                  "nameFr": "Anse la Raye"
-            },
-            {
-                  "name": "Canaries",
-                  "nameAr": "Canaries",
-                  "nameFr": "Canaries"
-            },
-            {
-                  "name": "Castries",
-                  "nameAr": "Castries",
-                  "nameFr": "Castries"
-            },
-            {
-                  "name": "Choiseul",
-                  "nameAr": "Choiseul",
-                  "nameFr": "Choiseul"
-            },
-            {
-                  "name": "Dauphin",
-                  "nameAr": "Dauphin",
-                  "nameFr": "Dauphin"
-            },
-            {
-                  "name": "Dennery",
-                  "nameAr": "Dennery",
-                  "nameFr": "Dennery"
-            },
-            {
-                  "name": "Gros Islet",
-                  "nameAr": "Gros islet",
-                  "nameFr": "Gros Islet"
-            },
-            {
-                  "name": "Laborie",
-                  "nameAr": "Labor",
-                  "nameFr": "Laborie"
-            },
-            {
-                  "name": "Micoud",
-                  "nameAr": "Micoud",
-                  "nameFr": "Micoud"
-            },
-            {
-                  "name": "Praslin",
-                  "nameAr": "Praslin",
-                  "nameFr": "Praslin"
-            },
-            {
-                  "name": "Soufrière",
-                  "nameAr": "Sulfur",
-                  "nameFr": "Soufrière"
-            },
-            {
-                  "name": "Vieux Fort",
-                  "nameAr": "Vieux Fort",
-                  "nameFr": "Vieux Fort"
-            }
-      ]
-  },
-  {
     "code": "PM",
     "name": "Saint Pierre and Miquelon",
-    "nameAr": "سان بيير وميكلون",
-    "nameFr": "Saint Pierre and Miquelon",
+    "nameAr": "سانت بيير وميكلون",
+    "nameFr": "Saint Pierre et Miquelon",
     "cities": []
   },
   {
-    "code": "VC",
-    "name": "Saint Vincent and the Grenadines",
-    "nameAr": "سانت فنسنت والغرينادين",
-    "nameFr": "Saint Vincent and the Grenadines",
+    "code": "PY",
+    "name": "Paraguay",
+    "nameAr": "باراغواي",
+    "nameFr": "Paraguay",
     "cities": [
             {
-                  "name": "Charlotte",
-                  "nameAr": "Charlotte",
-                  "nameFr": "Charlotte"
+                  "name": "Alto Paraguay",
+                  "nameAr": "Alto Paraguay",
+                  "nameFr": "Alto Paraguay"
             },
             {
-                  "name": "Grenadines",
-                  "nameAr": "Grenadines",
-                  "nameFr": "Grenadines"
+                  "name": "Alto Paraná",
+                  "nameAr": "Alto paraná",
+                  "nameFr": "Alto Paraná"
             },
             {
-                  "name": "Saint Andrew",
-                  "nameAr": "Saint Andrew",
-                  "nameFr": "Saint Andrew"
+                  "name": "Amambay",
+                  "nameAr": "Amambay",
+                  "nameFr": "Amambay"
             },
             {
-                  "name": "Saint David",
-                  "nameAr": "Saint David",
-                  "nameFr": "Saint David"
+                  "name": "Asuncion",
+                  "nameAr": "Asunción",
+                  "nameFr": "Asuncion"
             },
             {
-                  "name": "Saint George",
-                  "nameAr": "Saint George",
-                  "nameFr": "Saint George"
+                  "name": "Boquerón",
+                  "nameAr": "Boquerón",
+                  "nameFr": "Boquerón"
             },
             {
-                  "name": "Saint Patrick",
-                  "nameAr": "Saint Patrick",
-                  "nameFr": "Saint Patrick"
+                  "name": "Caaguazú",
+                  "nameAr": "Caaguazú",
+                  "nameFr": "Caaguazú"
+            },
+            {
+                  "name": "Caazapá",
+                  "nameAr": "Caazapá",
+                  "nameFr": "Caazapá"
+            },
+            {
+                  "name": "Canindeyú",
+                  "nameAr": "Canindeyú",
+                  "nameFr": "Canindeyú"
+            },
+            {
+                  "name": "Central",
+                  "nameAr": "Central",
+                  "nameFr": "Central"
+            },
+            {
+                  "name": "Concepción",
+                  "nameAr": "Concepción",
+                  "nameFr": "Concepción"
+            },
+            {
+                  "name": "Cordillera",
+                  "nameAr": "Cordillera",
+                  "nameFr": "Cordillera"
+            },
+            {
+                  "name": "Guairá",
+                  "nameAr": "Guairá",
+                  "nameFr": "Guairá"
+            },
+            {
+                  "name": "Itapúa",
+                  "nameAr": "Itapúa",
+                  "nameFr": "Itapúa"
+            },
+            {
+                  "name": "Misiones",
+                  "nameAr": "Misiones",
+                  "nameFr": "Misiones"
+            },
+            {
+                  "name": "Ñeembucú",
+                  "nameAr": "Ñeembucú",
+                  "nameFr": "Ñeembucú"
+            },
+            {
+                  "name": "Paraguarí",
+                  "nameAr": "Paraguarí",
+                  "nameFr": "Paraguarí"
+            },
+            {
+                  "name": "Presidente Hayes",
+                  "nameAr": "Presidente Hayes",
+                  "nameFr": "Presidente Hayes"
+            },
+            {
+                  "name": "San Pedro",
+                  "nameAr": "San Pedro",
+                  "nameFr": "San Pedro"
             }
       ]
-  },
-  {
-    "code": "BL",
-    "name": "Saint-Barthelemy",
-    "nameAr": "سان بارتيلمي",
-    "nameFr": "Saint-Barthelemy",
-    "cities": []
-  },
-  {
-    "code": "MF",
-    "name": "Saint-Martin (French part)",
-    "nameAr": "سان مارتن",
-    "nameFr": "Saint-Martin (French part)",
-    "cities": []
-  },
-  {
-    "code": "SX",
-    "name": "Sint Maarten (Dutch part)",
-    "nameAr": "سانت مارتن",
-    "nameFr": "Sint Maarten (Dutch part)",
-    "cities": []
-  },
-  {
-    "code": "GS",
-    "name": "South Georgia",
-    "nameAr": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
-    "nameFr": "South Georgia",
-    "cities": []
   },
   {
     "code": "SR",
@@ -3524,118 +2882,126 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "BS",
-    "name": "The Bahamas",
-    "nameAr": "الباهاما",
-    "nameFr": "The Bahamas",
+    "code": "SV",
+    "name": "El Salvador",
+    "nameAr": "السلفادور",
+    "nameFr": "Le Salvador",
     "cities": [
-      {
-        "name": "Acklins and Crooked Islands",
-        "nameAr": "Acklins and Crooked Islands",
-        "nameFr": "Acklins et les îles Crooked"
-      },
-      {
-        "name": "Mayaguana",
-        "nameAr": "ماياجيوانا",
-        "nameFr": "Mayaguana"
-      },
-      {
-        "name": "Long Island",
-        "nameAr": "جزيرة طويلة",
-        "nameFr": "Long Island"
-      },
-      {
-        "name": "New Providence",
-        "nameAr": "بروفيدانس الجديدة",
-        "nameFr": "New Providence"
-      },
-      {
-        "name": "Exuma",
-        "nameAr": "اكسوما",
-        "nameFr": "Exuma"
-      },
-      {
-        "name": "Bimini",
-        "nameAr": "بيميني",
-        "nameFr": "Bimini"
-      },
-      {
-        "name": "San Salvador and Rum Cay",
-        "nameAr": "سان سلفادور وروم كاي",
-        "nameFr": "San Salvador et Rum Cay"
-      },
-      {
-        "name": "Fresh Creek",
-        "nameAr": "فريش كريك",
-        "nameFr": "Fresh Creek"
-      },
-      {
-        "name": "Cat Island",
-        "nameAr": "جزيرة القط",
-        "nameFr": "Île de chat"
-      },
-      {
-        "name": "Nichollstown and Berry Islands",
-        "nameAr": "Nichollstown و جزر بيري",
-        "nameFr": "Nichollstown et les îles Berry"
-      },
-      {
-        "name": "Kemps Bay",
-        "nameAr": "كيمبس باي",
-        "nameFr": "Kemps Bay"
-      },
-      {
-        "name": "Freeport",
-        "nameAr": "ميناء حر",
-        "nameFr": "Freeport"
-      },
-      {
-        "name": "Rock Sound",
-        "nameAr": "صوت صخري",
-        "nameFr": "Son rock"
-      },
-      {
-        "name": "Harbour Island",
-        "nameAr": "جزيرة الميناء",
-        "nameFr": "Harbour Island"
-      },
-      {
-        "name": "High Rock",
-        "nameAr": "هاي روك",
-        "nameFr": "Haute roche"
-      },
-      {
-        "name": "Green Turtle Cay",
-        "nameAr": "جرين تيرتل كاي",
-        "nameFr": "Green Turtle Cay"
-      },
-      {
-        "name": "Marsh Harbour",
-        "nameAr": "مارش هاربر",
-        "nameFr": "Marsh Harbour"
-      },
-      {
-        "name": "Ragged Island",
-        "nameAr": "جزيرة راكد",
-        "nameFr": "Ile déchiquetée"
-      },
-      {
-        "name": "Sandy Point",
-        "nameAr": "ساندي بوينت",
-        "nameFr": "Sandy Point"
-      },
-      {
-        "name": "Inagua",
-        "nameAr": "من Inagua",
-        "nameFr": "Inagua"
-      }
-    ]
+            {
+                  "name": "Ahuachapán",
+                  "nameAr": "Ahuachapán",
+                  "nameFr": "Ahuachapán"
+            },
+            {
+                  "name": "Cabañas",
+                  "nameAr": "Cabañas",
+                  "nameFr": "Cabañas"
+            },
+            {
+                  "name": "Chalatenango",
+                  "nameAr": "Chalatenango",
+                  "nameFr": "Chalatenango"
+            },
+            {
+                  "name": "Cuscatlán",
+                  "nameAr": "Cuscatlán",
+                  "nameFr": "Cuscatlán"
+            },
+            {
+                  "name": "La Libertad",
+                  "nameAr": "La Libertad",
+                  "nameFr": "La Libertad"
+            },
+            {
+                  "name": "La Paz",
+                  "nameAr": "La Paz",
+                  "nameFr": "La Paz"
+            },
+            {
+                  "name": "La Unión ",
+                  "nameAr": "La Unión ",
+                  "nameFr": "La Unión "
+            },
+            {
+                  "name": "Morazán",
+                  "nameAr": "Morazán",
+                  "nameFr": "Morazán"
+            },
+            {
+                  "name": "San Miguel",
+                  "nameAr": "San Miguel",
+                  "nameFr": "San Miguel"
+            },
+            {
+                  "name": "San Salvador",
+                  "nameAr": "San Salvador",
+                  "nameFr": "San Salvador"
+            },
+            {
+                  "name": "San Vicente",
+                  "nameAr": "San Vicente",
+                  "nameFr": "San Vicente"
+            },
+            {
+                  "name": "Santa Ana",
+                  "nameAr": "Santa Ana",
+                  "nameFr": "Santa Ana"
+            },
+            {
+                  "name": "Sonsonate",
+                  "nameAr": "Sonsonate",
+                  "nameFr": "Sonsonate"
+            },
+            {
+                  "name": "Usulután",
+                  "nameAr": "Usulután",
+                  "nameFr": "Usulután"
+            }
+      ]
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "nameAr": "جزر تركس وكايكوس",
+    "nameFr": "îles Turques-et-Caïques",
+    "cities": [
+            {
+                  "name": "Grand Turk",
+                  "nameAr": "Grand Turk",
+                  "nameFr": "Grand Turk"
+            },
+            {
+                  "name": "Middle Caicos",
+                  "nameAr": "Middle Caicos",
+                  "nameFr": "Middle Caicos"
+            },
+            {
+                  "name": "North Caicos",
+                  "nameAr": "North Caicos",
+                  "nameFr": "North Caicos"
+            },
+            {
+                  "name": "Providenciales",
+                  "nameAr": "Providenciales",
+                  "nameFr": "Providenciales"
+            },
+            {
+                  "name": "Salt Cay",
+                  "nameAr": "Salt Cay",
+                  "nameFr": "Salt Cay"
+            },
+            {
+                  "name": "South Caicos",
+                  "nameAr": "South Caicos",
+                  "nameFr": "South Caicos"
+            }
+      ]
   },
   {
     "code": "TT",
     "name": "Trinidad and Tobago",
-    "nameAr": "ترينيداد وتوباغو",
-    "nameFr": "Trinidad and Tobago",
+    "nameAr": "ترينداد وتوباغو",
+    "nameFr": "Trinité-et-Tobago",
     "cities": [
             {
                   "name": "Arima",
@@ -3720,393 +3086,9 @@ export const americasData: Country[] = [
       ]
   },
   {
-    "code": "TC",
-    "name": "Turks and Caicos Islands",
-    "nameAr": "جزر توركس وكايكوس",
-    "nameFr": "Turks and Caicos Islands",
-    "cities": [
-            {
-                  "name": "Grand Turk",
-                  "nameAr": "Grand Turk",
-                  "nameFr": "Grand Turk"
-            },
-            {
-                  "name": "Middle Caicos",
-                  "nameAr": "Middle Caicos",
-                  "nameFr": "Middle Caicos"
-            },
-            {
-                  "name": "North Caicos",
-                  "nameAr": "North Caicos",
-                  "nameFr": "North Caicos"
-            },
-            {
-                  "name": "Providenciales",
-                  "nameAr": "Providenciales",
-                  "nameFr": "Providenciales"
-            },
-            {
-                  "name": "Salt Cay",
-                  "nameAr": "Salt Cay",
-                  "nameFr": "Salt Cay"
-            },
-            {
-                  "name": "South Caicos",
-                  "nameAr": "South Caicos",
-                  "nameFr": "South Caicos"
-            }
-      ]
-  },
-  {
-    "code": "US",
-    "name": "United States",
-    "nameAr": "الولايات المتحدة",
-    "nameFr": "United States",
-    "cities": [
-      {
-        "name": "Alabama",
-        "nameAr": "",
-        "nameFr": "Alabama"
-      },
-      {
-        "name": "Alaska",
-        "nameAr": "",
-        "nameFr": "Alaska"
-      },
-      {
-        "name": "American Samoa",
-        "nameAr": "",
-        "nameFr": "American Samoa"
-      },
-      {
-        "name": "Arizona",
-        "nameAr": "",
-        "nameFr": "Arizona"
-      },
-      {
-        "name": "Arkansas",
-        "nameAr": "",
-        "nameFr": "Arkansas"
-      },
-      {
-        "name": "California",
-        "nameAr": "",
-        "nameFr": "California"
-      },
-      {
-        "name": "Colorado",
-        "nameAr": "",
-        "nameFr": "Colorado"
-      },
-      {
-        "name": "Connecticut",
-        "nameAr": "",
-        "nameFr": "Connecticut"
-      },
-      {
-        "name": "Delaware",
-        "nameAr": "",
-        "nameFr": "Delaware"
-      },
-      {
-        "name": "District of Columbia",
-        "nameAr": "",
-        "nameFr": "District of Columbia"
-      },
-      {
-        "name": "Florida",
-        "nameAr": "",
-        "nameFr": "Florida"
-      },
-      {
-        "name": "Georgia",
-        "nameAr": "",
-        "nameFr": "Georgia"
-      },
-      {
-        "name": "Guam",
-        "nameAr": "",
-        "nameFr": "Guam"
-      },
-      {
-        "name": "Hawaii",
-        "nameAr": "",
-        "nameFr": "Hawaii"
-      },
-      {
-        "name": "Idaho",
-        "nameAr": "",
-        "nameFr": "Idaho"
-      },
-      {
-        "name": "Illinois",
-        "nameAr": "",
-        "nameFr": "Illinois"
-      },
-      {
-        "name": "Indiana",
-        "nameAr": "",
-        "nameFr": "Indiana"
-      },
-      {
-        "name": "Iowa",
-        "nameAr": "",
-        "nameFr": "Iowa"
-      },
-      {
-        "name": "Kansas",
-        "nameAr": "",
-        "nameFr": "Kansas"
-      },
-      {
-        "name": "Kentucky",
-        "nameAr": "",
-        "nameFr": "Kentucky"
-      },
-      {
-        "name": "Louisiana",
-        "nameAr": "",
-        "nameFr": "Louisiana"
-      },
-      {
-        "name": "Maine",
-        "nameAr": "",
-        "nameFr": "Maine"
-      },
-      {
-        "name": "Maryland",
-        "nameAr": "",
-        "nameFr": "Maryland"
-      },
-      {
-        "name": "Massachusetts",
-        "nameAr": "",
-        "nameFr": "Massachusetts"
-      },
-      {
-        "name": "Michigan",
-        "nameAr": "",
-        "nameFr": "Michigan"
-      },
-      {
-        "name": "Minnesota",
-        "nameAr": "",
-        "nameFr": "Minnesota"
-      },
-      {
-        "name": "Mississippi",
-        "nameAr": "",
-        "nameFr": "Mississippi"
-      },
-      {
-        "name": "Missouri",
-        "nameAr": "",
-        "nameFr": "Missouri"
-      },
-      {
-        "name": "Montana",
-        "nameAr": "",
-        "nameFr": "Montana"
-      },
-      {
-        "name": "Nebraska",
-        "nameAr": "",
-        "nameFr": "Nebraska"
-      },
-      {
-        "name": "Nevada",
-        "nameAr": "",
-        "nameFr": "Nevada"
-      },
-      {
-        "name": "New Hampshire",
-        "nameAr": "",
-        "nameFr": "New Hampshire"
-      },
-      {
-        "name": "New Jersey",
-        "nameAr": "",
-        "nameFr": "New Jersey"
-      },
-      {
-        "name": "New Mexico",
-        "nameAr": "",
-        "nameFr": "New Mexico"
-      },
-      {
-        "name": "New York",
-        "nameAr": "",
-        "nameFr": "New York"
-      },
-      {
-        "name": "North Carolina",
-        "nameAr": "",
-        "nameFr": "North Carolina"
-      },
-      {
-        "name": "North Dakota",
-        "nameAr": "",
-        "nameFr": "North Dakota"
-      },
-      {
-        "name": "Northern Mariana Islands",
-        "nameAr": "",
-        "nameFr": "Northern Mariana Islands"
-      },
-      {
-        "name": "Ohio",
-        "nameAr": "",
-        "nameFr": "Ohio"
-      },
-      {
-        "name": "Oklahoma",
-        "nameAr": "",
-        "nameFr": "Oklahoma"
-      },
-      {
-        "name": "Oregon",
-        "nameAr": "",
-        "nameFr": "Oregon"
-      },
-      {
-        "name": "Pennsylvania",
-        "nameAr": "",
-        "nameFr": "Pennsylvania"
-      },
-      {
-        "name": "Puerto Rico",
-        "nameAr": "",
-        "nameFr": "Puerto Rico"
-      },
-      {
-        "name": "Rhode Island",
-        "nameAr": "",
-        "nameFr": "Rhode Island"
-      },
-      {
-        "name": "South Carolina",
-        "nameAr": "",
-        "nameFr": "South Carolina"
-      },
-      {
-        "name": "South Dakota",
-        "nameAr": "",
-        "nameFr": "South Dakota"
-      },
-      {
-        "name": "Tennessee",
-        "nameAr": "",
-        "nameFr": "Tennessee"
-      },
-      {
-        "name": "Texas",
-        "nameAr": "",
-        "nameFr": "Texas"
-      },
-      {
-        "name": "United States Minor Outlying Islands",
-        "nameAr": "",
-        "nameFr": "United States Minor Outlying Islands"
-      },
-      {
-        "name": "United States Virgin Islands",
-        "nameAr": "",
-        "nameFr": "United States Virgin Islands"
-      },
-      {
-        "name": "Utah",
-        "nameAr": "",
-        "nameFr": "Utah"
-      },
-      {
-        "name": "Vermont",
-        "nameAr": "",
-        "nameFr": "Vermont"
-      },
-      {
-        "name": "Virginia",
-        "nameAr": "",
-        "nameFr": "Virginia"
-      },
-      {
-        "name": "Washington",
-        "nameAr": "",
-        "nameFr": "Washington"
-      },
-      {
-        "name": "West Virginia",
-        "nameAr": "",
-        "nameFr": "West Virginia"
-      },
-      {
-        "name": "Wisconsin",
-        "nameAr": "",
-        "nameFr": "Wisconsin"
-      },
-      {
-        "name": "Wyoming",
-        "nameAr": "",
-        "nameFr": "Wyoming"
-      }
-    ]
-  },
-  {
-    "code": "UM",
-    "name": "United States Minor Outlying Islands",
-    "nameAr": "جزر الولايات المتحدة النائية",
-    "nameFr": "United States Minor Outlying Islands",
-    "cities": [
-      {
-        "name": "Baker Island",
-        "nameAr": "",
-        "nameFr": "Baker Island"
-      },
-      {
-        "name": "Howland Island",
-        "nameAr": "",
-        "nameFr": "Howland Island"
-      },
-      {
-        "name": "Jarvis Island",
-        "nameAr": "",
-        "nameFr": "Jarvis Island"
-      },
-      {
-        "name": "Johnston Atoll",
-        "nameAr": "",
-        "nameFr": "Johnston Atoll"
-      },
-      {
-        "name": "Kingman Reef",
-        "nameAr": "",
-        "nameFr": "Kingman Reef"
-      },
-      {
-        "name": "Midway Islands",
-        "nameAr": "",
-        "nameFr": "Midway Islands"
-      },
-      {
-        "name": "Navassa Island",
-        "nameAr": "",
-        "nameFr": "Navassa Island"
-      },
-      {
-        "name": "Palmyra Atoll",
-        "nameAr": "",
-        "nameFr": "Palmyra Atoll"
-      },
-      {
-        "name": "Wake Island",
-        "nameAr": "",
-        "nameFr": "Wake Island"
-      }
-    ]
-  },
-  {
     "code": "UY",
     "name": "Uruguay",
-    "nameAr": "الأوروغواي",
+    "nameAr": "أوروغواي",
     "nameFr": "Uruguay",
     "cities": [
             {
@@ -4203,6 +3185,44 @@ export const americasData: Country[] = [
                   "name": "Treinta y Tres",
                   "nameAr": "Treinta y Tres",
                   "nameFr": "Treinta y Tres"
+            }
+      ]
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "nameAr": "سانت فنسنت وجزر غرينادين",
+    "nameFr": "Saint-Vincent-et-les-Grenadines",
+    "cities": [
+            {
+                  "name": "Charlotte",
+                  "nameAr": "Charlotte",
+                  "nameFr": "Charlotte"
+            },
+            {
+                  "name": "Grenadines",
+                  "nameAr": "Grenadines",
+                  "nameFr": "Grenadines"
+            },
+            {
+                  "name": "Saint Andrew",
+                  "nameAr": "Saint Andrew",
+                  "nameFr": "Saint Andrew"
+            },
+            {
+                  "name": "Saint David",
+                  "nameAr": "Saint David",
+                  "nameFr": "Saint David"
+            },
+            {
+                  "name": "Saint George",
+                  "nameAr": "Saint George",
+                  "nameFr": "Saint George"
+            },
+            {
+                  "name": "Saint Patrick",
+                  "nameAr": "Saint Patrick",
+                  "nameFr": "Saint Patrick"
             }
       ]
   },
@@ -4342,15 +3362,15 @@ export const americasData: Country[] = [
   {
     "code": "VG",
     "name": "Virgin Islands (British)",
-    "nameAr": "جزر العذراء البريطانية",
-    "nameFr": "Virgin Islands (British)",
+    "nameAr": "جزر العذراء البريطانية)",
+    "nameFr": "Îles vierges britanniques",
     "cities": []
   },
   {
     "code": "VI",
-    "name": "Virgin Islands (US)",
-    "nameAr": "جزر العذراء الأمريكية",
-    "nameFr": "Virgin Islands (US)",
+    "name": "Virgin Islands (U.S.)",
+    "nameAr": "جزر فيرجن (الولايات المتحدة)",
+    "nameFr": "Îles Vierges (États-Unis)",
     "cities": [
             {
                   "name": "Saint Croix",

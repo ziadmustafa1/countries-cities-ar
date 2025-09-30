@@ -1,244 +1,6 @@
-import { Country } from '../types';
+import type { Country } from '../types';
 
-export const africaData: Country[] = [
-  {
-    "code": "DZ",
-    "name": "Algeria",
-    "nameAr": "الجزائر",
-    "nameFr": "Algeria",
-    "cities": [
-            {
-                  "name": "Ain Temouchent",
-                  "nameAr": "عين تموشنت",
-                  "nameFr": "Ain Temouchent"
-            },
-            {
-                  "name": "Oran",
-                  "nameAr": "وهران",
-                  "nameFr": "Oran"
-            },
-            {
-                  "name": "Medea",
-                  "nameAr": "المدية",
-                  "nameFr": "Médée"
-            },
-            {
-                  "name": "Chlef",
-                  "nameAr": "الشلف",
-                  "nameFr": "Chlef"
-            },
-            {
-                  "name": "Bechar",
-                  "nameAr": "بشار",
-                  "nameFr": "Béchar"
-            },
-            {
-                  "name": "Tamanghasset",
-                  "nameAr": "تمنراست",
-                  "nameFr": "Tamanghasset"
-            },
-            {
-                  "name": "Bejaia",
-                  "nameAr": "بجاية",
-                  "nameFr": "Bejaia"
-            },
-            {
-                  "name": "Tizi Ouzou",
-                  "nameAr": "تيزي وزو",
-                  "nameFr": "Tizi Ouzou"
-            },
-            {
-                  "name": "Boumerdes",
-                  "nameAr": "بومرداس",
-                  "nameFr": "Boumerdes"
-            },
-            {
-                  "name": "Ain Defla",
-                  "nameAr": "عين الدفلة",
-                  "nameFr": "Ain Defla"
-            },
-            {
-                  "name": "Annaba",
-                  "nameAr": "عنابة",
-                  "nameFr": "Annaba"
-            },
-            {
-                  "name": "Setif",
-                  "nameAr": "سطيف",
-                  "nameFr": "Sétif"
-            },
-            {
-                  "name": "Relizane",
-                  "nameAr": "غليزان",
-                  "nameFr": "Relizane"
-            },
-            {
-                  "name": "Mascara",
-                  "nameAr": "ماسكارا",
-                  "nameFr": "Mascara"
-            },
-            {
-                  "name": "Mostaganem",
-                  "nameAr": "مستغانم",
-                  "nameFr": "Mostaganem"
-            },
-            {
-                  "name": "Tiaret",
-                  "nameAr": "تيارت",
-                  "nameFr": "Tiaret"
-            },
-            {
-                  "name": "Bordj Bou Arreridj",
-                  "nameAr": "برج بوعريريج",
-                  "nameFr": "Bordj Bou Arreridj"
-            },
-            {
-                  "name": "Tipaza",
-                  "nameAr": "تيبازة",
-                  "nameFr": "Tipaza"
-            },
-            {
-                  "name": "Bouira",
-                  "nameAr": "البويرة",
-                  "nameFr": "Bouira"
-            },
-            {
-                  "name": "Tissemsilt",
-                  "nameAr": "تيسمسيلت",
-                  "nameFr": "Tissemsilt"
-            },
-            {
-                  "name": "Jijel",
-                  "nameAr": "جيجل",
-                  "nameFr": "Jijel"
-            },
-            {
-                  "name": "Saida",
-                  "nameAr": "صيدا",
-                  "nameFr": "Saida"
-            },
-            {
-                  "name": "Illizi",
-                  "nameAr": "إليزي",
-                  "nameFr": "Illizi"
-            },
-            {
-                  "name": "Tlemcen",
-                  "nameAr": "تلمسان",
-                  "nameFr": "Tlemcen"
-            },
-            {
-                  "name": "Adrar",
-                  "nameAr": "أدرار",
-                  "nameFr": "Adrar"
-            },
-            {
-                  "name": "Laghouat",
-                  "nameAr": "الأغواط",
-                  "nameFr": "Laghouat"
-            },
-            {
-                  "name": "Constantine",
-                  "nameAr": "قسنطينة",
-                  "nameFr": "Constantine"
-            },
-            {
-                  "name": "Khenchela",
-                  "nameAr": "خنشلة",
-                  "nameFr": "Khenchela"
-            },
-            {
-                  "name": "Batna",
-                  "nameAr": "باتنة",
-                  "nameFr": "Batna"
-            },
-            {
-                  "name": "Alger",
-                  "nameAr": "الجزائر",
-                  "nameFr": "Alger"
-            },
-            {
-                  "name": "Skikda",
-                  "nameAr": "سكيكدة",
-                  "nameFr": "Skikda"
-            },
-            {
-                  "name": "Oum el Bouaghi",
-                  "nameAr": "ام البواقي",
-                  "nameFr": "Oum el Bouaghi"
-            },
-            {
-                  "name": "Naama",
-                  "nameAr": "نعمة",
-                  "nameFr": "Naama"
-            },
-            {
-                  "name": "Sidi Bel Abbes",
-                  "nameAr": "سيدي بلعباس",
-                  "nameFr": "Sidi Bel Abbes"
-            },
-            {
-                  "name": "Mila",
-                  "nameAr": "ميلة",
-                  "nameFr": "Mila"
-            },
-            {
-                  "name": "Ouargla",
-                  "nameAr": "ورقلة",
-                  "nameFr": "Ouargla"
-            },
-            {
-                  "name": "Djelfa",
-                  "nameAr": "الجلفة",
-                  "nameFr": "Djelfa"
-            },
-            {
-                  "name": "El Bayadh",
-                  "nameAr": "البيض",
-                  "nameFr": "El Bayadh"
-            },
-            {
-                  "name": "Souk Ahras",
-                  "nameAr": "سوق أهراس",
-                  "nameFr": "Souk Ahras"
-            },
-            {
-                  "name": "El Oued",
-                  "nameAr": "الواد",
-                  "nameFr": "El Oued"
-            },
-            {
-                  "name": "Blida",
-                  "nameAr": "البليدة",
-                  "nameFr": "Blida"
-            },
-            {
-                  "name": "Biskra",
-                  "nameAr": "بسكرة",
-                  "nameFr": "Biskra"
-            },
-            {
-                  "name": "Tebessa",
-                  "nameAr": "تبسة",
-                  "nameFr": "Tebessa"
-            },
-            {
-                  "name": "Guelma",
-                  "nameAr": "قالمة",
-                  "nameFr": "Guelma"
-            },
-            {
-                  "name": "Tindouf",
-                  "nameAr": "تندوف",
-                  "nameFr": "Tindouf"
-            },
-            {
-                  "name": "Ghardaia",
-                  "nameAr": "غرداية",
-                  "nameFr": "Ghardaia"
-            }
-      ]
-  },
+export const africaCountries: Country[] = [
   {
     "code": "AO",
     "name": "Angola",
@@ -331,134 +93,6 @@ export const africaData: Country[] = [
         "nameFr": "Cabinda"
       }
     ]
-  },
-  {
-    "code": "BJ",
-    "name": "Benin",
-    "nameAr": "بنين",
-    "nameFr": "Benin",
-    "cities": [
-      {
-        "name": "Plateau",
-        "nameAr": "هضبة",
-        "nameFr": "Plateau"
-      },
-      {
-        "name": "Collines",
-        "nameAr": "التلال",
-        "nameFr": "Des collines"
-      },
-      {
-        "name": "Oueme",
-        "nameAr": "أويمي",
-        "nameFr": "Oueme"
-      },
-      {
-        "name": "Zou",
-        "nameAr": "زو",
-        "nameFr": "Zou"
-      },
-      {
-        "name": "Atlanyique",
-        "nameAr": "Atlanyique",
-        "nameFr": "Atlanyique"
-      },
-      {
-        "name": "Borgou",
-        "nameAr": "بورغو",
-        "nameFr": "Borgou"
-      },
-      {
-        "name": "Mono",
-        "nameAr": "مونو",
-        "nameFr": "Mono"
-      },
-      {
-        "name": "Kouffo",
-        "nameAr": "كوفو",
-        "nameFr": "Kouffo"
-      },
-      {
-        "name": "Donga",
-        "nameAr": "دونجا",
-        "nameFr": "Donga"
-      },
-      {
-        "name": "Littoral",
-        "nameAr": "ساحلي",
-        "nameFr": "Littoral"
-      },
-      {
-        "name": "Alibori",
-        "nameAr": "أليبوري",
-        "nameFr": "Alibori"
-      },
-      {
-        "name": "Atakora",
-        "nameAr": "أتاكورا",
-        "nameFr": "Atakora"
-      }
-    ]
-  },
-  {
-    "code": "BW",
-    "name": "Botswana",
-    "nameAr": "بوتسوانا",
-    "nameFr": "Botswana",
-    "cities": [
-      {
-        "name": "Central",
-        "nameAr": "وسط",
-        "nameFr": "Central"
-      },
-      {
-        "name": "South-East",
-        "nameAr": "الجنوب الشرقي",
-        "nameFr": "Sud-est"
-      },
-      {
-        "name": "North-East",
-        "nameAr": "شمال شرق",
-        "nameFr": "Nord-est"
-      },
-      {
-        "name": "North-West",
-        "nameAr": "الشمال الغربي",
-        "nameFr": "Nord Ouest"
-      },
-      {
-        "name": "Ghanzi",
-        "nameAr": "غانزي",
-        "nameFr": "Ghanzi"
-      },
-      {
-        "name": "Kweneng",
-        "nameAr": "كوينينج",
-        "nameFr": "Kweneng"
-      },
-      {
-        "name": "Kgalagadi",
-        "nameAr": "كغالاغادي",
-        "nameFr": "Kgalagadi"
-      },
-      {
-        "name": "Southern",
-        "nameAr": "جنوبي",
-        "nameFr": "Du sud"
-      },
-      {
-        "name": "Kgatleng",
-        "nameAr": "كجاتلينج",
-        "nameFr": "Kgatleng"
-      }
-    ]
-  },
-  {
-    "code": "IO",
-    "name": "British Indian Ocean Territory",
-    "nameAr": "British Indian Ocean Territory",
-    "nameFr": "British Indian Ocean Territory",
-    "cities": []
   },
   {
     "code": "BF",
@@ -772,45 +406,55 @@ export const africaData: Country[] = [
     ]
   },
   {
-    "code": "CM",
-    "name": "Cameroon",
-    "nameAr": "الكاميرون",
-    "nameFr": "Cameroon",
+    "code": "BJ",
+    "name": "Benin",
+    "nameAr": "بنين",
+    "nameFr": "Bénin",
     "cities": [
       {
-        "name": "Est",
-        "nameAr": "EST",
-        "nameFr": "Est"
+        "name": "Plateau",
+        "nameAr": "هضبة",
+        "nameFr": "Plateau"
       },
       {
-        "name": "Adamaoua",
-        "nameAr": "أداماوا",
-        "nameFr": "Adamaoua"
+        "name": "Collines",
+        "nameAr": "التلال",
+        "nameFr": "Des collines"
       },
       {
-        "name": "Centre",
-        "nameAr": "مركز",
-        "nameFr": "Centre"
+        "name": "Oueme",
+        "nameAr": "أويمي",
+        "nameFr": "Oueme"
       },
       {
-        "name": "Sud",
-        "nameAr": "سود",
-        "nameFr": "Sud"
+        "name": "Zou",
+        "nameAr": "زو",
+        "nameFr": "Zou"
       },
       {
-        "name": "Nord-Ouest",
-        "nameAr": "الإقليم الشمالي الغربي",
-        "nameFr": "Nord-Ouest"
+        "name": "Atlanyique",
+        "nameAr": "Atlanyique",
+        "nameFr": "Atlanyique"
       },
       {
-        "name": "Extreme-Nord",
-        "nameAr": "المتطرف نور",
-        "nameFr": "Extreme-Nord"
+        "name": "Borgou",
+        "nameAr": "بورغو",
+        "nameFr": "Borgou"
       },
       {
-        "name": "Sud-Ouest",
-        "nameAr": "الإقليم الجنوبي الغربي",
-        "nameFr": "Sud-Ouest"
+        "name": "Mono",
+        "nameAr": "مونو",
+        "nameFr": "Mono"
+      },
+      {
+        "name": "Kouffo",
+        "nameAr": "كوفو",
+        "nameFr": "Kouffo"
+      },
+      {
+        "name": "Donga",
+        "nameAr": "دونجا",
+        "nameFr": "Donga"
       },
       {
         "name": "Littoral",
@@ -818,35 +462,133 @@ export const africaData: Country[] = [
         "nameFr": "Littoral"
       },
       {
-        "name": "Nord",
-        "nameAr": "نورد",
-        "nameFr": "Nord"
+        "name": "Alibori",
+        "nameAr": "أليبوري",
+        "nameFr": "Alibori"
       },
       {
-        "name": "Ouest",
-        "nameAr": "كويست",
-        "nameFr": "Ouest"
+        "name": "Atakora",
+        "nameAr": "أتاكورا",
+        "nameFr": "Atakora"
       }
     ]
   },
   {
-    "code": "CV",
-    "name": "Cape Verde",
-    "nameAr": "الرأس الأخضر",
-    "nameFr": "Cape Verde",
+    "code": "BW",
+    "name": "Botswana",
+    "nameAr": "بوتسوانا",
+    "nameFr": "Botswana",
     "cities": [
       {
-        "name": "Sao Domingos",
-        "nameAr": "ساو دومينغوس",
-        "nameFr": "Sao Domingos"
+        "name": "Central",
+        "nameAr": "وسط",
+        "nameFr": "Central"
+      },
+      {
+        "name": "South-East",
+        "nameAr": "الجنوب الشرقي",
+        "nameFr": "Sud-est"
+      },
+      {
+        "name": "North-East",
+        "nameAr": "شمال شرق",
+        "nameFr": "Nord-est"
+      },
+      {
+        "name": "North-West",
+        "nameAr": "الشمال الغربي",
+        "nameFr": "Nord Ouest"
+      },
+      {
+        "name": "Ghanzi",
+        "nameAr": "غانزي",
+        "nameFr": "Ghanzi"
+      },
+      {
+        "name": "Kweneng",
+        "nameAr": "كوينينج",
+        "nameFr": "Kweneng"
+      },
+      {
+        "name": "Kgalagadi",
+        "nameAr": "كغالاغادي",
+        "nameFr": "Kgalagadi"
+      },
+      {
+        "name": "Southern",
+        "nameAr": "جنوبي",
+        "nameFr": "Du sud"
+      },
+      {
+        "name": "Kgatleng",
+        "nameAr": "كجاتلينج",
+        "nameFr": "Kgatleng"
+      }
+    ]
+  },
+  {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "nameAr": "جمهورية الكونغو الديموقراطية",
+    "nameFr": "République Démocratique du Congo",
+    "cities": [
+      {
+        "name": "Equateur",
+        "nameAr": "خط الاستواء",
+        "nameFr": "Équateur"
+      },
+      {
+        "name": "Orientale",
+        "nameAr": "الشرقية",
+        "nameFr": "Orientale"
+      },
+      {
+        "name": "Nord-Kivu",
+        "nameAr": "شمال كيفو",
+        "nameFr": "Nord-Kivu"
+      },
+      {
+        "name": "Maniema",
+        "nameAr": "مانيما",
+        "nameFr": "Maniema"
+      },
+      {
+        "name": "Bandundu",
+        "nameAr": "باندوندو",
+        "nameFr": "Bandundu"
+      },
+      {
+        "name": "Katanga",
+        "nameAr": "كاتانغا",
+        "nameFr": "Katanga"
+      },
+      {
+        "name": "Sud-Kivu",
+        "nameAr": "جنوب كيفو",
+        "nameFr": "Sud-Kivu"
+      },
+      {
+        "name": "Bas-Congo",
+        "nameAr": "الكونغو السفلى",
+        "nameFr": "Bas-Congo"
+      },
+      {
+        "name": "Kasai-Oriental",
+        "nameAr": "كاساي الشرقية",
+        "nameFr": "Kasai-Oriental"
+      },
+      {
+        "name": "Kinshasa",
+        "nameAr": "كينشاسا",
+        "nameFr": "Kinshasa"
       }
     ]
   },
   {
     "code": "CF",
     "name": "Central African Republic",
-    "nameAr": "جمهورية أفريقيا الوسطى",
-    "nameFr": "Central African Republic",
+    "nameAr": "جمهورية افريقيا الوسطى",
+    "nameFr": "République centrafricaine",
     "cities": [
       {
         "name": "Nana-Mambere",
@@ -936,152 +678,6 @@ export const africaData: Country[] = [
     ]
   },
   {
-    "code": "TD",
-    "name": "Chad",
-    "nameAr": "تشاد",
-    "nameFr": "Chad",
-    "cities": [
-            {
-                  "name": "Bahr el Gazel",
-                  "nameAr": "Bahr El Gazel",
-                  "nameFr": "Bahr el Gazel"
-            },
-            {
-                  "name": "Batha",
-                  "nameAr": "Batha",
-                  "nameFr": "Batha"
-            },
-            {
-                  "name": "Borkou",
-                  "nameAr": "Borkou",
-                  "nameFr": "Borkou"
-            },
-            {
-                  "name": "Chari-Baguirmi",
-                  "nameAr": "Chari-baguirmi",
-                  "nameFr": "Chari-Baguirmi"
-            },
-            {
-                  "name": "Ennedi-Est",
-                  "nameAr": "Ennedi-Est",
-                  "nameFr": "Ennedi-Est"
-            },
-            {
-                  "name": "Ennedi-Ouest",
-                  "nameAr": "Ennedi-Ouest",
-                  "nameFr": "Ennedi-Ouest"
-            },
-            {
-                  "name": "Guéra",
-                  "nameAr": "Guéra",
-                  "nameFr": "Guéra"
-            },
-            {
-                  "name": "Hadjer-Lamis",
-                  "nameAr": "Hadjer-lamis",
-                  "nameFr": "Hadjer-Lamis"
-            },
-            {
-                  "name": "Kanem",
-                  "nameAr": "Kanem",
-                  "nameFr": "Kanem"
-            },
-            {
-                  "name": "Lac",
-                  "nameAr": "Lac",
-                  "nameFr": "Lac"
-            },
-            {
-                  "name": "Logone Occidental",
-                  "nameAr": "Logone Occidental",
-                  "nameFr": "Logone Occidental"
-            },
-            {
-                  "name": "Logone Oriental",
-                  "nameAr": "Logone Oriental",
-                  "nameFr": "Logone Oriental"
-            },
-            {
-                  "name": "Mandoul",
-                  "nameAr": "Mandall",
-                  "nameFr": "Mandoul"
-            },
-            {
-                  "name": "Mayo-Kebbi Est",
-                  "nameAr": "Micha-cube EST",
-                  "nameFr": "Mayo-Kebbi Est"
-            },
-            {
-                  "name": "Mayo-Kebbi Ouest",
-                  "nameAr": "Mayo-kebbi Oust",
-                  "nameFr": "Mayo-Kebbi Ouest"
-            },
-            {
-                  "name": "Moyen-Chari",
-                  "nameAr": "Moyen-Chari",
-                  "nameFr": "Moyen-Chari"
-            },
-            {
-                  "name": "N'Djamena",
-                  "nameAr": "N'Djamena",
-                  "nameFr": "N'Djamena"
-            },
-            {
-                  "name": "Ouaddaï",
-                  "nameAr": "Ouaddaï",
-                  "nameFr": "Ouaddaï"
-            },
-            {
-                  "name": "Salamat",
-                  "nameAr": "Merci",
-                  "nameFr": "Salamat"
-            },
-            {
-                  "name": "Sila",
-                  "nameAr": "Ils sont",
-                  "nameFr": "Sila"
-            },
-            {
-                  "name": "Tandjilé",
-                  "nameAr": "Dentaire",
-                  "nameFr": "Tandjilé"
-            },
-            {
-                  "name": "Tibesti",
-                  "nameAr": "Tibesti",
-                  "nameFr": "Tibesti"
-            },
-            {
-                  "name": "Wadi Fira",
-                  "nameAr": "Wadi Fira",
-                  "nameFr": "Wadi Fira"
-            }
-      ]
-  },
-  {
-    "code": "KM",
-    "name": "Comoros",
-    "nameAr": "جزر القمر",
-    "nameFr": "Comoros",
-    "cities": [
-            {
-                  "name": "Anjouan",
-                  "nameAr": "Anjouan",
-                  "nameFr": "Anjouan"
-            },
-            {
-                  "name": "Grande Comore",
-                  "nameAr": "قادم طويل القامة",
-                  "nameFr": "Grande Comore"
-            },
-            {
-                  "name": "Mohéli",
-                  "nameAr": "موهلي",
-                  "nameFr": "Mohéli"
-            }
-      ]
-  },
-  {
     "code": "CG",
     "name": "Congo",
     "nameAr": "الكونغو",
@@ -1145,198 +741,73 @@ export const africaData: Country[] = [
     ]
   },
   {
-    "code": "CI",
-    "name": "Cote D'Ivoire (Ivory Coast)",
-    "nameAr": "ساحل العاج",
-    "nameFr": "Cote D'Ivoire (Ivory Coast)",
+    "code": "CM",
+    "name": "Cameroon",
+    "nameAr": "الكاميرون",
+    "nameFr": "Cameroun",
     "cities": [
       {
-        "name": "Abidjan",
-        "nameAr": "",
-        "nameFr": "Abidjan"
+        "name": "Est",
+        "nameAr": "EST",
+        "nameFr": "Est"
       },
       {
-        "name": "Agnéby",
-        "nameAr": "",
-        "nameFr": "Agnéby"
+        "name": "Adamaoua",
+        "nameAr": "أداماوا",
+        "nameFr": "Adamaoua"
       },
       {
-        "name": "Bafing",
-        "nameAr": "",
-        "nameFr": "Bafing"
+        "name": "Centre",
+        "nameAr": "مركز",
+        "nameFr": "Centre"
       },
       {
-        "name": "Bas-Sassandra",
-        "nameAr": "",
-        "nameFr": "Bas-Sassandra"
+        "name": "Sud",
+        "nameAr": "سود",
+        "nameFr": "Sud"
       },
       {
-        "name": "Comoé",
-        "nameAr": "",
-        "nameFr": "Comoé"
+        "name": "Nord-Ouest",
+        "nameAr": "الإقليم الشمالي الغربي",
+        "nameFr": "Nord-Ouest"
       },
       {
-        "name": "Denguélé",
-        "nameAr": "",
-        "nameFr": "Denguélé"
+        "name": "Extreme-Nord",
+        "nameAr": "المتطرف نور",
+        "nameFr": "Extreme-Nord"
       },
       {
-        "name": "Dix-Huit Montagnes",
-        "nameAr": "",
-        "nameFr": "Dix-Huit Montagnes"
+        "name": "Sud-Ouest",
+        "nameAr": "الإقليم الجنوبي الغربي",
+        "nameFr": "Sud-Ouest"
       },
       {
-        "name": "Fromager",
-        "nameAr": "",
-        "nameFr": "Fromager"
+        "name": "Littoral",
+        "nameAr": "ساحلي",
+        "nameFr": "Littoral"
       },
       {
-        "name": "Gôh-Djiboua",
-        "nameAr": "",
-        "nameFr": "Gôh-Djiboua"
+        "name": "Nord",
+        "nameAr": "نورد",
+        "nameFr": "Nord"
       },
       {
-        "name": "Haut-Sassandra",
-        "nameAr": "",
-        "nameFr": "Haut-Sassandra"
-      },
-      {
-        "name": "Lacs",
-        "nameAr": "",
-        "nameFr": "Lacs"
-      },
-      {
-        "name": "Lagunes",
-        "nameAr": "",
-        "nameFr": "Lagunes"
-      },
-      {
-        "name": "Marahoué",
-        "nameAr": "",
-        "nameFr": "Marahoué"
-      },
-      {
-        "name": "Montagnes",
-        "nameAr": "",
-        "nameFr": "Montagnes"
-      },
-      {
-        "name": "Moyen-Cavally",
-        "nameAr": "",
-        "nameFr": "Moyen-Cavally"
-      },
-      {
-        "name": "Moyen-Comoé",
-        "nameAr": "",
-        "nameFr": "Moyen-Comoé"
-      },
-      {
-        "name": "N'zi-Comoé",
-        "nameAr": "",
-        "nameFr": "N'zi-Comoé"
-      },
-      {
-        "name": "Sassandra-Marahoué",
-        "nameAr": "",
-        "nameFr": "Sassandra-Marahoué"
-      },
-      {
-        "name": "Savanes",
-        "nameAr": "",
-        "nameFr": "Savanes"
-      },
-      {
-        "name": "Sud-Bandama",
-        "nameAr": "",
-        "nameFr": "Sud-Bandama"
-      },
-      {
-        "name": "Sud-Comoé",
-        "nameAr": "",
-        "nameFr": "Sud-Comoé"
-      },
-      {
-        "name": "Vallée du Bandama",
-        "nameAr": "",
-        "nameFr": "Vallée du Bandama"
-      },
-      {
-        "name": "Woroba",
-        "nameAr": "",
-        "nameFr": "Woroba"
-      },
-      {
-        "name": "Worodougou",
-        "nameAr": "",
-        "nameFr": "Worodougou"
-      },
-      {
-        "name": "Yamoussoukro",
-        "nameAr": "",
-        "nameFr": "Yamoussoukro"
-      },
-      {
-        "name": "Zanzan",
-        "nameAr": "",
-        "nameFr": "Zanzan"
+        "name": "Ouest",
+        "nameAr": "كويست",
+        "nameFr": "Ouest"
       }
     ]
   },
   {
-    "code": "CD",
-    "name": "Democratic Republic of the Congo",
-    "nameAr": "جمهورية الكونغو الديمقراطية",
-    "nameFr": "Democratic Republic of the Congo",
+    "code": "CV",
+    "name": "Cape Verde",
+    "nameAr": "الرأس الأخضر",
+    "nameFr": "Cap-Vert",
     "cities": [
       {
-        "name": "Equateur",
-        "nameAr": "خط الاستواء",
-        "nameFr": "Équateur"
-      },
-      {
-        "name": "Orientale",
-        "nameAr": "الشرقية",
-        "nameFr": "Orientale"
-      },
-      {
-        "name": "Nord-Kivu",
-        "nameAr": "شمال كيفو",
-        "nameFr": "Nord-Kivu"
-      },
-      {
-        "name": "Maniema",
-        "nameAr": "مانيما",
-        "nameFr": "Maniema"
-      },
-      {
-        "name": "Bandundu",
-        "nameAr": "باندوندو",
-        "nameFr": "Bandundu"
-      },
-      {
-        "name": "Katanga",
-        "nameAr": "كاتانغا",
-        "nameFr": "Katanga"
-      },
-      {
-        "name": "Sud-Kivu",
-        "nameAr": "جنوب كيفو",
-        "nameFr": "Sud-Kivu"
-      },
-      {
-        "name": "Bas-Congo",
-        "nameAr": "الكونغو السفلى",
-        "nameFr": "Bas-Congo"
-      },
-      {
-        "name": "Kasai-Oriental",
-        "nameAr": "كاساي الشرقية",
-        "nameFr": "Kasai-Oriental"
-      },
-      {
-        "name": "Kinshasa",
-        "nameAr": "كينشاسا",
-        "nameFr": "Kinshasa"
+        "name": "Sao Domingos",
+        "nameAr": "ساو دومينغوس",
+        "nameFr": "Sao Domingos"
       }
     ]
   },
@@ -1374,206 +845,391 @@ export const africaData: Country[] = [
     ]
   },
   {
+    "code": "DZ",
+    "name": "Algeria",
+    "nameAr": "الجزائر",
+    "nameFr": "Algérie",
+    "cities": [
+      {
+        "name": "Ain Temouchent",
+        "nameAr": "عين تموشنت",
+        "nameFr": "Ain Temouchent"
+      },
+      {
+        "name": "Oran",
+        "nameAr": "وهران",
+        "nameFr": "Oran"
+      },
+      {
+        "name": "Medea",
+        "nameAr": "المدية",
+        "nameFr": "Médée"
+      },
+      {
+        "name": "Chlef",
+        "nameAr": "الشلف",
+        "nameFr": "Chlef"
+      },
+      {
+        "name": "Bechar",
+        "nameAr": "بشار",
+        "nameFr": "Béchar"
+      },
+      {
+        "name": "Tamanghasset",
+        "nameAr": "تمنراست",
+        "nameFr": "Tamanghasset"
+      },
+      {
+        "name": "Bejaia",
+        "nameAr": "بجاية",
+        "nameFr": "Bejaia"
+      },
+      {
+        "name": "Tizi Ouzou",
+        "nameAr": "تيزي وزو",
+        "nameFr": "Tizi Ouzou"
+      },
+      {
+        "name": "Boumerdes",
+        "nameAr": "بومرداس",
+        "nameFr": "Boumerdes"
+      },
+      {
+        "name": "Ain Defla",
+        "nameAr": "عين الدفلة",
+        "nameFr": "Ain Defla"
+      },
+      {
+        "name": "Annaba",
+        "nameAr": "عنابة",
+        "nameFr": "Annaba"
+      },
+      {
+        "name": "Setif",
+        "nameAr": "سطيف",
+        "nameFr": "Sétif"
+      },
+      {
+        "name": "Relizane",
+        "nameAr": "غليزان",
+        "nameFr": "Relizane"
+      },
+      {
+        "name": "Mascara",
+        "nameAr": "ماسكارا",
+        "nameFr": "Mascara"
+      },
+      {
+        "name": "Mostaganem",
+        "nameAr": "مستغانم",
+        "nameFr": "Mostaganem"
+      },
+      {
+        "name": "Tiaret",
+        "nameAr": "تيارت",
+        "nameFr": "Tiaret"
+      },
+      {
+        "name": "Bordj Bou Arreridj",
+        "nameAr": "برج بوعريريج",
+        "nameFr": "Bordj Bou Arreridj"
+      },
+      {
+        "name": "Tipaza",
+        "nameAr": "تيبازة",
+        "nameFr": "Tipaza"
+      },
+      {
+        "name": "Bouira",
+        "nameAr": "البويرة",
+        "nameFr": "Bouira"
+      },
+      {
+        "name": "Tissemsilt",
+        "nameAr": "تيسمسيلت",
+        "nameFr": "Tissemsilt"
+      },
+      {
+        "name": "Jijel",
+        "nameAr": "جيجل",
+        "nameFr": "Jijel"
+      },
+      {
+        "name": "Saida",
+        "nameAr": "صيدا",
+        "nameFr": "Saida"
+      },
+      {
+        "name": "Illizi",
+        "nameAr": "إليزي",
+        "nameFr": "Illizi"
+      },
+      {
+        "name": "Tlemcen",
+        "nameAr": "تلمسان",
+        "nameFr": "Tlemcen"
+      },
+      {
+        "name": "Adrar",
+        "nameAr": "أدرار",
+        "nameFr": "Adrar"
+      },
+      {
+        "name": "Laghouat",
+        "nameAr": "الأغواط",
+        "nameFr": "Laghouat"
+      },
+      {
+        "name": "Constantine",
+        "nameAr": "قسنطينة",
+        "nameFr": "Constantine"
+      },
+      {
+        "name": "Khenchela",
+        "nameAr": "خنشلة",
+        "nameFr": "Khenchela"
+      },
+      {
+        "name": "Batna",
+        "nameAr": "باتنة",
+        "nameFr": "Batna"
+      },
+      {
+        "name": "Alger",
+        "nameAr": "الجزائر",
+        "nameFr": "Alger"
+      },
+      {
+        "name": "Skikda",
+        "nameAr": "سكيكدة",
+        "nameFr": "Skikda"
+      },
+      {
+        "name": "Oum el Bouaghi",
+        "nameAr": "ام البواقي",
+        "nameFr": "Oum el Bouaghi"
+      },
+      {
+        "name": "Naama",
+        "nameAr": "نعمة",
+        "nameFr": "Naama"
+      },
+      {
+        "name": "Sidi Bel Abbes",
+        "nameAr": "سيدي بلعباس",
+        "nameFr": "Sidi Bel Abbes"
+      },
+      {
+        "name": "Mila",
+        "nameAr": "ميلة",
+        "nameFr": "Mila"
+      },
+      {
+        "name": "Ouargla",
+        "nameAr": "ورقلة",
+        "nameFr": "Ouargla"
+      },
+      {
+        "name": "Djelfa",
+        "nameAr": "الجلفة",
+        "nameFr": "Djelfa"
+      },
+      {
+        "name": "El Bayadh",
+        "nameAr": "البيض",
+        "nameFr": "El Bayadh"
+      },
+      {
+        "name": "Souk Ahras",
+        "nameAr": "سوق أهراس",
+        "nameFr": "Souk Ahras"
+      },
+      {
+        "name": "El Oued",
+        "nameAr": "الواد",
+        "nameFr": "El Oued"
+      },
+      {
+        "name": "Blida",
+        "nameAr": "البليدة",
+        "nameFr": "Blida"
+      },
+      {
+        "name": "Biskra",
+        "nameAr": "بسكرة",
+        "nameFr": "Biskra"
+      },
+      {
+        "name": "Tebessa",
+        "nameAr": "تبسة",
+        "nameFr": "Tebessa"
+      },
+      {
+        "name": "Guelma",
+        "nameAr": "قالمة",
+        "nameFr": "Guelma"
+      },
+      {
+        "name": "Tindouf",
+        "nameAr": "تندوف",
+        "nameFr": "Tindouf"
+      },
+      {
+        "name": "Ghardaia",
+        "nameAr": "غرداية",
+        "nameFr": "Ghardaia"
+      }
+    ]
+  },
+  {
     "code": "EG",
     "name": "Egypt",
     "nameAr": "مصر",
-    "nameFr": "Egypt",
+    "nameFr": "Égypte",
     "cities": [
-            {
-                  "name": "Cairo",
-                  "nameAr": "القاهرة",
-                  "nameFr": "Le Caire"
-            },
-            {
-                  "name": "Alexandria",
-                  "nameAr": "الإسكندرية",
-                  "nameFr": "Alexandrie"
-            },
-            {
-                  "name": "Giza",
-                  "nameAr": "الجيزة",
-                  "nameFr": "Gizeh"
-            },
-            {
-                  "name": "Port Said",
-                  "nameAr": "بورسعيد",
-                  "nameFr": "Port-Saïd"
-            },
-            {
-                  "name": "Suez",
-                  "nameAr": "السويس",
-                  "nameFr": "Suez"
-            },
-            {
-                  "name": "Ismailia",
-                  "nameAr": "الإسماعيلية",
-                  "nameFr": "Ismaïlia"
-            },
-            {
-                  "name": "Aswan",
-                  "nameAr": "أسوان",
-                  "nameFr": "Assouan"
-            },
-            {
-                  "name": "Asyut",
-                  "nameAr": "أسيوط",
-                  "nameFr": "Assiout"
-            },
-            {
-                  "name": "Beheira",
-                  "nameAr": "البحيرة",
-                  "nameFr": "Beheira"
-            },
-            {
-                  "name": "Beni Suef",
-                  "nameAr": "بني سويف",
-                  "nameFr": "Beni Suef"
-            },
-            {
-                  "name": "Dakahlia",
-                  "nameAr": "الدقهلية",
-                  "nameFr": "Dakahlia"
-            },
-            {
-                  "name": "Damietta",
-                  "nameAr": "دمياط",
-                  "nameFr": "Damiette"
-            },
-            {
-                  "name": "Faiyum",
-                  "nameAr": "الفيوم",
-                  "nameFr": "Faiyoum"
-            },
-            {
-                  "name": "Gharbia",
-                  "nameAr": "الغربية",
-                  "nameFr": "Gharbia"
-            },
-            {
-                  "name": "Kafr El Sheikh",
-                  "nameAr": "كفر الشيخ",
-                  "nameFr": "Kafr El Sheikh"
-            },
-            {
-                  "name": "Luxor",
-                  "nameAr": "الأقصر",
-                  "nameFr": "Louxor"
-            },
-            {
-                  "name": "Matrouh",
-                  "nameAr": "مطروح",
-                  "nameFr": "Matrouh"
-            },
-            {
-                  "name": "Minya",
-                  "nameAr": "المنيا",
-                  "nameFr": "Minya"
-            },
-            {
-                  "name": "Monufia",
-                  "nameAr": "المنوفية",
-                  "nameFr": "Monufia"
-            },
-            {
-                  "name": "New Valley",
-                  "nameAr": "الوادي الجديد",
-                  "nameFr": "Nouvelle Vallée"
-            },
-            {
-                  "name": "North Sinai",
-                  "nameAr": "شمال سيناء",
-                  "nameFr": "Sinaï du Nord"
-            },
-            {
-                  "name": "Qalyubia",
-                  "nameAr": "القليوبية",
-                  "nameFr": "Qalyubia"
-            },
-            {
-                  "name": "Qena",
-                  "nameAr": "قنا",
-                  "nameFr": "Qena"
-            },
-            {
-                  "name": "Red Sea",
-                  "nameAr": "البحر الأحمر",
-                  "nameFr": "Mer Rouge"
-            },
-            {
-                  "name": "Sharqia",
-                  "nameAr": "الشرقية",
-                  "nameFr": "Sharqia"
-            },
-            {
-                  "name": "Sohag",
-                  "nameAr": "سوهاج",
-                  "nameFr": "Sohag"
-            },
-            {
-                  "name": "South Sinai",
-                  "nameAr": "جنوب سيناء",
-                  "nameFr": "Sinaï du Sud"
-            }
-      ]
-  },
-  {
-    "code": "GQ",
-    "name": "Equatorial Guinea",
-    "nameAr": "غينيا الاستوائية",
-    "nameFr": "Equatorial Guinea",
-    "cities": [
-            {
-                  "name": "Annobón",
-                  "nameAr": "Annobón",
-                  "nameFr": "Annobón"
-            },
-            {
-                  "name": "Bioko Norte",
-                  "nameAr": "Bioko norte",
-                  "nameFr": "Bioko Norte"
-            },
-            {
-                  "name": "Bioko Sur",
-                  "nameAr": "Bioko sur",
-                  "nameFr": "Bioko Sur"
-            },
-            {
-                  "name": "Centro Sur",
-                  "nameAr": "Centro Sur",
-                  "nameFr": "Centro Sur"
-            },
-            {
-                  "name": "Insular",
-                  "nameAr": "Insular",
-                  "nameFr": "Insular"
-            },
-            {
-                  "name": "Kié-Ntem",
-                  "nameAr": "A quien hice",
-                  "nameFr": "Kié-Ntem"
-            },
-            {
-                  "name": "Litoral",
-                  "nameAr": "Costero",
-                  "nameFr": "Litoral"
-            },
-            {
-                  "name": "Río Muni",
-                  "nameAr": "Río Muni",
-                  "nameFr": "Río Muni"
-            },
-            {
-                  "name": "Wele-Nzas",
-                  "nameAr": "Wele-nza",
-                  "nameFr": "Wele-Nzas"
-            }
-      ]
+      {
+        "name": "Cairo",
+        "nameAr": "القاهرة",
+        "nameFr": "Le Caire"
+      },
+      {
+        "name": "Alexandria",
+        "nameAr": "الإسكندرية",
+        "nameFr": "Alexandrie"
+      },
+      {
+        "name": "Giza",
+        "nameAr": "الجيزة",
+        "nameFr": "Gizeh"
+      },
+      {
+        "name": "Port Said",
+        "nameAr": "بورسعيد",
+        "nameFr": "Port-Saïd"
+      },
+      {
+        "name": "Suez",
+        "nameAr": "السويس",
+        "nameFr": "Suez"
+      },
+      {
+        "name": "Ismailia",
+        "nameAr": "الإسماعيلية",
+        "nameFr": "Ismaïlia"
+      },
+      {
+        "name": "Aswan",
+        "nameAr": "أسوان",
+        "nameFr": "Assouan"
+      },
+      {
+        "name": "Asyut",
+        "nameAr": "أسيوط",
+        "nameFr": "Assiout"
+      },
+      {
+        "name": "Beheira",
+        "nameAr": "البحيرة",
+        "nameFr": "Beheira"
+      },
+      {
+        "name": "Beni Suef",
+        "nameAr": "بني سويف",
+        "nameFr": "Beni Suef"
+      },
+      {
+        "name": "Dakahlia",
+        "nameAr": "الدقهلية",
+        "nameFr": "Dakahlia"
+      },
+      {
+        "name": "Damietta",
+        "nameAr": "دمياط",
+        "nameFr": "Damiette"
+      },
+      {
+        "name": "Faiyum",
+        "nameAr": "الفيوم",
+        "nameFr": "Faiyoum"
+      },
+      {
+        "name": "Gharbia",
+        "nameAr": "الغربية",
+        "nameFr": "Gharbia"
+      },
+      {
+        "name": "Kafr El Sheikh",
+        "nameAr": "كفر الشيخ",
+        "nameFr": "Kafr El Sheikh"
+      },
+      {
+        "name": "Luxor",
+        "nameAr": "الأقصر",
+        "nameFr": "Louxor"
+      },
+      {
+        "name": "Matrouh",
+        "nameAr": "مطروح",
+        "nameFr": "Matrouh"
+      },
+      {
+        "name": "Minya",
+        "nameAr": "المنيا",
+        "nameFr": "Minya"
+      },
+      {
+        "name": "Monufia",
+        "nameAr": "المنوفية",
+        "nameFr": "Monufia"
+      },
+      {
+        "name": "New Valley",
+        "nameAr": "الوادي الجديد",
+        "nameFr": "Nouvelle Vallée"
+      },
+      {
+        "name": "North Sinai",
+        "nameAr": "شمال سيناء",
+        "nameFr": "Sinaï du Nord"
+      },
+      {
+        "name": "Qalyubia",
+        "nameAr": "القليوبية",
+        "nameFr": "Qalyubia"
+      },
+      {
+        "name": "Qena",
+        "nameAr": "قنا",
+        "nameFr": "Qena"
+      },
+      {
+        "name": "Red Sea",
+        "nameAr": "البحر الأحمر",
+        "nameFr": "Mer Rouge"
+      },
+      {
+        "name": "Sharqia",
+        "nameAr": "الشرقية",
+        "nameFr": "Sharqia"
+      },
+      {
+        "name": "Sohag",
+        "nameAr": "سوهاج",
+        "nameFr": "Sohag"
+      },
+      {
+        "name": "South Sinai",
+        "nameAr": "جنوب سيناء",
+        "nameFr": "Sinaï du Sud"
+      }
+    ]
   },
   {
     "code": "ER",
     "name": "Eritrea",
     "nameAr": "إريتريا",
-    "nameFr": "Eritrea",
+    "nameFr": "Erythrée",
     "cities": [
             {
                   "name": "Bengo",
@@ -1663,38 +1319,10 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "SZ",
-    "name": "Eswatini",
-    "nameAr": "إسواتيني",
-    "nameFr": "Eswatini",
-    "cities": [
-            {
-                  "name": "Hhohho",
-                  "nameAr": "Hhohho",
-                  "nameFr": "Hhohho"
-            },
-            {
-                  "name": "Lubombo",
-                  "nameAr": "Bitch",
-                  "nameFr": "Lubombo"
-            },
-            {
-                  "name": "Manzini",
-                  "nameAr": "Chic",
-                  "nameFr": "Manzini"
-            },
-            {
-                  "name": "Shiselweni",
-                  "nameAr": "Suspend",
-                  "nameFr": "Shiselweni"
-            }
-      ]
-  },
-  {
     "code": "ET",
     "name": "Ethiopia",
-    "nameAr": "إثيوبيا",
-    "nameFr": "Ethiopia",
+    "nameAr": "أثيوبيا",
+    "nameFr": "Ethiopie",
     "cities": [
             {
                   "name": "Addis Ababa",
@@ -1752,13 +1380,6 @@ export const africaData: Country[] = [
                   "nameFr": "Tigray"
             }
       ]
-  },
-  {
-    "code": "TF",
-    "name": "French Southern Territories",
-    "nameAr": "French Southern Territories",
-    "nameFr": "French Southern Territories",
-    "cities": []
   },
   {
     "code": "GA",
@@ -1867,10 +1488,48 @@ export const africaData: Country[] = [
       ]
   },
   {
+    "code": "GM",
+    "name": "Gambia",
+    "nameAr": "غامبيا",
+    "nameFr": "Gambie",
+    "cities": [
+            {
+                  "name": "Banjul",
+                  "nameAr": "Banjul",
+                  "nameFr": "Banjul"
+            },
+            {
+                  "name": "Central River",
+                  "nameAr": "Central River",
+                  "nameFr": "Central River"
+            },
+            {
+                  "name": "Lower River",
+                  "nameAr": "Lower River",
+                  "nameFr": "Lower River"
+            },
+            {
+                  "name": "North Bank",
+                  "nameAr": "North Bank",
+                  "nameFr": "North Bank"
+            },
+            {
+                  "name": "Upper River",
+                  "nameAr": "Upper River",
+                  "nameFr": "Upper River"
+            },
+            {
+                  "name": "West Coast",
+                  "nameAr": "West Coast",
+                  "nameFr": "West Coast"
+            }
+      ]
+  },
+  {
     "code": "GN",
     "name": "Guinea",
     "nameAr": "غينيا",
-    "nameFr": "Guinea",
+    "nameFr": "Guinée",
     "cities": [
             {
                   "name": "Beyla",
@@ -2080,10 +1739,63 @@ export const africaData: Country[] = [
       ]
   },
   {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "nameAr": "غينيا الإستوائية",
+    "nameFr": "Guinée Équatoriale",
+    "cities": [
+            {
+                  "name": "Annobón",
+                  "nameAr": "Annobón",
+                  "nameFr": "Annobón"
+            },
+            {
+                  "name": "Bioko Norte",
+                  "nameAr": "Bioko norte",
+                  "nameFr": "Bioko Norte"
+            },
+            {
+                  "name": "Bioko Sur",
+                  "nameAr": "Bioko sur",
+                  "nameFr": "Bioko Sur"
+            },
+            {
+                  "name": "Centro Sur",
+                  "nameAr": "Centro Sur",
+                  "nameFr": "Centro Sur"
+            },
+            {
+                  "name": "Insular",
+                  "nameAr": "Insular",
+                  "nameFr": "Insular"
+            },
+            {
+                  "name": "Kié-Ntem",
+                  "nameAr": "A quien hice",
+                  "nameFr": "Kié-Ntem"
+            },
+            {
+                  "name": "Litoral",
+                  "nameAr": "Costero",
+                  "nameFr": "Litoral"
+            },
+            {
+                  "name": "Río Muni",
+                  "nameAr": "Río Muni",
+                  "nameFr": "Río Muni"
+            },
+            {
+                  "name": "Wele-Nzas",
+                  "nameAr": "Wele-nza",
+                  "nameFr": "Wele-Nzas"
+            }
+      ]
+  },
+  {
     "code": "GW",
     "name": "Guinea-Bissau",
     "nameAr": "غينيا بيساو",
-    "nameFr": "Guinea-Bissau",
+    "nameFr": "Guinée-Bissau",
     "cities": [
             {
                   "name": "Bafatá",
@@ -2386,60 +2098,25 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "LS",
-    "name": "Lesotho",
-    "nameAr": "ليسوتو",
-    "nameFr": "Lesotho",
+    "code": "KM",
+    "name": "Comoros",
+    "nameAr": "جزر القمر",
+    "nameFr": "Comores",
     "cities": [
             {
-                  "name": "Berea",
-                  "nameAr": "Berea",
-                  "nameFr": "Berea"
+                  "name": "Anjouan",
+                  "nameAr": "Anjouan",
+                  "nameFr": "Anjouan"
             },
             {
-                  "name": "Butha-Buthe",
-                  "nameAr": "Butha-Buthe",
-                  "nameFr": "Butha-Buthe"
+                  "name": "Grande Comore",
+                  "nameAr": "قادم طويل القامة",
+                  "nameFr": "Grande Comore"
             },
             {
-                  "name": "Leribe",
-                  "nameAr": "LERIBE",
-                  "nameFr": "Leribe"
-            },
-            {
-                  "name": "Mafeteng",
-                  "nameAr": "Mafeteng",
-                  "nameFr": "Mafeteng"
-            },
-            {
-                  "name": "Maseru",
-                  "nameAr": "Maseru",
-                  "nameFr": "Maseru"
-            },
-            {
-                  "name": "Mohale's Hoek",
-                  "nameAr": "Mohale's corner",
-                  "nameFr": "Mohale's Hoek"
-            },
-            {
-                  "name": "Mokhotlong",
-                  "nameAr": "Mokhotlong",
-                  "nameFr": "Mokhotlong"
-            },
-            {
-                  "name": "Qacha's Nek",
-                  "nameAr": "Qacha's Nek",
-                  "nameFr": "Qacha's Nek"
-            },
-            {
-                  "name": "Quthing",
-                  "nameAr": "Quthing",
-                  "nameFr": "Quthing"
-            },
-            {
-                  "name": "Thaba-Tseka",
-                  "nameAr": "Butha-Buthe",
-                  "nameFr": "Thaba-Tseka"
+                  "name": "Mohéli",
+                  "nameAr": "موهلي",
+                  "nameFr": "Mohéli"
             }
       ]
   },
@@ -2447,7 +2124,7 @@ export const africaData: Country[] = [
     "code": "LR",
     "name": "Liberia",
     "nameAr": "ليبيريا",
-    "nameFr": "Liberia",
+    "nameFr": "Libéria",
     "cities": [
             {
                   "name": "Bomi",
@@ -2527,10 +2204,68 @@ export const africaData: Country[] = [
       ]
   },
   {
+    "code": "LS",
+    "name": "Lesotho",
+    "nameAr": "ليسوتو",
+    "nameFr": "Lesotho",
+    "cities": [
+            {
+                  "name": "Berea",
+                  "nameAr": "Berea",
+                  "nameFr": "Berea"
+            },
+            {
+                  "name": "Butha-Buthe",
+                  "nameAr": "Butha-Buthe",
+                  "nameFr": "Butha-Buthe"
+            },
+            {
+                  "name": "Leribe",
+                  "nameAr": "LERIBE",
+                  "nameFr": "Leribe"
+            },
+            {
+                  "name": "Mafeteng",
+                  "nameAr": "Mafeteng",
+                  "nameFr": "Mafeteng"
+            },
+            {
+                  "name": "Maseru",
+                  "nameAr": "Maseru",
+                  "nameFr": "Maseru"
+            },
+            {
+                  "name": "Mohale's Hoek",
+                  "nameAr": "Mohale's corner",
+                  "nameFr": "Mohale's Hoek"
+            },
+            {
+                  "name": "Mokhotlong",
+                  "nameAr": "Mokhotlong",
+                  "nameFr": "Mokhotlong"
+            },
+            {
+                  "name": "Qacha's Nek",
+                  "nameAr": "Qacha's Nek",
+                  "nameFr": "Qacha's Nek"
+            },
+            {
+                  "name": "Quthing",
+                  "nameAr": "Quthing",
+                  "nameFr": "Quthing"
+            },
+            {
+                  "name": "Thaba-Tseka",
+                  "nameAr": "Butha-Buthe",
+                  "nameFr": "Thaba-Tseka"
+            }
+      ]
+  },
+  {
     "code": "LY",
     "name": "Libya",
     "nameAr": "ليبيا",
-    "nameFr": "Libya",
+    "nameFr": "Libye",
     "cities": [
             {
                   "name": "Al Wahat",
@@ -2640,518 +2375,10 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "MG",
-    "name": "Madagascar",
-    "nameAr": "مدغشقر",
-    "nameFr": "Madagascar",
-    "cities": [
-            {
-                  "name": "Antananarivo",
-                  "nameAr": "Antananarivo",
-                  "nameFr": "Antananarivo"
-            },
-            {
-                  "name": "Antsiranana",
-                  "nameAr": "Antsiranana",
-                  "nameFr": "Antsiranana"
-            },
-            {
-                  "name": "Fianarantsoa",
-                  "nameAr": "Fianarantsoa",
-                  "nameFr": "Fianarantsoa"
-            },
-            {
-                  "name": "Mahajanga",
-                  "nameAr": "Mahajanga",
-                  "nameFr": "Mahajanga"
-            },
-            {
-                  "name": "Toamasina",
-                  "nameAr": "Toamasina",
-                  "nameFr": "Toamasina"
-            },
-            {
-                  "name": "Toliara",
-                  "nameAr": "Toliara",
-                  "nameFr": "Toliara"
-            }
-      ]
-  },
-  {
-    "code": "MW",
-    "name": "Malawi",
-    "nameAr": "مالاوي",
-    "nameFr": "Malawi",
-    "cities": [
-            {
-                  "name": "Balaka",
-                  "nameAr": "Balaka",
-                  "nameFr": "Balaka"
-            },
-            {
-                  "name": "Blantyre",
-                  "nameAr": "Blantyre",
-                  "nameFr": "Blantyre"
-            },
-            {
-                  "name": "Central",
-                  "nameAr": "Central",
-                  "nameFr": "Central"
-            },
-            {
-                  "name": "Chikwawa",
-                  "nameAr": "Chikwawa",
-                  "nameFr": "Chikwawa"
-            },
-            {
-                  "name": "Chiradzulu",
-                  "nameAr": "Shael",
-                  "nameFr": "Chiradzulu"
-            },
-            {
-                  "name": "Chitipa",
-                  "nameAr": "Carpea",
-                  "nameFr": "Chitipa"
-            },
-            {
-                  "name": "Dedza",
-                  "nameAr": "DEEE",
-                  "nameFr": "Dedza"
-            },
-            {
-                  "name": "Dowa",
-                  "nameAr": "Dowo",
-                  "nameFr": "Dowa"
-            },
-            {
-                  "name": "Karonga",
-                  "nameAr": "Accessories",
-                  "nameFr": "Karonga"
-            },
-            {
-                  "name": "Kasungu",
-                  "nameAr": "Sowning",
-                  "nameFr": "Kasungu"
-            },
-            {
-                  "name": "Likoma",
-                  "nameAr": "Love",
-                  "nameFr": "Likoma"
-            },
-            {
-                  "name": "Lilongwe",
-                  "nameAr": "Lilongwe",
-                  "nameFr": "Lilongwe"
-            },
-            {
-                  "name": "Machinga",
-                  "nameAr": "Machinga",
-                  "nameFr": "Machinga"
-            },
-            {
-                  "name": "Mangochi",
-                  "nameAr": "Mangochi",
-                  "nameFr": "Mangochi"
-            },
-            {
-                  "name": "Mchinji",
-                  "nameAr": "Hybpha",
-                  "nameFr": "Mchinji"
-            },
-            {
-                  "name": "Mulanje",
-                  "nameAr": "Poporary",
-                  "nameFr": "Mulanje"
-            },
-            {
-                  "name": "Mwanza",
-                  "nameAr": "Mwanza",
-                  "nameFr": "Mwanza"
-            },
-            {
-                  "name": "Mzimba",
-                  "nameAr": "Immoral",
-                  "nameFr": "Mzimba"
-            },
-            {
-                  "name": "Neno",
-                  "nameAr": "The word",
-                  "nameFr": "Neno"
-            },
-            {
-                  "name": "Nkhata Bay",
-                  "nameAr": "Correas",
-                  "nameFr": "Nkhata Bay"
-            },
-            {
-                  "name": "Nkhotakota",
-                  "nameAr": "Blast",
-                  "nameFr": "Nkhotakota"
-            },
-            {
-                  "name": "Northern",
-                  "nameAr": "Northern",
-                  "nameFr": "Northern"
-            },
-            {
-                  "name": "Nsanje",
-                  "nameAr": "Jealousy",
-                  "nameFr": "Nsanje"
-            },
-            {
-                  "name": "Ntcheu",
-                  "nameAr": "Ntcheu",
-                  "nameFr": "Ntcheu"
-            },
-            {
-                  "name": "Ntchisi",
-                  "nameAr": "Nice",
-                  "nameFr": "Ntchisi"
-            },
-            {
-                  "name": "Phalombe",
-                  "nameAr": "Olf",
-                  "nameFr": "Phalombe"
-            },
-            {
-                  "name": "Rumphi",
-                  "nameAr": "Rumphi",
-                  "nameFr": "Rumphi"
-            },
-            {
-                  "name": "Salima",
-                  "nameAr": "Salima",
-                  "nameFr": "Salima"
-            },
-            {
-                  "name": "Southern",
-                  "nameAr": "Southern",
-                  "nameFr": "Southern"
-            },
-            {
-                  "name": "Thyolo",
-                  "nameAr": "The thin",
-                  "nameFr": "Thyolo"
-            },
-            {
-                  "name": "Zomba",
-                  "nameAr": "Abortion",
-                  "nameFr": "Zomba"
-            }
-      ]
-  },
-  {
-    "code": "ML",
-    "name": "Mali",
-    "nameAr": "مالي",
-    "nameFr": "Mali",
-    "cities": [
-            {
-                  "name": "Bamako",
-                  "nameAr": "Bamako",
-                  "nameFr": "Bamako"
-            },
-            {
-                  "name": "Gao",
-                  "nameAr": "Gao",
-                  "nameFr": "Gao"
-            },
-            {
-                  "name": "Kayes",
-                  "nameAr": "Kayes",
-                  "nameFr": "Kayes"
-            },
-            {
-                  "name": "Kidal",
-                  "nameAr": "Gauche -",
-                  "nameFr": "Kidal"
-            },
-            {
-                  "name": "Koulikoro",
-                  "nameAr": "Koulikoro",
-                  "nameFr": "Koulikoro"
-            },
-            {
-                  "name": "Ménaka",
-                  "nameAr": "Ménaka",
-                  "nameFr": "Ménaka"
-            },
-            {
-                  "name": "Mopti",
-                  "nameAr": "Mopti",
-                  "nameFr": "Mopti"
-            },
-            {
-                  "name": "Ségou",
-                  "nameAr": "Ségou",
-                  "nameFr": "Ségou"
-            },
-            {
-                  "name": "Sikasso",
-                  "nameAr": "Sikasso",
-                  "nameFr": "Sikasso"
-            },
-            {
-                  "name": "Taoudénit",
-                  "nameAr": "Taoudénit",
-                  "nameFr": "Taoudénit"
-            },
-            {
-                  "name": "Tombouctou",
-                  "nameAr": "Tombouctou",
-                  "nameFr": "Tombouctou"
-            }
-      ]
-  },
-  {
-    "code": "MR",
-    "name": "Mauritania",
-    "nameAr": "موريتانيا",
-    "nameFr": "Mauritania",
-    "cities": [
-            {
-                  "name": "Adrar",
-                  "nameAr": "آخر",
-                  "nameFr": "Adrar"
-            },
-            {
-                  "name": "Assaba",
-                  "nameAr": "الدعاء",
-                  "nameFr": "Assaba"
-            },
-            {
-                  "name": "Brakna",
-                  "nameAr": "راحة",
-                  "nameFr": "Brakna"
-            },
-            {
-                  "name": "Dakhlet Nouadhibou",
-                  "nameAr": "Dakhlet Nouadhibou",
-                  "nameFr": "Dakhlet Nouadhibou"
-            },
-            {
-                  "name": "Gorgol",
-                  "nameAr": "جورجول",
-                  "nameFr": "Gorgol"
-            },
-            {
-                  "name": "Guidimaka",
-                  "nameAr": "Guidimuka",
-                  "nameFr": "Guidimaka"
-            },
-            {
-                  "name": "Hodh Ech Chargui",
-                  "nameAr": "هوده صدى تشارغي",
-                  "nameFr": "Hodh Ech Chargui"
-            },
-            {
-                  "name": "Hodh El Gharbi",
-                  "nameAr": "Hodh El Gharbi",
-                  "nameFr": "Hodh El Gharbi"
-            },
-            {
-                  "name": "Inchiri",
-                  "nameAr": "بوصات",
-                  "nameFr": "Inchiri"
-            },
-            {
-                  "name": "Nouakchott-Nord",
-                  "nameAr": "Nouakchott-Nord",
-                  "nameFr": "Nouakchott-Nord"
-            },
-            {
-                  "name": "Nouakchott-Ouest",
-                  "nameAr": "Nouakchott-OUEST",
-                  "nameFr": "Nouakchott-Ouest"
-            },
-            {
-                  "name": "Nouakchott-Sud",
-                  "nameAr": "Nouakchott-Sud",
-                  "nameFr": "Nouakchott-Sud"
-            },
-            {
-                  "name": "Tagant",
-                  "nameAr": "من الخلف",
-                  "nameFr": "Tagant"
-            },
-            {
-                  "name": "Tiris Zemmour",
-                  "nameAr": "Tiris Zemmour",
-                  "nameFr": "Tiris Zemmour"
-            },
-            {
-                  "name": "Trarza",
-                  "nameAr": "السفر",
-                  "nameFr": "Trarza"
-            }
-      ]
-  },
-  {
-    "code": "MU",
-    "name": "Mauritius",
-    "nameAr": "موريشيوس",
-    "nameFr": "Mauritius",
-    "cities": [
-            {
-                  "name": "Agalega Islands",
-                  "nameAr": "Agly Islands",
-                  "nameFr": "Agalega Islands"
-            },
-            {
-                  "name": "Black River",
-                  "nameAr": "Black River",
-                  "nameFr": "Black River"
-            },
-            {
-                  "name": "Flacq",
-                  "nameAr": "Flacq",
-                  "nameFr": "Flacq"
-            },
-            {
-                  "name": "Grand Port",
-                  "nameAr": "Grand Port",
-                  "nameFr": "Grand Port"
-            },
-            {
-                  "name": "Moka",
-                  "nameAr": "Moka",
-                  "nameFr": "Moka"
-            },
-            {
-                  "name": "Pamplemousses",
-                  "nameAr": "Pamplemousses",
-                  "nameFr": "Pamplemousses"
-            },
-            {
-                  "name": "Plaines Wilhems",
-                  "nameAr": "Plaines Wilhems",
-                  "nameFr": "Plaines Wilhems"
-            },
-            {
-                  "name": "Port Louis",
-                  "nameAr": "Port Louis",
-                  "nameFr": "Port Louis"
-            },
-            {
-                  "name": "Rivière du Rempart",
-                  "nameAr": "Rampart river",
-                  "nameFr": "Rivière du Rempart"
-            },
-            {
-                  "name": "Rodrigues Island",
-                  "nameAr": "Rodrigues Island",
-                  "nameFr": "Rodrigues Island"
-            },
-            {
-                  "name": "Saint Brandon Islands",
-                  "nameAr": "Saint Brandon Islands",
-                  "nameFr": "Saint Brandon Islands"
-            },
-            {
-                  "name": "Savanne",
-                  "nameAr": "Savanne",
-                  "nameFr": "Savanne"
-            }
-      ]
-  },
-  {
-    "code": "YT",
-    "name": "Mayotte",
-    "nameAr": "مايوت",
-    "nameFr": "Mayotte",
-    "cities": [
-            {
-                  "name": "Acoua",
-                  "nameAr": "Acoua",
-                  "nameFr": "Acoua"
-            },
-            {
-                  "name": "Bandraboua",
-                  "nameAr": "Bandraboua",
-                  "nameFr": "Bandraboua"
-            },
-            {
-                  "name": "Bandrélé",
-                  "nameAr": "Bandrelé",
-                  "nameFr": "Bandrélé"
-            },
-            {
-                  "name": "Boueni",
-                  "nameAr": "Bouen",
-                  "nameFr": "Boueni"
-            },
-            {
-                  "name": "Chiconi",
-                  "nameAr": "Chiconi",
-                  "nameFr": "Chiconi"
-            },
-            {
-                  "name": "Chirongui",
-                  "nameAr": "Chirongui",
-                  "nameFr": "Chirongui"
-            },
-            {
-                  "name": "Dembeni",
-                  "nameAr": "Débat",
-                  "nameFr": "Dembeni"
-            },
-            {
-                  "name": "Dzaoudzi",
-                  "nameAr": "Leur",
-                  "nameFr": "Dzaoudzi"
-            },
-            {
-                  "name": "Kani Keli",
-                  "nameAr": "Ce seul",
-                  "nameFr": "Kani Keli"
-            },
-            {
-                  "name": "Koungou",
-                  "nameAr": "Maintenant",
-                  "nameFr": "Koungou"
-            },
-            {
-                  "name": "M'Tsangamouji",
-                  "nameAr": "Entrée",
-                  "nameFr": "M'Tsangamouji"
-            },
-            {
-                  "name": "Mamoudzou",
-                  "nameAr": "Mamoudzou",
-                  "nameFr": "Mamoudzou"
-            },
-            {
-                  "name": "Mtsamboro",
-                  "nameAr": "Mtsamboro",
-                  "nameFr": "Mtsamboro"
-            },
-            {
-                  "name": "Ouangani",
-                  "nameAr": "Ambitieux",
-                  "nameFr": "Ouangani"
-            },
-            {
-                  "name": "Pamandzi",
-                  "nameAr": "En ville",
-                  "nameFr": "Pamandzi"
-            },
-            {
-                  "name": "Sada",
-                  "nameAr": "Maintenant",
-                  "nameFr": "Sada"
-            },
-            {
-                  "name": "Tsingoni",
-                  "nameAr": "Tsingoni",
-                  "nameFr": "Tsingoni"
-            }
-      ]
-  },
-  {
     "code": "MA",
     "name": "Morocco",
     "nameAr": "المغرب",
-    "nameFr": "Morocco",
+    "nameFr": "Maroc",
     "cities": [
             {
                   "name": "Agadir-Ida-Ou-Tanane",
@@ -3591,6 +2818,421 @@ export const africaData: Country[] = [
       ]
   },
   {
+    "code": "MG",
+    "name": "Madagascar",
+    "nameAr": "مدغشقر",
+    "nameFr": "Madagascar",
+    "cities": [
+            {
+                  "name": "Antananarivo",
+                  "nameAr": "Antananarivo",
+                  "nameFr": "Antananarivo"
+            },
+            {
+                  "name": "Antsiranana",
+                  "nameAr": "Antsiranana",
+                  "nameFr": "Antsiranana"
+            },
+            {
+                  "name": "Fianarantsoa",
+                  "nameAr": "Fianarantsoa",
+                  "nameFr": "Fianarantsoa"
+            },
+            {
+                  "name": "Mahajanga",
+                  "nameAr": "Mahajanga",
+                  "nameFr": "Mahajanga"
+            },
+            {
+                  "name": "Toamasina",
+                  "nameAr": "Toamasina",
+                  "nameFr": "Toamasina"
+            },
+            {
+                  "name": "Toliara",
+                  "nameAr": "Toliara",
+                  "nameFr": "Toliara"
+            }
+      ]
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "nameAr": "مالي",
+    "nameFr": "Mali",
+    "cities": [
+            {
+                  "name": "Bamako",
+                  "nameAr": "Bamako",
+                  "nameFr": "Bamako"
+            },
+            {
+                  "name": "Gao",
+                  "nameAr": "Gao",
+                  "nameFr": "Gao"
+            },
+            {
+                  "name": "Kayes",
+                  "nameAr": "Kayes",
+                  "nameFr": "Kayes"
+            },
+            {
+                  "name": "Kidal",
+                  "nameAr": "Gauche -",
+                  "nameFr": "Kidal"
+            },
+            {
+                  "name": "Koulikoro",
+                  "nameAr": "Koulikoro",
+                  "nameFr": "Koulikoro"
+            },
+            {
+                  "name": "Ménaka",
+                  "nameAr": "Ménaka",
+                  "nameFr": "Ménaka"
+            },
+            {
+                  "name": "Mopti",
+                  "nameAr": "Mopti",
+                  "nameFr": "Mopti"
+            },
+            {
+                  "name": "Ségou",
+                  "nameAr": "Ségou",
+                  "nameFr": "Ségou"
+            },
+            {
+                  "name": "Sikasso",
+                  "nameAr": "Sikasso",
+                  "nameFr": "Sikasso"
+            },
+            {
+                  "name": "Taoudénit",
+                  "nameAr": "Taoudénit",
+                  "nameFr": "Taoudénit"
+            },
+            {
+                  "name": "Tombouctou",
+                  "nameAr": "Tombouctou",
+                  "nameFr": "Tombouctou"
+            }
+      ]
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "nameAr": "موريتانيا",
+    "nameFr": "Mauritanie",
+    "cities": [
+            {
+                  "name": "Adrar",
+                  "nameAr": "آخر",
+                  "nameFr": "Adrar"
+            },
+            {
+                  "name": "Assaba",
+                  "nameAr": "الدعاء",
+                  "nameFr": "Assaba"
+            },
+            {
+                  "name": "Brakna",
+                  "nameAr": "راحة",
+                  "nameFr": "Brakna"
+            },
+            {
+                  "name": "Dakhlet Nouadhibou",
+                  "nameAr": "Dakhlet Nouadhibou",
+                  "nameFr": "Dakhlet Nouadhibou"
+            },
+            {
+                  "name": "Gorgol",
+                  "nameAr": "جورجول",
+                  "nameFr": "Gorgol"
+            },
+            {
+                  "name": "Guidimaka",
+                  "nameAr": "Guidimuka",
+                  "nameFr": "Guidimaka"
+            },
+            {
+                  "name": "Hodh Ech Chargui",
+                  "nameAr": "هوده صدى تشارغي",
+                  "nameFr": "Hodh Ech Chargui"
+            },
+            {
+                  "name": "Hodh El Gharbi",
+                  "nameAr": "Hodh El Gharbi",
+                  "nameFr": "Hodh El Gharbi"
+            },
+            {
+                  "name": "Inchiri",
+                  "nameAr": "بوصات",
+                  "nameFr": "Inchiri"
+            },
+            {
+                  "name": "Nouakchott-Nord",
+                  "nameAr": "Nouakchott-Nord",
+                  "nameFr": "Nouakchott-Nord"
+            },
+            {
+                  "name": "Nouakchott-Ouest",
+                  "nameAr": "Nouakchott-OUEST",
+                  "nameFr": "Nouakchott-Ouest"
+            },
+            {
+                  "name": "Nouakchott-Sud",
+                  "nameAr": "Nouakchott-Sud",
+                  "nameFr": "Nouakchott-Sud"
+            },
+            {
+                  "name": "Tagant",
+                  "nameAr": "من الخلف",
+                  "nameFr": "Tagant"
+            },
+            {
+                  "name": "Tiris Zemmour",
+                  "nameAr": "Tiris Zemmour",
+                  "nameFr": "Tiris Zemmour"
+            },
+            {
+                  "name": "Trarza",
+                  "nameAr": "السفر",
+                  "nameFr": "Trarza"
+            }
+      ]
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "nameAr": "موريشيوس",
+    "nameFr": "Maurice",
+    "cities": [
+            {
+                  "name": "Agalega Islands",
+                  "nameAr": "Agly Islands",
+                  "nameFr": "Agalega Islands"
+            },
+            {
+                  "name": "Black River",
+                  "nameAr": "Black River",
+                  "nameFr": "Black River"
+            },
+            {
+                  "name": "Flacq",
+                  "nameAr": "Flacq",
+                  "nameFr": "Flacq"
+            },
+            {
+                  "name": "Grand Port",
+                  "nameAr": "Grand Port",
+                  "nameFr": "Grand Port"
+            },
+            {
+                  "name": "Moka",
+                  "nameAr": "Moka",
+                  "nameFr": "Moka"
+            },
+            {
+                  "name": "Pamplemousses",
+                  "nameAr": "Pamplemousses",
+                  "nameFr": "Pamplemousses"
+            },
+            {
+                  "name": "Plaines Wilhems",
+                  "nameAr": "Plaines Wilhems",
+                  "nameFr": "Plaines Wilhems"
+            },
+            {
+                  "name": "Port Louis",
+                  "nameAr": "Port Louis",
+                  "nameFr": "Port Louis"
+            },
+            {
+                  "name": "Rivière du Rempart",
+                  "nameAr": "Rampart river",
+                  "nameFr": "Rivière du Rempart"
+            },
+            {
+                  "name": "Rodrigues Island",
+                  "nameAr": "Rodrigues Island",
+                  "nameFr": "Rodrigues Island"
+            },
+            {
+                  "name": "Saint Brandon Islands",
+                  "nameAr": "Saint Brandon Islands",
+                  "nameFr": "Saint Brandon Islands"
+            },
+            {
+                  "name": "Savanne",
+                  "nameAr": "Savanne",
+                  "nameFr": "Savanne"
+            }
+      ]
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "nameAr": "مالاوي",
+    "nameFr": "Malawi",
+    "cities": [
+            {
+                  "name": "Balaka",
+                  "nameAr": "Balaka",
+                  "nameFr": "Balaka"
+            },
+            {
+                  "name": "Blantyre",
+                  "nameAr": "Blantyre",
+                  "nameFr": "Blantyre"
+            },
+            {
+                  "name": "Central",
+                  "nameAr": "Central",
+                  "nameFr": "Central"
+            },
+            {
+                  "name": "Chikwawa",
+                  "nameAr": "Chikwawa",
+                  "nameFr": "Chikwawa"
+            },
+            {
+                  "name": "Chiradzulu",
+                  "nameAr": "Shael",
+                  "nameFr": "Chiradzulu"
+            },
+            {
+                  "name": "Chitipa",
+                  "nameAr": "Carpea",
+                  "nameFr": "Chitipa"
+            },
+            {
+                  "name": "Dedza",
+                  "nameAr": "DEEE",
+                  "nameFr": "Dedza"
+            },
+            {
+                  "name": "Dowa",
+                  "nameAr": "Dowo",
+                  "nameFr": "Dowa"
+            },
+            {
+                  "name": "Karonga",
+                  "nameAr": "Accessories",
+                  "nameFr": "Karonga"
+            },
+            {
+                  "name": "Kasungu",
+                  "nameAr": "Sowning",
+                  "nameFr": "Kasungu"
+            },
+            {
+                  "name": "Likoma",
+                  "nameAr": "Love",
+                  "nameFr": "Likoma"
+            },
+            {
+                  "name": "Lilongwe",
+                  "nameAr": "Lilongwe",
+                  "nameFr": "Lilongwe"
+            },
+            {
+                  "name": "Machinga",
+                  "nameAr": "Machinga",
+                  "nameFr": "Machinga"
+            },
+            {
+                  "name": "Mangochi",
+                  "nameAr": "Mangochi",
+                  "nameFr": "Mangochi"
+            },
+            {
+                  "name": "Mchinji",
+                  "nameAr": "Hybpha",
+                  "nameFr": "Mchinji"
+            },
+            {
+                  "name": "Mulanje",
+                  "nameAr": "Poporary",
+                  "nameFr": "Mulanje"
+            },
+            {
+                  "name": "Mwanza",
+                  "nameAr": "Mwanza",
+                  "nameFr": "Mwanza"
+            },
+            {
+                  "name": "Mzimba",
+                  "nameAr": "Immoral",
+                  "nameFr": "Mzimba"
+            },
+            {
+                  "name": "Neno",
+                  "nameAr": "The word",
+                  "nameFr": "Neno"
+            },
+            {
+                  "name": "Nkhata Bay",
+                  "nameAr": "Correas",
+                  "nameFr": "Nkhata Bay"
+            },
+            {
+                  "name": "Nkhotakota",
+                  "nameAr": "Blast",
+                  "nameFr": "Nkhotakota"
+            },
+            {
+                  "name": "Northern",
+                  "nameAr": "Northern",
+                  "nameFr": "Northern"
+            },
+            {
+                  "name": "Nsanje",
+                  "nameAr": "Jealousy",
+                  "nameFr": "Nsanje"
+            },
+            {
+                  "name": "Ntcheu",
+                  "nameAr": "Ntcheu",
+                  "nameFr": "Ntcheu"
+            },
+            {
+                  "name": "Ntchisi",
+                  "nameAr": "Nice",
+                  "nameFr": "Ntchisi"
+            },
+            {
+                  "name": "Phalombe",
+                  "nameAr": "Olf",
+                  "nameFr": "Phalombe"
+            },
+            {
+                  "name": "Rumphi",
+                  "nameAr": "Rumphi",
+                  "nameFr": "Rumphi"
+            },
+            {
+                  "name": "Salima",
+                  "nameAr": "Salima",
+                  "nameFr": "Salima"
+            },
+            {
+                  "name": "Southern",
+                  "nameAr": "Southern",
+                  "nameFr": "Southern"
+            },
+            {
+                  "name": "Thyolo",
+                  "nameAr": "The thin",
+                  "nameFr": "Thyolo"
+            },
+            {
+                  "name": "Zomba",
+                  "nameAr": "Abortion",
+                  "nameFr": "Zomba"
+            }
+      ]
+  },
+  {
     "code": "MZ",
     "name": "Mozambique",
     "nameAr": "موزمبيق",
@@ -3657,7 +3299,7 @@ export const africaData: Country[] = [
     "code": "NA",
     "name": "Namibia",
     "nameAr": "ناميبيا",
-    "nameFr": "Namibia",
+    "nameFr": "Namibie",
     "cities": [
             {
                   "name": "Erongo",
@@ -3970,8 +3612,8 @@ export const africaData: Country[] = [
   {
     "code": "RE",
     "name": "Reunion",
-    "nameAr": "ريونيون",
-    "nameFr": "Reunion",
+    "nameAr": "جمع شمل",
+    "nameFr": "Réunion",
     "cities": [
             {
                   "name": "Saint-Benoît",
@@ -4029,154 +3671,10 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "SH",
-    "name": "Saint Helena",
-    "nameAr": "سانت هيلينا",
-    "nameFr": "Saint Helena",
-    "cities": [
-      {
-        "name": "Alarm Forest",
-        "nameAr": "",
-        "nameFr": "Alarm Forest"
-      },
-      {
-        "name": "Blue Hill",
-        "nameAr": "",
-        "nameFr": "Blue Hill"
-      },
-      {
-        "name": "Half Tree Hollow",
-        "nameAr": "",
-        "nameFr": "Half Tree Hollow"
-      },
-      {
-        "name": "Jamestown",
-        "nameAr": "",
-        "nameFr": "Jamestown"
-      },
-      {
-        "name": "Levelwood",
-        "nameAr": "",
-        "nameFr": "Levelwood"
-      },
-      {
-        "name": "Longwood",
-        "nameAr": "",
-        "nameFr": "Longwood"
-      },
-      {
-        "name": "Saint Paul's",
-        "nameAr": "",
-        "nameFr": "Saint Paul's"
-      },
-      {
-        "name": "Sandy Bay",
-        "nameAr": "",
-        "nameFr": "Sandy Bay"
-      }
-    ]
-  },
-  {
-    "code": "ST",
-    "name": "Sao Tome and Principe",
-    "nameAr": "ساو تومي وبرينسيبي",
-    "nameFr": "Sao Tome and Principe",
-    "cities": [
-            {
-                  "name": "Príncipe",
-                  "nameAr": "Príncipe",
-                  "nameFr": "Príncipe"
-            },
-            {
-                  "name": "São Tomé",
-                  "nameAr": "São Tomé",
-                  "nameFr": "São Tomé"
-            }
-      ]
-  },
-  {
-    "code": "SN",
-    "name": "Senegal",
-    "nameAr": "السنغال",
-    "nameFr": "Senegal",
-    "cities": [
-            {
-                  "name": "Dakar",
-                  "nameAr": "Dakar",
-                  "nameFr": "Dakar"
-            },
-            {
-                  "name": "Diourbel Region",
-                  "nameAr": "Diourbel Region",
-                  "nameFr": "Diourbel Region"
-            },
-            {
-                  "name": "Fatick",
-                  "nameAr": "Fatick",
-                  "nameFr": "Fatick"
-            },
-            {
-                  "name": "Kaffrine",
-                  "nameAr": "Kaffrine",
-                  "nameFr": "Kaffrine"
-            },
-            {
-                  "name": "Kaolack",
-                  "nameAr": "Kaolack",
-                  "nameFr": "Kaolack"
-            },
-            {
-                  "name": "Kédougou",
-                  "nameAr": "Kédougou",
-                  "nameFr": "Kédougou"
-            },
-            {
-                  "name": "Kolda",
-                  "nameAr": "Dans le bras",
-                  "nameFr": "Kolda"
-            },
-            {
-                  "name": "Louga",
-                  "nameAr": "Lougue",
-                  "nameFr": "Louga"
-            },
-            {
-                  "name": "Matam",
-                  "nameAr": "doux",
-                  "nameFr": "Matam"
-            },
-            {
-                  "name": "Saint-Louis",
-                  "nameAr": "Saint-Louis",
-                  "nameFr": "Saint-Louis"
-            },
-            {
-                  "name": "Sédhiou",
-                  "nameAr": "Sédhiou",
-                  "nameFr": "Sédhiou"
-            },
-            {
-                  "name": "Tambacounda Region",
-                  "nameAr": "Tambacounda Region",
-                  "nameFr": "Tambacounda Region"
-            },
-            {
-                  "name": "Thiès Region",
-                  "nameAr": "Thiès Region",
-                  "nameFr": "Thiès Region"
-            },
-            {
-                  "name": "Ziguinchor",
-                  "nameAr": "Ziguinchor",
-                  "nameFr": "Ziguinchor"
-            }
-      ]
-  },
-  {
     "code": "SC",
     "name": "Seychelles",
-    "nameAr": "سيشل",
-    "nameFr": "Seychelles",
+    "nameAr": "سيشيل",
+    "nameFr": "les Seychelles",
     "cities": [
             {
                   "name": "Anse Boileau",
@@ -4301,237 +3799,10 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "SL",
-    "name": "Sierra Leone",
-    "nameAr": "سيراليون",
-    "nameFr": "Sierra Leone",
-    "cities": [
-            {
-                  "name": "Eastern",
-                  "nameAr": "Eastern",
-                  "nameFr": "Eastern"
-            },
-            {
-                  "name": "Northern",
-                  "nameAr": "Northern",
-                  "nameFr": "Northern"
-            },
-            {
-                  "name": "Southern",
-                  "nameAr": "Southern",
-                  "nameFr": "Southern"
-            },
-            {
-                  "name": "Western",
-                  "nameAr": "Western",
-                  "nameFr": "Western"
-            }
-      ]
-  },
-  {
-    "code": "SO",
-    "name": "Somalia",
-    "nameAr": "الصومال",
-    "nameFr": "Somalia",
-    "cities": [
-            {
-                  "name": "Awdal",
-                  "nameAr": "Awdal",
-                  "nameFr": "Awdal"
-            },
-            {
-                  "name": "Bakool",
-                  "nameAr": "Bakool",
-                  "nameFr": "Bakool"
-            },
-            {
-                  "name": "Banaadir",
-                  "nameAr": "Banaadir",
-                  "nameFr": "Banaadir"
-            },
-            {
-                  "name": "Bari",
-                  "nameAr": "Bari",
-                  "nameFr": "Bari"
-            },
-            {
-                  "name": "Bay",
-                  "nameAr": "Gacan biyo badda",
-                  "nameFr": "Bay"
-            },
-            {
-                  "name": "Galguduud",
-                  "nameAr": "Galguduud",
-                  "nameFr": "Galguduud"
-            },
-            {
-                  "name": "Gedo",
-                  "nameAr": "Gedo",
-                  "nameFr": "Gedo"
-            },
-            {
-                  "name": "Hiran",
-                  "nameAr": "Hiraan",
-                  "nameFr": "Hiran"
-            },
-            {
-                  "name": "Lower Juba",
-                  "nameAr": "Jubbada Hoose",
-                  "nameFr": "Lower Juba"
-            },
-            {
-                  "name": "Lower Shebelle",
-                  "nameAr": "Hoose Shebelle",
-                  "nameFr": "Lower Shebelle"
-            },
-            {
-                  "name": "Middle Juba",
-                  "nameAr": "Jubbada Dhexe",
-                  "nameFr": "Middle Juba"
-            },
-            {
-                  "name": "Middle Shebelle",
-                  "nameAr": "Dhexe ee Shebelle",
-                  "nameFr": "Middle Shebelle"
-            },
-            {
-                  "name": "Mudug",
-                  "nameAr": "Mudug",
-                  "nameFr": "Mudug"
-            },
-            {
-                  "name": "Nugal",
-                  "nameAr": "Nugal",
-                  "nameFr": "Nugal"
-            },
-            {
-                  "name": "Sanaag",
-                  "nameAr": "Sanaag",
-                  "nameFr": "Sanaag"
-            },
-            {
-                  "name": "Togdheer",
-                  "nameAr": "Togdheer",
-                  "nameFr": "Togdheer"
-            }
-      ]
-  },
-  {
-    "code": "ZA",
-    "name": "South Africa",
-    "nameAr": "جنوب أفريقيا",
-    "nameFr": "South Africa",
-    "cities": [
-            {
-                  "name": "Eastern Cape",
-                  "nameAr": "Eastern Cape",
-                  "nameFr": "Eastern Cape"
-            },
-            {
-                  "name": "Free State",
-                  "nameAr": "Free State",
-                  "nameFr": "Free State"
-            },
-            {
-                  "name": "Gauteng",
-                  "nameAr": "Gauteng",
-                  "nameFr": "Gauteng"
-            },
-            {
-                  "name": "KwaZulu-Natal",
-                  "nameAr": "KwaZulu-Natal",
-                  "nameFr": "KwaZulu-Natal"
-            },
-            {
-                  "name": "Limpopo",
-                  "nameAr": "Limpopo",
-                  "nameFr": "Limpopo"
-            },
-            {
-                  "name": "Mpumalanga",
-                  "nameAr": "East",
-                  "nameFr": "Mpumalanga"
-            },
-            {
-                  "name": "North West",
-                  "nameAr": "North West",
-                  "nameFr": "North West"
-            },
-            {
-                  "name": "Northern Cape",
-                  "nameAr": "Northern Cape",
-                  "nameFr": "Northern Cape"
-            },
-            {
-                  "name": "Western Cape",
-                  "nameAr": "Western Cape",
-                  "nameFr": "Western Cape"
-            }
-      ]
-  },
-  {
-    "code": "SS",
-    "name": "South Sudan",
-    "nameAr": "جنوب السودان",
-    "nameFr": "South Sudan",
-    "cities": [
-      {
-        "name": "Central Equatoria",
-        "nameAr": "",
-        "nameFr": "Central Equatoria"
-      },
-      {
-        "name": "Eastern Equatoria",
-        "nameAr": "",
-        "nameFr": "Eastern Equatoria"
-      },
-      {
-        "name": "Jonglei State",
-        "nameAr": "",
-        "nameFr": "Jonglei State"
-      },
-      {
-        "name": "Lakes",
-        "nameAr": "",
-        "nameFr": "Lakes"
-      },
-      {
-        "name": "Northern Bahr el Ghazal",
-        "nameAr": "",
-        "nameFr": "Northern Bahr el Ghazal"
-      },
-      {
-        "name": "Unity",
-        "nameAr": "",
-        "nameFr": "Unity"
-      },
-      {
-        "name": "Upper Nile",
-        "nameAr": "",
-        "nameFr": "Upper Nile"
-      },
-      {
-        "name": "Warrap",
-        "nameAr": "",
-        "nameFr": "Warrap"
-      },
-      {
-        "name": "Western Bahr el Ghazal",
-        "nameAr": "",
-        "nameFr": "Western Bahr el Ghazal"
-      },
-      {
-        "name": "Western Equatoria",
-        "nameAr": "",
-        "nameFr": "Western Equatoria"
-      }
-    ]
-  },
-  {
     "code": "SD",
     "name": "Sudan",
-    "nameAr": "السودان",
-    "nameFr": "Sudan",
+    "nameAr": "سودان",
+    "nameFr": "Soudan",
     "cities": [
             {
                   "name": "Al Jazirah",
@@ -4626,10 +3897,534 @@ export const africaData: Country[] = [
       ]
   },
   {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "nameAr": "سيرا ليون",
+    "nameFr": "Sierra Leone",
+    "cities": [
+            {
+                  "name": "Eastern",
+                  "nameAr": "Eastern",
+                  "nameFr": "Eastern"
+            },
+            {
+                  "name": "Northern",
+                  "nameAr": "Northern",
+                  "nameFr": "Northern"
+            },
+            {
+                  "name": "Southern",
+                  "nameAr": "Southern",
+                  "nameFr": "Southern"
+            },
+            {
+                  "name": "Western",
+                  "nameAr": "Western",
+                  "nameFr": "Western"
+            }
+      ]
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "nameAr": "السنغال",
+    "nameFr": "Sénégal",
+    "cities": [
+            {
+                  "name": "Dakar",
+                  "nameAr": "Dakar",
+                  "nameFr": "Dakar"
+            },
+            {
+                  "name": "Diourbel Region",
+                  "nameAr": "Diourbel Region",
+                  "nameFr": "Diourbel Region"
+            },
+            {
+                  "name": "Fatick",
+                  "nameAr": "Fatick",
+                  "nameFr": "Fatick"
+            },
+            {
+                  "name": "Kaffrine",
+                  "nameAr": "Kaffrine",
+                  "nameFr": "Kaffrine"
+            },
+            {
+                  "name": "Kaolack",
+                  "nameAr": "Kaolack",
+                  "nameFr": "Kaolack"
+            },
+            {
+                  "name": "Kédougou",
+                  "nameAr": "Kédougou",
+                  "nameFr": "Kédougou"
+            },
+            {
+                  "name": "Kolda",
+                  "nameAr": "Dans le bras",
+                  "nameFr": "Kolda"
+            },
+            {
+                  "name": "Louga",
+                  "nameAr": "Lougue",
+                  "nameFr": "Louga"
+            },
+            {
+                  "name": "Matam",
+                  "nameAr": "doux",
+                  "nameFr": "Matam"
+            },
+            {
+                  "name": "Saint-Louis",
+                  "nameAr": "Saint-Louis",
+                  "nameFr": "Saint-Louis"
+            },
+            {
+                  "name": "Sédhiou",
+                  "nameAr": "Sédhiou",
+                  "nameFr": "Sédhiou"
+            },
+            {
+                  "name": "Tambacounda Region",
+                  "nameAr": "Tambacounda Region",
+                  "nameFr": "Tambacounda Region"
+            },
+            {
+                  "name": "Thiès Region",
+                  "nameAr": "Thiès Region",
+                  "nameFr": "Thiès Region"
+            },
+            {
+                  "name": "Ziguinchor",
+                  "nameAr": "Ziguinchor",
+                  "nameFr": "Ziguinchor"
+            }
+      ]
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "nameAr": "الصومال",
+    "nameFr": "Somalie",
+    "cities": [
+            {
+                  "name": "Awdal",
+                  "nameAr": "Awdal",
+                  "nameFr": "Awdal"
+            },
+            {
+                  "name": "Bakool",
+                  "nameAr": "Bakool",
+                  "nameFr": "Bakool"
+            },
+            {
+                  "name": "Banaadir",
+                  "nameAr": "Banaadir",
+                  "nameFr": "Banaadir"
+            },
+            {
+                  "name": "Bari",
+                  "nameAr": "Bari",
+                  "nameFr": "Bari"
+            },
+            {
+                  "name": "Bay",
+                  "nameAr": "Gacan biyo badda",
+                  "nameFr": "Bay"
+            },
+            {
+                  "name": "Galguduud",
+                  "nameAr": "Galguduud",
+                  "nameFr": "Galguduud"
+            },
+            {
+                  "name": "Gedo",
+                  "nameAr": "Gedo",
+                  "nameFr": "Gedo"
+            },
+            {
+                  "name": "Hiran",
+                  "nameAr": "Hiraan",
+                  "nameFr": "Hiran"
+            },
+            {
+                  "name": "Lower Juba",
+                  "nameAr": "Jubbada Hoose",
+                  "nameFr": "Lower Juba"
+            },
+            {
+                  "name": "Lower Shebelle",
+                  "nameAr": "Hoose Shebelle",
+                  "nameFr": "Lower Shebelle"
+            },
+            {
+                  "name": "Middle Juba",
+                  "nameAr": "Jubbada Dhexe",
+                  "nameFr": "Middle Juba"
+            },
+            {
+                  "name": "Middle Shebelle",
+                  "nameAr": "Dhexe ee Shebelle",
+                  "nameFr": "Middle Shebelle"
+            },
+            {
+                  "name": "Mudug",
+                  "nameAr": "Mudug",
+                  "nameFr": "Mudug"
+            },
+            {
+                  "name": "Nugal",
+                  "nameAr": "Nugal",
+                  "nameFr": "Nugal"
+            },
+            {
+                  "name": "Sanaag",
+                  "nameAr": "Sanaag",
+                  "nameFr": "Sanaag"
+            },
+            {
+                  "name": "Togdheer",
+                  "nameAr": "Togdheer",
+                  "nameFr": "Togdheer"
+            }
+      ]
+  },
+  {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "nameAr": "ساو تومي وبرنسيبي",
+    "nameFr": "Sao Tomé et Principe",
+    "cities": [
+            {
+                  "name": "Príncipe",
+                  "nameAr": "Príncipe",
+                  "nameFr": "Príncipe"
+            },
+            {
+                  "name": "São Tomé",
+                  "nameAr": "São Tomé",
+                  "nameFr": "São Tomé"
+            }
+      ]
+  },
+  {
+    "code": "SZ",
+    "name": "Swaziland",
+    "nameAr": "سوازيلاند",
+    "nameFr": "Swaziland",
+    "cities": [
+            {
+                  "name": "Hhohho",
+                  "nameAr": "Hhohho",
+                  "nameFr": "Hhohho"
+            },
+            {
+                  "name": "Lubombo",
+                  "nameAr": "Bitch",
+                  "nameFr": "Lubombo"
+            },
+            {
+                  "name": "Manzini",
+                  "nameAr": "Chic",
+                  "nameFr": "Manzini"
+            },
+            {
+                  "name": "Shiselweni",
+                  "nameAr": "Suspend",
+                  "nameFr": "Shiselweni"
+            }
+      ]
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "nameAr": "تشاد",
+    "nameFr": "Le tchad",
+    "cities": [
+            {
+                  "name": "Bahr el Gazel",
+                  "nameAr": "Bahr El Gazel",
+                  "nameFr": "Bahr el Gazel"
+            },
+            {
+                  "name": "Batha",
+                  "nameAr": "Batha",
+                  "nameFr": "Batha"
+            },
+            {
+                  "name": "Borkou",
+                  "nameAr": "Borkou",
+                  "nameFr": "Borkou"
+            },
+            {
+                  "name": "Chari-Baguirmi",
+                  "nameAr": "Chari-baguirmi",
+                  "nameFr": "Chari-Baguirmi"
+            },
+            {
+                  "name": "Ennedi-Est",
+                  "nameAr": "Ennedi-Est",
+                  "nameFr": "Ennedi-Est"
+            },
+            {
+                  "name": "Ennedi-Ouest",
+                  "nameAr": "Ennedi-Ouest",
+                  "nameFr": "Ennedi-Ouest"
+            },
+            {
+                  "name": "Guéra",
+                  "nameAr": "Guéra",
+                  "nameFr": "Guéra"
+            },
+            {
+                  "name": "Hadjer-Lamis",
+                  "nameAr": "Hadjer-lamis",
+                  "nameFr": "Hadjer-Lamis"
+            },
+            {
+                  "name": "Kanem",
+                  "nameAr": "Kanem",
+                  "nameFr": "Kanem"
+            },
+            {
+                  "name": "Lac",
+                  "nameAr": "Lac",
+                  "nameFr": "Lac"
+            },
+            {
+                  "name": "Logone Occidental",
+                  "nameAr": "Logone Occidental",
+                  "nameFr": "Logone Occidental"
+            },
+            {
+                  "name": "Logone Oriental",
+                  "nameAr": "Logone Oriental",
+                  "nameFr": "Logone Oriental"
+            },
+            {
+                  "name": "Mandoul",
+                  "nameAr": "Mandall",
+                  "nameFr": "Mandoul"
+            },
+            {
+                  "name": "Mayo-Kebbi Est",
+                  "nameAr": "Micha-cube EST",
+                  "nameFr": "Mayo-Kebbi Est"
+            },
+            {
+                  "name": "Mayo-Kebbi Ouest",
+                  "nameAr": "Mayo-kebbi Oust",
+                  "nameFr": "Mayo-Kebbi Ouest"
+            },
+            {
+                  "name": "Moyen-Chari",
+                  "nameAr": "Moyen-Chari",
+                  "nameFr": "Moyen-Chari"
+            },
+            {
+                  "name": "N'Djamena",
+                  "nameAr": "N'Djamena",
+                  "nameFr": "N'Djamena"
+            },
+            {
+                  "name": "Ouaddaï",
+                  "nameAr": "Ouaddaï",
+                  "nameFr": "Ouaddaï"
+            },
+            {
+                  "name": "Salamat",
+                  "nameAr": "Merci",
+                  "nameFr": "Salamat"
+            },
+            {
+                  "name": "Sila",
+                  "nameAr": "Ils sont",
+                  "nameFr": "Sila"
+            },
+            {
+                  "name": "Tandjilé",
+                  "nameAr": "Dentaire",
+                  "nameFr": "Tandjilé"
+            },
+            {
+                  "name": "Tibesti",
+                  "nameAr": "Tibesti",
+                  "nameFr": "Tibesti"
+            },
+            {
+                  "name": "Wadi Fira",
+                  "nameAr": "Wadi Fira",
+                  "nameFr": "Wadi Fira"
+            }
+      ]
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "nameAr": "ليذهب",
+    "nameFr": "Aller",
+    "cities": [
+            {
+                  "name": "Centrale",
+                  "nameAr": "Central",
+                  "nameFr": "Centrale"
+            },
+            {
+                  "name": "Kara",
+                  "nameAr": "Kara",
+                  "nameFr": "Kara"
+            },
+            {
+                  "name": "Maritime",
+                  "nameAr": "Maritime",
+                  "nameFr": "Maritime"
+            },
+            {
+                  "name": "Plateaux",
+                  "nameAr": "Plateaux",
+                  "nameFr": "Plateaux"
+            },
+            {
+                  "name": "Savanes",
+                  "nameAr": "Savanes",
+                  "nameFr": "Savanes"
+            }
+      ]
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "nameAr": "تونس",
+    "nameFr": "Tunisie",
+    "cities": [
+            {
+                  "name": "Ariana",
+                  "nameAr": "أريانا",
+                  "nameFr": "Ariana"
+            },
+            {
+                  "name": "Béja",
+                  "nameAr": "Béja",
+                  "nameFr": "Béja"
+            },
+            {
+                  "name": "Ben Arous",
+                  "nameAr": "بن آروس",
+                  "nameFr": "Ben Arous"
+            },
+            {
+                  "name": "Bizerte",
+                  "nameAr": "بيزرتي",
+                  "nameFr": "Bizerte"
+            },
+            {
+                  "name": "Gabès",
+                  "nameAr": "غاب",
+                  "nameFr": "Gabès"
+            },
+            {
+                  "name": "Gafsa",
+                  "nameAr": "GAFSA",
+                  "nameFr": "Gafsa"
+            },
+            {
+                  "name": "Jendouba",
+                  "nameAr": "جيندوبا",
+                  "nameFr": "Jendouba"
+            },
+            {
+                  "name": "Kairouan",
+                  "nameAr": "Kairouan",
+                  "nameFr": "Kairouan"
+            },
+            {
+                  "name": "Kasserine",
+                  "nameAr": "كاسيرين",
+                  "nameFr": "Kasserine"
+            },
+            {
+                  "name": "Kebili",
+                  "nameAr": "كره",
+                  "nameFr": "Kebili"
+            },
+            {
+                  "name": "Kef",
+                  "nameAr": "Kef",
+                  "nameFr": "Kef"
+            },
+            {
+                  "name": "Mahdia",
+                  "nameAr": "مهديا",
+                  "nameFr": "Mahdia"
+            },
+            {
+                  "name": "Manouba",
+                  "nameAr": "مانوبا",
+                  "nameFr": "Manouba"
+            },
+            {
+                  "name": "Medenine",
+                  "nameAr": "النحاس",
+                  "nameFr": "Medenine"
+            },
+            {
+                  "name": "Monastir",
+                  "nameAr": "Monastir",
+                  "nameFr": "Monastir"
+            },
+            {
+                  "name": "Nabeul",
+                  "nameAr": "نابول",
+                  "nameFr": "Nabeul"
+            },
+            {
+                  "name": "Sfax",
+                  "nameAr": "SFAX",
+                  "nameFr": "Sfax"
+            },
+            {
+                  "name": "Sidi Bouzid",
+                  "nameAr": "سيدي بوزيد",
+                  "nameFr": "Sidi Bouzid"
+            },
+            {
+                  "name": "Siliana",
+                  "nameAr": "سيليان",
+                  "nameFr": "Siliana"
+            },
+            {
+                  "name": "Sousse",
+                  "nameAr": "سوس",
+                  "nameFr": "Sousse"
+            },
+            {
+                  "name": "Tataouine",
+                  "nameAr": "Tataouine",
+                  "nameFr": "Tataouine"
+            },
+            {
+                  "name": "Tozeur",
+                  "nameAr": "توزور",
+                  "nameFr": "Tozeur"
+            },
+            {
+                  "name": "Tunis",
+                  "nameAr": "تونس",
+                  "nameFr": "Tunis"
+            },
+            {
+                  "name": "Zaghouan",
+                  "nameAr": "Zaghouan",
+                  "nameFr": "Zaghouan"
+            }
+      ]
+  },
+  {
     "code": "TZ",
     "name": "Tanzania",
     "nameAr": "تنزانيا",
-    "nameFr": "Tanzania",
+    "nameFr": "Tanzanie",
     "cities": [
             {
                   "name": "Arusha",
@@ -4789,209 +4584,10 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "GM",
-    "name": "The Gambia",
-    "nameAr": "غامبيا",
-    "nameFr": "The Gambia",
-    "cities": [
-            {
-                  "name": "Banjul",
-                  "nameAr": "Banjul",
-                  "nameFr": "Banjul"
-            },
-            {
-                  "name": "Central River",
-                  "nameAr": "Central River",
-                  "nameFr": "Central River"
-            },
-            {
-                  "name": "Lower River",
-                  "nameAr": "Lower River",
-                  "nameFr": "Lower River"
-            },
-            {
-                  "name": "North Bank",
-                  "nameAr": "North Bank",
-                  "nameFr": "North Bank"
-            },
-            {
-                  "name": "Upper River",
-                  "nameAr": "Upper River",
-                  "nameFr": "Upper River"
-            },
-            {
-                  "name": "West Coast",
-                  "nameAr": "West Coast",
-                  "nameFr": "West Coast"
-            }
-      ]
-  },
-  {
-    "code": "TG",
-    "name": "Togo",
-    "nameAr": "توغو",
-    "nameFr": "Togo",
-    "cities": [
-            {
-                  "name": "Centrale",
-                  "nameAr": "Central",
-                  "nameFr": "Centrale"
-            },
-            {
-                  "name": "Kara",
-                  "nameAr": "Kara",
-                  "nameFr": "Kara"
-            },
-            {
-                  "name": "Maritime",
-                  "nameAr": "Maritime",
-                  "nameFr": "Maritime"
-            },
-            {
-                  "name": "Plateaux",
-                  "nameAr": "Plateaux",
-                  "nameFr": "Plateaux"
-            },
-            {
-                  "name": "Savanes",
-                  "nameAr": "Savanes",
-                  "nameFr": "Savanes"
-            }
-      ]
-  },
-  {
-    "code": "TN",
-    "name": "Tunisia",
-    "nameAr": "تونس",
-    "nameFr": "Tunisia",
-    "cities": [
-            {
-                  "name": "Ariana",
-                  "nameAr": "أريانا",
-                  "nameFr": "Ariana"
-            },
-            {
-                  "name": "Béja",
-                  "nameAr": "Béja",
-                  "nameFr": "Béja"
-            },
-            {
-                  "name": "Ben Arous",
-                  "nameAr": "بن آروس",
-                  "nameFr": "Ben Arous"
-            },
-            {
-                  "name": "Bizerte",
-                  "nameAr": "بيزرتي",
-                  "nameFr": "Bizerte"
-            },
-            {
-                  "name": "Gabès",
-                  "nameAr": "غاب",
-                  "nameFr": "Gabès"
-            },
-            {
-                  "name": "Gafsa",
-                  "nameAr": "GAFSA",
-                  "nameFr": "Gafsa"
-            },
-            {
-                  "name": "Jendouba",
-                  "nameAr": "جيندوبا",
-                  "nameFr": "Jendouba"
-            },
-            {
-                  "name": "Kairouan",
-                  "nameAr": "Kairouan",
-                  "nameFr": "Kairouan"
-            },
-            {
-                  "name": "Kasserine",
-                  "nameAr": "كاسيرين",
-                  "nameFr": "Kasserine"
-            },
-            {
-                  "name": "Kebili",
-                  "nameAr": "كره",
-                  "nameFr": "Kebili"
-            },
-            {
-                  "name": "Kef",
-                  "nameAr": "Kef",
-                  "nameFr": "Kef"
-            },
-            {
-                  "name": "Mahdia",
-                  "nameAr": "مهديا",
-                  "nameFr": "Mahdia"
-            },
-            {
-                  "name": "Manouba",
-                  "nameAr": "مانوبا",
-                  "nameFr": "Manouba"
-            },
-            {
-                  "name": "Medenine",
-                  "nameAr": "النحاس",
-                  "nameFr": "Medenine"
-            },
-            {
-                  "name": "Monastir",
-                  "nameAr": "Monastir",
-                  "nameFr": "Monastir"
-            },
-            {
-                  "name": "Nabeul",
-                  "nameAr": "نابول",
-                  "nameFr": "Nabeul"
-            },
-            {
-                  "name": "Sfax",
-                  "nameAr": "SFAX",
-                  "nameFr": "Sfax"
-            },
-            {
-                  "name": "Sidi Bouzid",
-                  "nameAr": "سيدي بوزيد",
-                  "nameFr": "Sidi Bouzid"
-            },
-            {
-                  "name": "Siliana",
-                  "nameAr": "سيليان",
-                  "nameFr": "Siliana"
-            },
-            {
-                  "name": "Sousse",
-                  "nameAr": "سوس",
-                  "nameFr": "Sousse"
-            },
-            {
-                  "name": "Tataouine",
-                  "nameAr": "Tataouine",
-                  "nameFr": "Tataouine"
-            },
-            {
-                  "name": "Tozeur",
-                  "nameAr": "توزور",
-                  "nameFr": "Tozeur"
-            },
-            {
-                  "name": "Tunis",
-                  "nameAr": "تونس",
-                  "nameFr": "Tunis"
-            },
-            {
-                  "name": "Zaghouan",
-                  "nameAr": "Zaghouan",
-                  "nameFr": "Zaghouan"
-            }
-      ]
-  },
-  {
     "code": "UG",
     "name": "Uganda",
     "nameAr": "أوغندا",
-    "nameFr": "Uganda",
+    "nameFr": "Ouganda",
     "cities": [
             {
                   "name": "Abim",
@@ -5691,17 +5287,156 @@ export const africaData: Country[] = [
       ]
   },
   {
-    "code": "EH",
-    "name": "Western Sahara",
-    "nameAr": "الصحراء الغربية",
-    "nameFr": "Western Sahara",
-    "cities": []
+    "code": "YT",
+    "name": "Mayotte",
+    "nameAr": "مايوت",
+    "nameFr": "Mayotte",
+    "cities": [
+            {
+                  "name": "Acoua",
+                  "nameAr": "Acoua",
+                  "nameFr": "Acoua"
+            },
+            {
+                  "name": "Bandraboua",
+                  "nameAr": "Bandraboua",
+                  "nameFr": "Bandraboua"
+            },
+            {
+                  "name": "Bandrélé",
+                  "nameAr": "Bandrelé",
+                  "nameFr": "Bandrélé"
+            },
+            {
+                  "name": "Boueni",
+                  "nameAr": "Bouen",
+                  "nameFr": "Boueni"
+            },
+            {
+                  "name": "Chiconi",
+                  "nameAr": "Chiconi",
+                  "nameFr": "Chiconi"
+            },
+            {
+                  "name": "Chirongui",
+                  "nameAr": "Chirongui",
+                  "nameFr": "Chirongui"
+            },
+            {
+                  "name": "Dembeni",
+                  "nameAr": "Débat",
+                  "nameFr": "Dembeni"
+            },
+            {
+                  "name": "Dzaoudzi",
+                  "nameAr": "Leur",
+                  "nameFr": "Dzaoudzi"
+            },
+            {
+                  "name": "Kani Keli",
+                  "nameAr": "Ce seul",
+                  "nameFr": "Kani Keli"
+            },
+            {
+                  "name": "Koungou",
+                  "nameAr": "Maintenant",
+                  "nameFr": "Koungou"
+            },
+            {
+                  "name": "M'Tsangamouji",
+                  "nameAr": "Entrée",
+                  "nameFr": "M'Tsangamouji"
+            },
+            {
+                  "name": "Mamoudzou",
+                  "nameAr": "Mamoudzou",
+                  "nameFr": "Mamoudzou"
+            },
+            {
+                  "name": "Mtsamboro",
+                  "nameAr": "Mtsamboro",
+                  "nameFr": "Mtsamboro"
+            },
+            {
+                  "name": "Ouangani",
+                  "nameAr": "Ambitieux",
+                  "nameFr": "Ouangani"
+            },
+            {
+                  "name": "Pamandzi",
+                  "nameAr": "En ville",
+                  "nameFr": "Pamandzi"
+            },
+            {
+                  "name": "Sada",
+                  "nameAr": "Maintenant",
+                  "nameFr": "Sada"
+            },
+            {
+                  "name": "Tsingoni",
+                  "nameAr": "Tsingoni",
+                  "nameFr": "Tsingoni"
+            }
+      ]
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "nameAr": "جنوب أفريقيا",
+    "nameFr": "Afrique du Sud",
+    "cities": [
+            {
+                  "name": "Eastern Cape",
+                  "nameAr": "Eastern Cape",
+                  "nameFr": "Eastern Cape"
+            },
+            {
+                  "name": "Free State",
+                  "nameAr": "Free State",
+                  "nameFr": "Free State"
+            },
+            {
+                  "name": "Gauteng",
+                  "nameAr": "Gauteng",
+                  "nameFr": "Gauteng"
+            },
+            {
+                  "name": "KwaZulu-Natal",
+                  "nameAr": "KwaZulu-Natal",
+                  "nameFr": "KwaZulu-Natal"
+            },
+            {
+                  "name": "Limpopo",
+                  "nameAr": "Limpopo",
+                  "nameFr": "Limpopo"
+            },
+            {
+                  "name": "Mpumalanga",
+                  "nameAr": "East",
+                  "nameFr": "Mpumalanga"
+            },
+            {
+                  "name": "North West",
+                  "nameAr": "North West",
+                  "nameFr": "North West"
+            },
+            {
+                  "name": "Northern Cape",
+                  "nameAr": "Northern Cape",
+                  "nameFr": "Northern Cape"
+            },
+            {
+                  "name": "Western Cape",
+                  "nameAr": "Western Cape",
+                  "nameFr": "Western Cape"
+            }
+      ]
   },
   {
     "code": "ZM",
     "name": "Zambia",
     "nameAr": "زامبيا",
-    "nameFr": "Zambia",
+    "nameFr": "Zambie",
     "cities": [
             {
                   "name": "Central",

@@ -3,7 +3,7 @@ node_modules/
 
 # Dependencies
 countries-and-cities-list-with-three-language
-
+countries-states-cities-database
 # Build output
 dist/
 *.tsbuildinfo

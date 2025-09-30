@@ -1,7 +1,7 @@
 {
   "name": "countries-cities-ar",
-  "version": "1.0.0",
-  "description": "Complete world countries and cities with English and Arabic names",
+  "version": "2.0.0",
+  "description": "Complete world countries, cities, and states/governorates with English, Arabic, and French names",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -28,18 +28,23 @@
   "keywords": [
     "countries",
     "cities",
+    "states",
+    "governorates",
+    "provinces",
     "arabic",
+    "french",
     "localization",
     "world",
     "npm library",
     "i18n",
-    "governorates"
+    "multilingual",
+    "typescript"
   ],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/countries-cities-ar.git"
+    "url": "https://github.com/ziadmustafa1/countries-cities-ar"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.21.0",

@@ -1,0 +1,2222 @@
+{
+  "Africa": [
+    {
+      "code": "CI",
+      "name": "Cote D'Ivoire (Ivory Coast)",
+      "nameAr": "ساحل العاج",
+      "nameFr": "Cote D'Ivoire (Ivory Coast)",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "statesCount": 26,
+      "states": [
+        {
+          "name": "Abidjan",
+          "nameAr": "Abidjan",
+          "nameFr": "Abidjan"
+        },
+        {
+          "name": "Agnéby",
+          "nameAr": "Agnéby",
+          "nameFr": "Agnéby"
+        },
+        {
+          "name": "Bafing",
+          "nameAr": "Bafing",
+          "nameFr": "Bafing"
+        },
+        {
+          "name": "Bas-Sassandra",
+          "nameAr": "Bas-Sassandra",
+          "nameFr": "Bas-Sassandra"
+        },
+        {
+          "name": "Comoé",
+          "nameAr": "Comoé",
+          "nameFr": "Comoé"
+        },
+        {
+          "name": "Denguélé",
+          "nameAr": "Denguélé",
+          "nameFr": "Denguélé"
+        },
+        {
+          "name": "Dix-Huit Montagnes",
+          "nameAr": "Dix-Huit Montagnes",
+          "nameFr": "Dix-Huit Montagnes"
+        },
+        {
+          "name": "Fromager",
+          "nameAr": "Fromager",
+          "nameFr": "Fromager"
+        },
+        {
+          "name": "Gôh-Djiboua",
+          "nameAr": "Gôh-Djiboua",
+          "nameFr": "Gôh-Djiboua"
+        },
+        {
+          "name": "Haut-Sassandra",
+          "nameAr": "Haut-Sassandra",
+          "nameFr": "Haut-Sassandra"
+        },
+        {
+          "name": "Lacs",
+          "nameAr": "Lacs",
+          "nameFr": "Lacs"
+        },
+        {
+          "name": "Lagunes",
+          "nameAr": "Lagunes",
+          "nameFr": "Lagunes"
+        },
+        {
+          "name": "Marahoué",
+          "nameAr": "Marahoué",
+          "nameFr": "Marahoué"
+        },
+        {
+          "name": "Montagnes",
+          "nameAr": "Montagnes",
+          "nameFr": "Montagnes"
+        },
+        {
+          "name": "Moyen-Cavally",
+          "nameAr": "Moyen-Cavally",
+          "nameFr": "Moyen-Cavally"
+        },
+        {
+          "name": "Moyen-Comoé",
+          "nameAr": "Moyen-Comoé",
+          "nameFr": "Moyen-Comoé"
+        },
+        {
+          "name": "N'zi-Comoé",
+          "nameAr": "N'zi-Comoé",
+          "nameFr": "N'zi-Comoé"
+        },
+        {
+          "name": "Sassandra-Marahoué",
+          "nameAr": "Sassandra-Marahoué",
+          "nameFr": "Sassandra-Marahoué"
+        },
+        {
+          "name": "Savanes",
+          "nameAr": "Savanes",
+          "nameFr": "Savanes"
+        },
+        {
+          "name": "Sud-Bandama",
+          "nameAr": "Sud-Bandama",
+          "nameFr": "Sud-Bandama"
+        },
+        {
+          "name": "Sud-Comoé",
+          "nameAr": "Sud-Comoé",
+          "nameFr": "Sud-Comoé"
+        },
+        {
+          "name": "Vallée du Bandama",
+          "nameAr": "Vallée du Bandama",
+          "nameFr": "Vallée du Bandama"
+        },
+        {
+          "name": "Woroba",
+          "nameAr": "Woroba",
+          "nameFr": "Woroba"
+        },
+        {
+          "name": "Worodougou",
+          "nameAr": "Worodougou",
+          "nameFr": "Worodougou"
+        },
+        {
+          "name": "Yamoussoukro",
+          "nameAr": "Yamoussoukro",
+          "nameFr": "Yamoussoukro"
+        },
+        {
+          "name": "Zanzan",
+          "nameAr": "Zanzan",
+          "nameFr": "Zanzan"
+        }
+      ]
+    },
+    {
+      "code": "SH",
+      "name": "Saint Helena",
+      "nameAr": "Saint Helena",
+      "nameFr": "Saint Helena",
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "statesCount": 8,
+      "states": [
+        {
+          "name": "Alarm Forest",
+          "nameAr": "Alarm Forest",
+          "nameFr": "Alarm Forest"
+        },
+        {
+          "name": "Blue Hill",
+          "nameAr": "Blue Hill",
+          "nameFr": "Blue Hill"
+        },
+        {
+          "name": "Half Tree Hollow",
+          "nameAr": "Half Tree Hollow",
+          "nameFr": "Half Tree Hollow"
+        },
+        {
+          "name": "Jamestown",
+          "nameAr": "Jamestown",
+          "nameFr": "Jamestown"
+        },
+        {
+          "name": "Levelwood",
+          "nameAr": "Levelwood",
+          "nameFr": "Levelwood"
+        },
+        {
+          "name": "Longwood",
+          "nameAr": "Longwood",
+          "nameFr": "Longwood"
+        },
+        {
+          "name": "Saint Paul's",
+          "nameAr": "Saint Paul's",
+          "nameFr": "Saint Paul's"
+        },
+        {
+          "name": "Sandy Bay",
+          "nameAr": "Sandy Bay",
+          "nameFr": "Sandy Bay"
+        }
+      ]
+    },
+    {
+      "code": "SS",
+      "name": "South Sudan",
+      "nameAr": "جنوب السودان",
+      "nameFr": "South Sudan",
+      "region": "Africa",
+      "subregion": "Middle Africa",
+      "statesCount": 10,
+      "states": [
+        {
+          "name": "Central Equatoria",
+          "nameAr": "Central Equatoria",
+          "nameFr": "Central Equatoria"
+        },
+        {
+          "name": "Eastern Equatoria",
+          "nameAr": "Eastern Equatoria",
+          "nameFr": "Eastern Equatoria"
+        },
+        {
+          "name": "Jonglei State",
+          "nameAr": "Jonglei State",
+          "nameFr": "Jonglei State"
+        },
+        {
+          "name": "Lakes",
+          "nameAr": "Lakes",
+          "nameFr": "Lakes"
+        },
+        {
+          "name": "Northern Bahr el Ghazal",
+          "nameAr": "Northern Bahr el Ghazal",
+          "nameFr": "Northern Bahr el Ghazal"
+        },
+        {
+          "name": "Unity",
+          "nameAr": "Unity",
+          "nameFr": "Unity"
+        },
+        {
+          "name": "Upper Nile",
+          "nameAr": "Upper Nile",
+          "nameFr": "Upper Nile"
+        },
+        {
+          "name": "Warrap",
+          "nameAr": "Warrap",
+          "nameFr": "Warrap"
+        },
+        {
+          "name": "Western Bahr el Ghazal",
+          "nameAr": "Western Bahr el Ghazal",
+          "nameFr": "Western Bahr el Ghazal"
+        },
+        {
+          "name": "Western Equatoria",
+          "nameAr": "Western Equatoria",
+          "nameFr": "Western Equatoria"
+        }
+      ]
+    }
+  ],
+  "Americas": [
+    {
+      "code": "BQ",
+      "name": "Bonaire, Sint Eustatius and Saba",
+      "nameAr": "بونير وسانت أوستاتيوس وسابا",
+      "nameFr": "Bonaire, Sint Eustatius and Saba",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "statesCount": 3,
+      "states": [
+        {
+          "name": "Bonaire",
+          "nameAr": "Bonaire",
+          "nameFr": "Bonaire"
+        },
+        {
+          "name": "Saba",
+          "nameAr": "Saba",
+          "nameFr": "Saba"
+        },
+        {
+          "name": "Sint Eustatius",
+          "nameAr": "Sint Eustatius",
+          "nameFr": "Sint Eustatius"
+        }
+      ]
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "nameAr": "الإكوادور",
+      "nameFr": "Ecuador",
+      "region": "Americas",
+      "subregion": "South America",
+      "statesCount": 24,
+      "states": [
+        {
+          "name": "Azuay",
+          "nameAr": "Azuay",
+          "nameFr": "Azuay"
+        },
+        {
+          "name": "Bolívar",
+          "nameAr": "Bolívar",
+          "nameFr": "Bolívar"
+        },
+        {
+          "name": "Cañar",
+          "nameAr": "Cañar",
+          "nameFr": "Cañar"
+        },
+        {
+          "name": "Carchi",
+          "nameAr": "Carchi",
+          "nameFr": "Carchi"
+        },
+        {
+          "name": "Chimborazo",
+          "nameAr": "Chimborazo",
+          "nameFr": "Chimborazo"
+        },
+        {
+          "name": "Cotopaxi",
+          "nameAr": "Cotopaxi",
+          "nameFr": "Cotopaxi"
+        },
+        {
+          "name": "El Oro",
+          "nameAr": "El Oro",
+          "nameFr": "El Oro"
+        },
+        {
+          "name": "Esmeraldas",
+          "nameAr": "Esmeraldas",
+          "nameFr": "Esmeraldas"
+        },
+        {
+          "name": "Galápagos",
+          "nameAr": "Galápagos",
+          "nameFr": "Galápagos"
+        },
+        {
+          "name": "Guayas",
+          "nameAr": "Guayas",
+          "nameFr": "Guayas"
+        },
+        {
+          "name": "Imbabura",
+          "nameAr": "Imbabura",
+          "nameFr": "Imbabura"
+        },
+        {
+          "name": "Loja",
+          "nameAr": "Loja",
+          "nameFr": "Loja"
+        },
+        {
+          "name": "Los Ríos",
+          "nameAr": "Los Ríos",
+          "nameFr": "Los Ríos"
+        },
+        {
+          "name": "Manabí",
+          "nameAr": "Manabí",
+          "nameFr": "Manabí"
+        },
+        {
+          "name": "Morona-Santiago",
+          "nameAr": "Morona-Santiago",
+          "nameFr": "Morona-Santiago"
+        },
+        {
+          "name": "Napo",
+          "nameAr": "Napo",
+          "nameFr": "Napo"
+        },
+        {
+          "name": "Orellana",
+          "nameAr": "Orellana",
+          "nameFr": "Orellana"
+        },
+        {
+          "name": "Pastaza",
+          "nameAr": "Pastaza",
+          "nameFr": "Pastaza"
+        },
+        {
+          "name": "Pichincha",
+          "nameAr": "Pichincha",
+          "nameFr": "Pichincha"
+        },
+        {
+          "name": "Santa Elena",
+          "nameAr": "Santa Elena",
+          "nameFr": "Santa Elena"
+        },
+        {
+          "name": "Santo Domingo de los Tsáchilas",
+          "nameAr": "Santo Domingo de los Tsáchilas",
+          "nameFr": "Santo Domingo de los Tsáchilas"
+        },
+        {
+          "name": "Sucumbíos",
+          "nameAr": "Sucumbíos",
+          "nameFr": "Sucumbíos"
+        },
+        {
+          "name": "Tungurahua",
+          "nameAr": "Tungurahua",
+          "nameFr": "Tungurahua"
+        },
+        {
+          "name": "Zamora Chinchipe",
+          "nameAr": "Zamora Chinchipe",
+          "nameFr": "Zamora Chinchipe"
+        }
+      ]
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "nameAr": "Puerto Rico",
+      "nameFr": "Puerto Rico",
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "statesCount": 88,
+      "states": [
+        {
+          "name": "Adjuntas",
+          "nameAr": "Adjuntas",
+          "nameFr": "Adjuntas"
+        },
+        {
+          "name": "Aguada",
+          "nameAr": "Aguada",
+          "nameFr": "Aguada"
+        },
+        {
+          "name": "Aguadilla",
+          "nameAr": "Aguadilla",
+          "nameFr": "Aguadilla"
+        },
+        {
+          "name": "Aguas Buenas",
+          "nameAr": "Aguas Buenas",
+          "nameFr": "Aguas Buenas"
+        },
+        {
+          "name": "Aibonito",
+          "nameAr": "Aibonito",
+          "nameFr": "Aibonito"
+        },
+        {
+          "name": "Añasco",
+          "nameAr": "Añasco",
+          "nameFr": "Añasco"
+        },
+        {
+          "name": "Arecibo",
+          "nameAr": "Arecibo",
+          "nameFr": "Arecibo"
+        },
+        {
+          "name": "Arecibo",
+          "nameAr": "Arecibo",
+          "nameFr": "Arecibo"
+        },
+        {
+          "name": "Arroyo",
+          "nameAr": "Arroyo",
+          "nameFr": "Arroyo"
+        },
+        {
+          "name": "Barceloneta",
+          "nameAr": "Barceloneta",
+          "nameFr": "Barceloneta"
+        },
+        {
+          "name": "Barranquitas",
+          "nameAr": "Barranquitas",
+          "nameFr": "Barranquitas"
+        },
+        {
+          "name": "Bayamon",
+          "nameAr": "Bayamon",
+          "nameFr": "Bayamon"
+        },
+        {
+          "name": "Bayamón",
+          "nameAr": "Bayamón",
+          "nameFr": "Bayamón"
+        },
+        {
+          "name": "Cabo Rojo",
+          "nameAr": "Cabo Rojo",
+          "nameFr": "Cabo Rojo"
+        },
+        {
+          "name": "Caguas",
+          "nameAr": "Caguas",
+          "nameFr": "Caguas"
+        },
+        {
+          "name": "Caguas",
+          "nameAr": "Caguas",
+          "nameFr": "Caguas"
+        },
+        {
+          "name": "Camuy",
+          "nameAr": "Camuy",
+          "nameFr": "Camuy"
+        },
+        {
+          "name": "Canóvanas",
+          "nameAr": "Canóvanas",
+          "nameFr": "Canóvanas"
+        },
+        {
+          "name": "Carolina",
+          "nameAr": "Carolina",
+          "nameFr": "Carolina"
+        },
+        {
+          "name": "Carolina",
+          "nameAr": "Carolina",
+          "nameFr": "Carolina"
+        },
+        {
+          "name": "Cataño",
+          "nameAr": "Cataño",
+          "nameFr": "Cataño"
+        },
+        {
+          "name": "Cayey",
+          "nameAr": "Cayey",
+          "nameFr": "Cayey"
+        },
+        {
+          "name": "Ceiba",
+          "nameAr": "Ceiba",
+          "nameFr": "Ceiba"
+        },
+        {
+          "name": "Ciales",
+          "nameAr": "Ciales",
+          "nameFr": "Ciales"
+        },
+        {
+          "name": "Cidra",
+          "nameAr": "Cidra",
+          "nameFr": "Cidra"
+        },
+        {
+          "name": "Coamo",
+          "nameAr": "Coamo",
+          "nameFr": "Coamo"
+        },
+        {
+          "name": "Comerío",
+          "nameAr": "Comerío",
+          "nameFr": "Comerío"
+        },
+        {
+          "name": "Corozal",
+          "nameAr": "Corozal",
+          "nameFr": "Corozal"
+        },
+        {
+          "name": "Culebra",
+          "nameAr": "Culebra",
+          "nameFr": "Culebra"
+        },
+        {
+          "name": "Dorado",
+          "nameAr": "Dorado",
+          "nameFr": "Dorado"
+        },
+        {
+          "name": "Fajardo",
+          "nameAr": "Fajardo",
+          "nameFr": "Fajardo"
+        },
+        {
+          "name": "Florida",
+          "nameAr": "Florida",
+          "nameFr": "Florida"
+        },
+        {
+          "name": "Guánica",
+          "nameAr": "Guánica",
+          "nameFr": "Guánica"
+        },
+        {
+          "name": "Guayama",
+          "nameAr": "Guayama",
+          "nameFr": "Guayama"
+        },
+        {
+          "name": "Guayanilla",
+          "nameAr": "Guayanilla",
+          "nameFr": "Guayanilla"
+        },
+        {
+          "name": "Guaynabo",
+          "nameAr": "Guaynabo",
+          "nameFr": "Guaynabo"
+        },
+        {
+          "name": "Guaynabo",
+          "nameAr": "Guaynabo",
+          "nameFr": "Guaynabo"
+        },
+        {
+          "name": "Gurabo",
+          "nameAr": "Gurabo",
+          "nameFr": "Gurabo"
+        },
+        {
+          "name": "Hatillo",
+          "nameAr": "Hatillo",
+          "nameFr": "Hatillo"
+        },
+        {
+          "name": "Hormigueros",
+          "nameAr": "Hormigueros",
+          "nameFr": "Hormigueros"
+        },
+        {
+          "name": "Humacao",
+          "nameAr": "Humacao",
+          "nameFr": "Humacao"
+        },
+        {
+          "name": "Isabela",
+          "nameAr": "Isabela",
+          "nameFr": "Isabela"
+        },
+        {
+          "name": "Jayuya",
+          "nameAr": "Jayuya",
+          "nameFr": "Jayuya"
+        },
+        {
+          "name": "Juana Díaz",
+          "nameAr": "Juana Díaz",
+          "nameFr": "Juana Díaz"
+        },
+        {
+          "name": "Juncos",
+          "nameAr": "Juncos",
+          "nameFr": "Juncos"
+        },
+        {
+          "name": "Lajas",
+          "nameAr": "Lajas",
+          "nameFr": "Lajas"
+        },
+        {
+          "name": "Lares",
+          "nameAr": "Lares",
+          "nameFr": "Lares"
+        },
+        {
+          "name": "Las Marías",
+          "nameAr": "Las Marías",
+          "nameFr": "Las Marías"
+        },
+        {
+          "name": "Las Piedras",
+          "nameAr": "Las Piedras",
+          "nameFr": "Las Piedras"
+        },
+        {
+          "name": "Loíza",
+          "nameAr": "Loíza",
+          "nameFr": "Loíza"
+        },
+        {
+          "name": "Luquillo",
+          "nameAr": "Luquillo",
+          "nameFr": "Luquillo"
+        },
+        {
+          "name": "Manatí",
+          "nameAr": "Manatí",
+          "nameFr": "Manatí"
+        },
+        {
+          "name": "Maricao",
+          "nameAr": "Maricao",
+          "nameFr": "Maricao"
+        },
+        {
+          "name": "Maunabo",
+          "nameAr": "Maunabo",
+          "nameFr": "Maunabo"
+        },
+        {
+          "name": "Mayagüez",
+          "nameAr": "Mayagüez",
+          "nameFr": "Mayagüez"
+        },
+        {
+          "name": "Mayagüez",
+          "nameAr": "Mayagüez",
+          "nameFr": "Mayagüez"
+        },
+        {
+          "name": "Moca",
+          "nameAr": "Moca",
+          "nameFr": "Moca"
+        },
+        {
+          "name": "Morovis",
+          "nameAr": "Morovis",
+          "nameFr": "Morovis"
+        },
+        {
+          "name": "Naguabo",
+          "nameAr": "Naguabo",
+          "nameFr": "Naguabo"
+        },
+        {
+          "name": "Naranjito",
+          "nameAr": "Naranjito",
+          "nameFr": "Naranjito"
+        },
+        {
+          "name": "Orocovis",
+          "nameAr": "Orocovis",
+          "nameFr": "Orocovis"
+        },
+        {
+          "name": "Patillas",
+          "nameAr": "Patillas",
+          "nameFr": "Patillas"
+        },
+        {
+          "name": "Peñuelas",
+          "nameAr": "Peñuelas",
+          "nameFr": "Peñuelas"
+        },
+        {
+          "name": "Ponce",
+          "nameAr": "Ponce",
+          "nameFr": "Ponce"
+        },
+        {
+          "name": "Ponce",
+          "nameAr": "Ponce",
+          "nameFr": "Ponce"
+        },
+        {
+          "name": "Quebradillas",
+          "nameAr": "Quebradillas",
+          "nameFr": "Quebradillas"
+        },
+        {
+          "name": "Rincón",
+          "nameAr": "Rincón",
+          "nameFr": "Rincón"
+        },
+        {
+          "name": "Río Grande",
+          "nameAr": "Río Grande",
+          "nameFr": "Río Grande"
+        },
+        {
+          "name": "Sabana Grande",
+          "nameAr": "Sabana Grande",
+          "nameFr": "Sabana Grande"
+        },
+        {
+          "name": "Salinas",
+          "nameAr": "Salinas",
+          "nameFr": "Salinas"
+        },
+        {
+          "name": "San Germán",
+          "nameAr": "San Germán",
+          "nameFr": "San Germán"
+        },
+        {
+          "name": "San Juan",
+          "nameAr": "San Juan",
+          "nameFr": "San Juan"
+        },
+        {
+          "name": "San Juan",
+          "nameAr": "San Juan",
+          "nameFr": "San Juan"
+        },
+        {
+          "name": "San Lorenzo",
+          "nameAr": "San Lorenzo",
+          "nameFr": "San Lorenzo"
+        },
+        {
+          "name": "San Sebastián",
+          "nameAr": "San Sebastián",
+          "nameFr": "San Sebastián"
+        },
+        {
+          "name": "Santa Isabel",
+          "nameAr": "Santa Isabel",
+          "nameFr": "Santa Isabel"
+        },
+        {
+          "name": "Toa Alta",
+          "nameAr": "Toa Alta",
+          "nameFr": "Toa Alta"
+        },
+        {
+          "name": "Toa Baja",
+          "nameAr": "Toa Baja",
+          "nameFr": "Toa Baja"
+        },
+        {
+          "name": "Toa Baja",
+          "nameAr": "Toa Baja",
+          "nameFr": "Toa Baja"
+        },
+        {
+          "name": "Trujillo Alto",
+          "nameAr": "Trujillo Alto",
+          "nameFr": "Trujillo Alto"
+        },
+        {
+          "name": "Trujillo Alto",
+          "nameAr": "Trujillo Alto",
+          "nameFr": "Trujillo Alto"
+        },
+        {
+          "name": "Utuado",
+          "nameAr": "Utuado",
+          "nameFr": "Utuado"
+        },
+        {
+          "name": "Vega Alta",
+          "nameAr": "Vega Alta",
+          "nameFr": "Vega Alta"
+        },
+        {
+          "name": "Vega Baja",
+          "nameAr": "Vega Baja",
+          "nameFr": "Vega Baja"
+        },
+        {
+          "name": "Vieques",
+          "nameAr": "Vieques",
+          "nameFr": "Vieques"
+        },
+        {
+          "name": "Villalba",
+          "nameAr": "Villalba",
+          "nameFr": "Villalba"
+        },
+        {
+          "name": "Yabucoa",
+          "nameAr": "Yabucoa",
+          "nameFr": "Yabucoa"
+        },
+        {
+          "name": "Yauco",
+          "nameAr": "Yauco",
+          "nameFr": "Yauco"
+        }
+      ]
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "nameAr": "الولايات المتحدة",
+      "nameFr": "United States",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "statesCount": 57,
+      "states": [
+        {
+          "name": "Alabama",
+          "nameAr": "Alabama",
+          "nameFr": "Alabama"
+        },
+        {
+          "name": "Alaska",
+          "nameAr": "Alaska",
+          "nameFr": "Alaska"
+        },
+        {
+          "name": "American Samoa",
+          "nameAr": "American Samoa",
+          "nameFr": "American Samoa"
+        },
+        {
+          "name": "Arizona",
+          "nameAr": "Arizona",
+          "nameFr": "Arizona"
+        },
+        {
+          "name": "Arkansas",
+          "nameAr": "Arkansas",
+          "nameFr": "Arkansas"
+        },
+        {
+          "name": "California",
+          "nameAr": "California",
+          "nameFr": "California"
+        },
+        {
+          "name": "Colorado",
+          "nameAr": "Colorado",
+          "nameFr": "Colorado"
+        },
+        {
+          "name": "Connecticut",
+          "nameAr": "Connecticut",
+          "nameFr": "Connecticut"
+        },
+        {
+          "name": "Delaware",
+          "nameAr": "Delaware",
+          "nameFr": "Delaware"
+        },
+        {
+          "name": "District of Columbia",
+          "nameAr": "District of Columbia",
+          "nameFr": "District of Columbia"
+        },
+        {
+          "name": "Florida",
+          "nameAr": "Florida",
+          "nameFr": "Florida"
+        },
+        {
+          "name": "Georgia",
+          "nameAr": "Georgia",
+          "nameFr": "Georgia"
+        },
+        {
+          "name": "Guam",
+          "nameAr": "Guam",
+          "nameFr": "Guam"
+        },
+        {
+          "name": "Hawaii",
+          "nameAr": "Hawaii",
+          "nameFr": "Hawaii"
+        },
+        {
+          "name": "Idaho",
+          "nameAr": "Idaho",
+          "nameFr": "Idaho"
+        },
+        {
+          "name": "Illinois",
+          "nameAr": "Illinois",
+          "nameFr": "Illinois"
+        },
+        {
+          "name": "Indiana",
+          "nameAr": "Indiana",
+          "nameFr": "Indiana"
+        },
+        {
+          "name": "Iowa",
+          "nameAr": "Iowa",
+          "nameFr": "Iowa"
+        },
+        {
+          "name": "Kansas",
+          "nameAr": "Kansas",
+          "nameFr": "Kansas"
+        },
+        {
+          "name": "Kentucky",
+          "nameAr": "Kentucky",
+          "nameFr": "Kentucky"
+        },
+        {
+          "name": "Louisiana",
+          "nameAr": "Louisiana",
+          "nameFr": "Louisiana"
+        },
+        {
+          "name": "Maine",
+          "nameAr": "Maine",
+          "nameFr": "Maine"
+        },
+        {
+          "name": "Maryland",
+          "nameAr": "Maryland",
+          "nameFr": "Maryland"
+        },
+        {
+          "name": "Massachusetts",
+          "nameAr": "Massachusetts",
+          "nameFr": "Massachusetts"
+        },
+        {
+          "name": "Michigan",
+          "nameAr": "Michigan",
+          "nameFr": "Michigan"
+        },
+        {
+          "name": "Minnesota",
+          "nameAr": "Minnesota",
+          "nameFr": "Minnesota"
+        },
+        {
+          "name": "Mississippi",
+          "nameAr": "Mississippi",
+          "nameFr": "Mississippi"
+        },
+        {
+          "name": "Missouri",
+          "nameAr": "Missouri",
+          "nameFr": "Missouri"
+        },
+        {
+          "name": "Montana",
+          "nameAr": "Montana",
+          "nameFr": "Montana"
+        },
+        {
+          "name": "Nebraska",
+          "nameAr": "Nebraska",
+          "nameFr": "Nebraska"
+        },
+        {
+          "name": "Nevada",
+          "nameAr": "Nevada",
+          "nameFr": "Nevada"
+        },
+        {
+          "name": "New Hampshire",
+          "nameAr": "New Hampshire",
+          "nameFr": "New Hampshire"
+        },
+        {
+          "name": "New Jersey",
+          "nameAr": "New Jersey",
+          "nameFr": "New Jersey"
+        },
+        {
+          "name": "New Mexico",
+          "nameAr": "New Mexico",
+          "nameFr": "New Mexico"
+        },
+        {
+          "name": "New York",
+          "nameAr": "New York",
+          "nameFr": "New York"
+        },
+        {
+          "name": "North Carolina",
+          "nameAr": "North Carolina",
+          "nameFr": "North Carolina"
+        },
+        {
+          "name": "North Dakota",
+          "nameAr": "North Dakota",
+          "nameFr": "North Dakota"
+        },
+        {
+          "name": "Northern Mariana Islands",
+          "nameAr": "Northern Mariana Islands",
+          "nameFr": "Northern Mariana Islands"
+        },
+        {
+          "name": "Ohio",
+          "nameAr": "Ohio",
+          "nameFr": "Ohio"
+        },
+        {
+          "name": "Oklahoma",
+          "nameAr": "Oklahoma",
+          "nameFr": "Oklahoma"
+        },
+        {
+          "name": "Oregon",
+          "nameAr": "Oregon",
+          "nameFr": "Oregon"
+        },
+        {
+          "name": "Pennsylvania",
+          "nameAr": "Pennsylvania",
+          "nameFr": "Pennsylvania"
+        },
+        {
+          "name": "Puerto Rico",
+          "nameAr": "Puerto Rico",
+          "nameFr": "Puerto Rico"
+        },
+        {
+          "name": "Rhode Island",
+          "nameAr": "Rhode Island",
+          "nameFr": "Rhode Island"
+        },
+        {
+          "name": "South Carolina",
+          "nameAr": "South Carolina",
+          "nameFr": "South Carolina"
+        },
+        {
+          "name": "South Dakota",
+          "nameAr": "South Dakota",
+          "nameFr": "South Dakota"
+        },
+        {
+          "name": "Tennessee",
+          "nameAr": "Tennessee",
+          "nameFr": "Tennessee"
+        },
+        {
+          "name": "Texas",
+          "nameAr": "Texas",
+          "nameFr": "Texas"
+        },
+        {
+          "name": "United States Minor Outlying Islands",
+          "nameAr": "United States Minor Outlying Islands",
+          "nameFr": "United States Minor Outlying Islands"
+        },
+        {
+          "name": "United States Virgin Islands",
+          "nameAr": "United States Virgin Islands",
+          "nameFr": "United States Virgin Islands"
+        },
+        {
+          "name": "Utah",
+          "nameAr": "Utah",
+          "nameFr": "Utah"
+        },
+        {
+          "name": "Vermont",
+          "nameAr": "Vermont",
+          "nameFr": "Vermont"
+        },
+        {
+          "name": "Virginia",
+          "nameAr": "Virginia",
+          "nameFr": "Virginia"
+        },
+        {
+          "name": "Washington",
+          "nameAr": "Washington",
+          "nameFr": "Washington"
+        },
+        {
+          "name": "West Virginia",
+          "nameAr": "West Virginia",
+          "nameFr": "West Virginia"
+        },
+        {
+          "name": "Wisconsin",
+          "nameAr": "Wisconsin",
+          "nameFr": "Wisconsin"
+        },
+        {
+          "name": "Wyoming",
+          "nameAr": "Wyoming",
+          "nameFr": "Wyoming"
+        }
+      ]
+    },
+    {
+      "code": "UM",
+      "name": "United States Minor Outlying Islands",
+      "nameAr": "United States Minor Outlying Islands",
+      "nameFr": "United States Minor Outlying Islands",
+      "region": "Americas",
+      "subregion": "Northern America",
+      "statesCount": 9,
+      "states": [
+        {
+          "name": "Baker Island",
+          "nameAr": "Baker Island",
+          "nameFr": "Baker Island"
+        },
+        {
+          "name": "Howland Island",
+          "nameAr": "Howland Island",
+          "nameFr": "Howland Island"
+        },
+        {
+          "name": "Jarvis Island",
+          "nameAr": "Jarvis Island",
+          "nameFr": "Jarvis Island"
+        },
+        {
+          "name": "Johnston Atoll",
+          "nameAr": "Johnston Atoll",
+          "nameFr": "Johnston Atoll"
+        },
+        {
+          "name": "Kingman Reef",
+          "nameAr": "Kingman Reef",
+          "nameFr": "Kingman Reef"
+        },
+        {
+          "name": "Midway Islands",
+          "nameAr": "Midway Islands",
+          "nameFr": "Midway Islands"
+        },
+        {
+          "name": "Navassa Island",
+          "nameAr": "Navassa Island",
+          "nameFr": "Navassa Island"
+        },
+        {
+          "name": "Palmyra Atoll",
+          "nameAr": "Palmyra Atoll",
+          "nameFr": "Palmyra Atoll"
+        },
+        {
+          "name": "Wake Island",
+          "nameAr": "Wake Island",
+          "nameFr": "Wake Island"
+        }
+      ]
+    }
+  ],
+  "Asia": [
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "nameAr": "أفغانستان",
+      "nameFr": "Afghanistan",
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "statesCount": 33,
+      "states": [
+        {
+          "name": "Badakhshan",
+          "nameAr": "Badakhshan",
+          "nameFr": "Badakhshan"
+        },
+        {
+          "name": "Badghis",
+          "nameAr": "Badghis",
+          "nameFr": "Badghis"
+        },
+        {
+          "name": "Baghlan",
+          "nameAr": "Baghlan",
+          "nameFr": "Baghlan"
+        },
+        {
+          "name": "Balkh",
+          "nameAr": "Balkh",
+          "nameFr": "Balkh"
+        },
+        {
+          "name": "Bamyan",
+          "nameAr": "Bamyan",
+          "nameFr": "Bamyan"
+        },
+        {
+          "name": "Daykundi",
+          "nameAr": "Daykundi",
+          "nameFr": "Daykundi"
+        },
+        {
+          "name": "Farah",
+          "nameAr": "Farah",
+          "nameFr": "Farah"
+        },
+        {
+          "name": "Faryab",
+          "nameAr": "Faryab",
+          "nameFr": "Faryab"
+        },
+        {
+          "name": "Ghazni",
+          "nameAr": "Ghazni",
+          "nameFr": "Ghazni"
+        },
+        {
+          "name": "Ghōr",
+          "nameAr": "Ghōr",
+          "nameFr": "Ghōr"
+        },
+        {
+          "name": "Helmand",
+          "nameAr": "Helmand",
+          "nameFr": "Helmand"
+        },
+        {
+          "name": "Herat",
+          "nameAr": "Herat",
+          "nameFr": "Herat"
+        },
+        {
+          "name": "Jowzjan",
+          "nameAr": "Jowzjan",
+          "nameFr": "Jowzjan"
+        },
+        {
+          "name": "Kabul",
+          "nameAr": "Kabul",
+          "nameFr": "Kabul"
+        },
+        {
+          "name": "Kandahar",
+          "nameAr": "Kandahar",
+          "nameFr": "Kandahar"
+        },
+        {
+          "name": "Kapisa",
+          "nameAr": "Kapisa",
+          "nameFr": "Kapisa"
+        },
+        {
+          "name": "Khost",
+          "nameAr": "Khost",
+          "nameFr": "Khost"
+        },
+        {
+          "name": "Kunar",
+          "nameAr": "Kunar",
+          "nameFr": "Kunar"
+        },
+        {
+          "name": "Kunduz Province",
+          "nameAr": "Kunduz Province",
+          "nameFr": "Kunduz Province"
+        },
+        {
+          "name": "Laghman",
+          "nameAr": "Laghman",
+          "nameFr": "Laghman"
+        },
+        {
+          "name": "Logar",
+          "nameAr": "Logar",
+          "nameFr": "Logar"
+        },
+        {
+          "name": "Nangarhar",
+          "nameAr": "Nangarhar",
+          "nameFr": "Nangarhar"
+        },
+        {
+          "name": "Nimruz",
+          "nameAr": "Nimruz",
+          "nameFr": "Nimruz"
+        },
+        {
+          "name": "Nuristan",
+          "nameAr": "Nuristan",
+          "nameFr": "Nuristan"
+        },
+        {
+          "name": "Paktia",
+          "nameAr": "Paktia",
+          "nameFr": "Paktia"
+        },
+        {
+          "name": "Paktika",
+          "nameAr": "Paktika",
+          "nameFr": "Paktika"
+        },
+        {
+          "name": "Panjshir",
+          "nameAr": "Panjshir",
+          "nameFr": "Panjshir"
+        },
+        {
+          "name": "Parwan",
+          "nameAr": "Parwan",
+          "nameFr": "Parwan"
+        },
+        {
+          "name": "Samangan",
+          "nameAr": "Samangan",
+          "nameFr": "Samangan"
+        },
+        {
+          "name": "Sar-e Pol",
+          "nameAr": "Sar-e Pol",
+          "nameFr": "Sar-e Pol"
+        },
+        {
+          "name": "Takhar",
+          "nameAr": "Takhar",
+          "nameFr": "Takhar"
+        },
+        {
+          "name": "Urozgan",
+          "nameAr": "Urozgan",
+          "nameFr": "Urozgan"
+        },
+        {
+          "name": "Zabul",
+          "nameAr": "Zabul",
+          "nameFr": "Zabul"
+        }
+      ]
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "nameAr": "إسرائيل",
+      "nameFr": "Israel",
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "statesCount": 6,
+      "states": [
+        {
+          "name": "Central",
+          "nameAr": "Central",
+          "nameFr": "Central"
+        },
+        {
+          "name": "Haifa",
+          "nameAr": "Haifa",
+          "nameFr": "Haifa"
+        },
+        {
+          "name": "Jerusalem",
+          "nameAr": "Jerusalem",
+          "nameFr": "Jerusalem"
+        },
+        {
+          "name": "Northern",
+          "nameAr": "Northern",
+          "nameFr": "Northern"
+        },
+        {
+          "name": "Southern",
+          "nameAr": "Southern",
+          "nameFr": "Southern"
+        },
+        {
+          "name": "Tel Aviv",
+          "nameAr": "Tel Aviv",
+          "nameFr": "Tel Aviv"
+        }
+      ]
+    },
+    {
+      "code": "TL",
+      "name": "Timor-Leste",
+      "nameAr": "تيمور الشرقية",
+      "nameFr": "Timor-Leste",
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "statesCount": 12,
+      "states": [
+        {
+          "name": "Aileu",
+          "nameAr": "Aileu",
+          "nameFr": "Aileu"
+        },
+        {
+          "name": "Ainaro",
+          "nameAr": "Ainaro",
+          "nameFr": "Ainaro"
+        },
+        {
+          "name": "Baucau",
+          "nameAr": "Baucau",
+          "nameFr": "Baucau"
+        },
+        {
+          "name": "Bobonaro",
+          "nameAr": "Bobonaro",
+          "nameFr": "Bobonaro"
+        },
+        {
+          "name": "Cova Lima",
+          "nameAr": "Cova Lima",
+          "nameFr": "Cova Lima"
+        },
+        {
+          "name": "Dili",
+          "nameAr": "Dili",
+          "nameFr": "Dili"
+        },
+        {
+          "name": "Ermera",
+          "nameAr": "Ermera",
+          "nameFr": "Ermera"
+        },
+        {
+          "name": "Lautém",
+          "nameAr": "Lautém",
+          "nameFr": "Lautém"
+        },
+        {
+          "name": "Liquiçá",
+          "nameAr": "Liquiçá",
+          "nameFr": "Liquiçá"
+        },
+        {
+          "name": "Manatuto",
+          "nameAr": "Manatuto",
+          "nameFr": "Manatuto"
+        },
+        {
+          "name": "Manufahi",
+          "nameAr": "Manufahi",
+          "nameFr": "Manufahi"
+        },
+        {
+          "name": "Viqueque",
+          "nameAr": "Viqueque",
+          "nameFr": "Viqueque"
+        }
+      ]
+    }
+  ],
+  "Europe": [
+    {
+      "code": "AX",
+      "name": "Aland Islands",
+      "nameAr": "جزر أولاند",
+      "nameFr": "Aland Islands",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "statesCount": 16,
+      "states": [
+        {
+          "name": "Brändö",
+          "nameAr": "Brändö",
+          "nameFr": "Brändö"
+        },
+        {
+          "name": "Eckerö",
+          "nameAr": "Eckerö",
+          "nameFr": "Eckerö"
+        },
+        {
+          "name": "Finström",
+          "nameAr": "Finström",
+          "nameFr": "Finström"
+        },
+        {
+          "name": "Föglö",
+          "nameAr": "Föglö",
+          "nameFr": "Föglö"
+        },
+        {
+          "name": "Geta",
+          "nameAr": "Geta",
+          "nameFr": "Geta"
+        },
+        {
+          "name": "Hammarland",
+          "nameAr": "Hammarland",
+          "nameFr": "Hammarland"
+        },
+        {
+          "name": "Jomala",
+          "nameAr": "Jomala",
+          "nameFr": "Jomala"
+        },
+        {
+          "name": "Kökar",
+          "nameAr": "Kökar",
+          "nameFr": "Kökar"
+        },
+        {
+          "name": "Kumlinge",
+          "nameAr": "Kumlinge",
+          "nameFr": "Kumlinge"
+        },
+        {
+          "name": "Lemland",
+          "nameAr": "Lemland",
+          "nameFr": "Lemland"
+        },
+        {
+          "name": "Lumparland",
+          "nameAr": "Lumparland",
+          "nameFr": "Lumparland"
+        },
+        {
+          "name": "Mariehamn",
+          "nameAr": "Mariehamn",
+          "nameFr": "Mariehamn"
+        },
+        {
+          "name": "Saltvik",
+          "nameAr": "Saltvik",
+          "nameFr": "Saltvik"
+        },
+        {
+          "name": "Sottunga",
+          "nameAr": "Sottunga",
+          "nameFr": "Sottunga"
+        },
+        {
+          "name": "Sund",
+          "nameAr": "Sund",
+          "nameFr": "Sund"
+        },
+        {
+          "name": "Vårdö",
+          "nameAr": "Vårdö",
+          "nameFr": "Vårdö"
+        }
+      ]
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "nameAr": "النمسا",
+      "nameFr": "Austria",
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "statesCount": 9,
+      "states": [
+        {
+          "name": "Burgenland",
+          "nameAr": "Burgenland",
+          "nameFr": "Burgenland"
+        },
+        {
+          "name": "Carinthia",
+          "nameAr": "Carinthia",
+          "nameFr": "Carinthia"
+        },
+        {
+          "name": "Lower Austria",
+          "nameAr": "Lower Austria",
+          "nameFr": "Lower Austria"
+        },
+        {
+          "name": "Salzburg",
+          "nameAr": "Salzburg",
+          "nameFr": "Salzburg"
+        },
+        {
+          "name": "Styria",
+          "nameAr": "Styria",
+          "nameFr": "Styria"
+        },
+        {
+          "name": "Tyrol",
+          "nameAr": "Tyrol",
+          "nameFr": "Tyrol"
+        },
+        {
+          "name": "Upper Austria",
+          "nameAr": "Upper Austria",
+          "nameFr": "Upper Austria"
+        },
+        {
+          "name": "Vienna",
+          "nameAr": "Vienna",
+          "nameFr": "Vienna"
+        },
+        {
+          "name": "Vorarlberg",
+          "nameAr": "Vorarlberg",
+          "nameFr": "Vorarlberg"
+        }
+      ]
+    },
+    {
+      "code": "JE",
+      "name": "Jersey",
+      "nameAr": "جيرسي",
+      "nameFr": "Jersey",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "statesCount": 12,
+      "states": [
+        {
+          "name": "Grouville",
+          "nameAr": "Grouville",
+          "nameFr": "Grouville"
+        },
+        {
+          "name": "St Brelade",
+          "nameAr": "St Brelade",
+          "nameFr": "St Brelade"
+        },
+        {
+          "name": "St Clement",
+          "nameAr": "St Clement",
+          "nameFr": "St Clement"
+        },
+        {
+          "name": "St Helier",
+          "nameAr": "St Helier",
+          "nameFr": "St Helier"
+        },
+        {
+          "name": "St John",
+          "nameAr": "St John",
+          "nameFr": "St John"
+        },
+        {
+          "name": "St Lawrence",
+          "nameAr": "St Lawrence",
+          "nameFr": "St Lawrence"
+        },
+        {
+          "name": "St Martin",
+          "nameAr": "St Martin",
+          "nameFr": "St Martin"
+        },
+        {
+          "name": "St Mary",
+          "nameAr": "St Mary",
+          "nameFr": "St Mary"
+        },
+        {
+          "name": "St Ouen",
+          "nameAr": "St Ouen",
+          "nameFr": "St Ouen"
+        },
+        {
+          "name": "St Peter",
+          "nameAr": "St Peter",
+          "nameFr": "St Peter"
+        },
+        {
+          "name": "St Saviour",
+          "nameAr": "St Saviour",
+          "nameFr": "St Saviour"
+        },
+        {
+          "name": "Trinity",
+          "nameAr": "Trinity",
+          "nameFr": "Trinity"
+        }
+      ]
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "nameAr": "كوسوفو",
+      "nameFr": "Kosovo",
+      "region": "Europe",
+      "subregion": "Eastern Europe",
+      "statesCount": 7,
+      "states": [
+        {
+          "name": "Ferizaj",
+          "nameAr": "Ferizaj",
+          "nameFr": "Ferizaj"
+        },
+        {
+          "name": "Gjakove",
+          "nameAr": "Gjakove",
+          "nameFr": "Gjakove"
+        },
+        {
+          "name": "Gjilan",
+          "nameAr": "Gjilan",
+          "nameFr": "Gjilan"
+        },
+        {
+          "name": "Mitrovica",
+          "nameAr": "Mitrovica",
+          "nameFr": "Mitrovica"
+        },
+        {
+          "name": "Peja",
+          "nameAr": "Peja",
+          "nameFr": "Peja"
+        },
+        {
+          "name": "Pristina",
+          "nameAr": "Pristina",
+          "nameFr": "Pristina"
+        },
+        {
+          "name": "Prizren",
+          "nameAr": "Prizren",
+          "nameFr": "Prizren"
+        }
+      ]
+    },
+    {
+      "code": "IM",
+      "name": "Man (Isle of)",
+      "nameAr": "Isle of Man",
+      "nameFr": "Man (Isle of)",
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "statesCount": 6,
+      "states": [
+        {
+          "name": "Ayre",
+          "nameAr": "Ayre",
+          "nameFr": "Ayre"
+        },
+        {
+          "name": "Garff",
+          "nameAr": "Garff",
+          "nameFr": "Garff"
+        },
+        {
+          "name": "Glenfaba",
+          "nameAr": "Glenfaba",
+          "nameFr": "Glenfaba"
+        },
+        {
+          "name": "Michael",
+          "nameAr": "Michael",
+          "nameFr": "Michael"
+        },
+        {
+          "name": "Middle",
+          "nameAr": "Middle",
+          "nameFr": "Middle"
+        },
+        {
+          "name": "Rushen",
+          "nameAr": "Rushen",
+          "nameFr": "Rushen"
+        }
+      ]
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "nameAr": "الجبل الأسود",
+      "nameFr": "Montenegro",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "statesCount": 22,
+      "states": [
+        {
+          "name": "Andrijevica",
+          "nameAr": "Andrijevica",
+          "nameFr": "Andrijevica"
+        },
+        {
+          "name": "Bar",
+          "nameAr": "Bar",
+          "nameFr": "Bar"
+        },
+        {
+          "name": "Berane",
+          "nameAr": "Berane",
+          "nameFr": "Berane"
+        },
+        {
+          "name": "Bijelo Polje",
+          "nameAr": "Bijelo Polje",
+          "nameFr": "Bijelo Polje"
+        },
+        {
+          "name": "Budva",
+          "nameAr": "Budva",
+          "nameFr": "Budva"
+        },
+        {
+          "name": "Danilovgrad",
+          "nameAr": "Danilovgrad",
+          "nameFr": "Danilovgrad"
+        },
+        {
+          "name": "Gusinje",
+          "nameAr": "Gusinje",
+          "nameFr": "Gusinje"
+        },
+        {
+          "name": "Kolašin",
+          "nameAr": "Kolašin",
+          "nameFr": "Kolašin"
+        },
+        {
+          "name": "Kotor",
+          "nameAr": "Kotor",
+          "nameFr": "Kotor"
+        },
+        {
+          "name": "Mojkovac",
+          "nameAr": "Mojkovac",
+          "nameFr": "Mojkovac"
+        },
+        {
+          "name": "Nikšić",
+          "nameAr": "Nikšić",
+          "nameFr": "Nikšić"
+        },
+        {
+          "name": "Old Royal Capital Cetinje",
+          "nameAr": "Old Royal Capital Cetinje",
+          "nameFr": "Old Royal Capital Cetinje"
+        },
+        {
+          "name": "Petnjica",
+          "nameAr": "Petnjica",
+          "nameFr": "Petnjica"
+        },
+        {
+          "name": "Plav",
+          "nameAr": "Plav",
+          "nameFr": "Plav"
+        },
+        {
+          "name": "Pljevlja",
+          "nameAr": "Pljevlja",
+          "nameFr": "Pljevlja"
+        },
+        {
+          "name": "Plužine",
+          "nameAr": "Plužine",
+          "nameFr": "Plužine"
+        },
+        {
+          "name": "Podgorica",
+          "nameAr": "Podgorica",
+          "nameFr": "Podgorica"
+        },
+        {
+          "name": "Rožaje",
+          "nameAr": "Rožaje",
+          "nameFr": "Rožaje"
+        },
+        {
+          "name": "Šavnik",
+          "nameAr": "Šavnik",
+          "nameFr": "Šavnik"
+        },
+        {
+          "name": "Tivat",
+          "nameAr": "Tivat",
+          "nameFr": "Tivat"
+        },
+        {
+          "name": "Ulcinj",
+          "nameAr": "Ulcinj",
+          "nameFr": "Ulcinj"
+        },
+        {
+          "name": "Žabljak",
+          "nameAr": "Žabljak",
+          "nameFr": "Žabljak"
+        }
+      ]
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "nameAr": "صربيا",
+      "nameFr": "Serbia",
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "statesCount": 26,
+      "states": [
+        {
+          "name": "Belgrade",
+          "nameAr": "Belgrade",
+          "nameFr": "Belgrade"
+        },
+        {
+          "name": "Bor",
+          "nameAr": "Bor",
+          "nameFr": "Bor"
+        },
+        {
+          "name": "Braničevo",
+          "nameAr": "Braničevo",
+          "nameFr": "Braničevo"
+        },
+        {
+          "name": "Central Banat",
+          "nameAr": "Central Banat",
+          "nameFr": "Central Banat"
+        },
+        {
+          "name": "Jablanica",
+          "nameAr": "Jablanica",
+          "nameFr": "Jablanica"
+        },
+        {
+          "name": "Kolubara",
+          "nameAr": "Kolubara",
+          "nameFr": "Kolubara"
+        },
+        {
+          "name": "Mačva",
+          "nameAr": "Mačva",
+          "nameFr": "Mačva"
+        },
+        {
+          "name": "Moravica",
+          "nameAr": "Moravica",
+          "nameFr": "Moravica"
+        },
+        {
+          "name": "Nišava",
+          "nameAr": "Nišava",
+          "nameFr": "Nišava"
+        },
+        {
+          "name": "North Bačka",
+          "nameAr": "North Bačka",
+          "nameFr": "North Bačka"
+        },
+        {
+          "name": "North Banat",
+          "nameAr": "North Banat",
+          "nameFr": "North Banat"
+        },
+        {
+          "name": "Pčinja",
+          "nameAr": "Pčinja",
+          "nameFr": "Pčinja"
+        },
+        {
+          "name": "Pirot",
+          "nameAr": "Pirot",
+          "nameFr": "Pirot"
+        },
+        {
+          "name": "Podunavlje",
+          "nameAr": "Podunavlje",
+          "nameFr": "Podunavlje"
+        },
+        {
+          "name": "Pomoravlje",
+          "nameAr": "Pomoravlje",
+          "nameFr": "Pomoravlje"
+        },
+        {
+          "name": "Rasina",
+          "nameAr": "Rasina",
+          "nameFr": "Rasina"
+        },
+        {
+          "name": "Raška",
+          "nameAr": "Raška",
+          "nameFr": "Raška"
+        },
+        {
+          "name": "South Bačka",
+          "nameAr": "South Bačka",
+          "nameFr": "South Bačka"
+        },
+        {
+          "name": "South Banat",
+          "nameAr": "South Banat",
+          "nameFr": "South Banat"
+        },
+        {
+          "name": "Srem",
+          "nameAr": "Srem",
+          "nameFr": "Srem"
+        },
+        {
+          "name": "Šumadija",
+          "nameAr": "Šumadija",
+          "nameFr": "Šumadija"
+        },
+        {
+          "name": "Toplica",
+          "nameAr": "Toplica",
+          "nameFr": "Toplica"
+        },
+        {
+          "name": "Vojvodina",
+          "nameAr": "Vojvodina",
+          "nameFr": "Vojvodina"
+        },
+        {
+          "name": "West Bačka",
+          "nameAr": "West Bačka",
+          "nameFr": "West Bačka"
+        },
+        {
+          "name": "Zaječar",
+          "nameAr": "Zaječar",
+          "nameFr": "Zaječar"
+        },
+        {
+          "name": "Zlatibor",
+          "nameAr": "Zlatibor",
+          "nameFr": "Zlatibor"
+        }
+      ]
+    }
+  ],
+  "Oceania": [
+    {
+      "code": "AS",
+      "name": "American Samoa",
+      "nameAr": "ساموا الأمريكية",
+      "nameFr": "American Samoa",
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "statesCount": 5,
+      "states": [
+        {
+          "name": "Eastern",
+          "nameAr": "Eastern",
+          "nameFr": "Eastern"
+        },
+        {
+          "name": "Manuʻa",
+          "nameAr": "Manuʻa",
+          "nameFr": "Manuʻa"
+        },
+        {
+          "name": "Rose",
+          "nameAr": "Rose",
+          "nameFr": "Rose"
+        },
+        {
+          "name": "Swains",
+          "nameAr": "Swains",
+          "nameFr": "Swains"
+        },
+        {
+          "name": "Western",
+          "nameAr": "Western",
+          "nameFr": "Western"
+        }
+      ]
+    },
+    {
+      "code": "GU",
+      "name": "Guam",
+      "nameAr": "غوام",
+      "nameFr": "Guam",
+      "region": "Oceania",
+      "subregion": "Micronesia",
+      "statesCount": 19,
+      "states": [
+        {
+          "name": "Agana Heights",
+          "nameAr": "Agana Heights",
+          "nameFr": "Agana Heights"
+        },
+        {
+          "name": "Asan-Maina",
+          "nameAr": "Asan-Maina",
+          "nameFr": "Asan-Maina"
+        },
+        {
+          "name": "Barrigada",
+          "nameAr": "Barrigada",
+          "nameFr": "Barrigada"
+        },
+        {
+          "name": "Chalan Pago-Ordot",
+          "nameAr": "Chalan Pago-Ordot",
+          "nameFr": "Chalan Pago-Ordot"
+        },
+        {
+          "name": "Dededo",
+          "nameAr": "Dededo",
+          "nameFr": "Dededo"
+        },
+        {
+          "name": "Hågat",
+          "nameAr": "Hågat",
+          "nameFr": "Hågat"
+        },
+        {
+          "name": "Hagåtña",
+          "nameAr": "Hagåtña",
+          "nameFr": "Hagåtña"
+        },
+        {
+          "name": "Inarajan (Inalåhan)",
+          "nameAr": "Inarajan (Inalåhan)",
+          "nameFr": "Inarajan (Inalåhan)"
+        },
+        {
+          "name": "Mangilao",
+          "nameAr": "Mangilao",
+          "nameFr": "Mangilao"
+        },
+        {
+          "name": "Merizo (Malesso)",
+          "nameAr": "Merizo (Malesso)",
+          "nameFr": "Merizo (Malesso)"
+        },
+        {
+          "name": "Mongmong-Toto-Maite",
+          "nameAr": "Mongmong-Toto-Maite",
+          "nameFr": "Mongmong-Toto-Maite"
+        },
+        {
+          "name": "Piti",
+          "nameAr": "Piti",
+          "nameFr": "Piti"
+        },
+        {
+          "name": "Santa Rita (Sånta Rita-Sumai)",
+          "nameAr": "Santa Rita (Sånta Rita-Sumai)",
+          "nameFr": "Santa Rita (Sånta Rita-Sumai)"
+        },
+        {
+          "name": "Sinajana",
+          "nameAr": "Sinajana",
+          "nameFr": "Sinajana"
+        },
+        {
+          "name": "Talofofo (Talo'fo'fo)",
+          "nameAr": "Talofofo (Talo'fo'fo)",
+          "nameFr": "Talofofo (Talo'fo'fo)"
+        },
+        {
+          "name": "Tamuning",
+          "nameAr": "Tamuning",
+          "nameFr": "Tamuning"
+        },
+        {
+          "name": "Umatac (Humåtak)",
+          "nameAr": "Umatac (Humåtak)",
+          "nameFr": "Umatac (Humåtak)"
+        },
+        {
+          "name": "Yigo",
+          "nameAr": "Yigo",
+          "nameFr": "Yigo"
+        },
+        {
+          "name": "Yona",
+          "nameAr": "Yona",
+          "nameFr": "Yona"
+        }
+      ]
+    }
+  ]
+}

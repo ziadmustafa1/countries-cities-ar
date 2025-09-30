@@ -593,57 +593,57 @@ export const asiaData: Country[] = [
     "nameAr": "البحرين",
     "nameFr": "Bahrain",
     "cities": [
-            {
-                  "name": "Jidd Hafs",
-                  "nameAr": "جد حفص",
-                  "nameFr": "Jidd Hafs"
-            },
-            {
-                  "name": "Al Mintaqah ash Shamaliyah",
-                  "nameAr": "المنطقة الشمالية",
-                  "nameFr": "Al Mintaqah cendres Shamaliyah"
-            },
-            {
-                  "name": "Al Manamah",
-                  "nameAr": "المنامة",
-                  "nameFr": "Al Manamah"
-            },
-            {
-                  "name": "Sitrah",
-                  "nameAr": "سترة",
-                  "nameFr": "Sitrah"
-            },
-            {
-                  "name": "Al Mintaqah al Gharbiyah",
-                  "nameAr": "المنطقة الغربية",
-                  "nameFr": "Al Mintaqah al Gharbiyah"
-            },
-            {
-                  "name": "Mintaqat Juzur Hawar",
-                  "nameAr": "ولاية جزرور حوار",
-                  "nameFr": "Mintaqat Juzur Hawar"
-            },
-            {
-                  "name": "Al Hadd",
-                  "nameAr": "الحد",
-                  "nameFr": "Al Hadd"
-            },
-            {
-                  "name": "Al Mintaqah al Wusta",
-                  "nameAr": "المنطقة الوسطى",
-                  "nameFr": "Al Mintaqah al Wusta"
-            },
-            {
-                  "name": "Ar Rifa",
-                  "nameAr": "الرفاع",
-                  "nameFr": "Ar Rifa"
-            },
-            {
-                  "name": "Madinat",
-                  "nameAr": "مدينة",
-                  "nameFr": "Madinat"
-            }
-      ]
+      {
+        "name": "Jidd Hafs",
+        "nameAr": "جد حفص",
+        "nameFr": "Jidd Hafs"
+      },
+      {
+        "name": "Al Mintaqah ash Shamaliyah",
+        "nameAr": "المنطقة الشمالية",
+        "nameFr": "Al Mintaqah cendres Shamaliyah"
+      },
+      {
+        "name": "Al Manamah",
+        "nameAr": "المنامة",
+        "nameFr": "Al Manamah"
+      },
+      {
+        "name": "Sitrah",
+        "nameAr": "سترة",
+        "nameFr": "Sitrah"
+      },
+      {
+        "name": "Al Mintaqah al Gharbiyah",
+        "nameAr": "المنطقة الغربية",
+        "nameFr": "Al Mintaqah al Gharbiyah"
+      },
+      {
+        "name": "Mintaqat Juzur Hawar",
+        "nameAr": "ولاية جزرور حوار",
+        "nameFr": "Mintaqat Juzur Hawar"
+      },
+      {
+        "name": "Al Hadd",
+        "nameAr": "الحد",
+        "nameFr": "Al Hadd"
+      },
+      {
+        "name": "Al Mintaqah al Wusta",
+        "nameAr": "المنطقة الوسطى",
+        "nameFr": "Al Mintaqah al Wusta"
+      },
+      {
+        "name": "Ar Rifa",
+        "nameAr": "الرفاع",
+        "nameFr": "Ar Rifa"
+      },
+      {
+        "name": "Madinat",
+        "nameAr": "مدينة",
+        "nameFr": "Madinat"
+      }
+    ]
   },
   {
     "code": "BD",
@@ -3967,72 +3967,72 @@ export const asiaData: Country[] = [
     "nameAr": "المملكة العربية السعودية",
     "nameFr": "Saudi Arabia",
     "cities": [
-            {
-                  "name": "Riyadh",
-                  "nameAr": "الرياض",
-                  "nameFr": "Riyad"
-            },
-            {
-                  "name": "Makkah",
-                  "nameAr": "مكة المكرمة",
-                  "nameFr": "La Mecque"
-            },
-            {
-                  "name": "Madinah",
-                  "nameAr": "المدينة المنورة",
-                  "nameFr": "Médine"
-            },
-            {
-                  "name": "Eastern Province",
-                  "nameAr": "المنطقة الشرقية",
-                  "nameFr": "Province de l'Est"
-            },
-            {
-                  "name": "Asir",
-                  "nameAr": "عسير",
-                  "nameFr": "Asir"
-            },
-            {
-                  "name": "Tabuk",
-                  "nameAr": "تبوك",
-                  "nameFr": "Tabouk"
-            },
-            {
-                  "name": "Qassim",
-                  "nameAr": "القصيم",
-                  "nameFr": "Qassim"
-            },
-            {
-                  "name": "Hail",
-                  "nameAr": "حائل",
-                  "nameFr": "Hail"
-            },
-            {
-                  "name": "Northern Borders",
-                  "nameAr": "الحدود الشمالية",
-                  "nameFr": "Frontières du Nord"
-            },
-            {
-                  "name": "Jazan",
-                  "nameAr": "جازان",
-                  "nameFr": "Jazan"
-            },
-            {
-                  "name": "Najran",
-                  "nameAr": "نجران",
-                  "nameFr": "Najran"
-            },
-            {
-                  "name": "Al-Bahah",
-                  "nameAr": "الباحة",
-                  "nameFr": "Al-Bahah"
-            },
-            {
-                  "name": "Al-Jawf",
-                  "nameAr": "الجوف",
-                  "nameFr": "Al-Jawf"
-            }
-      ]
+      {
+        "name": "Riyadh",
+        "nameAr": "الرياض",
+        "nameFr": "Riyad"
+      },
+      {
+        "name": "Makkah",
+        "nameAr": "مكة المكرمة",
+        "nameFr": "La Mecque"
+      },
+      {
+        "name": "Madinah",
+        "nameAr": "المدينة المنورة",
+        "nameFr": "Médine"
+      },
+      {
+        "name": "Eastern Province",
+        "nameAr": "المنطقة الشرقية",
+        "nameFr": "Province de l'Est"
+      },
+      {
+        "name": "Asir",
+        "nameAr": "عسير",
+        "nameFr": "Asir"
+      },
+      {
+        "name": "Tabuk",
+        "nameAr": "تبوك",
+        "nameFr": "Tabouk"
+      },
+      {
+        "name": "Qassim",
+        "nameAr": "القصيم",
+        "nameFr": "Qassim"
+      },
+      {
+        "name": "Hail",
+        "nameAr": "حائل",
+        "nameFr": "Hail"
+      },
+      {
+        "name": "Northern Borders",
+        "nameAr": "الحدود الشمالية",
+        "nameFr": "Frontières du Nord"
+      },
+      {
+        "name": "Jazan",
+        "nameAr": "جازان",
+        "nameFr": "Jazan"
+      },
+      {
+        "name": "Najran",
+        "nameAr": "نجران",
+        "nameFr": "Najran"
+      },
+      {
+        "name": "Al-Bahah",
+        "nameAr": "الباحة",
+        "nameFr": "Al-Bahah"
+      },
+      {
+        "name": "Al-Jawf",
+        "nameAr": "الجوف",
+        "nameFr": "Al-Jawf"
+      }
+    ]
   },
   {
     "code": "SG",
@@ -5525,42 +5525,42 @@ export const asiaData: Country[] = [
     "nameAr": "الإمارات العربية المتحدة",
     "nameFr": "United Arab Emirates",
     "cities": [
-            {
-                  "name": "Fujairah",
-                  "nameAr": "الفجيرة",
-                  "nameFr": "Fujairah"
-            },
-            {
-                  "name": "Abu Dhabi",
-                  "nameAr": "أبو ظبي",
-                  "nameFr": "Abu Dhabi"
-            },
-            {
-                  "name": "Dubai",
-                  "nameAr": "دبي",
-                  "nameFr": "Dubai"
-            },
-            {
-                  "name": "Ras Al Khaimah",
-                  "nameAr": "رأس الخيمة",
-                  "nameFr": "Ras Al Khaimah"
-            },
-            {
-                  "name": "Umm Al Quwain",
-                  "nameAr": "أم القيوين",
-                  "nameFr": "Umm Al Quwain"
-            },
-            {
-                  "name": "Sharjah",
-                  "nameAr": "الشارقة",
-                  "nameFr": "Sharjah"
-            },
-            {
-                  "name": "Ajman",
-                  "nameAr": "عجمان",
-                  "nameFr": "Ajman"
-            }
-      ]
+      {
+        "name": "Fujairah",
+        "nameAr": "الفجيرة",
+        "nameFr": "Fujairah"
+      },
+      {
+        "name": "Abu Dhabi",
+        "nameAr": "أبو ظبي",
+        "nameFr": "Abu Dhabi"
+      },
+      {
+        "name": "Dubai",
+        "nameAr": "دبي",
+        "nameFr": "Dubai"
+      },
+      {
+        "name": "Ras Al Khaimah",
+        "nameAr": "رأس الخيمة",
+        "nameFr": "Ras Al Khaimah"
+      },
+      {
+        "name": "Umm Al Quwain",
+        "nameAr": "أم القيوين",
+        "nameFr": "Umm Al Quwain"
+      },
+      {
+        "name": "Sharjah",
+        "nameAr": "الشارقة",
+        "nameFr": "Sharjah"
+      },
+      {
+        "name": "Ajman",
+        "nameAr": "عجمان",
+        "nameFr": "Ajman"
+      }
+    ]
   },
   {
     "code": "UZ",

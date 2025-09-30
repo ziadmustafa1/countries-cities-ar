@@ -1,191 +1,54 @@
-import { Country } from '../types';
+import type { Country } from '../types';
 
-export const asiaData: Country[] = [
+export const asiaCountries: Country[] = [
   {
-    "code": "AF",
-    "name": "Afghanistan",
-    "nameAr": "أفغانستان",
-    "nameFr": "Afghanistan",
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "nameAr": "الإمارات العربية المتحدة",
+    "nameFr": "Emirats Arabes Unis",
     "cities": [
       {
-        "name": "Badakhshan",
-        "nameAr": "",
-        "nameFr": "Badakhshan"
+        "name": "Fujairah",
+        "nameAr": "الفجيرة",
+        "nameFr": "Fujairah"
       },
       {
-        "name": "Badghis",
-        "nameAr": "",
-        "nameFr": "Badghis"
+        "name": "Abu Dhabi",
+        "nameAr": "أبو ظبي",
+        "nameFr": "Abu Dhabi"
       },
       {
-        "name": "Baghlan",
-        "nameAr": "",
-        "nameFr": "Baghlan"
+        "name": "Dubai",
+        "nameAr": "دبي",
+        "nameFr": "Dubai"
       },
       {
-        "name": "Balkh",
-        "nameAr": "",
-        "nameFr": "Balkh"
+        "name": "Ras Al Khaimah",
+        "nameAr": "رأس الخيمة",
+        "nameFr": "Ras Al Khaimah"
       },
       {
-        "name": "Bamyan",
-        "nameAr": "",
-        "nameFr": "Bamyan"
+        "name": "Umm Al Quwain",
+        "nameAr": "أم القيوين",
+        "nameFr": "Umm Al Quwain"
       },
       {
-        "name": "Daykundi",
-        "nameAr": "",
-        "nameFr": "Daykundi"
+        "name": "Sharjah",
+        "nameAr": "الشارقة",
+        "nameFr": "Sharjah"
       },
       {
-        "name": "Farah",
-        "nameAr": "",
-        "nameFr": "Farah"
-      },
-      {
-        "name": "Faryab",
-        "nameAr": "",
-        "nameFr": "Faryab"
-      },
-      {
-        "name": "Ghazni",
-        "nameAr": "",
-        "nameFr": "Ghazni"
-      },
-      {
-        "name": "Ghōr",
-        "nameAr": "",
-        "nameFr": "Ghōr"
-      },
-      {
-        "name": "Helmand",
-        "nameAr": "",
-        "nameFr": "Helmand"
-      },
-      {
-        "name": "Herat",
-        "nameAr": "",
-        "nameFr": "Herat"
-      },
-      {
-        "name": "Jowzjan",
-        "nameAr": "",
-        "nameFr": "Jowzjan"
-      },
-      {
-        "name": "Kabul",
-        "nameAr": "",
-        "nameFr": "Kabul"
-      },
-      {
-        "name": "Kandahar",
-        "nameAr": "",
-        "nameFr": "Kandahar"
-      },
-      {
-        "name": "Kapisa",
-        "nameAr": "",
-        "nameFr": "Kapisa"
-      },
-      {
-        "name": "Khost",
-        "nameAr": "",
-        "nameFr": "Khost"
-      },
-      {
-        "name": "Kunar",
-        "nameAr": "",
-        "nameFr": "Kunar"
-      },
-      {
-        "name": "Kunduz Province",
-        "nameAr": "",
-        "nameFr": "Kunduz Province"
-      },
-      {
-        "name": "Laghman",
-        "nameAr": "",
-        "nameFr": "Laghman"
-      },
-      {
-        "name": "Logar",
-        "nameAr": "",
-        "nameFr": "Logar"
-      },
-      {
-        "name": "Nangarhar",
-        "nameAr": "",
-        "nameFr": "Nangarhar"
-      },
-      {
-        "name": "Nimruz",
-        "nameAr": "",
-        "nameFr": "Nimruz"
-      },
-      {
-        "name": "Nuristan",
-        "nameAr": "",
-        "nameFr": "Nuristan"
-      },
-      {
-        "name": "Paktia",
-        "nameAr": "",
-        "nameFr": "Paktia"
-      },
-      {
-        "name": "Paktika",
-        "nameAr": "",
-        "nameFr": "Paktika"
-      },
-      {
-        "name": "Panjshir",
-        "nameAr": "",
-        "nameFr": "Panjshir"
-      },
-      {
-        "name": "Parwan",
-        "nameAr": "",
-        "nameFr": "Parwan"
-      },
-      {
-        "name": "Samangan",
-        "nameAr": "",
-        "nameFr": "Samangan"
-      },
-      {
-        "name": "Sar-e Pol",
-        "nameAr": "",
-        "nameFr": "Sar-e Pol"
-      },
-      {
-        "name": "Takhar",
-        "nameAr": "",
-        "nameFr": "Takhar"
-      },
-      {
-        "name": "Urozgan",
-        "nameAr": "",
-        "nameFr": "Urozgan"
-      },
-      {
-        "name": "Zabul",
-        "nameAr": "",
-        "nameFr": "Zabul"
+        "name": "Ajman",
+        "nameAr": "عجمان",
+        "nameFr": "Ajman"
       }
     ]
-  },
-  {
-    "code": "AQ",
-    "name": "Antarctica",
-    "nameAr": "Antarctica",
-    "nameFr": "Antarctica",
-    "cities": []
   },
   {
     "code": "AM",
     "name": "Armenia",
     "nameAr": "أرمينيا",
-    "nameFr": "Armenia",
+    "nameFr": "Arménie",
     "cities": [
       {
         "name": "Aragatsotn",
@@ -228,7 +91,7 @@ export const asiaData: Country[] = [
     "code": "AZ",
     "name": "Azerbaijan",
     "nameAr": "أذربيجان",
-    "nameFr": "Azerbaijan",
+    "nameFr": "Azerbaïdjan",
     "cities": [
       {
         "name": "Neftcala",
@@ -588,64 +451,6 @@ export const asiaData: Country[] = [
     ]
   },
   {
-    "code": "BH",
-    "name": "Bahrain",
-    "nameAr": "البحرين",
-    "nameFr": "Bahrain",
-    "cities": [
-            {
-                  "name": "Jidd Hafs",
-                  "nameAr": "جد حفص",
-                  "nameFr": "Jidd Hafs"
-            },
-            {
-                  "name": "Al Mintaqah ash Shamaliyah",
-                  "nameAr": "المنطقة الشمالية",
-                  "nameFr": "Al Mintaqah cendres Shamaliyah"
-            },
-            {
-                  "name": "Al Manamah",
-                  "nameAr": "المنامة",
-                  "nameFr": "Al Manamah"
-            },
-            {
-                  "name": "Sitrah",
-                  "nameAr": "سترة",
-                  "nameFr": "Sitrah"
-            },
-            {
-                  "name": "Al Mintaqah al Gharbiyah",
-                  "nameAr": "المنطقة الغربية",
-                  "nameFr": "Al Mintaqah al Gharbiyah"
-            },
-            {
-                  "name": "Mintaqat Juzur Hawar",
-                  "nameAr": "ولاية جزرور حوار",
-                  "nameFr": "Mintaqat Juzur Hawar"
-            },
-            {
-                  "name": "Al Hadd",
-                  "nameAr": "الحد",
-                  "nameFr": "Al Hadd"
-            },
-            {
-                  "name": "Al Mintaqah al Wusta",
-                  "nameAr": "المنطقة الوسطى",
-                  "nameFr": "Al Mintaqah al Wusta"
-            },
-            {
-                  "name": "Ar Rifa",
-                  "nameAr": "الرفاع",
-                  "nameFr": "Ar Rifa"
-            },
-            {
-                  "name": "Madinat",
-                  "nameAr": "مدينة",
-                  "nameFr": "Madinat"
-            }
-      ]
-  },
-  {
     "code": "BD",
     "name": "Bangladesh",
     "nameAr": "بنغلاديش",
@@ -684,10 +489,111 @@ export const asiaData: Country[] = [
     ]
   },
   {
+    "code": "BH",
+    "name": "Bahrain",
+    "nameAr": "البحرين",
+    "nameFr": "Bahreïn",
+    "cities": [
+      {
+        "name": "Jidd Hafs",
+        "nameAr": "جد حفص",
+        "nameFr": "Jidd Hafs"
+      },
+      {
+        "name": "Al Mintaqah ash Shamaliyah",
+        "nameAr": "المنطقة الشمالية",
+        "nameFr": "Al Mintaqah cendres Shamaliyah"
+      },
+      {
+        "name": "Al Manamah",
+        "nameAr": "المنامة",
+        "nameFr": "Al Manamah"
+      },
+      {
+        "name": "Sitrah",
+        "nameAr": "سترة",
+        "nameFr": "Sitrah"
+      },
+      {
+        "name": "Al Mintaqah al Gharbiyah",
+        "nameAr": "المنطقة الغربية",
+        "nameFr": "Al Mintaqah al Gharbiyah"
+      },
+      {
+        "name": "Mintaqat Juzur Hawar",
+        "nameAr": "ولاية جزرور حوار",
+        "nameFr": "Mintaqat Juzur Hawar"
+      },
+      {
+        "name": "Al Hadd",
+        "nameAr": "الحد",
+        "nameFr": "Al Hadd"
+      },
+      {
+        "name": "Al Mintaqah al Wusta",
+        "nameAr": "المنطقة الوسطى",
+        "nameFr": "Al Mintaqah al Wusta"
+      },
+      {
+        "name": "Ar Rifa",
+        "nameAr": "الرفاع",
+        "nameFr": "Ar Rifa"
+      },
+      {
+        "name": "Madinat",
+        "nameAr": "مدينة",
+        "nameFr": "Madinat"
+      }
+    ]
+  },
+  {
+    "code": "BN",
+    "name": "Brunei Darussalam",
+    "nameAr": "بروناي دار السلام",
+    "nameFr": "Brunei Darussalam",
+    "cities": [
+            {
+                  "name": "Abu Dhabi",
+                  "nameAr": "أبو ظبي",
+                  "nameFr": "Abu Dhabi"
+            },
+            {
+                  "name": "Ajman",
+                  "nameAr": "عجمان",
+                  "nameFr": "Ajman"
+            },
+            {
+                  "name": "Dubai",
+                  "nameAr": "دبي",
+                  "nameFr": "Dubai"
+            },
+            {
+                  "name": "Fujairah",
+                  "nameAr": "فجيرة",
+                  "nameFr": "Fujairah"
+            },
+            {
+                  "name": "Ras Al Khaimah",
+                  "nameAr": "Ras Al Khaimah",
+                  "nameFr": "Ras Al Khaimah"
+            },
+            {
+                  "name": "Sharjah",
+                  "nameAr": "الشارقة",
+                  "nameFr": "Sharjah"
+            },
+            {
+                  "name": "Umm Al Quwain",
+                  "nameAr": "أم القوي",
+                  "nameFr": "Umm Al Quwain"
+            }
+      ]
+  },
+  {
     "code": "BT",
     "name": "Bhutan",
     "nameAr": "بوتان",
-    "nameFr": "Bhutan",
+    "nameFr": "Bhoutan",
     "cities": [
       {
         "name": "Wangdi Phodrang",
@@ -782,188 +688,10 @@ export const asiaData: Country[] = [
     ]
   },
   {
-    "code": "BV",
-    "name": "Bouvet Island",
-    "nameAr": "Bouvet Island",
-    "nameFr": "Bouvet Island",
-    "cities": []
-  },
-  {
-    "code": "BN",
-    "name": "Brunei",
-    "nameAr": "بروناي",
-    "nameFr": "Brunei",
-    "cities": [
-            {
-                  "name": "Abu Dhabi",
-                  "nameAr": "أبو ظبي",
-                  "nameFr": "Abu Dhabi"
-            },
-            {
-                  "name": "Ajman",
-                  "nameAr": "عجمان",
-                  "nameFr": "Ajman"
-            },
-            {
-                  "name": "Dubai",
-                  "nameAr": "دبي",
-                  "nameFr": "Dubai"
-            },
-            {
-                  "name": "Fujairah",
-                  "nameAr": "فجيرة",
-                  "nameFr": "Fujairah"
-            },
-            {
-                  "name": "Ras Al Khaimah",
-                  "nameAr": "Ras Al Khaimah",
-                  "nameFr": "Ras Al Khaimah"
-            },
-            {
-                  "name": "Sharjah",
-                  "nameAr": "الشارقة",
-                  "nameFr": "Sharjah"
-            },
-            {
-                  "name": "Umm Al Quwain",
-                  "nameAr": "أم القوي",
-                  "nameFr": "Umm Al Quwain"
-            }
-      ]
-  },
-  {
-    "code": "KH",
-    "name": "Cambodia",
-    "nameAr": "كمبوديا",
-    "nameFr": "Cambodia",
-    "cities": [
-            {
-                  "name": "Banteay Meanchey",
-                  "nameAr": "បន្ទាយមានជ័យ",
-                  "nameFr": "Banteay Meanchey"
-            },
-            {
-                  "name": "Battambang",
-                  "nameAr": "បាត់ដំបង",
-                  "nameFr": "Battambang"
-            },
-            {
-                  "name": "Kampong Cham",
-                  "nameAr": "Kampong Cham",
-                  "nameFr": "Kampong Cham"
-            },
-            {
-                  "name": "Kampong Chhnang",
-                  "nameAr": "កំពង់ឆ្នាំង",
-                  "nameFr": "Kampong Chhnang"
-            },
-            {
-                  "name": "Kampong Speu",
-                  "nameAr": "ភូមិសែ",
-                  "nameFr": "Kampong Speu"
-            },
-            {
-                  "name": "Kampong Thom",
-                  "nameAr": "កំពង់ធំ",
-                  "nameFr": "Kampong Thom"
-            },
-            {
-                  "name": "Kampot",
-                  "nameAr": "កំពត",
-                  "nameFr": "Kampot"
-            },
-            {
-                  "name": "Kandal",
-                  "nameAr": "បេសបេល",
-                  "nameFr": "Kandal"
-            },
-            {
-                  "name": "Kep",
-                  "nameAr": "កែប",
-                  "nameFr": "Kep"
-            },
-            {
-                  "name": "Koh Kong",
-                  "nameAr": "កោះកុង",
-                  "nameFr": "Koh Kong"
-            },
-            {
-                  "name": "Kratie",
-                  "nameAr": "ក្រចេះ",
-                  "nameFr": "Kratie"
-            },
-            {
-                  "name": "Mondulkiri",
-                  "nameAr": "មណ្ឌលគីរី",
-                  "nameFr": "Mondulkiri"
-            },
-            {
-                  "name": "Oddar Meanchey",
-                  "nameAr": "ឧត្តរមានជ័យ",
-                  "nameFr": "Oddar Meanchey"
-            },
-            {
-                  "name": "Pailin",
-                  "nameAr": "លំអី",
-                  "nameFr": "Pailin"
-            },
-            {
-                  "name": "Phnom Penh",
-                  "nameAr": "រាជធានី",
-                  "nameFr": "Phnom Penh"
-            },
-            {
-                  "name": "Preah Vihear",
-                  "nameAr": "ព្រះវិហារ",
-                  "nameFr": "Preah Vihear"
-            },
-            {
-                  "name": "Prey Veng",
-                  "nameAr": "បុរស",
-                  "nameFr": "Prey Veng"
-            },
-            {
-                  "name": "Pursat",
-                  "nameAr": "ឱកាស",
-                  "nameFr": "Pursat"
-            },
-            {
-                  "name": "Ratanakiri",
-                  "nameAr": "រតនគិរី",
-                  "nameFr": "Ratanakiri"
-            },
-            {
-                  "name": "Siem Reap",
-                  "nameAr": "សៀមរាប",
-                  "nameFr": "Siem Reap"
-            },
-            {
-                  "name": "Sihanoukville",
-                  "nameAr": "ក្រុងព្រះសីហនុ",
-                  "nameFr": "Sihanoukville"
-            },
-            {
-                  "name": "Stung Treng",
-                  "nameAr": "ត្រូវការស្ទឹង",
-                  "nameFr": "Stung Treng"
-            },
-            {
-                  "name": "Svay Rieng",
-                  "nameAr": "ស្វាយរៀង",
-                  "nameFr": "Svay Rieng"
-            },
-            {
-                  "name": "Takeo",
-                  "nameAr": "តាកែវ",
-                  "nameFr": "Takeo"
-            }
-      ]
-  },
-  {
     "code": "CN",
     "name": "China",
     "nameAr": "الصين",
-    "nameFr": "China",
+    "nameFr": "Chine",
     "cities": [
       {
         "name": "Sichuan",
@@ -1126,7 +854,7 @@ export const asiaData: Country[] = [
     "code": "GE",
     "name": "Georgia",
     "nameAr": "جورجيا",
-    "nameFr": "Georgia",
+    "nameFr": "Géorgie",
     "cities": [
             {
                   "name": "Bumthang ",
@@ -1231,17 +959,10 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "HM",
-    "name": "Heard Island and McDonald Islands",
-    "nameAr": "Heard Island and McDonald Islands",
-    "nameFr": "Heard Island and McDonald Islands",
-    "cities": []
-  },
-  {
     "code": "HK",
-    "name": "Hong Kong S.A.R.",
+    "name": "Hong Kong",
     "nameAr": "هونغ كونغ",
-    "nameFr": "Hong Kong S.A.R.",
+    "nameFr": "Hong Kong",
     "cities": [
             {
                   "name": "Central and Western",
@@ -1336,198 +1057,10 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "IN",
-    "name": "India",
-    "nameAr": "الهند",
-    "nameFr": "India",
-    "cities": [
-            {
-                  "name": "Andaman and Nicobar Islands",
-                  "nameAr": "अंडमान व नोकोबार द्वीप समूह",
-                  "nameFr": "Andaman and Nicobar Islands"
-            },
-            {
-                  "name": "Andhra Pradesh",
-                  "nameAr": "आंध्र प्रदेश",
-                  "nameFr": "Andhra Pradesh"
-            },
-            {
-                  "name": "Arunachal Pradesh",
-                  "nameAr": "Arunachal Pradesh",
-                  "nameFr": "Arunachal Pradesh"
-            },
-            {
-                  "name": "Assam",
-                  "nameAr": "असम",
-                  "nameFr": "Assam"
-            },
-            {
-                  "name": "Bihar",
-                  "nameAr": "बिहार",
-                  "nameFr": "Bihar"
-            },
-            {
-                  "name": "Chandigarh",
-                  "nameAr": "चंडीगढ़",
-                  "nameFr": "Chandigarh"
-            },
-            {
-                  "name": "Chhattisgarh",
-                  "nameAr": "Chhattisgarh",
-                  "nameFr": "Chhattisgarh"
-            },
-            {
-                  "name": "Dadra and Nagar Haveli and Daman and Diu",
-                  "nameAr": "Dadra and Nagar Haveli and Daman and Diu",
-                  "nameFr": "Dadra and Nagar Haveli and Daman and Diu"
-            },
-            {
-                  "name": "Delhi",
-                  "nameAr": "दिल्ली",
-                  "nameFr": "Delhi"
-            },
-            {
-                  "name": "Goa",
-                  "nameAr": "गोवा",
-                  "nameFr": "Goa"
-            },
-            {
-                  "name": "Gujarat",
-                  "nameAr": "Gujarat",
-                  "nameFr": "Gujarat"
-            },
-            {
-                  "name": "Haryana",
-                  "nameAr": "हरयाणा",
-                  "nameFr": "Haryana"
-            },
-            {
-                  "name": "Himachal Pradesh",
-                  "nameAr": "हिमाचल प्रदेश",
-                  "nameFr": "Himachal Pradesh"
-            },
-            {
-                  "name": "Jammu and Kashmir",
-                  "nameAr": "जम्मू और कश्मीर",
-                  "nameFr": "Jammu and Kashmir"
-            },
-            {
-                  "name": "Jharkhand",
-                  "nameAr": "झारखंड",
-                  "nameFr": "Jharkhand"
-            },
-            {
-                  "name": "Karnataka",
-                  "nameAr": "Karnataka",
-                  "nameFr": "Karnataka"
-            },
-            {
-                  "name": "Kerala",
-                  "nameAr": "केरल",
-                  "nameFr": "Kerala"
-            },
-            {
-                  "name": "Ladakh",
-                  "nameAr": "Ladakh",
-                  "nameFr": "Ladakh"
-            },
-            {
-                  "name": "Lakshadweep",
-                  "nameAr": "लक्षद्वीप",
-                  "nameFr": "Lakshadweep"
-            },
-            {
-                  "name": "Madhya Pradesh",
-                  "nameAr": "मध्य प्रदेश",
-                  "nameFr": "Madhya Pradesh"
-            },
-            {
-                  "name": "Maharashtra",
-                  "nameAr": "महाराष्ट्र",
-                  "nameFr": "Maharashtra"
-            },
-            {
-                  "name": "Manipur",
-                  "nameAr": "मणिपुर",
-                  "nameFr": "Manipur"
-            },
-            {
-                  "name": "Meghalaya",
-                  "nameAr": "मेघालय",
-                  "nameFr": "Meghalaya"
-            },
-            {
-                  "name": "Mizoram",
-                  "nameAr": "मिजोरम",
-                  "nameFr": "Mizoram"
-            },
-            {
-                  "name": "Nagaland",
-                  "nameAr": "नगालैंड",
-                  "nameFr": "Nagaland"
-            },
-            {
-                  "name": "Odisha",
-                  "nameAr": "ओडिशा",
-                  "nameFr": "Odisha"
-            },
-            {
-                  "name": "Puducherry",
-                  "nameAr": "पुदुचेरी",
-                  "nameFr": "Puducherry"
-            },
-            {
-                  "name": "Punjab",
-                  "nameAr": "पंजाब",
-                  "nameFr": "Punjab"
-            },
-            {
-                  "name": "Rajasthan",
-                  "nameAr": "Rajasthan",
-                  "nameFr": "Rajasthan"
-            },
-            {
-                  "name": "Sikkim",
-                  "nameAr": "Sikkim",
-                  "nameFr": "Sikkim"
-            },
-            {
-                  "name": "Tamil Nadu",
-                  "nameAr": "तमिलनाडु",
-                  "nameFr": "Tamil Nadu"
-            },
-            {
-                  "name": "Telangana",
-                  "nameAr": "तेलंगाना",
-                  "nameFr": "Telangana"
-            },
-            {
-                  "name": "Tripura",
-                  "nameAr": "त्रिपुरा",
-                  "nameFr": "Tripura"
-            },
-            {
-                  "name": "Uttar Pradesh",
-                  "nameAr": "Uttar Pradesh",
-                  "nameFr": "Uttar Pradesh"
-            },
-            {
-                  "name": "Uttarakhand",
-                  "nameAr": "उत्तराखंड",
-                  "nameFr": "Uttarakhand"
-            },
-            {
-                  "name": "West Bengal",
-                  "nameAr": "पश्चिम बंगाल",
-                  "nameFr": "West Bengal"
-            }
-      ]
-  },
-  {
     "code": "ID",
     "name": "Indonesia",
-    "nameAr": "إندونيسيا",
-    "nameFr": "Indonesia",
+    "nameAr": "أندونيسيا",
+    "nameFr": "Indonésie",
     "cities": [
             {
                   "name": "Aceh",
@@ -1722,6 +1255,292 @@ export const asiaData: Country[] = [
       ]
   },
   {
+    "code": "IN",
+    "name": "India",
+    "nameAr": "الهند",
+    "nameFr": "Inde",
+    "cities": [
+            {
+                  "name": "Andaman and Nicobar Islands",
+                  "nameAr": "अंडमान व नोकोबार द्वीप समूह",
+                  "nameFr": "Andaman and Nicobar Islands"
+            },
+            {
+                  "name": "Andhra Pradesh",
+                  "nameAr": "आंध्र प्रदेश",
+                  "nameFr": "Andhra Pradesh"
+            },
+            {
+                  "name": "Arunachal Pradesh",
+                  "nameAr": "Arunachal Pradesh",
+                  "nameFr": "Arunachal Pradesh"
+            },
+            {
+                  "name": "Assam",
+                  "nameAr": "असम",
+                  "nameFr": "Assam"
+            },
+            {
+                  "name": "Bihar",
+                  "nameAr": "बिहार",
+                  "nameFr": "Bihar"
+            },
+            {
+                  "name": "Chandigarh",
+                  "nameAr": "चंडीगढ़",
+                  "nameFr": "Chandigarh"
+            },
+            {
+                  "name": "Chhattisgarh",
+                  "nameAr": "Chhattisgarh",
+                  "nameFr": "Chhattisgarh"
+            },
+            {
+                  "name": "Dadra and Nagar Haveli and Daman and Diu",
+                  "nameAr": "Dadra and Nagar Haveli and Daman and Diu",
+                  "nameFr": "Dadra and Nagar Haveli and Daman and Diu"
+            },
+            {
+                  "name": "Delhi",
+                  "nameAr": "दिल्ली",
+                  "nameFr": "Delhi"
+            },
+            {
+                  "name": "Goa",
+                  "nameAr": "गोवा",
+                  "nameFr": "Goa"
+            },
+            {
+                  "name": "Gujarat",
+                  "nameAr": "Gujarat",
+                  "nameFr": "Gujarat"
+            },
+            {
+                  "name": "Haryana",
+                  "nameAr": "हरयाणा",
+                  "nameFr": "Haryana"
+            },
+            {
+                  "name": "Himachal Pradesh",
+                  "nameAr": "हिमाचल प्रदेश",
+                  "nameFr": "Himachal Pradesh"
+            },
+            {
+                  "name": "Jammu and Kashmir",
+                  "nameAr": "जम्मू और कश्मीर",
+                  "nameFr": "Jammu and Kashmir"
+            },
+            {
+                  "name": "Jharkhand",
+                  "nameAr": "झारखंड",
+                  "nameFr": "Jharkhand"
+            },
+            {
+                  "name": "Karnataka",
+                  "nameAr": "Karnataka",
+                  "nameFr": "Karnataka"
+            },
+            {
+                  "name": "Kerala",
+                  "nameAr": "केरल",
+                  "nameFr": "Kerala"
+            },
+            {
+                  "name": "Ladakh",
+                  "nameAr": "Ladakh",
+                  "nameFr": "Ladakh"
+            },
+            {
+                  "name": "Lakshadweep",
+                  "nameAr": "लक्षद्वीप",
+                  "nameFr": "Lakshadweep"
+            },
+            {
+                  "name": "Madhya Pradesh",
+                  "nameAr": "मध्य प्रदेश",
+                  "nameFr": "Madhya Pradesh"
+            },
+            {
+                  "name": "Maharashtra",
+                  "nameAr": "महाराष्ट्र",
+                  "nameFr": "Maharashtra"
+            },
+            {
+                  "name": "Manipur",
+                  "nameAr": "मणिपुर",
+                  "nameFr": "Manipur"
+            },
+            {
+                  "name": "Meghalaya",
+                  "nameAr": "मेघालय",
+                  "nameFr": "Meghalaya"
+            },
+            {
+                  "name": "Mizoram",
+                  "nameAr": "मिजोरम",
+                  "nameFr": "Mizoram"
+            },
+            {
+                  "name": "Nagaland",
+                  "nameAr": "नगालैंड",
+                  "nameFr": "Nagaland"
+            },
+            {
+                  "name": "Odisha",
+                  "nameAr": "ओडिशा",
+                  "nameFr": "Odisha"
+            },
+            {
+                  "name": "Puducherry",
+                  "nameAr": "पुदुचेरी",
+                  "nameFr": "Puducherry"
+            },
+            {
+                  "name": "Punjab",
+                  "nameAr": "पंजाब",
+                  "nameFr": "Punjab"
+            },
+            {
+                  "name": "Rajasthan",
+                  "nameAr": "Rajasthan",
+                  "nameFr": "Rajasthan"
+            },
+            {
+                  "name": "Sikkim",
+                  "nameAr": "Sikkim",
+                  "nameFr": "Sikkim"
+            },
+            {
+                  "name": "Tamil Nadu",
+                  "nameAr": "तमिलनाडु",
+                  "nameFr": "Tamil Nadu"
+            },
+            {
+                  "name": "Telangana",
+                  "nameAr": "तेलंगाना",
+                  "nameFr": "Telangana"
+            },
+            {
+                  "name": "Tripura",
+                  "nameAr": "त्रिपुरा",
+                  "nameFr": "Tripura"
+            },
+            {
+                  "name": "Uttar Pradesh",
+                  "nameAr": "Uttar Pradesh",
+                  "nameFr": "Uttar Pradesh"
+            },
+            {
+                  "name": "Uttarakhand",
+                  "nameAr": "उत्तराखंड",
+                  "nameFr": "Uttarakhand"
+            },
+            {
+                  "name": "West Bengal",
+                  "nameAr": "पश्चिम बंगाल",
+                  "nameFr": "West Bengal"
+            }
+      ]
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "nameAr": "العراق",
+    "nameFr": "Irak",
+    "cities": [
+            {
+                  "name": "Baghdad",
+                  "nameAr": "بغداد",
+                  "nameFr": "Bagdad"
+            },
+            {
+                  "name": "Basra",
+                  "nameAr": "البصرة",
+                  "nameFr": "Bassorah"
+            },
+            {
+                  "name": "Nineveh",
+                  "nameAr": "نينوى",
+                  "nameFr": "Ninive"
+            },
+            {
+                  "name": "Al Anbar",
+                  "nameAr": "الأنبار",
+                  "nameFr": "Al-Anbar"
+            },
+            {
+                  "name": "Erbil",
+                  "nameAr": "أربيل",
+                  "nameFr": "Erbil"
+            },
+            {
+                  "name": "Sulaymaniyah",
+                  "nameAr": "السليمانية",
+                  "nameFr": "Souleimaniye"
+            },
+            {
+                  "name": "Dohuk",
+                  "nameAr": "دهوك",
+                  "nameFr": "Dohuk"
+            },
+            {
+                  "name": "Kirkuk",
+                  "nameAr": "كركوك",
+                  "nameFr": "Kirkouk"
+            },
+            {
+                  "name": "Najaf",
+                  "nameAr": "النجف",
+                  "nameFr": "Nadjaf"
+            },
+            {
+                  "name": "Karbala",
+                  "nameAr": "كربلاء",
+                  "nameFr": "Karbala"
+            },
+            {
+                  "name": "Diyala",
+                  "nameAr": "ديالى",
+                  "nameFr": "Diyala"
+            },
+            {
+                  "name": "Al-Qadisiyyah",
+                  "nameAr": "القادسية",
+                  "nameFr": "Al-Qadisiyyah"
+            },
+            {
+                  "name": "Saladin",
+                  "nameAr": "صلاح الدين",
+                  "nameFr": "Salah ad-Din"
+            },
+            {
+                  "name": "Babylon",
+                  "nameAr": "بابل",
+                  "nameFr": "Babylone"
+            },
+            {
+                  "name": "Dhi Qar",
+                  "nameAr": "ذي قار",
+                  "nameFr": "Dhi Qar"
+            },
+            {
+                  "name": "Maysan",
+                  "nameAr": "ميسان",
+                  "nameFr": "Maysan"
+            },
+            {
+                  "name": "Al Muthanna",
+                  "nameAr": "المثنى",
+                  "nameFr": "Al-Muthanna"
+            },
+            {
+                  "name": "Wasit",
+                  "nameAr": "واسط",
+                  "nameFr": "Wasit"
+            }
+      ]
+  },
+  {
     "code": "IR",
     "name": "Iran",
     "nameAr": "إيران",
@@ -1885,146 +1704,78 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "IQ",
-    "name": "Iraq",
-    "nameAr": "العراق",
-    "nameFr": "Iraq",
+    "code": "JO",
+    "name": "Jordan",
+    "nameAr": "الأردن",
+    "nameFr": "Jordanie",
     "cities": [
             {
-                  "name": "Baghdad",
-                  "nameAr": "بغداد",
-                  "nameFr": "Bagdad"
+                  "name": "Amman",
+                  "nameAr": "عمان",
+                  "nameFr": "Amman"
             },
             {
-                  "name": "Basra",
-                  "nameAr": "البصرة",
-                  "nameFr": "Bassorah"
+                  "name": "Irbid",
+                  "nameAr": "إربد",
+                  "nameFr": "Irbid"
             },
             {
-                  "name": "Nineveh",
-                  "nameAr": "نينوى",
-                  "nameFr": "Ninive"
+                  "name": "Zarqa",
+                  "nameAr": "الزرقاء",
+                  "nameFr": "Zarqa"
             },
             {
-                  "name": "Al Anbar",
-                  "nameAr": "الأنبار",
-                  "nameFr": "Al-Anbar"
+                  "name": "Balqa",
+                  "nameAr": "البلقاء",
+                  "nameFr": "Balqa"
             },
             {
-                  "name": "Erbil",
-                  "nameAr": "أربيل",
-                  "nameFr": "Erbil"
+                  "name": "Madaba",
+                  "nameAr": "مادبا",
+                  "nameFr": "Madaba"
             },
             {
-                  "name": "Sulaymaniyah",
-                  "nameAr": "السليمانية",
-                  "nameFr": "Souleimaniye"
+                  "name": "Karak",
+                  "nameAr": "الكرك",
+                  "nameFr": "Karak"
             },
             {
-                  "name": "Dohuk",
-                  "nameAr": "دهوك",
-                  "nameFr": "Dohuk"
+                  "name": "Tafilah",
+                  "nameAr": "الطفيلة",
+                  "nameFr": "Tafilah"
             },
             {
-                  "name": "Kirkuk",
-                  "nameAr": "كركوك",
-                  "nameFr": "Kirkouk"
+                  "name": "Ma'an",
+                  "nameAr": "معان",
+                  "nameFr": "Ma'an"
             },
             {
-                  "name": "Najaf",
-                  "nameAr": "النجف",
-                  "nameFr": "Nadjaf"
+                  "name": "Aqaba",
+                  "nameAr": "العقبة",
+                  "nameFr": "Aqaba"
             },
             {
-                  "name": "Karbala",
-                  "nameAr": "كربلاء",
-                  "nameFr": "Karbala"
+                  "name": "Jerash",
+                  "nameAr": "جرش",
+                  "nameFr": "Jerash"
             },
             {
-                  "name": "Diyala",
-                  "nameAr": "ديالى",
-                  "nameFr": "Diyala"
+                  "name": "Ajloun",
+                  "nameAr": "عجلون",
+                  "nameFr": "Ajloun"
             },
             {
-                  "name": "Al-Qadisiyyah",
-                  "nameAr": "القادسية",
-                  "nameFr": "Al-Qadisiyyah"
-            },
-            {
-                  "name": "Saladin",
-                  "nameAr": "صلاح الدين",
-                  "nameFr": "Salah ad-Din"
-            },
-            {
-                  "name": "Babylon",
-                  "nameAr": "بابل",
-                  "nameFr": "Babylone"
-            },
-            {
-                  "name": "Dhi Qar",
-                  "nameAr": "ذي قار",
-                  "nameFr": "Dhi Qar"
-            },
-            {
-                  "name": "Maysan",
-                  "nameAr": "ميسان",
-                  "nameFr": "Maysan"
-            },
-            {
-                  "name": "Al Muthanna",
-                  "nameAr": "المثنى",
-                  "nameFr": "Al-Muthanna"
-            },
-            {
-                  "name": "Wasit",
-                  "nameAr": "واسط",
-                  "nameFr": "Wasit"
+                  "name": "Mafraq",
+                  "nameAr": "المفرق",
+                  "nameFr": "Mafraq"
             }
       ]
-  },
-  {
-    "code": "IL",
-    "name": "Israel",
-    "nameAr": "إسرائيل",
-    "nameFr": "Israel",
-    "cities": [
-      {
-        "name": "Central",
-        "nameAr": "",
-        "nameFr": "Central"
-      },
-      {
-        "name": "Haifa",
-        "nameAr": "",
-        "nameFr": "Haifa"
-      },
-      {
-        "name": "Jerusalem",
-        "nameAr": "القدس",
-        "nameFr": "Jerusalem"
-      },
-      {
-        "name": "Northern",
-        "nameAr": "",
-        "nameFr": "Northern"
-      },
-      {
-        "name": "Southern",
-        "nameAr": "",
-        "nameFr": "Southern"
-      },
-      {
-        "name": "Tel Aviv",
-        "nameAr": "",
-        "nameFr": "Tel Aviv"
-      }
-    ]
   },
   {
     "code": "JP",
     "name": "Japan",
     "nameAr": "اليابان",
-    "nameFr": "Japan",
+    "nameFr": "Japon",
     "cities": [
             {
                   "name": "Aichi",
@@ -2264,70 +2015,377 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "JO",
-    "name": "Jordan",
-    "nameAr": "الأردن",
-    "nameFr": "Jordan",
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "nameAr": "قرغيزستان",
+    "nameFr": "Kirghizistan",
     "cities": [
             {
-                  "name": "Amman",
-                  "nameAr": "عمان",
-                  "nameFr": "Amman"
+                  "name": "Batken",
+                  "nameAr": "Batken",
+                  "nameFr": "Batken"
             },
             {
-                  "name": "Irbid",
-                  "nameAr": "إربد",
-                  "nameFr": "Irbid"
+                  "name": "Bishkek",
+                  "nameAr": "Бишкек",
+                  "nameFr": "Bishkek"
             },
             {
-                  "name": "Zarqa",
-                  "nameAr": "الزرقاء",
-                  "nameFr": "Zarqa"
+                  "name": "Chuy",
+                  "nameAr": "Чүй",
+                  "nameFr": "Chuy"
             },
             {
-                  "name": "Balqa",
-                  "nameAr": "البلقاء",
-                  "nameFr": "Balqa"
+                  "name": "Issyk-Kul",
+                  "nameAr": "Ыссык Көл",
+                  "nameFr": "Issyk-Kul"
             },
             {
-                  "name": "Madaba",
-                  "nameAr": "مادبا",
-                  "nameFr": "Madaba"
+                  "name": "Jalal-Abad",
+                  "nameAr": "Жалал Абад",
+                  "nameFr": "Jalal-Abad"
             },
             {
-                  "name": "Karak",
-                  "nameAr": "الكرك",
-                  "nameFr": "Karak"
+                  "name": "Naryn",
+                  "nameAr": "ZEA",
+                  "nameFr": "Naryn"
             },
             {
-                  "name": "Tafilah",
-                  "nameAr": "الطفيلة",
-                  "nameFr": "Tafilah"
+                  "name": "Osh",
+                  "nameAr": "Osh",
+                  "nameFr": "Osh"
             },
             {
-                  "name": "Ma'an",
-                  "nameAr": "معان",
-                  "nameFr": "Ma'an"
+                  "name": "Osh",
+                  "nameAr": "Ош",
+                  "nameFr": "Osh"
             },
             {
-                  "name": "Aqaba",
-                  "nameAr": "العقبة",
-                  "nameFr": "Aqaba"
+                  "name": "Talas",
+                  "nameAr": "Сүйлөйт",
+                  "nameFr": "Talas"
+            }
+      ]
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "nameAr": "كمبوديا",
+    "nameFr": "Cambodge",
+    "cities": [
+            {
+                  "name": "Banteay Meanchey",
+                  "nameAr": "បន្ទាយមានជ័យ",
+                  "nameFr": "Banteay Meanchey"
             },
             {
-                  "name": "Jerash",
-                  "nameAr": "جرش",
-                  "nameFr": "Jerash"
+                  "name": "Battambang",
+                  "nameAr": "បាត់ដំបង",
+                  "nameFr": "Battambang"
             },
             {
-                  "name": "Ajloun",
-                  "nameAr": "عجلون",
-                  "nameFr": "Ajloun"
+                  "name": "Kampong Cham",
+                  "nameAr": "Kampong Cham",
+                  "nameFr": "Kampong Cham"
             },
             {
-                  "name": "Mafraq",
-                  "nameAr": "المفرق",
-                  "nameFr": "Mafraq"
+                  "name": "Kampong Chhnang",
+                  "nameAr": "កំពង់ឆ្នាំង",
+                  "nameFr": "Kampong Chhnang"
+            },
+            {
+                  "name": "Kampong Speu",
+                  "nameAr": "ភូមិសែ",
+                  "nameFr": "Kampong Speu"
+            },
+            {
+                  "name": "Kampong Thom",
+                  "nameAr": "កំពង់ធំ",
+                  "nameFr": "Kampong Thom"
+            },
+            {
+                  "name": "Kampot",
+                  "nameAr": "កំពត",
+                  "nameFr": "Kampot"
+            },
+            {
+                  "name": "Kandal",
+                  "nameAr": "បេសបេល",
+                  "nameFr": "Kandal"
+            },
+            {
+                  "name": "Kep",
+                  "nameAr": "កែប",
+                  "nameFr": "Kep"
+            },
+            {
+                  "name": "Koh Kong",
+                  "nameAr": "កោះកុង",
+                  "nameFr": "Koh Kong"
+            },
+            {
+                  "name": "Kratie",
+                  "nameAr": "ក្រចេះ",
+                  "nameFr": "Kratie"
+            },
+            {
+                  "name": "Mondulkiri",
+                  "nameAr": "មណ្ឌលគីរី",
+                  "nameFr": "Mondulkiri"
+            },
+            {
+                  "name": "Oddar Meanchey",
+                  "nameAr": "ឧត្តរមានជ័យ",
+                  "nameFr": "Oddar Meanchey"
+            },
+            {
+                  "name": "Pailin",
+                  "nameAr": "លំអី",
+                  "nameFr": "Pailin"
+            },
+            {
+                  "name": "Phnom Penh",
+                  "nameAr": "រាជធានី",
+                  "nameFr": "Phnom Penh"
+            },
+            {
+                  "name": "Preah Vihear",
+                  "nameAr": "ព្រះវិហារ",
+                  "nameFr": "Preah Vihear"
+            },
+            {
+                  "name": "Prey Veng",
+                  "nameAr": "បុរស",
+                  "nameFr": "Prey Veng"
+            },
+            {
+                  "name": "Pursat",
+                  "nameAr": "ឱកាស",
+                  "nameFr": "Pursat"
+            },
+            {
+                  "name": "Ratanakiri",
+                  "nameAr": "រតនគិរី",
+                  "nameFr": "Ratanakiri"
+            },
+            {
+                  "name": "Siem Reap",
+                  "nameAr": "សៀមរាប",
+                  "nameFr": "Siem Reap"
+            },
+            {
+                  "name": "Sihanoukville",
+                  "nameAr": "ក្រុងព្រះសីហនុ",
+                  "nameFr": "Sihanoukville"
+            },
+            {
+                  "name": "Stung Treng",
+                  "nameAr": "ត្រូវការស្ទឹង",
+                  "nameFr": "Stung Treng"
+            },
+            {
+                  "name": "Svay Rieng",
+                  "nameAr": "ស្វាយរៀង",
+                  "nameFr": "Svay Rieng"
+            },
+            {
+                  "name": "Takeo",
+                  "nameAr": "តាកែវ",
+                  "nameFr": "Takeo"
+            }
+      ]
+  },
+  {
+    "code": "KP",
+    "name": "Korea (North)",
+    "nameAr": "كوريا الشمالية",
+    "nameFr": "Corée du Nord",
+    "cities": [
+            {
+                  "name": "Chagang",
+                  "nameAr": "Chagang",
+                  "nameFr": "Chagang"
+            },
+            {
+                  "name": "Kangwon",
+                  "nameAr": "kangwon",
+                  "nameFr": "Kangwon"
+            },
+            {
+                  "name": "North Hamgyong",
+                  "nameAr": "노스 햄학",
+                  "nameFr": "North Hamgyong"
+            },
+            {
+                  "name": "North Hwanghae",
+                  "nameAr": "North Hwanghae",
+                  "nameFr": "North Hwanghae"
+            },
+            {
+                  "name": "North Pyongan",
+                  "nameAr": "북한",
+                  "nameFr": "North Pyongan"
+            },
+            {
+                  "name": "Pyongyang",
+                  "nameAr": "Pyongyang",
+                  "nameFr": "Pyongyang"
+            },
+            {
+                  "name": "Rason",
+                  "nameAr": "이유",
+                  "nameFr": "Rason"
+            },
+            {
+                  "name": "Ryanggang",
+                  "nameAr": "Ryangang",
+                  "nameFr": "Ryanggang"
+            },
+            {
+                  "name": "South Hamgyong",
+                  "nameAr": "사우스 햄학",
+                  "nameFr": "South Hamgyong"
+            },
+            {
+                  "name": "South Hwanghae",
+                  "nameAr": "South Hwanghae",
+                  "nameFr": "South Hwanghae"
+            },
+            {
+                  "name": "South Pyongan",
+                  "nameAr": "남쪽 평온",
+                  "nameFr": "South Pyongan"
+            }
+      ]
+  },
+  {
+    "code": "KR",
+    "name": "Korea (South)",
+    "nameAr": "كوريا، جنوب)",
+    "nameFr": "COREE DU SUD)",
+    "cities": [
+            {
+                  "name": "Busan",
+                  "nameAr": "부산",
+                  "nameFr": "Busan"
+            },
+            {
+                  "name": "Daegu",
+                  "nameAr": "대구",
+                  "nameFr": "Daegu"
+            },
+            {
+                  "name": "Daejeon",
+                  "nameAr": "대전",
+                  "nameFr": "Daejeon"
+            },
+            {
+                  "name": "Gangwon",
+                  "nameAr": "강원",
+                  "nameFr": "Gangwon"
+            },
+            {
+                  "name": "Gwangju",
+                  "nameAr": "광주",
+                  "nameFr": "Gwangju"
+            },
+            {
+                  "name": "Gyeonggi",
+                  "nameAr": "Gyeonggi",
+                  "nameFr": "Gyeonggi"
+            },
+            {
+                  "name": "Incheon",
+                  "nameAr": "Incheon",
+                  "nameFr": "Incheon"
+            },
+            {
+                  "name": "Jeju",
+                  "nameAr": "제주",
+                  "nameFr": "Jeju"
+            },
+            {
+                  "name": "North Chungcheong",
+                  "nameAr": "노스 정찰",
+                  "nameFr": "North Chungcheong"
+            },
+            {
+                  "name": "North Gyeongsang",
+                  "nameAr": "북경 산",
+                  "nameFr": "North Gyeongsang"
+            },
+            {
+                  "name": "North Jeolla",
+                  "nameAr": "노스 여울",
+                  "nameFr": "North Jeolla"
+            },
+            {
+                  "name": "Sejong City",
+                  "nameAr": "세종 시티",
+                  "nameFr": "Sejong City"
+            },
+            {
+                  "name": "Seoul",
+                  "nameAr": "Seoul",
+                  "nameFr": "Seoul"
+            },
+            {
+                  "name": "South Chungcheong",
+                  "nameAr": "South Chungcheong",
+                  "nameFr": "South Chungcheong"
+            },
+            {
+                  "name": "South Gyeongsang",
+                  "nameAr": "사우스 경잔",
+                  "nameFr": "South Gyeongsang"
+            },
+            {
+                  "name": "South Jeolla",
+                  "nameAr": "사우스 여질",
+                  "nameFr": "South Jeolla"
+            },
+            {
+                  "name": "Ulsan",
+                  "nameAr": "울산",
+                  "nameFr": "Ulsan"
+            }
+      ]
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "nameAr": "الكويت",
+    "nameFr": "Koweït",
+    "cities": [
+            {
+                  "name": "Al Asimah",
+                  "nameAr": "العاصمة",
+                  "nameFr": "Al Asimah"
+            },
+            {
+                  "name": "Hawalli",
+                  "nameAr": "حولي",
+                  "nameFr": "Hawalli"
+            },
+            {
+                  "name": "Al Farwaniyah",
+                  "nameAr": "الفروانية",
+                  "nameFr": "Al Farwaniyah"
+            },
+            {
+                  "name": "Al Ahmadi",
+                  "nameAr": "الأحمدي",
+                  "nameFr": "Al Ahmadi"
+            },
+            {
+                  "name": "Al Jahra",
+                  "nameAr": "الجهراء",
+                  "nameFr": "Al Jahra"
+            },
+            {
+                  "name": "Mubarak Al-Kabeer",
+                  "nameAr": "مبارك الكبير",
+                  "nameFr": "Mubarak Al-Kabeer"
             }
       ]
   },
@@ -2335,7 +2393,7 @@ export const asiaData: Country[] = [
     "code": "KZ",
     "name": "Kazakhstan",
     "nameAr": "كازاخستان",
-    "nameFr": "Kazakhstan",
+    "nameFr": "Le kazakhstan",
     "cities": [
             {
                   "name": "Abai",
@@ -2436,97 +2494,6 @@ export const asiaData: Country[] = [
                   "name": "West Kazakhstan",
                   "nameAr": "Батыс Қазақстан",
                   "nameFr": "West Kazakhstan"
-            }
-      ]
-  },
-  {
-    "code": "KW",
-    "name": "Kuwait",
-    "nameAr": "الكويت",
-    "nameFr": "Kuwait",
-    "cities": [
-            {
-                  "name": "Al Asimah",
-                  "nameAr": "العاصمة",
-                  "nameFr": "Al Asimah"
-            },
-            {
-                  "name": "Hawalli",
-                  "nameAr": "حولي",
-                  "nameFr": "Hawalli"
-            },
-            {
-                  "name": "Al Farwaniyah",
-                  "nameAr": "الفروانية",
-                  "nameFr": "Al Farwaniyah"
-            },
-            {
-                  "name": "Al Ahmadi",
-                  "nameAr": "الأحمدي",
-                  "nameFr": "Al Ahmadi"
-            },
-            {
-                  "name": "Al Jahra",
-                  "nameAr": "الجهراء",
-                  "nameFr": "Al Jahra"
-            },
-            {
-                  "name": "Mubarak Al-Kabeer",
-                  "nameAr": "مبارك الكبير",
-                  "nameFr": "Mubarak Al-Kabeer"
-            }
-      ]
-  },
-  {
-    "code": "KG",
-    "name": "Kyrgyzstan",
-    "nameAr": "قيرغيزستان",
-    "nameFr": "Kyrgyzstan",
-    "cities": [
-            {
-                  "name": "Batken",
-                  "nameAr": "Batken",
-                  "nameFr": "Batken"
-            },
-            {
-                  "name": "Bishkek",
-                  "nameAr": "Бишкек",
-                  "nameFr": "Bishkek"
-            },
-            {
-                  "name": "Chuy",
-                  "nameAr": "Чүй",
-                  "nameFr": "Chuy"
-            },
-            {
-                  "name": "Issyk-Kul",
-                  "nameAr": "Ыссык Көл",
-                  "nameFr": "Issyk-Kul"
-            },
-            {
-                  "name": "Jalal-Abad",
-                  "nameAr": "Жалал Абад",
-                  "nameFr": "Jalal-Abad"
-            },
-            {
-                  "name": "Naryn",
-                  "nameAr": "ZEA",
-                  "nameFr": "Naryn"
-            },
-            {
-                  "name": "Osh",
-                  "nameAr": "Osh",
-                  "nameFr": "Osh"
-            },
-            {
-                  "name": "Osh",
-                  "nameAr": "Ош",
-                  "nameFr": "Osh"
-            },
-            {
-                  "name": "Talas",
-                  "nameAr": "Сүйлөйт",
-                  "nameFr": "Talas"
             }
       ]
   },
@@ -2632,7 +2599,7 @@ export const asiaData: Country[] = [
     "code": "LB",
     "name": "Lebanon",
     "nameAr": "لبنان",
-    "nameFr": "Lebanon",
+    "nameFr": "Liban",
     "cities": [
             {
                   "name": "Beirut",
@@ -2677,99 +2644,390 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "MO",
-    "name": "Macau S.A.R.",
-    "nameAr": "ماكاو",
-    "nameFr": "Macau S.A.R.",
-    "cities": []
-  },
-  {
-    "code": "MY",
-    "name": "Malaysia",
-    "nameAr": "ماليزيا",
-    "nameFr": "Malaysia",
+    "code": "LK",
+    "name": "Sri Lanka",
+    "nameAr": "سيريلانكا",
+    "nameFr": "Sri Lanka",
     "cities": [
             {
-                  "name": "Johor",
-                  "nameAr": "Johor",
-                  "nameFr": "Johor"
+                  "name": "Ampara",
+                  "nameAr": "සශ්රීක",
+                  "nameFr": "Ampara"
             },
             {
-                  "name": "Kedah",
-                  "nameAr": "Kedah",
-                  "nameFr": "Kedah"
+                  "name": "Anuradhapura",
+                  "nameAr": "Anuradhapura",
+                  "nameFr": "Anuradhapura"
             },
             {
-                  "name": "Kelantan",
-                  "nameAr": "Kelantan",
-                  "nameFr": "Kelantan"
+                  "name": "Badulla",
+                  "nameAr": "බදුල්ලා",
+                  "nameFr": "Badulla"
             },
             {
-                  "name": "Kuala Lumpur",
-                  "nameAr": "Kuala Lumpur",
-                  "nameFr": "Kuala Lumpur"
+                  "name": "Batticaloa",
+                  "nameAr": "Batticaloa",
+                  "nameFr": "Batticaloa"
             },
             {
-                  "name": "Labuan",
-                  "nameAr": "Labuan",
-                  "nameFr": "Labuan"
+                  "name": "Central",
+                  "nameAr": "Central",
+                  "nameFr": "Central"
             },
             {
-                  "name": "Malacca",
-                  "nameAr": "Melaka",
-                  "nameFr": "Malacca"
+                  "name": "Colombo",
+                  "nameAr": "කොළඹ",
+                  "nameFr": "Colombo"
             },
             {
-                  "name": "Negeri Sembilan",
-                  "nameAr": "Negeri Sembilan",
-                  "nameFr": "Negeri Sembilan"
+                  "name": "Eastern",
+                  "nameAr": "නැගෙනහිර",
+                  "nameFr": "Eastern"
             },
             {
-                  "name": "Pahang",
-                  "nameAr": "Pahang",
-                  "nameFr": "Pahang"
+                  "name": "Galle",
+                  "nameAr": "ගාල්ල",
+                  "nameFr": "Galle"
             },
             {
-                  "name": "Penang",
-                  "nameAr": "Pulau Pinang",
-                  "nameFr": "Penang"
+                  "name": "Gampaha",
+                  "nameAr": "ගම්පහා",
+                  "nameFr": "Gampaha"
             },
             {
-                  "name": "Perak",
-                  "nameAr": "Perak",
-                  "nameFr": "Perak"
+                  "name": "Hambantota",
+                  "nameAr": "හැමමුනටටා",
+                  "nameFr": "Hambantota"
             },
             {
-                  "name": "Perlis",
-                  "nameAr": "Perlis",
-                  "nameFr": "Perlis"
+                  "name": "Jaffna",
+                  "nameAr": "ජැෆ්ෆා",
+                  "nameFr": "Jaffna"
             },
             {
-                  "name": "Putrajaya",
-                  "nameAr": "Putrajaya",
-                  "nameFr": "Putrajaya"
+                  "name": "Kalutara",
+                  "nameAr": "කළුතර",
+                  "nameFr": "Kalutara"
             },
             {
-                  "name": "Sabah",
-                  "nameAr": "Sabah",
-                  "nameFr": "Sabah"
+                  "name": "Kandy",
+                  "nameAr": "මහනුවර",
+                  "nameFr": "Kandy"
             },
             {
-                  "name": "Sarawak",
-                  "nameAr": "Sarawak",
-                  "nameFr": "Sarawak"
+                  "name": "Kegalle",
+                  "nameAr": "කෙගල්ලේ",
+                  "nameFr": "Kegalle"
             },
             {
-                  "name": "Selangor",
-                  "nameAr": "Selangor",
-                  "nameFr": "Selangor"
+                  "name": "Kilinochchi",
+                  "nameAr": "කර්නොච්චි",
+                  "nameFr": "Kilinochchi"
             },
             {
-                  "name": "Terengganu",
-                  "nameAr": "Terengganu",
-                  "nameFr": "Terengganu"
+                  "name": "Kurunegala",
+                  "nameAr": "ජනපදනල්",
+                  "nameFr": "Kurunegala"
+            },
+            {
+                  "name": "Mannar",
+                  "nameAr": "මන්නාරම",
+                  "nameFr": "Mannar"
+            },
+            {
+                  "name": "Matale",
+                  "nameAr": "මෙට්ට",
+                  "nameFr": "Matale"
+            },
+            {
+                  "name": "Matara",
+                  "nameAr": "විවෘත",
+                  "nameFr": "Matara"
+            },
+            {
+                  "name": "Monaragala",
+                  "nameAr": "Monaragala",
+                  "nameFr": "Monaragala"
+            },
+            {
+                  "name": "Mullaitivu",
+                  "nameAr": "මුල්ලයිටිව්",
+                  "nameFr": "Mullaitivu"
+            },
+            {
+                  "name": "North Central",
+                  "nameAr": "උතුරු මැද",
+                  "nameFr": "North Central"
+            },
+            {
+                  "name": "North Western",
+                  "nameAr": "වයඹ බටහිර",
+                  "nameFr": "North Western"
+            },
+            {
+                  "name": "Northern",
+                  "nameAr": "උතුරේ",
+                  "nameFr": "Northern"
+            },
+            {
+                  "name": "Nuwara Eliya",
+                  "nameAr": "එය ජෝෂාගේ වල් ය",
+                  "nameFr": "Nuwara Eliya"
+            },
+            {
+                  "name": "Polonnaruwa",
+                  "nameAr": "පොලොන්නරුව",
+                  "nameFr": "Polonnaruwa"
+            },
+            {
+                  "name": "Puttalam",
+                  "nameAr": "Puttalam",
+                  "nameFr": "Puttalam"
+            },
+            {
+                  "name": "Ratnapura",
+                  "nameAr": "රත්නපුර",
+                  "nameFr": "Ratnapura"
+            },
+            {
+                  "name": "Sabaragamuwa",
+                  "nameAr": "සපානාගමුව",
+                  "nameFr": "Sabaragamuwa"
+            },
+            {
+                  "name": "Southern",
+                  "nameAr": "දක්ෂිණ",
+                  "nameFr": "Southern"
+            },
+            {
+                  "name": "Trincomalee",
+                  "nameAr": "ත්රිකුණාමලය",
+                  "nameFr": "Trincomalee"
+            },
+            {
+                  "name": "Uva",
+                  "nameAr": "Va ව",
+                  "nameFr": "Uva"
+            },
+            {
+                  "name": "Vavuniya",
+                  "nameAr": "වවුනියා",
+                  "nameFr": "Vavuniya"
+            },
+            {
+                  "name": "Western",
+                  "nameAr": "Western",
+                  "nameFr": "Western"
             }
       ]
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "nameAr": "ميانمار",
+    "nameFr": "Myanmar",
+    "cities": [
+            {
+                  "name": "Ayeyarwady",
+                  "nameAr": "ar ရာဝတီ",
+                  "nameFr": "Ayeyarwady"
+            },
+            {
+                  "name": "Bago",
+                  "nameAr": "ဉီးစွာ",
+                  "nameFr": "Bago"
+            },
+            {
+                  "name": "Chin",
+                  "nameAr": "မေးစေ့",
+                  "nameFr": "Chin"
+            },
+            {
+                  "name": "Kachin",
+                  "nameAr": "ကချင်လူမျိုး",
+                  "nameFr": "Kachin"
+            },
+            {
+                  "name": "Kayah",
+                  "nameAr": "ကရင်",
+                  "nameFr": "Kayah"
+            },
+            {
+                  "name": "Kayin",
+                  "nameAr": "nephy",
+                  "nameFr": "Kayin"
+            },
+            {
+                  "name": "Magway",
+                  "nameAr": "ဆောင်ရွက်နိုင်",
+                  "nameFr": "Magway"
+            },
+            {
+                  "name": "Mandalay",
+                  "nameAr": "မန္တလေး",
+                  "nameFr": "Mandalay"
+            },
+            {
+                  "name": "Mon State",
+                  "nameAr": "မွန်ပြည်နယ်",
+                  "nameFr": "Mon State"
+            },
+            {
+                  "name": "Naypyidaw",
+                  "nameAr": "နေပြည်တော်",
+                  "nameFr": "Naypyidaw"
+            },
+            {
+                  "name": "Rakhine",
+                  "nameAr": "ရခိုင်",
+                  "nameFr": "Rakhine"
+            },
+            {
+                  "name": "Sagaing",
+                  "nameAr": "စစ်ကိုင်းတိုင်း",
+                  "nameFr": "Sagaing"
+            },
+            {
+                  "name": "Shan",
+                  "nameAr": "ရှမ်း",
+                  "nameFr": "Shan"
+            },
+            {
+                  "name": "Tanintharyi",
+                  "nameAr": "တနင်္သာရီ",
+                  "nameFr": "Tanintharyi"
+            },
+            {
+                  "name": "Yangon",
+                  "nameAr": "ရန်ကုန်",
+                  "nameFr": "Yangon"
+            }
+      ]
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "nameAr": "منغوليا",
+    "nameFr": "Mongolie",
+    "cities": [
+            {
+                  "name": "Arkhangai",
+                  "nameAr": "Аркхангай",
+                  "nameFr": "Arkhangai"
+            },
+            {
+                  "name": "Bayan-Ölgii",
+                  "nameAr": "Of-olgii",
+                  "nameFr": "Bayan-Ölgii"
+            },
+            {
+                  "name": "Bayankhongor",
+                  "nameAr": "Bayankhryr",
+                  "nameFr": "Bayankhongor"
+            },
+            {
+                  "name": "Bulgan",
+                  "nameAr": "Сүйрэл",
+                  "nameFr": "Bulgan"
+            },
+            {
+                  "name": "Darkhan-Uul",
+                  "nameAr": "Darkhan-uul",
+                  "nameFr": "Darkhan-Uul"
+            },
+            {
+                  "name": "Dornod",
+                  "nameAr": "Тэнэгдой",
+                  "nameFr": "Dornod"
+            },
+            {
+                  "name": "Dornogovi",
+                  "nameAr": "Dornogovi",
+                  "nameFr": "Dornogovi"
+            },
+            {
+                  "name": "Dundgovi",
+                  "nameAr": "Dundgovi",
+                  "nameFr": "Dundgovi"
+            },
+            {
+                  "name": "Govi-Altai",
+                  "nameAr": "Гови-Алтай",
+                  "nameFr": "Govi-Altai"
+            },
+            {
+                  "name": "Govisümber",
+                  "nameAr": "Гово",
+                  "nameFr": "Govisümber"
+            },
+            {
+                  "name": "Khentii",
+                  "nameAr": "Хекенти",
+                  "nameFr": "Khentii"
+            },
+            {
+                  "name": "Khovd",
+                  "nameAr": "Барааны агуулах",
+                  "nameFr": "Khovd"
+            },
+            {
+                  "name": "Khövsgöl",
+                  "nameAr": "Khövsgöl",
+                  "nameFr": "Khövsgöl"
+            },
+            {
+                  "name": "Ömnögovi",
+                  "nameAr": "ÖMNögovi",
+                  "nameFr": "Ömnögovi"
+            },
+            {
+                  "name": "Orkhon",
+                  "nameAr": "Orkhon",
+                  "nameFr": "Orkhon"
+            },
+            {
+                  "name": "Övörkhangai",
+                  "nameAr": "Хормой",
+                  "nameFr": "Övörkhangai"
+            },
+            {
+                  "name": "Selenge",
+                  "nameAr": "Дэлж",
+                  "nameFr": "Selenge"
+            },
+            {
+                  "name": "Sükhbaatar",
+                  "nameAr": "Сүкбаатар",
+                  "nameFr": "Sükhbaatar"
+            },
+            {
+                  "name": "Töv",
+                  "nameAr": "Буурсан",
+                  "nameFr": "Töv"
+            },
+            {
+                  "name": "Ulaanbaatar",
+                  "nameAr": "Ulaanbaatar",
+                  "nameFr": "Ulaanbaatar"
+            },
+            {
+                  "name": "Uvs",
+                  "nameAr": "Ums",
+                  "nameFr": "Uvs"
+            },
+            {
+                  "name": "Zavkhan",
+                  "nameAr": "Zavkhan",
+                  "nameFr": "Zavkhan"
+            }
+      ]
+  },
+  {
+    "code": "MO",
+    "name": "Macao",
+    "nameAr": "ماكاو",
+    "nameFr": "Macao",
+    "cities": []
   },
   {
     "code": "MV",
@@ -2905,203 +3163,90 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "MN",
-    "name": "Mongolia",
-    "nameAr": "منغوليا",
-    "nameFr": "Mongolia",
+    "code": "MY",
+    "name": "Malaysia",
+    "nameAr": "ماليزيا",
+    "nameFr": "Malaisie",
     "cities": [
             {
-                  "name": "Arkhangai",
-                  "nameAr": "Аркхангай",
-                  "nameFr": "Arkhangai"
+                  "name": "Johor",
+                  "nameAr": "Johor",
+                  "nameFr": "Johor"
             },
             {
-                  "name": "Bayan-Ölgii",
-                  "nameAr": "Of-olgii",
-                  "nameFr": "Bayan-Ölgii"
+                  "name": "Kedah",
+                  "nameAr": "Kedah",
+                  "nameFr": "Kedah"
             },
             {
-                  "name": "Bayankhongor",
-                  "nameAr": "Bayankhryr",
-                  "nameFr": "Bayankhongor"
+                  "name": "Kelantan",
+                  "nameAr": "Kelantan",
+                  "nameFr": "Kelantan"
             },
             {
-                  "name": "Bulgan",
-                  "nameAr": "Сүйрэл",
-                  "nameFr": "Bulgan"
+                  "name": "Kuala Lumpur",
+                  "nameAr": "Kuala Lumpur",
+                  "nameFr": "Kuala Lumpur"
             },
             {
-                  "name": "Darkhan-Uul",
-                  "nameAr": "Darkhan-uul",
-                  "nameFr": "Darkhan-Uul"
+                  "name": "Labuan",
+                  "nameAr": "Labuan",
+                  "nameFr": "Labuan"
             },
             {
-                  "name": "Dornod",
-                  "nameAr": "Тэнэгдой",
-                  "nameFr": "Dornod"
+                  "name": "Malacca",
+                  "nameAr": "Melaka",
+                  "nameFr": "Malacca"
             },
             {
-                  "name": "Dornogovi",
-                  "nameAr": "Dornogovi",
-                  "nameFr": "Dornogovi"
+                  "name": "Negeri Sembilan",
+                  "nameAr": "Negeri Sembilan",
+                  "nameFr": "Negeri Sembilan"
             },
             {
-                  "name": "Dundgovi",
-                  "nameAr": "Dundgovi",
-                  "nameFr": "Dundgovi"
+                  "name": "Pahang",
+                  "nameAr": "Pahang",
+                  "nameFr": "Pahang"
             },
             {
-                  "name": "Govi-Altai",
-                  "nameAr": "Гови-Алтай",
-                  "nameFr": "Govi-Altai"
+                  "name": "Penang",
+                  "nameAr": "Pulau Pinang",
+                  "nameFr": "Penang"
             },
             {
-                  "name": "Govisümber",
-                  "nameAr": "Гово",
-                  "nameFr": "Govisümber"
+                  "name": "Perak",
+                  "nameAr": "Perak",
+                  "nameFr": "Perak"
             },
             {
-                  "name": "Khentii",
-                  "nameAr": "Хекенти",
-                  "nameFr": "Khentii"
+                  "name": "Perlis",
+                  "nameAr": "Perlis",
+                  "nameFr": "Perlis"
             },
             {
-                  "name": "Khovd",
-                  "nameAr": "Барааны агуулах",
-                  "nameFr": "Khovd"
+                  "name": "Putrajaya",
+                  "nameAr": "Putrajaya",
+                  "nameFr": "Putrajaya"
             },
             {
-                  "name": "Khövsgöl",
-                  "nameAr": "Khövsgöl",
-                  "nameFr": "Khövsgöl"
+                  "name": "Sabah",
+                  "nameAr": "Sabah",
+                  "nameFr": "Sabah"
             },
             {
-                  "name": "Ömnögovi",
-                  "nameAr": "ÖMNögovi",
-                  "nameFr": "Ömnögovi"
+                  "name": "Sarawak",
+                  "nameAr": "Sarawak",
+                  "nameFr": "Sarawak"
             },
             {
-                  "name": "Orkhon",
-                  "nameAr": "Orkhon",
-                  "nameFr": "Orkhon"
+                  "name": "Selangor",
+                  "nameAr": "Selangor",
+                  "nameFr": "Selangor"
             },
             {
-                  "name": "Övörkhangai",
-                  "nameAr": "Хормой",
-                  "nameFr": "Övörkhangai"
-            },
-            {
-                  "name": "Selenge",
-                  "nameAr": "Дэлж",
-                  "nameFr": "Selenge"
-            },
-            {
-                  "name": "Sükhbaatar",
-                  "nameAr": "Сүкбаатар",
-                  "nameFr": "Sükhbaatar"
-            },
-            {
-                  "name": "Töv",
-                  "nameAr": "Буурсан",
-                  "nameFr": "Töv"
-            },
-            {
-                  "name": "Ulaanbaatar",
-                  "nameAr": "Ulaanbaatar",
-                  "nameFr": "Ulaanbaatar"
-            },
-            {
-                  "name": "Uvs",
-                  "nameAr": "Ums",
-                  "nameFr": "Uvs"
-            },
-            {
-                  "name": "Zavkhan",
-                  "nameAr": "Zavkhan",
-                  "nameFr": "Zavkhan"
-            }
-      ]
-  },
-  {
-    "code": "MM",
-    "name": "Myanmar",
-    "nameAr": "ميانمار",
-    "nameFr": "Myanmar",
-    "cities": [
-            {
-                  "name": "Ayeyarwady",
-                  "nameAr": "ar ရာဝတီ",
-                  "nameFr": "Ayeyarwady"
-            },
-            {
-                  "name": "Bago",
-                  "nameAr": "ဉီးစွာ",
-                  "nameFr": "Bago"
-            },
-            {
-                  "name": "Chin",
-                  "nameAr": "မေးစေ့",
-                  "nameFr": "Chin"
-            },
-            {
-                  "name": "Kachin",
-                  "nameAr": "ကချင်လူမျိုး",
-                  "nameFr": "Kachin"
-            },
-            {
-                  "name": "Kayah",
-                  "nameAr": "ကရင်",
-                  "nameFr": "Kayah"
-            },
-            {
-                  "name": "Kayin",
-                  "nameAr": "nephy",
-                  "nameFr": "Kayin"
-            },
-            {
-                  "name": "Magway",
-                  "nameAr": "ဆောင်ရွက်နိုင်",
-                  "nameFr": "Magway"
-            },
-            {
-                  "name": "Mandalay",
-                  "nameAr": "မန္တလေး",
-                  "nameFr": "Mandalay"
-            },
-            {
-                  "name": "Mon State",
-                  "nameAr": "မွန်ပြည်နယ်",
-                  "nameFr": "Mon State"
-            },
-            {
-                  "name": "Naypyidaw",
-                  "nameAr": "နေပြည်တော်",
-                  "nameFr": "Naypyidaw"
-            },
-            {
-                  "name": "Rakhine",
-                  "nameAr": "ရခိုင်",
-                  "nameFr": "Rakhine"
-            },
-            {
-                  "name": "Sagaing",
-                  "nameAr": "စစ်ကိုင်းတိုင်း",
-                  "nameFr": "Sagaing"
-            },
-            {
-                  "name": "Shan",
-                  "nameAr": "ရှမ်း",
-                  "nameFr": "Shan"
-            },
-            {
-                  "name": "Tanintharyi",
-                  "nameAr": "တနင်္သာရီ",
-                  "nameFr": "Tanintharyi"
-            },
-            {
-                  "name": "Yangon",
-                  "nameAr": "ရန်ကုန်",
-                  "nameFr": "Yangon"
+                  "name": "Terengganu",
+                  "nameAr": "Terengganu",
+                  "nameFr": "Terengganu"
             }
       ]
   },
@@ -3109,7 +3254,7 @@ export const asiaData: Country[] = [
     "code": "NP",
     "name": "Nepal",
     "nameAr": "نيبال",
-    "nameFr": "Nepal",
+    "nameFr": "Népal",
     "cities": [
             {
                   "name": "Bagmati",
@@ -3145,69 +3290,6 @@ export const asiaData: Country[] = [
                   "name": "Sudurpashchim",
                   "nameAr": "सुदर्गेपचिम",
                   "nameFr": "Sudurpashchim"
-            }
-      ]
-  },
-  {
-    "code": "KP",
-    "name": "North Korea",
-    "nameAr": "كوريا الشمالية",
-    "nameFr": "North Korea",
-    "cities": [
-            {
-                  "name": "Chagang",
-                  "nameAr": "Chagang",
-                  "nameFr": "Chagang"
-            },
-            {
-                  "name": "Kangwon",
-                  "nameAr": "kangwon",
-                  "nameFr": "Kangwon"
-            },
-            {
-                  "name": "North Hamgyong",
-                  "nameAr": "노스 햄학",
-                  "nameFr": "North Hamgyong"
-            },
-            {
-                  "name": "North Hwanghae",
-                  "nameAr": "North Hwanghae",
-                  "nameFr": "North Hwanghae"
-            },
-            {
-                  "name": "North Pyongan",
-                  "nameAr": "북한",
-                  "nameFr": "North Pyongan"
-            },
-            {
-                  "name": "Pyongyang",
-                  "nameAr": "Pyongyang",
-                  "nameFr": "Pyongyang"
-            },
-            {
-                  "name": "Rason",
-                  "nameAr": "이유",
-                  "nameFr": "Rason"
-            },
-            {
-                  "name": "Ryanggang",
-                  "nameAr": "Ryangang",
-                  "nameFr": "Ryanggang"
-            },
-            {
-                  "name": "South Hamgyong",
-                  "nameAr": "사우스 햄학",
-                  "nameFr": "South Hamgyong"
-            },
-            {
-                  "name": "South Hwanghae",
-                  "nameAr": "South Hwanghae",
-                  "nameFr": "South Hwanghae"
-            },
-            {
-                  "name": "South Pyongan",
-                  "nameAr": "남쪽 평온",
-                  "nameFr": "South Pyongan"
             }
       ]
   },
@@ -3271,142 +3353,6 @@ export const asiaData: Country[] = [
                   "name": "Al Wusta",
                   "nameAr": "الوسطى",
                   "nameFr": "Al Wusta"
-            }
-      ]
-  },
-  {
-    "code": "PK",
-    "name": "Pakistan",
-    "nameAr": "باكستان",
-    "nameFr": "Pakistan",
-    "cities": [
-            {
-                  "name": "Azad Kashmir",
-                  "nameAr": "آزاد کشمیر",
-                  "nameFr": "Azad Kashmir"
-            },
-            {
-                  "name": "Balochistan",
-                  "nameAr": "بلوچستان",
-                  "nameFr": "Balochistan"
-            },
-            {
-                  "name": "Federally Administered Tribal Areas",
-                  "nameAr": "وفاقی طور پر زیر انتظام قبائلی علاقوں",
-                  "nameFr": "Federally Administered Tribal Areas"
-            },
-            {
-                  "name": "Gilgit-Baltistan",
-                  "nameAr": "گلگٹ بلتستان",
-                  "nameFr": "Gilgit-Baltistan"
-            },
-            {
-                  "name": "Islamabad",
-                  "nameAr": "Islamabad",
-                  "nameFr": "Islamabad"
-            },
-            {
-                  "name": "Khyber Pakhtunkhwa",
-                  "nameAr": "خیبر پختوننہوا",
-                  "nameFr": "Khyber Pakhtunkhwa"
-            },
-            {
-                  "name": "Punjab",
-                  "nameAr": "پنجاب",
-                  "nameFr": "Punjab"
-            },
-            {
-                  "name": "Sindh",
-                  "nameAr": "سندھ",
-                  "nameFr": "Sindh"
-            }
-      ]
-  },
-  {
-    "code": "PS",
-    "name": "Palestinian Territory Occupied",
-    "nameAr": "فلسطين",
-    "nameFr": "Palestinian Territory Occupied",
-    "cities": [
-            {
-                  "name": "Bethlehem",
-                  "nameAr": "بيت لحم",
-                  "nameFr": "Bethlehem"
-            },
-            {
-                  "name": "Deir El Balah",
-                  "nameAr": "Deir El Balah",
-                  "nameFr": "Deir El Balah"
-            },
-            {
-                  "name": "Gaza",
-                  "nameAr": "Gaza",
-                  "nameFr": "Gaza"
-            },
-            {
-                  "name": "Hebron",
-                  "nameAr": "الخليل",
-                  "nameFr": "Hebron"
-            },
-            {
-                  "name": "Jenin",
-                  "nameAr": "جينين",
-                  "nameFr": "Jenin"
-            },
-            {
-                  "name": "Jericho ",
-                  "nameAr": "أريحا",
-                  "nameFr": "Jericho "
-            },
-            {
-                  "name": "Jerusalem (Quds)",
-                  "nameAr": "القدس (القدس)",
-                  "nameFr": "Jerusalem (Quds)"
-            },
-            {
-                  "name": "Khan Yunis",
-                  "nameAr": "Khan Yunis",
-                  "nameFr": "Khan Yunis"
-            },
-            {
-                  "name": "Nablus",
-                  "nameAr": "نابلوس",
-                  "nameFr": "Nablus"
-            },
-            {
-                  "name": "North Gaza",
-                  "nameAr": "شمال غزة",
-                  "nameFr": "North Gaza"
-            },
-            {
-                  "name": "Qalqilya",
-                  "nameAr": "تلة",
-                  "nameFr": "Qalqilya"
-            },
-            {
-                  "name": "Rafah",
-                  "nameAr": "رفه",
-                  "nameFr": "Rafah"
-            },
-            {
-                  "name": "Ramallah",
-                  "nameAr": "رام الله",
-                  "nameFr": "Ramallah"
-            },
-            {
-                  "name": "Salfit",
-                  "nameAr": "salfit",
-                  "nameFr": "Salfit"
-            },
-            {
-                  "name": "Tubas",
-                  "nameAr": "توباس",
-                  "nameFr": "Tubas"
-            },
-            {
-                  "name": "Tulkarm",
-                  "nameAr": "تولكرم",
-                  "nameFr": "Tulkarm"
             }
       ]
   },
@@ -3914,6 +3860,142 @@ export const asiaData: Country[] = [
       ]
   },
   {
+    "code": "PK",
+    "name": "Pakistan",
+    "nameAr": "باكستان",
+    "nameFr": "Pakistan",
+    "cities": [
+            {
+                  "name": "Azad Kashmir",
+                  "nameAr": "آزاد کشمیر",
+                  "nameFr": "Azad Kashmir"
+            },
+            {
+                  "name": "Balochistan",
+                  "nameAr": "بلوچستان",
+                  "nameFr": "Balochistan"
+            },
+            {
+                  "name": "Federally Administered Tribal Areas",
+                  "nameAr": "وفاقی طور پر زیر انتظام قبائلی علاقوں",
+                  "nameFr": "Federally Administered Tribal Areas"
+            },
+            {
+                  "name": "Gilgit-Baltistan",
+                  "nameAr": "گلگٹ بلتستان",
+                  "nameFr": "Gilgit-Baltistan"
+            },
+            {
+                  "name": "Islamabad",
+                  "nameAr": "Islamabad",
+                  "nameFr": "Islamabad"
+            },
+            {
+                  "name": "Khyber Pakhtunkhwa",
+                  "nameAr": "خیبر پختوننہوا",
+                  "nameFr": "Khyber Pakhtunkhwa"
+            },
+            {
+                  "name": "Punjab",
+                  "nameAr": "پنجاب",
+                  "nameFr": "Punjab"
+            },
+            {
+                  "name": "Sindh",
+                  "nameAr": "سندھ",
+                  "nameFr": "Sindh"
+            }
+      ]
+  },
+  {
+    "code": "PS",
+    "name": "Palestinian Territory",
+    "nameAr": "الأراضي الفلسطينية",
+    "nameFr": "Territoire Palestinien",
+    "cities": [
+            {
+                  "name": "Bethlehem",
+                  "nameAr": "بيت لحم",
+                  "nameFr": "Bethlehem"
+            },
+            {
+                  "name": "Deir El Balah",
+                  "nameAr": "Deir El Balah",
+                  "nameFr": "Deir El Balah"
+            },
+            {
+                  "name": "Gaza",
+                  "nameAr": "Gaza",
+                  "nameFr": "Gaza"
+            },
+            {
+                  "name": "Hebron",
+                  "nameAr": "الخليل",
+                  "nameFr": "Hebron"
+            },
+            {
+                  "name": "Jenin",
+                  "nameAr": "جينين",
+                  "nameFr": "Jenin"
+            },
+            {
+                  "name": "Jericho ",
+                  "nameAr": "أريحا",
+                  "nameFr": "Jericho "
+            },
+            {
+                  "name": "Jerusalem (Quds)",
+                  "nameAr": "القدس (القدس)",
+                  "nameFr": "Jerusalem (Quds)"
+            },
+            {
+                  "name": "Khan Yunis",
+                  "nameAr": "Khan Yunis",
+                  "nameFr": "Khan Yunis"
+            },
+            {
+                  "name": "Nablus",
+                  "nameAr": "نابلوس",
+                  "nameFr": "Nablus"
+            },
+            {
+                  "name": "North Gaza",
+                  "nameAr": "شمال غزة",
+                  "nameFr": "North Gaza"
+            },
+            {
+                  "name": "Qalqilya",
+                  "nameAr": "تلة",
+                  "nameFr": "Qalqilya"
+            },
+            {
+                  "name": "Rafah",
+                  "nameAr": "رفه",
+                  "nameFr": "Rafah"
+            },
+            {
+                  "name": "Ramallah",
+                  "nameAr": "رام الله",
+                  "nameFr": "Ramallah"
+            },
+            {
+                  "name": "Salfit",
+                  "nameAr": "salfit",
+                  "nameFr": "Salfit"
+            },
+            {
+                  "name": "Tubas",
+                  "nameAr": "توباس",
+                  "nameFr": "Tubas"
+            },
+            {
+                  "name": "Tulkarm",
+                  "nameAr": "تولكرم",
+                  "nameFr": "Tulkarm"
+            }
+      ]
+  },
+  {
     "code": "QA",
     "name": "Qatar",
     "nameAr": "قطر",
@@ -3965,80 +4047,80 @@ export const asiaData: Country[] = [
     "code": "SA",
     "name": "Saudi Arabia",
     "nameAr": "المملكة العربية السعودية",
-    "nameFr": "Saudi Arabia",
+    "nameFr": "Arabie Saoudite",
     "cities": [
-            {
-                  "name": "Riyadh",
-                  "nameAr": "الرياض",
-                  "nameFr": "Riyad"
-            },
-            {
-                  "name": "Makkah",
-                  "nameAr": "مكة المكرمة",
-                  "nameFr": "La Mecque"
-            },
-            {
-                  "name": "Madinah",
-                  "nameAr": "المدينة المنورة",
-                  "nameFr": "Médine"
-            },
-            {
-                  "name": "Eastern Province",
-                  "nameAr": "المنطقة الشرقية",
-                  "nameFr": "Province de l'Est"
-            },
-            {
-                  "name": "Asir",
-                  "nameAr": "عسير",
-                  "nameFr": "Asir"
-            },
-            {
-                  "name": "Tabuk",
-                  "nameAr": "تبوك",
-                  "nameFr": "Tabouk"
-            },
-            {
-                  "name": "Qassim",
-                  "nameAr": "القصيم",
-                  "nameFr": "Qassim"
-            },
-            {
-                  "name": "Hail",
-                  "nameAr": "حائل",
-                  "nameFr": "Hail"
-            },
-            {
-                  "name": "Northern Borders",
-                  "nameAr": "الحدود الشمالية",
-                  "nameFr": "Frontières du Nord"
-            },
-            {
-                  "name": "Jazan",
-                  "nameAr": "جازان",
-                  "nameFr": "Jazan"
-            },
-            {
-                  "name": "Najran",
-                  "nameAr": "نجران",
-                  "nameFr": "Najran"
-            },
-            {
-                  "name": "Al-Bahah",
-                  "nameAr": "الباحة",
-                  "nameFr": "Al-Bahah"
-            },
-            {
-                  "name": "Al-Jawf",
-                  "nameAr": "الجوف",
-                  "nameFr": "Al-Jawf"
-            }
-      ]
+      {
+        "name": "Riyadh",
+        "nameAr": "الرياض",
+        "nameFr": "Riyad"
+      },
+      {
+        "name": "Makkah",
+        "nameAr": "مكة المكرمة",
+        "nameFr": "La Mecque"
+      },
+      {
+        "name": "Madinah",
+        "nameAr": "المدينة المنورة",
+        "nameFr": "Médine"
+      },
+      {
+        "name": "Eastern Province",
+        "nameAr": "المنطقة الشرقية",
+        "nameFr": "Province de l'Est"
+      },
+      {
+        "name": "Asir",
+        "nameAr": "عسير",
+        "nameFr": "Asir"
+      },
+      {
+        "name": "Tabuk",
+        "nameAr": "تبوك",
+        "nameFr": "Tabouk"
+      },
+      {
+        "name": "Qassim",
+        "nameAr": "القصيم",
+        "nameFr": "Qassim"
+      },
+      {
+        "name": "Hail",
+        "nameAr": "حائل",
+        "nameFr": "Hail"
+      },
+      {
+        "name": "Northern Borders",
+        "nameAr": "الحدود الشمالية",
+        "nameFr": "Frontières du Nord"
+      },
+      {
+        "name": "Jazan",
+        "nameAr": "جازان",
+        "nameFr": "Jazan"
+      },
+      {
+        "name": "Najran",
+        "nameAr": "نجران",
+        "nameFr": "Najran"
+      },
+      {
+        "name": "Al-Bahah",
+        "nameAr": "الباحة",
+        "nameFr": "Al-Bahah"
+      },
+      {
+        "name": "Al-Jawf",
+        "nameAr": "الجوف",
+        "nameFr": "Al-Jawf"
+      }
+    ]
   },
   {
     "code": "SG",
     "name": "Singapore",
     "nameAr": "سنغافورة",
-    "nameFr": "Singapore",
+    "nameFr": "Singapour",
     "cities": [
             {
                   "name": "'Asir",
@@ -4108,281 +4190,10 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "KR",
-    "name": "South Korea",
-    "nameAr": "كوريا الجنوبية",
-    "nameFr": "South Korea",
-    "cities": [
-            {
-                  "name": "Busan",
-                  "nameAr": "부산",
-                  "nameFr": "Busan"
-            },
-            {
-                  "name": "Daegu",
-                  "nameAr": "대구",
-                  "nameFr": "Daegu"
-            },
-            {
-                  "name": "Daejeon",
-                  "nameAr": "대전",
-                  "nameFr": "Daejeon"
-            },
-            {
-                  "name": "Gangwon",
-                  "nameAr": "강원",
-                  "nameFr": "Gangwon"
-            },
-            {
-                  "name": "Gwangju",
-                  "nameAr": "광주",
-                  "nameFr": "Gwangju"
-            },
-            {
-                  "name": "Gyeonggi",
-                  "nameAr": "Gyeonggi",
-                  "nameFr": "Gyeonggi"
-            },
-            {
-                  "name": "Incheon",
-                  "nameAr": "Incheon",
-                  "nameFr": "Incheon"
-            },
-            {
-                  "name": "Jeju",
-                  "nameAr": "제주",
-                  "nameFr": "Jeju"
-            },
-            {
-                  "name": "North Chungcheong",
-                  "nameAr": "노스 정찰",
-                  "nameFr": "North Chungcheong"
-            },
-            {
-                  "name": "North Gyeongsang",
-                  "nameAr": "북경 산",
-                  "nameFr": "North Gyeongsang"
-            },
-            {
-                  "name": "North Jeolla",
-                  "nameAr": "노스 여울",
-                  "nameFr": "North Jeolla"
-            },
-            {
-                  "name": "Sejong City",
-                  "nameAr": "세종 시티",
-                  "nameFr": "Sejong City"
-            },
-            {
-                  "name": "Seoul",
-                  "nameAr": "Seoul",
-                  "nameFr": "Seoul"
-            },
-            {
-                  "name": "South Chungcheong",
-                  "nameAr": "South Chungcheong",
-                  "nameFr": "South Chungcheong"
-            },
-            {
-                  "name": "South Gyeongsang",
-                  "nameAr": "사우스 경잔",
-                  "nameFr": "South Gyeongsang"
-            },
-            {
-                  "name": "South Jeolla",
-                  "nameAr": "사우스 여질",
-                  "nameFr": "South Jeolla"
-            },
-            {
-                  "name": "Ulsan",
-                  "nameAr": "울산",
-                  "nameFr": "Ulsan"
-            }
-      ]
-  },
-  {
-    "code": "LK",
-    "name": "Sri Lanka",
-    "nameAr": "سريلانكا",
-    "nameFr": "Sri Lanka",
-    "cities": [
-            {
-                  "name": "Ampara",
-                  "nameAr": "සශ්රීක",
-                  "nameFr": "Ampara"
-            },
-            {
-                  "name": "Anuradhapura",
-                  "nameAr": "Anuradhapura",
-                  "nameFr": "Anuradhapura"
-            },
-            {
-                  "name": "Badulla",
-                  "nameAr": "බදුල්ලා",
-                  "nameFr": "Badulla"
-            },
-            {
-                  "name": "Batticaloa",
-                  "nameAr": "Batticaloa",
-                  "nameFr": "Batticaloa"
-            },
-            {
-                  "name": "Central",
-                  "nameAr": "Central",
-                  "nameFr": "Central"
-            },
-            {
-                  "name": "Colombo",
-                  "nameAr": "කොළඹ",
-                  "nameFr": "Colombo"
-            },
-            {
-                  "name": "Eastern",
-                  "nameAr": "නැගෙනහිර",
-                  "nameFr": "Eastern"
-            },
-            {
-                  "name": "Galle",
-                  "nameAr": "ගාල්ල",
-                  "nameFr": "Galle"
-            },
-            {
-                  "name": "Gampaha",
-                  "nameAr": "ගම්පහා",
-                  "nameFr": "Gampaha"
-            },
-            {
-                  "name": "Hambantota",
-                  "nameAr": "හැමමුනටටා",
-                  "nameFr": "Hambantota"
-            },
-            {
-                  "name": "Jaffna",
-                  "nameAr": "ජැෆ්ෆා",
-                  "nameFr": "Jaffna"
-            },
-            {
-                  "name": "Kalutara",
-                  "nameAr": "කළුතර",
-                  "nameFr": "Kalutara"
-            },
-            {
-                  "name": "Kandy",
-                  "nameAr": "මහනුවර",
-                  "nameFr": "Kandy"
-            },
-            {
-                  "name": "Kegalle",
-                  "nameAr": "කෙගල්ලේ",
-                  "nameFr": "Kegalle"
-            },
-            {
-                  "name": "Kilinochchi",
-                  "nameAr": "කර්නොච්චි",
-                  "nameFr": "Kilinochchi"
-            },
-            {
-                  "name": "Kurunegala",
-                  "nameAr": "ජනපදනල්",
-                  "nameFr": "Kurunegala"
-            },
-            {
-                  "name": "Mannar",
-                  "nameAr": "මන්නාරම",
-                  "nameFr": "Mannar"
-            },
-            {
-                  "name": "Matale",
-                  "nameAr": "මෙට්ට",
-                  "nameFr": "Matale"
-            },
-            {
-                  "name": "Matara",
-                  "nameAr": "විවෘත",
-                  "nameFr": "Matara"
-            },
-            {
-                  "name": "Monaragala",
-                  "nameAr": "Monaragala",
-                  "nameFr": "Monaragala"
-            },
-            {
-                  "name": "Mullaitivu",
-                  "nameAr": "මුල්ලයිටිව්",
-                  "nameFr": "Mullaitivu"
-            },
-            {
-                  "name": "North Central",
-                  "nameAr": "උතුරු මැද",
-                  "nameFr": "North Central"
-            },
-            {
-                  "name": "North Western",
-                  "nameAr": "වයඹ බටහිර",
-                  "nameFr": "North Western"
-            },
-            {
-                  "name": "Northern",
-                  "nameAr": "උතුරේ",
-                  "nameFr": "Northern"
-            },
-            {
-                  "name": "Nuwara Eliya",
-                  "nameAr": "එය ජෝෂාගේ වල් ය",
-                  "nameFr": "Nuwara Eliya"
-            },
-            {
-                  "name": "Polonnaruwa",
-                  "nameAr": "පොලොන්නරුව",
-                  "nameFr": "Polonnaruwa"
-            },
-            {
-                  "name": "Puttalam",
-                  "nameAr": "Puttalam",
-                  "nameFr": "Puttalam"
-            },
-            {
-                  "name": "Ratnapura",
-                  "nameAr": "රත්නපුර",
-                  "nameFr": "Ratnapura"
-            },
-            {
-                  "name": "Sabaragamuwa",
-                  "nameAr": "සපානාගමුව",
-                  "nameFr": "Sabaragamuwa"
-            },
-            {
-                  "name": "Southern",
-                  "nameAr": "දක්ෂිණ",
-                  "nameFr": "Southern"
-            },
-            {
-                  "name": "Trincomalee",
-                  "nameAr": "ත්රිකුණාමලය",
-                  "nameFr": "Trincomalee"
-            },
-            {
-                  "name": "Uva",
-                  "nameAr": "Va ව",
-                  "nameFr": "Uva"
-            },
-            {
-                  "name": "Vavuniya",
-                  "nameAr": "වවුනියා",
-                  "nameFr": "Vavuniya"
-            },
-            {
-                  "name": "Western",
-                  "nameAr": "Western",
-                  "nameFr": "Western"
-            }
-      ]
-  },
-  {
     "code": "SY",
     "name": "Syria",
     "nameAr": "سوريا",
-    "nameFr": "Syria",
+    "nameFr": "Syrie",
     "cities": [
             {
                   "name": "Damascus",
@@ -4457,156 +4268,10 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "TW",
-    "name": "Taiwan",
-    "nameAr": "تايوان",
-    "nameFr": "Taiwan",
-    "cities": [
-            {
-                  "name": "Changhua",
-                  "nameAr": "Changhua",
-                  "nameFr": "Changhua"
-            },
-            {
-                  "name": "Chiayi",
-                  "nameAr": "Chiayi",
-                  "nameFr": "Chiayi"
-            },
-            {
-                  "name": "Chiayi",
-                  "nameAr": "Chiayi",
-                  "nameFr": "Chiayi"
-            },
-            {
-                  "name": "Hsinchu",
-                  "nameAr": "Hsinchu",
-                  "nameFr": "Hsinchu"
-            },
-            {
-                  "name": "Hsinchu",
-                  "nameAr": "Hsinchu",
-                  "nameFr": "Hsinchu"
-            },
-            {
-                  "name": "Hualien",
-                  "nameAr": "Hualien",
-                  "nameFr": "Hualien"
-            },
-            {
-                  "name": "Kaohsiung",
-                  "nameAr": "Kaohsiung",
-                  "nameFr": "Kaohsiung"
-            },
-            {
-                  "name": "Keelung",
-                  "nameAr": "Keelung",
-                  "nameFr": "Keelung"
-            },
-            {
-                  "name": "Kinmen",
-                  "nameAr": "Kinmen",
-                  "nameFr": "Kinmen"
-            },
-            {
-                  "name": "Lienchiang",
-                  "nameAr": "Lienchiang",
-                  "nameFr": "Lienchiang"
-            },
-            {
-                  "name": "Miaoli",
-                  "nameAr": "Miaoli",
-                  "nameFr": "Miaoli"
-            },
-            {
-                  "name": "Nantou",
-                  "nameAr": "Nantou",
-                  "nameFr": "Nantou"
-            },
-            {
-                  "name": "New Taipei",
-                  "nameAr": "New Taipei",
-                  "nameFr": "New Taipei"
-            },
-            {
-                  "name": "Penghu",
-                  "nameAr": "Penghu",
-                  "nameFr": "Penghu"
-            },
-            {
-                  "name": "Pingtung",
-                  "nameAr": "Pingtung",
-                  "nameFr": "Pingtung"
-            },
-            {
-                  "name": "Taichung",
-                  "nameAr": "Taichung",
-                  "nameFr": "Taichung"
-            },
-            {
-                  "name": "Tainan",
-                  "nameAr": "Tainan",
-                  "nameFr": "Tainan"
-            },
-            {
-                  "name": "Taipei",
-                  "nameAr": "Taipei",
-                  "nameFr": "Taipei"
-            },
-            {
-                  "name": "Taitung",
-                  "nameAr": "Taitung",
-                  "nameFr": "Taitung"
-            },
-            {
-                  "name": "Taoyuan",
-                  "nameAr": "Taoyuan",
-                  "nameFr": "Taoyuan"
-            },
-            {
-                  "name": "Yilan",
-                  "nameAr": "Yilan",
-                  "nameFr": "Yilan"
-            },
-            {
-                  "name": "Yunlin",
-                  "nameAr": "Yunlin",
-                  "nameFr": "Yunlin"
-            }
-      ]
-  },
-  {
-    "code": "TJ",
-    "name": "Tajikistan",
-    "nameAr": "طاجيكستان",
-    "nameFr": "Tajikistan",
-    "cities": [
-            {
-                  "name": "Gorno-Badakhshan",
-                  "nameAr": "Вилаҳмо-Бадахшон",
-                  "nameFr": "Gorno-Badakhshan"
-            },
-            {
-                  "name": "Khatlon",
-                  "nameAr": "Вилоят",
-                  "nameFr": "Khatlon"
-            },
-            {
-                  "name": "Nohiyahoi Tobei Jumhurí ",
-                  "nameAr": "Nohiyahoi Tobei Jumhurí ",
-                  "nameFr": "Nohiyahoi Tobei Jumhurí "
-            },
-            {
-                  "name": "Sughd ",
-                  "nameAr": "Суғд",
-                  "nameFr": "Sughd "
-            }
-      ]
-  },
-  {
     "code": "TH",
     "name": "Thailand",
     "nameAr": "تايلاند",
-    "nameFr": "Thailand",
+    "nameFr": "Thaïlande",
     "cities": [
             {
                   "name": "Amnat Charoen",
@@ -5001,78 +4666,76 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "TL",
-    "name": "Timor-Leste",
-    "nameAr": "تيمور الشرقية",
-    "nameFr": "Timor-Leste",
+    "code": "TJ",
+    "name": "Tajikistan",
+    "nameAr": "طاجيكستان",
+    "nameFr": "Tadjikistan",
     "cities": [
-      {
-        "name": "Aileu",
-        "nameAr": "",
-        "nameFr": "Aileu"
-      },
-      {
-        "name": "Ainaro",
-        "nameAr": "",
-        "nameFr": "Ainaro"
-      },
-      {
-        "name": "Baucau",
-        "nameAr": "",
-        "nameFr": "Baucau"
-      },
-      {
-        "name": "Bobonaro",
-        "nameAr": "",
-        "nameFr": "Bobonaro"
-      },
-      {
-        "name": "Cova Lima",
-        "nameAr": "",
-        "nameFr": "Cova Lima"
-      },
-      {
-        "name": "Dili",
-        "nameAr": "",
-        "nameFr": "Dili"
-      },
-      {
-        "name": "Ermera",
-        "nameAr": "",
-        "nameFr": "Ermera"
-      },
-      {
-        "name": "Lautém",
-        "nameAr": "",
-        "nameFr": "Lautém"
-      },
-      {
-        "name": "Liquiçá",
-        "nameAr": "",
-        "nameFr": "Liquiçá"
-      },
-      {
-        "name": "Manatuto",
-        "nameAr": "",
-        "nameFr": "Manatuto"
-      },
-      {
-        "name": "Manufahi",
-        "nameAr": "",
-        "nameFr": "Manufahi"
-      },
-      {
-        "name": "Viqueque",
-        "nameAr": "",
-        "nameFr": "Viqueque"
-      }
-    ]
+            {
+                  "name": "Gorno-Badakhshan",
+                  "nameAr": "Вилаҳмо-Бадахшон",
+                  "nameFr": "Gorno-Badakhshan"
+            },
+            {
+                  "name": "Khatlon",
+                  "nameAr": "Вилоят",
+                  "nameFr": "Khatlon"
+            },
+            {
+                  "name": "Nohiyahoi Tobei Jumhurí ",
+                  "nameAr": "Nohiyahoi Tobei Jumhurí ",
+                  "nameFr": "Nohiyahoi Tobei Jumhurí "
+            },
+            {
+                  "name": "Sughd ",
+                  "nameAr": "Суғд",
+                  "nameFr": "Sughd "
+            }
+      ]
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "nameAr": "تركمانستان",
+    "nameFr": "Turkménistan",
+    "cities": [
+            {
+                  "name": "Ahal",
+                  "nameAr": "Mümkin",
+                  "nameFr": "Ahal"
+            },
+            {
+                  "name": "Ashgabat",
+                  "nameAr": "Ashgabat",
+                  "nameFr": "Ashgabat"
+            },
+            {
+                  "name": "Balkan",
+                  "nameAr": "Balkan",
+                  "nameFr": "Balkan"
+            },
+            {
+                  "name": "Daşoguz",
+                  "nameAr": "Daş",
+                  "nameFr": "Daşoguz"
+            },
+            {
+                  "name": "Lebap",
+                  "nameAr": "Lebap",
+                  "nameFr": "Lebap"
+            },
+            {
+                  "name": "Mary",
+                  "nameAr": "Mary",
+                  "nameFr": "Mary"
+            }
+      ]
   },
   {
     "code": "TR",
     "name": "Turkey",
-    "nameAr": "تركيا",
-    "nameFr": "Turkey",
+    "nameAr": "ديك رومي",
+    "nameFr": "dinde",
     "cities": [
             {
                   "name": "Adana",
@@ -5482,83 +5145,120 @@ export const asiaData: Country[] = [
       ]
   },
   {
-    "code": "TM",
-    "name": "Turkmenistan",
-    "nameAr": "تركمانستان",
-    "nameFr": "Turkmenistan",
+    "code": "TW",
+    "name": "Taiwan",
+    "nameAr": "تايوان",
+    "nameFr": "Taïwan",
     "cities": [
             {
-                  "name": "Ahal",
-                  "nameAr": "Mümkin",
-                  "nameFr": "Ahal"
+                  "name": "Changhua",
+                  "nameAr": "Changhua",
+                  "nameFr": "Changhua"
             },
             {
-                  "name": "Ashgabat",
-                  "nameAr": "Ashgabat",
-                  "nameFr": "Ashgabat"
+                  "name": "Chiayi",
+                  "nameAr": "Chiayi",
+                  "nameFr": "Chiayi"
             },
             {
-                  "name": "Balkan",
-                  "nameAr": "Balkan",
-                  "nameFr": "Balkan"
+                  "name": "Chiayi",
+                  "nameAr": "Chiayi",
+                  "nameFr": "Chiayi"
             },
             {
-                  "name": "Daşoguz",
-                  "nameAr": "Daş",
-                  "nameFr": "Daşoguz"
+                  "name": "Hsinchu",
+                  "nameAr": "Hsinchu",
+                  "nameFr": "Hsinchu"
             },
             {
-                  "name": "Lebap",
-                  "nameAr": "Lebap",
-                  "nameFr": "Lebap"
+                  "name": "Hsinchu",
+                  "nameAr": "Hsinchu",
+                  "nameFr": "Hsinchu"
             },
             {
-                  "name": "Mary",
-                  "nameAr": "Mary",
-                  "nameFr": "Mary"
-            }
-      ]
-  },
-  {
-    "code": "AE",
-    "name": "United Arab Emirates",
-    "nameAr": "الإمارات العربية المتحدة",
-    "nameFr": "United Arab Emirates",
-    "cities": [
-            {
-                  "name": "Fujairah",
-                  "nameAr": "الفجيرة",
-                  "nameFr": "Fujairah"
+                  "name": "Hualien",
+                  "nameAr": "Hualien",
+                  "nameFr": "Hualien"
             },
             {
-                  "name": "Abu Dhabi",
-                  "nameAr": "أبو ظبي",
-                  "nameFr": "Abu Dhabi"
+                  "name": "Kaohsiung",
+                  "nameAr": "Kaohsiung",
+                  "nameFr": "Kaohsiung"
             },
             {
-                  "name": "Dubai",
-                  "nameAr": "دبي",
-                  "nameFr": "Dubai"
+                  "name": "Keelung",
+                  "nameAr": "Keelung",
+                  "nameFr": "Keelung"
             },
             {
-                  "name": "Ras Al Khaimah",
-                  "nameAr": "رأس الخيمة",
-                  "nameFr": "Ras Al Khaimah"
+                  "name": "Kinmen",
+                  "nameAr": "Kinmen",
+                  "nameFr": "Kinmen"
             },
             {
-                  "name": "Umm Al Quwain",
-                  "nameAr": "أم القيوين",
-                  "nameFr": "Umm Al Quwain"
+                  "name": "Lienchiang",
+                  "nameAr": "Lienchiang",
+                  "nameFr": "Lienchiang"
             },
             {
-                  "name": "Sharjah",
-                  "nameAr": "الشارقة",
-                  "nameFr": "Sharjah"
+                  "name": "Miaoli",
+                  "nameAr": "Miaoli",
+                  "nameFr": "Miaoli"
             },
             {
-                  "name": "Ajman",
-                  "nameAr": "عجمان",
-                  "nameFr": "Ajman"
+                  "name": "Nantou",
+                  "nameAr": "Nantou",
+                  "nameFr": "Nantou"
+            },
+            {
+                  "name": "New Taipei",
+                  "nameAr": "New Taipei",
+                  "nameFr": "New Taipei"
+            },
+            {
+                  "name": "Penghu",
+                  "nameAr": "Penghu",
+                  "nameFr": "Penghu"
+            },
+            {
+                  "name": "Pingtung",
+                  "nameAr": "Pingtung",
+                  "nameFr": "Pingtung"
+            },
+            {
+                  "name": "Taichung",
+                  "nameAr": "Taichung",
+                  "nameFr": "Taichung"
+            },
+            {
+                  "name": "Tainan",
+                  "nameAr": "Tainan",
+                  "nameFr": "Tainan"
+            },
+            {
+                  "name": "Taipei",
+                  "nameAr": "Taipei",
+                  "nameFr": "Taipei"
+            },
+            {
+                  "name": "Taitung",
+                  "nameAr": "Taitung",
+                  "nameFr": "Taitung"
+            },
+            {
+                  "name": "Taoyuan",
+                  "nameAr": "Taoyuan",
+                  "nameFr": "Taoyuan"
+            },
+            {
+                  "name": "Yilan",
+                  "nameAr": "Yilan",
+                  "nameFr": "Yilan"
+            },
+            {
+                  "name": "Yunlin",
+                  "nameAr": "Yunlin",
+                  "nameFr": "Yunlin"
             }
       ]
   },
@@ -5566,7 +5266,7 @@ export const asiaData: Country[] = [
     "code": "UZ",
     "name": "Uzbekistan",
     "nameAr": "أوزبكستان",
-    "nameFr": "Uzbekistan",
+    "nameFr": "Ouzbékistan",
     "cities": [
             {
                   "name": "Andijan",
@@ -5642,9 +5342,9 @@ export const asiaData: Country[] = [
   },
   {
     "code": "VN",
-    "name": "Vietnam",
+    "name": "Viet Nam",
     "nameAr": "فيتنام",
-    "nameFr": "Vietnam",
+    "nameFr": "Viet Nam",
     "cities": [
             {
                   "name": "An Giang",
@@ -5822,7 +5522,7 @@ export const asiaData: Country[] = [
     "code": "YE",
     "name": "Yemen",
     "nameAr": "اليمن",
-    "nameFr": "Yemen",
+    "nameFr": "Yémen",
     "cities": [
             {
                   "name": "Sana'a",

@@ -7,10 +7,10 @@ A comprehensive TypeScript library providing all world countries and their citie
 
 ## Features
 
-- 🌐 **Complete Data**: 222 world countries with their ISO codes
-- 🏙️ **Cities/Governorates**: 914 cities from around the world
-- 🔤 **Trilingual**: English, Arabic, and French names for all countries and cities
-- 📦 **Small Bundle Size**: Data split by continent for optimal loading
+- 🌐 **Complete Data**: 215 world countries with their ISO codes
+- 🏛️ **Comprehensive**: 4,246 cities, governorates, states, and provinces
+- 🔤 **Trilingual**: English, Arabic, and French names for all data
+- 📦 **Optimized**: 542KB bundle - Data split by continent for optimal loading
 - 🎯 **TypeScript**: Full TypeScript support with type definitions
 - 🔍 **Search Functions**: Built-in search helpers with multi-language support
 - 📘 **Well Documented**: JSDoc comments on all exported functions
@@ -50,7 +50,12 @@ console.log(egypt);
 //   name: 'Egypt',
 //   nameAr: 'مصر',
 //   nameFr: 'Égypte',
-//   cities: [...]
+//   cities: [
+//     { name: 'Cairo', nameAr: 'القاهرة', nameFr: 'Le Caire' },
+//     { name: 'Alexandria', nameAr: 'الإسكندرية', nameFr: 'Alexandrie' },
+//     { name: 'Giza', nameAr: 'الجيزة', nameFr: 'Gizeh' },
+//     // ... 24 more governorates (27 total)
+//   ]
 // }
 
 // Get all cities for a country
@@ -112,7 +117,7 @@ interface Country {
   name: string;      // English name
   nameAr: string;    // Arabic name
   nameFr: string;    // French name
-  cities: City[];    // Array of cities
+  cities: City[];    // Array of cities, governorates, states, provinces
 }
 
 type Language = 'en' | 'ar' | 'fr';
@@ -293,15 +298,22 @@ app.listen(3000);
 
 ## Data Coverage
 
-The library includes data for:
+The library includes carefully curated data for all world regions:
 
-- **Africa**: 54 countries with cities
-- **Asia**: 47 countries with cities
-- **Europe**: 45 countries with cities
-- **Americas**: 47 countries with cities
-- **Oceania**: 22 countries with cities
+- **Africa**: 54 countries with major cities
+- **Asia**: 49 countries with major cities
+- **Europe**: 50 countries with major cities
+- **Americas**: 48 countries with major cities
+- **Oceania**: 19 countries with major cities
 
-Total: **222 countries** with **914 cities** in **3 languages** (English, Arabic, French)
+**Total: 215 countries with 4,246 cities/governorates/states/provinces** in **3 languages** (English, Arabic, French)
+
+### Coverage Details
+- 🇪🇬 Egypt: 27 governorates with accurate Arabic names
+- 🇸🇦 Saudi Arabia: 13 regions (مناطق) with correct Arabic
+- 🇦🇪 UAE: 7 emirates with verified names
+- 🌍 205 countries with complete administrative divisions
+- 🗺️ Includes states, provinces, governorates, and regions globally
 
 ## Development
 
@@ -382,14 +394,21 @@ If you find this library helpful, please consider:
 
 ## Changelog
 
-### 1.0.0 (Initial Release)
-- ✨ Complete world countries and cities data (222 countries, 914 cities)
+### 2.0.0 (Major Update - Complete Coverage)
+- 🏛️ **Complete data**: 215 countries with 4,246 administrative divisions
+- 🇪🇬 All 27 Egyptian governorates with correct Arabic names
+- 🇸🇦 All 13 Saudi regions with verified Arabic translations
+- 🌍 205 countries with states/provinces/governorates data
 - 🔤 Trilingual support: English, Arabic, and French
-- 🔍 Advanced search functionality with multi-language support
 - 📦 TypeScript support with full type definitions
-- ✅ Comprehensive test suite
-- 📘 Full documentation with examples
-- 🌍 Data organized by continents for optimal performance
+- 🔍 Advanced search functionality
+- 📘 Complete documentation with examples
+
+### 1.0.0 (Initial Release)
+- ✨ Complete world countries and cities data
+- 🔤 Trilingual support: English, Arabic, and French
+- 🔍 Advanced search functionality
+- 📦 TypeScript support
 
 ---
 

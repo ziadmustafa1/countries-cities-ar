@@ -1,24 +1,60 @@
-# countries-cities-ar 🌍
+# 🌍 Countries Cities AR
 
-A comprehensive TypeScript library providing all world countries and their cities with **English, Arabic, and French** names. Perfect for building localized applications that need country and city data.
+<div align="center">
 
-[![npm version](https://img.shields.io/npm/v/countries-cities-ar.svg)](https://www.npmjs.com/package/countries-cities-ar)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://img.shields.io/npm/v/countries-cities-ar.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/countries-cities-ar)
+[![npm downloads](https://img.shields.io/npm/dm/countries-cities-ar.svg?style=flat-square&color=green)](https://www.npmjs.com/package/countries-cities-ar)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/countries-cities-ar?style=flat-square&color=orange)](https://bundlephobia.com/package/countries-cities-ar)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/ziadmustafa1/countries-cities-ar?style=flat-square&color=gold)](https://github.com/ziadmustafa1/countries-cities-ar)
 
-## Features
+**Complete library of 250 world countries with 4,642 states/provinces in 3 languages (Arabic, English, French)**
 
-- 🌐 **Complete Data**: 250 world countries with their ISO codes
-- 🏛️ **Comprehensive**: 4,642 cities, governorates, states, and provinces
-- 🔤 **Trilingual**: English, Arabic, and French names for all data
-- 📦 **Optimized**: 586KB bundle - Data split by continent for optimal loading
-- 🎯 **TypeScript**: Full TypeScript support with type definitions
-- 🔍 **Search Functions**: Built-in search helpers with multi-language support
-- 📘 **Well Documented**: JSDoc comments on all exported functions
-- ✅ **Tested**: Comprehensive unit tests with Vitest
+[📖 Documentation](https://countries-cities-ar.vercel.app) • [🚀 Live Demo](https://countries-cities-ar.vercel.app) • [📦 npm Package](https://www.npmjs.com/package/countries-cities-ar) • [🐛 Report Bug](https://github.com/ziadmustafa1/countries-cities-ar/issues)
+
+</div>
+
+---
+
+## ✨ Features
+
+<table>
+  <tr>
+    <td>🌐 <b>Complete Data</b></td>
+    <td>250 world countries with ISO codes</td>
+  </tr>
+  <tr>
+    <td>🏛️ <b>Comprehensive</b></td>
+    <td>4,642 states, provinces, governorates</td>
+  </tr>
+  <tr>
+    <td>🔤 <b>Trilingual</b></td>
+    <td>English, Arabic & French support</td>
+  </tr>
+  <tr>
+    <td>📦 <b>Lightweight</b></td>
+    <td>Only 586KB - optimized bundle</td>
+  </tr>
+  <tr>
+    <td>🎯 <b>TypeScript</b></td>
+    <td>Full type definitions included</td>
+  </tr>
+  <tr>
+    <td>🔍 <b>Smart Search</b></td>
+    <td>Multi-language search functions</td>
+  </tr>
+  <tr>
+    <td>⚛️ <b>Framework Ready</b></td>
+    <td>React, Next.js, Vue compatible</td>
+  </tr>
+  <tr>
+    <td>✅ <b>100% Arab Coverage</b></td>
+    <td>Accurate Arabic translations</td>
+  </tr>
+</table>
 
 ## 📦 Installation
-
-### Quick Install
 
 ```bash
 # npm
@@ -29,14 +65,16 @@ yarn add countries-cities-ar
 
 # pnpm
 pnpm add countries-cities-ar
+
+# bun
+bun add countries-cities-ar
 ```
 
 ### Requirements
 
-- Node.js 16+
+- Node.js 16+ or Bun 1.0+
 - TypeScript 5+ (optional, but recommended)
-- React 18+ (for React examples)
-- Next.js 13+ (for Next.js examples)
+- Works with: React, Next.js, Vue, Express, or any JavaScript project
 
 ## 🚀 Quick Start
 

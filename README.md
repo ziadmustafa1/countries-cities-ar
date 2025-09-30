@@ -31,18 +31,15 @@ pnpm add countries-cities-ar
 
 ## Usage
 
-### ESM (ES Modules)
+### Quick Start
 
 ```typescript
-import { 
-  getCountryByCode, 
-  getCitiesByCountryCode, 
-  searchCountries,
-  searchCities,
-  allCountries 
-} from 'countries-cities-ar';
+import { allCountries, getCountryByCode, searchCountries } from 'countries-cities-ar';
 
-// Get a specific country
+// Access all 250 countries
+console.log(allCountries.length); // 250
+
+// Get a specific country with all its states/governorates
 const egypt = getCountryByCode('EG');
 console.log(egypt);
 // {
@@ -58,26 +55,45 @@ console.log(egypt);
 //   ]
 // }
 
-// Get all cities for a country
-const cities = getCitiesByCountryCode('SA');
-console.log(cities[0]);
+// Get Saudi Arabia with all 13 regions
+const saudi = getCountryByCode('SA');
+console.log(saudi.cities.length); // 13
+console.log(saudi.cities[0]);
 // { name: 'Riyadh', nameAr: 'الرياض', nameFr: 'Riyad' }
 
-// Search for countries
-const results = searchCountries('arab', 'en');
-console.log(results); // All countries with 'arab' in name
+// Get UAE with all 7 emirates
+const uae = getCountryByCode('AE');
+console.log(uae.cities); // All 7 emirates with Arabic names
 
-// Search for cities
-const cairoResults = searchCities('cairo', undefined, 'en');
-console.log(cairoResults[0]);
+// Search for countries in any language
+const arabCountries = searchCountries('عرب', 'ar'); // Search in Arabic
+const europeCountries = searchCountries('united', 'en'); // Search in English
+```
+
+### Working with Cities/States
+
+```typescript
+import { getCitiesByCountryCode, searchCities } from 'countries-cities-ar';
+
+// Get all states for a country
+const usStates = getCitiesByCountryCode('US'); // 57 states
+const chinaCities = getCitiesByCountryCode('CN'); // 31 provinces
+const indiaStates = getCitiesByCountryCode('IN'); // 36 states
+
+// Search for cities/states globally
+const allCairo = searchCities('cairo', undefined, 'en');
+// Finds Cairo in Egypt and other countries
+
+// Search cities in a specific country
+const egyptCities = searchCities('القاهرة', 'EG', 'ar');
+console.log(egyptCities[0]);
 // {
-//   city: { name: 'Cairo', nameAr: 'القاهرة' },
-//   country: { code: 'EG', name: 'Egypt', ... }
+//   city: { name: 'Cairo', nameAr: 'القاهرة', nameFr: 'Le Caire' },
+//   country: { code: 'EG', name: 'Egypt', nameAr: 'مصر', ... }
 // }
 
-// Search cities in specific country
-const egyptCities = searchCities('alex', 'EG', 'en');
-console.log(egyptCities); // Cities in Egypt matching 'alex'
+// Search in French
+const parisCities = searchCities('paris', 'FR', 'fr');
 ```
 
 ### CommonJS
@@ -205,37 +221,148 @@ import {
 
 ## Examples
 
-### React Component
+### React Example - Country & City Selector
 
 ```tsx
-import React, { useState } from 'react';
-import { searchCities, searchCountries } from 'countries-cities-ar';
+import React, { useState, useMemo } from 'react';
+import { allCountries, type Country, type City } from 'countries-cities-ar';
 
-function CountrySelector() {
-  const [query, setQuery] = useState('');
-  const [results, setResults] = useState([]);
+function CountryCitySelector() {
+  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+  const [selectedCity, setSelectedCity] = useState<City | null>(null);
+  const [language, setLanguage] = useState<'ar' | 'en' | 'fr'>('ar');
+  const [search, setSearch] = useState('');
 
-  const handleSearch = (value: string) => {
-    setQuery(value);
-    const countries = searchCountries(value, 'en');
-    setResults(countries);
+  // Filter countries based on search
+  const filteredCountries = useMemo(() => {
+    if (!search) return allCountries;
+    return allCountries.filter(country => {
+      const name = language === 'ar' ? country.nameAr : 
+                   language === 'fr' ? country.nameFr : country.name;
+      return name.toLowerCase().includes(search.toLowerCase());
+    });
+  }, [search, language]);
+
+  const getCountryName = (country: Country) => {
+    return language === 'ar' ? country.nameAr :
+           language === 'fr' ? country.nameFr : country.name;
+  };
+
+  const getCityName = (city: City) => {
+    return language === 'ar' && city.nameAr ? city.nameAr :
+           language === 'fr' && city.nameFr ? city.nameFr : city.name;
   };
 
   return (
-    <div>
+    <div className="p-6">
+      {/* Language Selector */}
+      <div className="mb-4">
+        <button onClick={() => setLanguage('ar')}>🇸🇦 العربية</button>
+        <button onClick={() => setLanguage('en')}>🇬🇧 English</button>
+        <button onClick={() => setLanguage('fr')}>🇫🇷 Français</button>
+      </div>
+
+      {/* Country Search */}
       <input
         type="text"
-        value={query}
-        onChange={(e) => handleSearch(e.target.value)}
-        placeholder="Search countries..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        placeholder={language === 'ar' ? 'ابحث عن دولة...' : 'Search country...'}
+        className="w-full p-2 border rounded mb-4"
       />
-      <ul>
-        {results.map((country) => (
-          <li key={country.code}>
-            {country.name} - {country.nameAr}
-          </li>
+
+      {/* Countries List */}
+      <div className="grid grid-cols-2 gap-2 mb-6">
+        {filteredCountries.slice(0, 20).map((country) => (
+          <button
+            key={country.code}
+            onClick={() => {
+              setSelectedCountry(country);
+              setSelectedCity(null);
+            }}
+            className="p-3 border rounded hover:bg-blue-50"
+          >
+            {getCountryName(country)}
+            <span className="text-xs text-gray-500 block">
+              {country.cities.length} {language === 'ar' ? 'محافظة' : 'states'}
+            </span>
+          </button>
         ))}
-      </ul>
+      </div>
+
+      {/* Cities/States List */}
+      {selectedCountry && (
+        <div>
+          <h3 className="text-xl font-bold mb-3">
+            {getCountryName(selectedCountry)} - {selectedCountry.cities.length} {language === 'ar' ? 'محافظة' : 'states'}
+          </h3>
+          <div className="grid grid-cols-3 gap-2">
+            {selectedCountry.cities.map((city, idx) => (
+              <button
+                key={idx}
+                onClick={() => setSelectedCity(city)}
+                className="p-2 border rounded hover:bg-green-50 text-sm"
+              >
+                {getCityName(city)}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Selected Info */}
+      {selectedCity && (
+        <div className="mt-4 p-4 bg-gray-100 rounded">
+          <strong>{language === 'ar' ? 'الاختيار:' : 'Selected:'}</strong>
+          <p>{getCountryName(selectedCountry!)} - {getCityName(selectedCity)}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default CountryCitySelector;
+```
+
+### Next.js App Router Example
+
+```tsx
+// app/page.tsx
+import { allCountries } from 'countries-cities-ar';
+import CountrySelector from '@/components/CountrySelector';
+
+export default function Home() {
+  return (
+    <main className="container mx-auto p-8">
+      <h1 className="text-4xl font-bold mb-6">🌍 دول ومدن العالم</h1>
+      <p className="mb-4">250 دولة • 4,642 محافظة/ولاية • 3 لغات</p>
+      <CountrySelector countries={allCountries} />
+    </main>
+  );
+}
+
+// components/CountrySelector.tsx (Client Component)
+'use client';
+import { useState } from 'react';
+import type { Country } from 'countries-cities-ar';
+
+interface Props {
+  countries: Country[];
+}
+
+export default function CountrySelector({ countries }: Props) {
+  const [selected, setSelected] = useState<Country | null>(null);
+  
+  return (
+    <div>
+      {/* Your UI here */}
+      <p>Total countries: {countries.length}</p>
+      {selected && (
+        <div>
+          <h2>{selected.nameAr} - {selected.name}</h2>
+          <p>{selected.cities.length} محافظة</p>
+        </div>
+      )}
     </div>
   );
 }

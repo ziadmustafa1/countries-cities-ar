@@ -1,0 +1,58 @@
+{
+  "name": "countries-cities-ar",
+  "version": "1.0.0",
+  "description": "Complete world countries and cities with English and Arabic names",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write .",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "prepare": "husky install",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "countries",
+    "cities",
+    "arabic",
+    "localization",
+    "world",
+    "npm library",
+    "i18n",
+    "governorates"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/countries-cities-ar.git"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "husky": "^8.0.3",
+    "prettier": "^3.2.4",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.0"
+  }
+}

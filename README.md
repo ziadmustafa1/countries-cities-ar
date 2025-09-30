@@ -16,7 +16,9 @@ A comprehensive TypeScript library providing all world countries and their citie
 - 📘 **Well Documented**: JSDoc comments on all exported functions
 - ✅ **Tested**: Comprehensive unit tests with Vitest
 
-## Installation
+## 📦 Installation
+
+### Quick Install
 
 ```bash
 # npm
@@ -29,9 +31,40 @@ yarn add countries-cities-ar
 pnpm add countries-cities-ar
 ```
 
-## Usage
+### Requirements
 
-### Quick Start
+- Node.js 16+
+- TypeScript 5+ (optional, but recommended)
+- React 18+ (for React examples)
+- Next.js 13+ (for Next.js examples)
+
+## 🚀 Quick Start
+
+### 1. Install the Package
+
+```bash
+npm install countries-cities-ar
+```
+
+### 2. Import and Use
+
+```typescript
+import { allCountries, getCountryByCode } from 'countries-cities-ar';
+
+// Get all 250 countries
+console.log(allCountries.length); // 250
+
+// Get a specific country
+const egypt = getCountryByCode('EG');
+console.log(egypt.nameAr); // "مصر"
+console.log(egypt.cities.length); // 27 governorates
+```
+
+---
+
+## 📚 Complete Usage Guide
+
+### Basic Usage
 
 ```typescript
 import { allCountries, getCountryByCode, searchCountries } from 'countries-cities-ar';
@@ -368,6 +401,302 @@ export default function CountrySelector({ countries }: Props) {
 }
 ```
 
+---
+
+## 🛠️ Setup Guides
+
+### Next.js Setup (Step-by-Step)
+
+#### Step 1: Create Next.js Project
+
+```bash
+# Create a new Next.js project
+npx create-next-app@latest my-countries-app
+
+# Choose the following options:
+# ✓ TypeScript: Yes
+# ✓ ESLint: Yes
+# ✓ Tailwind CSS: Yes (optional)
+# ✓ App Router: Yes
+# ✓ Turbopack: Yes (optional)
+
+cd my-countries-app
+```
+
+#### Step 2: Install the Library
+
+```bash
+npm install countries-cities-ar
+```
+
+#### Step 3: Create a Server Component
+
+Create `app/countries/page.tsx`:
+
+```tsx
+import { allCountries, getCountryByCode } from 'countries-cities-ar';
+
+export default function CountriesPage() {
+  // Server component - can directly use the data
+  const egypt = getCountryByCode('EG');
+  const saudi = getCountryByCode('SA');
+  
+  return (
+    <div className="p-8">
+      <h1 className="text-3xl font-bold mb-6">
+        🌍 Countries & Cities Library
+      </h1>
+      
+      <div className="grid gap-4">
+        <div className="border p-4 rounded">
+          <h2 className="text-xl font-semibold">{egypt?.nameAr}</h2>
+          <p>{egypt?.name}</p>
+          <p className="text-sm text-gray-600">
+            {egypt?.cities.length} governorates
+          </p>
+        </div>
+        
+        <div className="border p-4 rounded">
+          <h2 className="text-xl font-semibold">{saudi?.nameAr}</h2>
+          <p>{saudi?.name}</p>
+          <p className="text-sm text-gray-600">
+            {saudi?.cities.length} regions
+          </p>
+        </div>
+      </div>
+      
+      <div className="mt-8">
+        <h3 className="text-lg font-semibold mb-2">All Countries</h3>
+        <p>Total: {allCountries.length} countries</p>
+      </div>
+    </div>
+  );
+}
+```
+
+#### Step 4: Create an Interactive Client Component
+
+Create `components/CountryCitySelector.tsx`:
+
+```tsx
+'use client';
+
+import { useState, useMemo } from 'react';
+import { allCountries, type Country, type City } from 'countries-cities-ar';
+
+export default function CountryCitySelector() {
+  const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
+  const [search, setSearch] = useState('');
+  const [language, setLanguage] = useState<'ar' | 'en' | 'fr'>('ar');
+
+  const filteredCountries = useMemo(() => {
+    if (!search) return allCountries;
+    return allCountries.filter(country => {
+      const name = language === 'ar' ? country.nameAr :
+                   language === 'fr' ? country.nameFr : country.name;
+      return name.toLowerCase().includes(search.toLowerCase());
+    });
+  }, [search, language]);
+
+  return (
+    <div className="space-y-4">
+      {/* Language Selector */}
+      <div className="flex gap-2">
+        <button
+          onClick={() => setLanguage('ar')}
+          className={`px-4 py-2 rounded ${
+            language === 'ar' ? 'bg-blue-600 text-white' : 'bg-gray-200'
+          }`}
+        >
+          🇸🇦 العربية
+        </button>
+        <button
+          onClick={() => setLanguage('en')}
+          className={`px-4 py-2 rounded ${
+            language === 'en' ? 'bg-blue-600 text-white' : 'bg-gray-200'
+          }`}
+        >
+          🇬🇧 English
+        </button>
+        <button
+          onClick={() => setLanguage('fr')}
+          className={`px-4 py-2 rounded ${
+            language === 'fr' ? 'bg-blue-600 text-white' : 'bg-gray-200'
+          }`}
+        >
+          🇫🇷 Français
+        </button>
+      </div>
+
+      {/* Search Input */}
+      <input
+        type="text"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+        placeholder={language === 'ar' ? 'ابحث عن دولة...' : 'Search country...'}
+        className="w-full p-3 border rounded-lg"
+      />
+
+      {/* Countries Grid */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+        {filteredCountries.slice(0, 20).map((country) => (
+          <button
+            key={country.code}
+            onClick={() => setSelectedCountry(country)}
+            className="p-3 border rounded-lg hover:bg-blue-50 text-left"
+          >
+            <div className="font-semibold">
+              {language === 'ar' ? country.nameAr :
+               language === 'fr' ? country.nameFr : country.name}
+            </div>
+            <div className="text-xs text-gray-500">
+              {country.cities.length} {language === 'ar' ? 'محافظة' : 'states'}
+            </div>
+          </button>
+        ))}
+      </div>
+
+      {/* Selected Country Details */}
+      {selectedCountry && (
+        <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+          <h3 className="text-xl font-bold mb-3">
+            {language === 'ar' ? selectedCountry.nameAr :
+             language === 'fr' ? selectedCountry.nameFr : selectedCountry.name}
+          </h3>
+          <p className="mb-3">
+            {selectedCountry.cities.length} {language === 'ar' ? 'محافظة/ولاية' : 'states/provinces'}
+          </p>
+          
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
+            {selectedCountry.cities.map((city, idx) => (
+              <div key={idx} className="p-2 bg-white rounded border text-sm">
+                {language === 'ar' && city.nameAr ? city.nameAr : city.name}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+#### Step 5: Use in Your Page
+
+Update `app/page.tsx`:
+
+```tsx
+import CountryCitySelector from '@/components/CountryCitySelector';
+
+export default function Home() {
+  return (
+    <main className="container mx-auto p-8">
+      <h1 className="text-4xl font-bold mb-2">🌍 دول ومدن العالم</h1>
+      <p className="text-gray-600 mb-8">
+        250 دولة • 4,642 محافظة • 3 لغات
+      </p>
+      <CountryCitySelector />
+    </main>
+  );
+}
+```
+
+#### Step 6: Run Your App
+
+```bash
+npm run dev
+```
+
+Visit `http://localhost:3000` to see your app!
+
+---
+
+### React Setup (Vite)
+
+#### Step 1: Create React Project
+
+```bash
+npm create vite@latest my-countries-app -- --template react-ts
+cd my-countries-app
+```
+
+#### Step 2: Install Dependencies
+
+```bash
+npm install
+npm install countries-cities-ar
+```
+
+#### Step 3: Create Component
+
+Create `src/CountrySelector.tsx`:
+
+```tsx
+import { useState } from 'react';
+import { allCountries, searchCountries } from 'countries-cities-ar';
+
+function CountrySelector() {
+  const [search, setSearch] = useState('');
+  const [results, setResults] = useState(allCountries);
+
+  const handleSearch = (value: string) => {
+    setSearch(value);
+    if (!value) {
+      setResults(allCountries);
+    } else {
+      setResults(searchCountries(value, 'ar'));
+    }
+  };
+
+  return (
+    <div>
+      <h1>🌍 Countries & Cities</h1>
+      <input
+        type="text"
+        value={search}
+        onChange={(e) => handleSearch(e.target.value)}
+        placeholder="ابحث عن دولة..."
+      />
+      <p>Found: {results.length} countries</p>
+      <ul>
+        {results.slice(0, 10).map((country) => (
+          <li key={country.code}>
+            {country.nameAr} - {country.name}
+            <span> ({country.cities.length} states)</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export default CountrySelector;
+```
+
+#### Step 4: Use in App
+
+Update `src/App.tsx`:
+
+```tsx
+import CountrySelector from './CountrySelector';
+
+function App() {
+  return (
+    <div className="App">
+      <CountrySelector />
+    </div>
+  );
+}
+
+export default App;
+```
+
+#### Step 5: Run
+
+```bash
+npm run dev
+```
+
 ### Vue Component
 
 ```vue
@@ -399,14 +728,236 @@ const handleSearch = () => {
 </script>
 ```
 
+---
+
+## 🎯 Advanced Examples
+
+### Autocomplete Search with Debounce
+
+```typescript
+import { useState, useEffect } from 'react';
+import { searchCountries } from 'countries-cities-ar';
+
+function CountryAutocomplete() {
+  const [query, setQuery] = useState('');
+  const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (!query) {
+      setResults([]);
+      return;
+    }
+
+    setLoading(true);
+    const timer = setTimeout(() => {
+      const searchResults = searchCountries(query, 'ar');
+      setResults(searchResults);
+      setLoading(false);
+    }, 300); // Debounce 300ms
+
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  return (
+    <div>
+      <input
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="ابحث عن دولة..."
+      />
+      {loading && <p>جاري البحث...</p>}
+      <ul>
+        {results.map((country) => (
+          <li key={country.code}>
+            {country.nameAr} - {country.cities.length} محافظة
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+```
+
+### Multi-language Dropdown
+
+```tsx
+import { useState } from 'react';
+import { allCountries, type Country } from 'countries-cities-ar';
+
+function MultiLanguageDropdown() {
+  const [lang, setLang] = useState<'ar' | 'en' | 'fr'>('ar');
+  const [selected, setSelected] = useState<Country | null>(null);
+
+  const getName = (country: Country) => {
+    return lang === 'ar' ? country.nameAr :
+           lang === 'fr' ? country.nameFr : country.name;
+  };
+
+  return (
+    <div>
+      {/* Language Toggle */}
+      <select value={lang} onChange={(e) => setLang(e.target.value as any)}>
+        <option value="ar">العربية</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+      </select>
+
+      {/* Country Dropdown */}
+      <select onChange={(e) => {
+        const country = allCountries.find(c => c.code === e.target.value);
+        setSelected(country || null);
+      }}>
+        <option value="">اختر دولة...</option>
+        {allCountries.map((country) => (
+          <option key={country.code} value={country.code}>
+            {getName(country)}
+          </option>
+        ))}
+      </select>
+
+      {/* Display Selected */}
+      {selected && (
+        <div>
+          <h3>{getName(selected)}</h3>
+          <p>{selected.cities.length} {lang === 'ar' ? 'محافظة' : 'states'}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+```
+
+### Form with Country & City Selection
+
+```tsx
+import { useState } from 'react';
+import { allCountries, type Country, type City } from 'countries-cities-ar';
+
+function AddressForm() {
+  const [country, setCountry] = useState<Country | null>(null);
+  const [city, setCity] = useState<City | null>(null);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    console.log({
+      country: country?.name,
+      city: city?.name,
+      countryAr: country?.nameAr,
+      cityAr: city?.nameAr,
+    });
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      {/* Country Select */}
+      <select onChange={(e) => {
+        const selected = allCountries.find(c => c.code === e.target.value);
+        setCountry(selected || null);
+        setCity(null); // Reset city
+      }}>
+        <option value="">اختر الدولة</option>
+        {allCountries.map((c) => (
+          <option key={c.code} value={c.code}>{c.nameAr}</option>
+        ))}
+      </select>
+
+      {/* City Select */}
+      {country && (
+        <select onChange={(e) => {
+          const idx = parseInt(e.target.value);
+          setCity(country.cities[idx] || null);
+        }}>
+          <option value="">اختر المحافظة</option>
+          {country.cities.map((city, idx) => (
+            <option key={idx} value={idx}>
+              {city.nameAr || city.name}
+            </option>
+          ))}
+        </select>
+      )}
+
+      <button type="submit" disabled={!country || !city}>
+        إرسال
+      </button>
+    </form>
+  );
+}
+```
+
+### Filter by Region/Continent
+
+```typescript
+import { 
+  africaCountries, 
+  asiaCountries, 
+  europeCountries,
+  americasCountries,
+  oceaniaCountries 
+} from 'countries-cities-ar';
+
+function RegionFilter() {
+  const [region, setRegion] = useState('all');
+
+  const getCountriesByRegion = () => {
+    switch (region) {
+      case 'africa': return africaCountries;
+      case 'asia': return asiaCountries;
+      case 'europe': return europeCountries;
+      case 'americas': return americasCountries;
+      case 'oceania': return oceaniaCountries;
+      default: return allCountries;
+    }
+  };
+
+  const countries = getCountriesByRegion();
+
+  return (
+    <div>
+      <select value={region} onChange={(e) => setRegion(e.target.value)}>
+        <option value="all">كل الدول ({allCountries.length})</option>
+        <option value="africa">أفريقيا ({africaCountries.length})</option>
+        <option value="asia">آسيا ({asiaCountries.length})</option>
+        <option value="europe">أوروبا ({europeCountries.length})</option>
+        <option value="americas">الأمريكتين ({americasCountries.length})</option>
+        <option value="oceania">أوقيانوسيا ({oceaniaCountries.length})</option>
+      </select>
+
+      <div>
+        {countries.map((country) => (
+          <div key={country.code}>
+            {country.nameAr} - {country.cities.length} محافظة
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+```
+
+---
+
 ### Express.js API
 
 ```javascript
 const express = require('express');
-const { getCountryByCode, getCitiesByCountryCode } = require('countries-cities-ar');
+const { getCountryByCode, getCitiesByCountryCode, searchCountries } = require('countries-cities-ar');
 
 const app = express();
 
+// Get all countries
+app.get('/api/countries', (req, res) => {
+  const { search, lang = 'en' } = req.query;
+  
+  if (search) {
+    const results = searchCountries(search, lang);
+    return res.json(results);
+  }
+  
+  res.json(allCountries);
+});
+
+// Get country by code
 app.get('/api/countries/:code', (req, res) => {
   const country = getCountryByCode(req.params.code);
   if (!country) {
@@ -415,12 +966,15 @@ app.get('/api/countries/:code', (req, res) => {
   res.json(country);
 });
 
+// Get cities for a country
 app.get('/api/countries/:code/cities', (req, res) => {
   const cities = getCitiesByCountryCode(req.params.code);
   res.json(cities);
 });
 
-app.listen(3000);
+app.listen(3000, () => {
+  console.log('API running on http://localhost:3000');
+});
 ```
 
 ## Data Coverage
@@ -530,7 +1084,105 @@ If you find this library helpful, please consider:
 - 💡 Suggesting new features
 - 📝 Contributing to the documentation
 
-## Changelog
+## 🔧 Troubleshooting
+
+### Common Issues
+
+#### Module not found error in Next.js
+
+```
+Module not found: Can't resolve 'countries-cities-ar'
+```
+
+**Solution:**
+
+```bash
+# Delete node_modules and reinstall
+rm -rf node_modules package-lock.json
+npm install
+
+# Clear Next.js cache
+rm -rf .next
+
+# Restart dev server
+npm run dev
+```
+
+#### TypeScript errors
+
+If you see type errors, make sure you have the latest version:
+
+```bash
+npm install countries-cities-ar@latest
+```
+
+#### Build errors with exports
+
+Make sure you're using version 3.0.1 or later:
+
+```bash
+npm install countries-cities-ar@^3.0.1
+```
+
+#### Server/Client component issues in Next.js
+
+**Server Components** (can use directly):
+```tsx
+import { allCountries } from 'countries-cities-ar';
+
+export default function Page() {
+  return <div>{allCountries.length}</div>;
+}
+```
+
+**Client Components** (need 'use client'):
+```tsx
+'use client';
+import { useState } from 'react';
+import { allCountries } from 'countries-cities-ar';
+
+export default function Component() {
+  const [data] = useState(allCountries);
+  return <div>{data.length}</div>;
+}
+```
+
+### Performance Tips
+
+**1. Import only what you need:**
+```typescript
+// Good
+import { getCountryByCode } from 'countries-cities-ar';
+
+// Avoid if you don't need all countries
+import { allCountries } from 'countries-cities-ar';
+```
+
+**2. Use memoization for filtering:**
+```typescript
+const filteredCountries = useMemo(() => {
+  return allCountries.filter(/* your logic */);
+}, [dependencies]);
+```
+
+**3. Lazy load data:**
+```typescript
+import dynamic from 'next/dynamic';
+
+const CountrySelector = dynamic(() => import('./CountrySelector'), {
+  loading: () => <p>Loading...</p>,
+});
+```
+
+---
+
+## 📝 Changelog
+
+### 3.0.1 (Bug Fix - 2024)
+- 🐛 **Fixed exports**: Corrected package.json exports to match actual build output
+- 📦 **Fixed imports**: `import` now uses `index.js` and `require` uses `index.cjs`
+- ✅ **Next.js compatibility**: Fixed "Module not found" errors in Next.js
+- 📚 **Enhanced documentation**: Added comprehensive setup guides and troubleshooting
 
 ### 3.0.0 (Major Update - Complete World Coverage)
 - 🌍 **Complete world data**: 250 countries with 4,642 administrative divisions
@@ -548,6 +1200,8 @@ If you find this library helpful, please consider:
   - Qatar: 8 municipalities
   - Yemen: 21 governorates
   - Algeria: 46 wilayas
+  - Tunisia: 24 governorates
+  - Morocco: 87 regions
   - And more...
 - 🔤 Trilingual support: English, Arabic, and French
 - 📦 TypeScript support with full type definitions

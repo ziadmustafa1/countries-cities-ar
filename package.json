@@ -1,16 +1,16 @@
 {
   "name": "countries-cities-ar",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Complete world countries, cities, and states/governorates with English, Arabic, and French names",
   "type": "module",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "files": [

@@ -1,3 +1,3 @@
-// Re-export from parent library
-export * from '../../dist/index.js';
-export type { Country, City, Language } from '../../dist/index.js';
+// Re-export from npm package
+export * from 'countries-cities-ar';
+export type { Country, City, Language } from 'countries-cities-ar';

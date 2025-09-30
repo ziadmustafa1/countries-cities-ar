@@ -1,0 +1,21 @@
+{
+  "name": "Countries Cities AR - World Countries Library",
+  "short_name": "Countries AR",
+  "description": "مكتبة شاملة تضم 250 دولة و 4,642 محافظة بـ 3 لغات",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0d1117",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "developer tools"],
+  "lang": "ar",
+  "dir": "rtl"
+}

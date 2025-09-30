@@ -1,0 +1,23 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://countries-cities-ar.vercel.app/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 0
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /_next/

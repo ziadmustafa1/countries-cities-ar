@@ -5,7 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.0.1] - 2024-01-XX
+## [3.0.2] - 2024-09-30
+
+### Added
+- 🏠 Homepage link in package.json: https://countries-cities-ar.vercel.app
+- 📝 Professional README with enhanced badges and formatting
+- 📋 CHANGELOG.md file
+- 💰 Funding information for GitHub sponsors
+
+### Enhanced
+- 📦 Improved package.json metadata with author details
+- 🔗 Enhanced repository URL format
+- 🎯 Better npm keywords including Arabic terms
+- 📚 More comprehensive package description
+
+## [3.0.1] - 2024-09-30
 
 ### Added
 - 🌐 Complete documentation website at [countries-cities-ar.vercel.app](https://countries-cities-ar.vercel.app)
@@ -26,7 +40,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 🐛 Minor type definition improvements
 - 📚 Documentation clarity enhancements
 
-## [3.0.0] - 2024-01-XX
+## [3.0.0] - 2024-09-30
 
 ### Added
 - ✨ Complete world coverage: 250 countries

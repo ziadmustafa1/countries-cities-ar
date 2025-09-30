@@ -1086,33 +1086,11 @@ Contributions are welcome! Here's how you can help:
 6. Push to the branch: `git push origin feature/your-feature`
 7. Submit a pull request
 
-## Project Structure
+## 📜 License
 
-```
-countries-cities-ar/
-├── src/
-│   ├── data/
-│   │   ├── africa.ts      # African countries data
-│   │   ├── asia.ts        # Asian countries data
-│   │   ├── europe.ts      # European countries data
-│   │   ├── americas.ts    # American countries data
-│   │   ├── oceania.ts     # Oceanian countries data
-│   │   └── index.ts       # Data aggregator
-│   ├── helpers.ts         # Helper functions
-│   ├── types.ts           # TypeScript type definitions
-│   └── index.ts           # Main entry point
-├── tests/
-│   └── helpers.test.ts    # Unit tests
-├── dist/                  # Build output (generated)
-├── package.json
-├── tsconfig.json
-├── tsup.config.ts
-└── README.md
-```
+MIT © [Ziad Mustafa](https://github.com/ziadmustafa1)
 
-## License
-
-MIT © [Your Name]
+Free to use for personal and commercial projects.
 
 ## Support
 

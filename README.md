@@ -1,5 +1,7 @@
 # 🌍 Countries Cities AR
 
+Countries and cities dataset for the whole world with Arabic, English, and French names. Includes ISO country codes and administrative divisions (states/provinces/governorates). Optimized for React/Next.js/Vue and TypeScript projects.
+
 <div align="center">
 
 [![npm version](https://img.shields.io/npm/v/countries-cities-ar.svg?style=flat-square&color=blue)](https://www.npmjs.com/package/countries-cities-ar)

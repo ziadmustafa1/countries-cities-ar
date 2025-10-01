@@ -19,6 +19,52 @@ Countries and cities dataset for the whole world with Arabic, English, and Frenc
 
 ---
 
+## 🔹 Quick Usage (TL;DR)
+
+Works with both ESM and CommonJS.
+
+### ESM
+```ts
+import {
+  allCountries,
+  getCountryByCode,
+  getCitiesByCountryCode,
+  getCountryName,
+  searchCountries,
+  searchCities,
+  type Country,
+  type City,
+} from 'countries-cities-ar';
+
+console.log(allCountries.length); // 250
+const egypt = getCountryByCode('EG');
+const egyptCities = getCitiesByCountryCode('EG');
+```
+
+### CommonJS
+```js
+const {
+  allCountries,
+  getCountryByCode,
+  getCitiesByCountryCode,
+  getCountryName,
+  searchCountries,
+  searchCities,
+} = require('countries-cities-ar');
+```
+
+### Named Exports (complete list)
+```ts
+// Types
+// Country, City, Language
+
+// Data
+// allCountries, africaCountries, asiaCountries, europeCountries, americasCountries, oceaniaCountries
+
+// Helpers
+// getCountryByCode, getCitiesByCountryCode, getCountryName, searchCountries, searchCities
+```
+
 ## ✨ Features
 
 <table>
